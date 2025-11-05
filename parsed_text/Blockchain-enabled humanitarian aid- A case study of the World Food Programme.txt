@@ -1,0 +1,510 @@
+
+--- Page 1 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+Blockchain-enabled humanitarian aid: A case study 
+of the World Food Programme 
+Research-in-Progress 
+ 
+Abstract 
+While there is a rise in the applications of Blockchain technology in humanitarian and 
+development aid programs, our understanding of Blockchain implementation and the 
+resulting implications remains scant in this context. This research-in-progress report 
+on the research currently underway in the United Nations World Food Progamme –
+Building Blocks. Adopting a case study approach, this study explores how the Building 
+Block project revolutionizes the aid programs with the application of Ethereum, a 
+Blockchain-based distributed computing platform, and what new risk and social 
+problems perpetuate with it. The study contributes to the growing stream of 
+Information Systems research that focuses on the virtues and vices of using Blockchain 
+technology and enhancing the effectiveness of humanitarian aid programmes. As a 
+relatively new technology, this study assesses the appropriateness of its usage and 
+intends to provide insights to humanitarian and development organizations to consider 
+when employing this novel technology. 
+Keywords: Blockchain, humanitarian aid, building blocks, World Food Programme, 
+Ethereum. 
+ 
+Introduction 
+Humanitarian aid defined as “the impartial, independent and neutral provision of aid to those in 
+immediate danger” (Rysaback-Smith 2015, p. 5) remains fast growing over the past years with an 
+approximate 125 million people in need of humanitarian assistance, 60 million people forced to flee 
+their homes, 37 countries affected, and over $20 billion needed (United Nations 2018). Thus, 
+humanitarian aid programmes undergo constant pressures to act more effectively and be more strategic 
+in their aid efforts. It is without a doubt that technology is instrumental in humanitarian aid efforts 
+(Kovács and Spens 2007). Prior studies argue that information systems (IS) are the absolute most crucial 
+determinant to predict the success of a disaster relief operation (Long 1997; Sandvik et al. 2014). In line 
+with this, the strategic management of humanitarian aid efforts has recognized applications of 
+Blockchain technology – decentralized and trustless ledgers recording transactions across a peer-to-
+peer network – to revolutionize aid funding transferability, accountability, and transparency (Aranda et 
+al. 2019; Zwitter and Boisse-Despiaux 2018). 
+
+--- Page 2 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+The blockchain that operates as a distributed database hosted across a network of multiple participants 
+can provide a way to share information and transfer digital assets in a fast, tracked and secure way. This 
+shows the potential to transform the humanitarian sector by providing cost savings and traceability of 
+information flows, and by reducing transaction times (Zwitter and Boisse-Despiaux 2018). Although 
+Blockchain was initially been created to transfer financial value, it is now viewed as having the potential 
+to be an efficient and secure way to transfer or share any information or asset. This is being leveraged 
+in some humanitarian aid programmes, i.e., Building Blocks, to provide and manage IDs in refugee 
+camps, distribute and trace aid funding, or create trustworthy land registries, etc. (World Food Program 
+2018; Zambrano et al. 2018). However, Blockchain is viewed with some doubt given its complex nature 
+and the fact that it requires electricity and internet access, features that many humanitarian crisis areas 
+do not readily and reliably provide (Riani 2018). Thereby, arising uncertainties and concerns about the 
+implementation of Blockchain. At the same time, there is a debate about potential cyber risks – mostly 
+theoretical, since the Blockchain technology is considered extremely secure (Kewell et al. 2017), but 
+may create doubt and social insecurity among the aid beneficiaries. For instance, the implementation of 
+EyePay – where a refugee pays by scanning their iris – at Building Blocks project by United Nations 
+World Food Progamme (UNWFP) may provide the convenience, transparency, and security in 
+transactions (World Food Program 2018; Zambrano et al. 2018). However, according to civil rights 
+activists, it tends to violate a person's right to freedom as it can track individuals (Zwitter and Boisse-
+Despiaux 2018). 
+The research adopts a case study approach of a UNWFP pilot – Building Blocks project – that is based 
+on the Ethereum protocol, a Blockchain-based distributed computing platform, to explore the 
+implementation of Blockchain, ethical constraints, and the new risk or social problems that perpetuated 
+with it. The findings are intended to enrich the understanding of the benefits and pitfalls of Blockchain 
+particularly to humanitarian aid programmes. These findings will contribute to the debate on how to 
+make humanitarian aid more effective. Considering Blockchain a relatively new technology, this study 
+assesses the appropriateness of its usage and intends to provide insights to humanitarian and 
+development organizations to consider when employing this novel technology. 
+The structure of this research-in-progress paper is as follows. The next section informs on the theoretical 
+background of the key elements of our research topic. It is followed by a contextual background of the 
+research setting, the research design, and the adopted methodology. The next section informs on our 
+preliminary findings. The final section discusses the expected contributions that address the identified 
+gaps in knowledge. In doing so, we also discuss how we intend to take this research-in-progress forward. 
+Theoretical background 
+Blockchain as a disruptive technology 
+Blockchain has emerged as a disruptive technology to reshape the digital tools we use to conduct day-
+to-day transactions. Blockchain was first introduced to lay the foundations for cryptocurrencies, i.e., 
+Bitcoin, it was soon recognized as the “incorruptible digital ledger” (Tapscott and Tapscott 2016) that 
+is programmable to record not just financial transactions but virtually everything of value. It is defined 
+as the distributed ledger technology, which combines BitTorrent peer-to-peer sharing with public-key 
+cryptography (McPhee and Ljutic 2017; Swan 2015). Its algorithm runs over a file to compress it, 
+creating a unique 64-character code (the hash), which is then included in the Blockchain with a 
+timestamp to prove existing digital assets at that particular moment. Besides traditional ledger books, 
+the Blockchain database is shared across a network of computers (Purvis 2017). All transactions through 
+blockchain are transparent, but the identities of the parties are shielded (Boucher 2017; Lee and 
+Pilkington 2017). Whenever an individual makes a transaction on the Blockchain, this is broadcasted 
+to the network. It functions without any central control system and stores the transaction history in 
+blocks of data that are cryptographically locked together. As it is replicated on every computer that 
+belongs to the network, it is an immutable, secure, and transparent record of all transactions that have 
+ever taken place (Drescher 2017; Kewell et al. 2017; McPhee and Ljutic 2017). 
+Organizations may also choose to work through a private Blockchain, whereby people need permission 
+from the organization to work with that Blockchain. This offers closed, transparent, and protected 
+
+--- Page 3 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+transactions for individuals, businesses, and governments, which explains is a rapid rise of investments 
+in this technology (Kshetri 2017). For instance, Walmart uses blockchain to track the movement of 
+Chines pork and to ensure safe trade (Nash 2016). IBM starts to monitor the movement of diamonds, 
+and Toyota Motor Corp. is developing solutions to track auto parts (ibid.). Recently, Blockchain 
+technology has been getting increased attention in the humanitarian aid programme. Development 
+organizations such as the United Nations have been gradually embracing Blockchain, with as many as 
+seven UN entities trying Blockchain initiatives as alternative ways to support aid efforts (Riani 2018). 
+Blockchain and humanitarian aid programmes 
+As Blockchain technology continues to gain momentum across sectors, the development and 
+humanitarian sectors look to adapt this new technology to help address ongoing challenges. For 
+instance, Bartoletti et al. (2018) examined 120 Blockchain-enabled social good projects (defined as 
+those that have pre-eminent goals coherent with those of the United Nations Sustainable Development 
+Goals) and found that most of them were primarily focused on philanthropy (30.8%), the environment 
+(20%), and financial inclusion (18.3%). The applications of Blockchain technology in the development 
+and humanitarian sectors seem less likely to confine to its original idea of cryptocurrency (Blockchain 
+1.0) but show most promise in wider aspects, i.e., automatizing logistical processes (Aranda et al. 2019; 
+Lee and Pilkington 2017; Tapscott and Tapscott 2016), and informational infrastructures, such as the 
+management of digital identity – smart contracts (Blockchain 2.0) (Zambrano et al. 2018; Zwitter and 
+Boisse-Despiaux 2018).  
+The existing research in IS provides valuable information on Blockchain. A number of studies provide 
+either very brief examples of originations, projects, or initiatives that use Blockchain (e.g., Kewell et 
+al. 2017; Kshetri 2017; Zwitter and Boisse-Despiaux 2018), or very short case studies of such firms as 
+an example to support theoretical developments (Galen et al. 2018). The former provide a good source 
+to signpost researchers to look into such organizations individually. These studies serve more as a 
+primer to understanding the spectrum of possible applications of Blockchain in the field of humanitarian 
+aid programmes as opposed to gaining an in-depth understanding of the implementation or its 
+implications. The latter is beneficial for brief overviews of projects, initiatives, or organizations using 
+Blockchain for social good but lacks depth in its explanations. 
+However, humanitarian aid programmes need research and development to investigate further how 
+Blockchain technology can be adapted to address humanitarian challenges (Ko and Verity 2016). The 
+technology alone cannot solve fundamental issues within the sector, but it can offer new insights and 
+provide a new tool for solving some of these challenges. The research to carefully consider and weigh 
+the pros and cons of the use of Blockchain in the humanitarian aid industry can provide a clear view on 
+how to adapt Blockchain. Therefore, further research to investigate implementation, benefits, impacts, 
+risks and required resources is necessary to understand what applications and use cases are most 
+appropriate for Blockchain technology in the humanitarian sector. 
+Methodology 
+Given the exploratory nature of our research, we adopted a grounded theory building approach that 
+follows the principles of emergence, where relevant concepts develop through the systematic generation 
+and conceptualization of data (Glaser et al. 1968). This research project was initiated by focusing on a 
+research problem that was currently experienced by practitioners and showed limited information in IS 
+literature, i.e., implementation and consequences of Blockchain in humanitarian aid programmes. 
+Therefore, the initial informal discussion with our key respondents was based very broadly to shed light 
+on why Blockchain is necessary for humanitarian aid, how it is implemented, and what are social, legal, 
+and economic consequences of implementing this novel technology. We take an approach where 
+specific research objectives and research questions will materialize from the collected data through 
+conceptualization based on theoretical sensitivity (Turner 1981). Therefore, we accepted the initial 
+confusion and data complexity to allow relevant findings to emerge, giving utmost care to avoid forcing 
+existing theory onto our interviewees and data (Urquhart 2012). This conceptualist grounded theory 
+methodology provides a better fit with our theory-building research objective, answers the call for more 
+
+--- Page 4 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+grounded theories in unique IS contexts (Birks et al. 2013). We used a case study approach for data 
+collection that allows a thorough examination of this complex, real-life issue on which little prior 
+empirical evidence is available, leading to new, in-depth insights (Edmondson and McManus 2007; 
+Eisenhardt 1989; Yin 2009). Further, the case study approach supports our extraction of rich data 
+through a range of techniques (e.g., interviews, observations, and document analysis) and facilitates 
+cross-validation (Siggelkow 2007), thereby aiding external validity, guarding against observer bias, and 
+creating more testable and robust theory (Eisenhardt 1989; Yin 2009).  
+Research context and case selection 
+Since the use of Blockchain technology is still very new, many projects undertaken by international 
+humanitarian organizations are pilots. This research investigates the case that implemented a pilot 
+project to use Blockchain technology in a refugee camp in Jordan, called Building Blocks, by the United 
+Nations World Food Programme. WFP pilot project implemented the applications of Blockchain, 
+mainly in the authentication and registration of transaction processes. The first pilot executed this 
+experiment in Pakistan in 2017 and, building on lessons learned, the WFP built and implemented a 
+Blockchain system in a refugee camp in Jordan as a second scaled-up pilot. The Jordanian camp 
+accommodates more than 100,000 refugees where WFP track, record, and verify all transactions and 
+entitlements using Blockchain (Juskalian 2018). The transaction is recorded by creating virtual wallets 
+for every beneficiary – an estimate as of October 2018 records 100,500 beneficiaries served 
+US$1,000,000 undergoing 100,000 transactions (World Food Program 2018).  
+The innovative implementation in this pilot project is that the refugees were identified by recording the 
+scans of their eyes (iris), which registers on the Blockchain. This biometric authentication technology 
+allowed refugees to shop in a camp-based supermarket and pay by scanning their iris, instead of using 
+a credit card or cash. Iris scan confirmed refugee’s identity in the WFP database (Juskalian 2018), which 
+allowed identification and registration of the refugee need to track buying behavior. Although the eye 
+scans were implemented before the introduction of Blockchain at the camp, the registration, 
+identification, and tracking data was stored using Blockchain technology. Building Blocks is based on 
+the Ethereum protocol, which is a Blockchain-based distributed computing platform. It runs on a 
+custom-built Blockchain, with no possibility of fraud, censorship or third-party interference (Juskalian 
+2018; Zambrano et al. 2018). Building Blocks runs on a private permission Blockchain allowing WFP 
+control over who joins the network. WFP claims the pilot was successful and that they plan to expand 
+this project over 500,000 Syrian refugees in Jordan (World Food Program 2018).  
+The choice of Building Blocks case was made because this pilot project was based on the lessons learned 
+from the previous experiments that the WFP has conducted in 2017 with the applications of Blockchain. 
+Moreover, the UN and the WFP are highly respected and legitimate agencies in the international aid 
+architecture. The use of Blockchain by these agencies adds credibility and raises the level of trust in the 
+technology. The Building Blocks project provides a suitable contemporary and appealing setting that is 
+aligned with the objectives of this research, i.e., to understand the implementation and implications of 
+Blockchain in humanitarian aid programmes, 
+Data collection 
+The case will be examined mainly through semi-structured interviews as the primary data source. Due 
+to the exploratory nature of your research objectives, it is beneficial to allow participants to describe 
+their perceptions freely (King 2004). These interviews will be supplemented by other methods including 
+written documentation (internal project reports, official announcements, newspaper clippings, archival 
+records, organizational charts, and meeting minutes). The use of such several methods is an effective 
+strategy to ensure the triangulation of data, which qualitative researchers especially need to test the 
+validity of data (Carter et al. 2013; Eisenhardt 1989; Yin 2009). Using multiple methods also provides 
+a more holistic perspective, validates the data, and enables each method to compensate for the 
+shortcomings of the others (Yin 2009). The interviews will be mainly with interviews with the 
+respondents directly or indirectly involved in the WFP Building Blocks project. Table 1 highlights our 
+approach to data collection.  
+
+--- Page 5 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+Table 1: Sources of evidence for a case stuyd approach (adapted from Yin 2018) 
+Source of 
+Evidence 
+Examples 
+Approaches being 
+used  in this study 
+Strengths 
+Weaknesses 
+Documentation E-mails, letters, 
+agendas, administrative 
+documents, formal 
+studies, news clippings 
+News articles, formal 
+studies, reports of 
+conferences 
+Stable, 
+specific, 
+unobtrusive 
+Retrievability, 
+biased 
+selectivity, 
+reporting bias 
+Archival 
+Records 
+Public use files, service 
+records, organisational 
+records, maps, survey 
+data 
+Case records (e.g. 
+annual WFP report), 
+maps and charts of the 
+camps 
+Precise, 
+stable, 
+specific, 
+unobtrusive 
+Retrievability, 
+accessibility, 
+reporting bias 
+Interviews 
+Prolonged interviews, 
+short interviews, 
+survey interview 
+Interviews 
+(direct/indirect 
+involved individuals) 
+Targeted, 
+insightful 
+Response bias, 
+human error, 
+reflexivity 
+Direct 
+Observations 
+Field observations 
+Field observations to 
+be conducted 
+Real time 
+data, 
+contextual 
+Time 
+consuming, 
+reflexivity 
+Participant 
+Observation 
+Participant 
+observations 
+Field observations to 
+be conducted 
+Insightful 
+Time 
+consuming 
+Physical 
+Artefact 
+Tools, instruments, 
+works of art 
+N/A 
+Insightful 
+Selectivity, 
+availability 
+ 
+The interviews are one of the most important and most common data collection resources in case study 
+approaches. However, careful considerations should be used to evade the common pitfalls, i.e., 
+artificiality, level of entry, elite bias (Myers and Newman 2007). Our data collection to date has paid 
+close attention to evade these issues. For example, WFP staff that were contacted and/or interviewed 
+for the case study were made sure to be involved in the Building Blocks project and represented various 
+levels of seniority. Some of the respondents contacted were based in the field, while others worked on 
+the project from long-distance with frequent visits to the project site. Respondents were made sure to 
+be experienced and knowledgeable about the project. Table 2 presents an overview of the details of the 
+interviewees and the conducted interviews thus far. 
+Table 2: Details of interviews and respondents 
+Respondent 
+Gender 
+Title 
+Interview Structure 
+Information 
+capture 
+Interview 
+Length 
+A 
+Male 
+WFP 
+Executive 
+Semi-structured 
+interview, video call 
+Recorded, 
+note-taking 
+1 hour 
+B 
+Male 
+WFP Project 
+Officer 
+Structured, written 
+question & answer via 
+e-mail 
+N/A 
+N/A 
+C 
+Female 
+WFP Project 
+Officer 
+Structured, written 
+question & answer via 
+e-mail 
+N/A 
+N/A 
+D 
+Male 
+External expert 
+commentator 
+Unstructured 
+interview, video call 
+Extensive 
+Note-taking 
+30 minutes 
+ 
+The analysis of the data will follow the comprehensive approach Corbin and Strauss (2014 that include 
+three coding procedures: open coding, axial coding, and selective coding. This approach is specifically 
+suitable for such research that intends to explore and build theory from data because it allows flexibility 
+and adds rigor (Urquhart 2012).  
+Our preliminary findings, based on four in-depth interviews (Table 2) and reading through secondary 
+data sources (e.g., WFP annual reports, news clippings, public use files on Building Blocks, etc.) 
+
+--- Page 6 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+illustrate how political, economic, social and technological factors affect the humanitarian aid 
+programme when implementing Blockchain, i.e., “the political and financial sphere in Jordan reflects 
+skepticism around technology in general, let alone nascent technologies like Blockchain” (Respondent 
+A). WFP Respondents also discussed a significant shift in workload with Blockchain implementation, 
+i.e., “Previously, banks needed a letter of authorization with a physical copy signed by two people that 
+had to then be sent back to them and evaluated which was time-consuming and not always done right 
+or on time. Every transaction is now authorized by WFP so there doesn’t need to be a reconciliation of 
+[reports].” (Respondent C). Energy consumption. Speed in validating transactions, and privacy were 
+the three major concerns highlighted, i.e., Blockchain is a high energy-consuming technology …. at the 
+minimum, it does require servers and computers to process transactions. The locations where the 
+limited access to the Internet or poor energy infrastructure with frequent brownouts limits the 
+scalability of Blockchain.   
+Intended Contributions and Conclusion 
+This research, although at an early stage, is expected to make significant theoretical contributions to IS; 
+particularly related to implementation and consequences of Blockchain in Humanitarian aid 
+programmes. Although we adopt the approach in which specific research objectives and research 
+questions will materialize from the collected data through conceptualization based on theoretical 
+sensitivity, the intended objectives are to understand how the humanitarian aid porgramme adapt 
+Blockchain technology to address humanitarian challenges and reflects on potentials and pitfalls that 
+come with the adaptation of this new technology. The findings will contribute to respond the call for 
+further research on Blockchain technology in humanitarian context (Ko and Verity 2016). Furthermore, 
+by theorizing Blockchain technology in the context of organizational change and transformation, this 
+research will contribute to a better understanding of change management and orchestrating aspects of 
+implementing a novel technology. With the fast growth in humanitarian aid services, there is an ongoing 
+debate on how to reshape the aid programme to enhance its effectiveness to implement aid services in 
+the best possible way (Scott 2014). The findings of this research will contribute to this debate by 
+reflecting on the benefits and implementations strategies to reduce the pitfalls of Blockchain 
+technology. 
+In sum, we argue here that our research provides a great opportunity to address the above gaps. 
+Additionally, the proposed research is expected to contribute to practice by providing insights for 
+humanitarian and development organizations to consider when employing this novel technology.   
+References 
+Aranda, D. A., Fernández, L. M. M., and Stantchev, V. 2019. "Integration of Internet of Things (IoT) 
+and Blockchain to Increase Humanitarian Aid Supply Chains Performance," 5th International 
+Conference on Transportation Information and Safety (ICTIS), UK: IEEE, pp. 140-145. 
+Bartoletti, M., Cimoli, T., Pompianu, L., and Serusi, S. 2018. "Blockchain for Social Good: A 
+Quantitative Analysis," Proceedings of the 4th EAI International Conference on Smart Objects 
+and Technologies for Social Good, Bologna, Italy: ACM, pp. 37-42. 
+Birks, D. F., Fernandez, W., Levina, N., and Nasirin, S. 2013. "Grounded Theory Method in Information 
+Systems Research: Its Nature, Diversity and Opportunities," European Journal of Information 
+Systems (22:1), pp. 1-8. 
+Boucher, P. 2017. How Blockchain Technology Could Change Our Lives: In-Depth Analysis. European 
+Parliament. 
+Carter, N., Bryant-Lukosius, D., DiCenso, A., Blythe, J., and Neville, A. J. 2013. "The Use of 
+Triangulation in Qualitative Research," Oncology Nursing Forum. 
+Corbin, J., and Strauss, A. 2014. Basics of Qualitative Research: Techniques and Procedures for 
+Developing Grounded Theory. Sage publications. 
+Drescher, D. 2017. "Blockchain Basics: A Non-Technical Introduction in 25 Steps." Apress, New York. 
+Edmondson, A. C., and McManus, S. E. 2007. "Methodological Fit in Management Field Research," 
+Academy of Management Review (32:4), pp. 1246-1264. 
+
+--- Page 7 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+Eisenhardt, K. M. 1989. "Building Theories from Case Study Research," Academy of Management 
+Review (14:4), pp. 532-550. 
+Galen, D., Brand, N., Boucherle, L., Davis, R., Do, N., El-Baz, B., Kimura, I., Wharton, K., and Lee, J. 
+2018. "Blockchain for Social Impact: Moving Beyond the Hype," Center for Social Innovation, 
+RippleWorks. https://www.gsb.stanford.edu/sites/gsb/files/publication-pdf/study-blockchain-
+impact-moving-beyond-hype_0.pdf). 
+Glaser, B. G., Strauss, A. L., and Strutzel, E. 1968. "The Discovery of Grounded Theory; Strategies for 
+Qualitative Research," Nursing research (17:4), p. 364. 
+Juskalian, R. 2018. "Inside the Jordan Refugee Camp That Runs on Blockchain," 
+https://www.technologyreview.com/s/610806/inside-the-jordanrefugee-camp-that-runs-on-
+blockchain/). 
+Kewell, B., Adams, R., and Parry, G. 2017. "Blockchain for Good?," Strategic Change (26:5), pp. 429-
+437. 
+King, N. 2004. "Using Interviews in Quatitative Research," Essential guide to qualitative methods in 
+organizational research (2), pp. 11-22. 
+Ko, V., and Verity, A. 2016. "Blockchain for the Humanitarian Sector: Future Opportunities," Digital 
+Humanitarian Network for UN-OCHA, pp. 1-19. 
+Kovács, G., and Spens, K. M. 2007. "Humanitarian Logistics in Disaster Relief Operations," 
+International Journal of Physical Distribution & Logistics Management (37:2), pp. 99-114. 
+Kshetri, N. 2017. "Will Blockchain Emerge as a Tool to Break the Poverty Chain in the Global South?," 
+Third World Quarterly (38:8), pp. 1710-1732. 
+Lee, J.-H., and Pilkington, M. 2017. "How the Blockchain Revolution Will Reshape the Consumer 
+Electronics Industry [Future Directions]," IEEE Consumer Electronics Magazine (6:3), pp. 19-
+23. 
+Long, D. 1997. "Logistics for Disaster Relief: Engineering on the Run," Institute of Industrial and 
+Systems Engineers (IISE) Solutions (29:6), pp. 26-30. 
+McPhee, C., and Ljutic, A. 2017. "Blockchain," Technology Innovation Management Review (7:10), 
+pp. 3-5. 
+Myers, M. D., and Newman, M. 2007. "The Qualitative Interview in Is Research: Examining the Craft," 
+Information and Organization (17:1), pp. 2-26. 
+Nash, K. S. 2016. "Wal-Mart Turns to Blockchain for Tracking Pork in China," Wall Street Journal). 
+Purvis, K. 2017. "Blockchain: What Is It and What Does It Mean for Development," The Guardian  
+https://www.theguardian.com/global-development-
+professionalsnetwork/2017/jan/17/blockchain-digital-technology-development-money. 
+Riani, T. 2018. "Blockchain for Social Impact in Aid and Development." Humanitarian Advisory 
+Group. 
+Rysaback-Smith, H. 2015. "History and Principles of Humanitarian Action," Turkish Journal of 
+Emergency Medicine (15:1), pp. 5-7. 
+Sandvik, K. B., Jumbert, M. G., Karlsrud, J., and Kaufmann, M. 2014. "Humanitarian Technology: A 
+Critical Research Agenda," International Review of the Red Cross (96:893), pp. 219-242. 
+Scott, R. 2014. "Imagining More Effective Humanitarian Aid,"). 
+Siggelkow, N. 2007. "Persuasion with Case Studies," Academy of Management Journal (50:1), pp. 20-
+24. 
+Swan, M. 2015. Blockchain: Blueprint for a New Economy. O'Reilly Media, Inc. 
+Tapscott, D., and Tapscott, A. 2016. Blockchain Revolution: How the Technology Behind Bitcoin Is 
+Changing Money, Business, and the World. Penguin, UK. 
+Turner, B. A. 1981. "Some Practical Aspects of Qualitative Data Analysis: One Way of Organising the 
+Cognitive Processes Associated with the Generation of Grounded Theory," Quality and 
+Quantity (15:3), pp. 225-247. 
+United Nations. 2018. "Humanitarian Assistance and Assistance to Refugees." 
+Urquhart, C. 2012. Grounded Theory for Qualitative Research: A Practical Guide. Sage. 
+World 
+Food 
+Program. 
+2018. 
+"Blockchain 
+for 
+Zero 
+Hunger 
+– 
+Building 
+Blocks." 
+https://innovation.wfp.org/project/building-blocks. 
+Yin, R. (2009). Case study research: Design and methods (4th edn.). Thousand Oaks: Sage. 
+
+--- Page 8 ---
+ 
+Blockchain-enabled Humanitarin Aid 
+ 
+ 
+ 
+Twenty-Fourth  Pacific Asia Conference on Information Systems, Dubai, UAE, 2020  
+Zambrano, R., Young, A., and Velhurst, S. 2018. "Connecting Refugees to Aid through Blockchain-
+Enabled Id Management: World Food Programme’s Building Blocks," New York: GOVLAB 
+https://blockchan.ge/blockchange-resource-provision.pdf. 
+Zwitter, A., and Boisse-Despiaux, M. 2018. "Blockchain for Humanitarian Action and Development 
+Aid," Journal of International Humanitarian Action (3:1), p. 16. 
+ 

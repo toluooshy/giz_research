@@ -1,0 +1,1019 @@
+
+--- Page 1 ---
+1
+BLOCKCHAIN TECHNOLOGY 
+IN HUMANITARIAN PROGRAMMING
+A PILOT PROJECT IN CASH TRANSFER PROGRAMMING IN KENYA
+ICHA Publication no: 3/2018
+
+--- Page 2 ---
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+2
+
+--- Page 3 ---
+•	 Blockchain Technology can transform the 
+humanitarian sector by saving costs, tracing the 
+flow of information, and reducing transaction 
+times.
+•	 In theory, Blockchain Technology can provide 
+a better record of where humanitarian aid 
+is directed and fight corruption through 
+transparency.
+•	 Blockchain Technology can also be utilised 
+in information management, identification, 
+supply chain tracking, cash programming, and 
+humanitarian financing.
+•	 Further research on the impact of Blockchain 
+Technology 
+should 
+be 
+conducted 
+and 
+experimentation with future implementation.
+KEY 
+MESSAGES
+3
+
+--- Page 4 ---
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+4
+
+--- Page 5 ---
+1.0 Introduction		
+	
+	
+	
+	
+	
+6
+1.1 Blockchain Technology	
+	
+	
+	
+	
+7
+1.2 Blockchain Technology in Humanitarian Programming	
+8
+1.3 Purpose of the Study	 	
+	
+	
+	
+	
+13
+2.0 The Pilot Project	
+	
+	
+	
+	
+	
+14
+3.0 Results and Discussion	
+	
+	
+	
+	
+16
+3.1 The Approach	
+	
+	
+	
+	
+	
+16
+3.2 Successes	
+	
+	
+	
+	
+	
+	
+18
+3.3 Lessons Learnt	
+	
+	
+	
+	
+	
+24
+3.4 Challenges of Blockchain in Humanitarian Programming	
+26
+4.0 Conclusion and Recommendations	 	
+	
+	
+28
+4.1 Conclusion	 	
+	
+	
+	
+	
+	
+28
+4.1 Recommendations	
+	
+	
+	
+	
+	
+30
+Frequently Asked Questions	
+	
+	
+	
+	
+31
+T
+a
+b
+l
+e
+ 
+o
+f 
+Contents
+5
+
+--- Page 6 ---
+In the ever-changing environment of humanitarian aid, there are a few constants. One is the need for humanitarian 
+organisations to find innovative ways to be efficient and effective in aid delivery and still remain financially 
+feasible. Another is accountability and transparency to communities and donors because of reduced donations 
+to aid organisations due to geopolitics and mistrust. As a humanitarian organisation, Kenya Red Cross Society 
+(KRCS) has also felt the brunt of these changes and to overcome the barriers, they have adopted innovation as 
+part of the organisations’ core values. Innovation in the context of KRCS means identifying opportunities for 
+risk mitigation, sustainability and growth through exploring uncharted opportunities (KRCS Strategy 2020). 
+This is done through the use of Information Communication and Technology (ICT) and the International Centre 
+for Humanitarian Affairs (ICHA) innovation and research units. 
+1.0	 Introduction
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+6
+
+--- Page 7 ---
+The Blockchain is a 
+type of decentralised 
+database that records 
+transactions shared 
+across a network of 
+multiple participants.
+1.1 Blockchain Technology
+The Blockchain is a type of decentralised database 
+that records transactions shared across a network of 
+multiple participants. It was first used to exchange 
+the digital currency Bitcoin1. The database is hosted 
+across a network of multiple participants and enables 
+sharing of information and transfer of digital assets in 
+a fast, tracked and secure way2. Blockchain maintains 
+a continually growing list of data records, where all 
+participants within a network have their own identical 
+copy of the ledger. Thus, any changes to the ledger 
+are reflected in all copies close to real time.  
+The security and accuracy of the information stored 
+in the ledger is maintained cryptographically through 
+the use of digital signatures3. Hence, once the data 
+is uploaded, the cryptography technology makes it 
+very difficult for data to be manipulated. The more a 
+transaction is validated by users the more authentic 
+it becomes. After it is verified it is combined with 
+other transactions through a hash and a new block is 
+created for the ledger4.
+Blockchain Technology stores data in the block 
+and the header, where only the header is visible to 
+the public. For instance, when storing personal 
+data, anyone can verify information added to the 
+blockchain due to individual signatures, but only 
+the owner can unlock the underlying information 
+with their cryptographic signature. Public visibility; 
+private usage5.
+1Nakamoto, S. (2009), Bitcoin: A Peer-to-Peer Electronic Cash System. Retrieved from: bitcoin.org/bitcoin.pdf
+2Vanessa Ko and Andrej Verity (OCHA), Blockchain for the Humanitarian Sector: Future Opportunities
+3United Kingdom Government Office for Science (2016). Distributed Ledger Technology: Beyond Blockchain. Retrieved from: www.gov.uk/government/uploads/system/uploads/attachment_
+data/file/492972/gs-16-1-distributed-ledger-technology.pdf
+4Chris McPhee and Anton Ljutic, “Blockchain,” Technology Innovation Management Review Vol. 7 Issues 10 (2017)
+5This may not be true for all blockchains. For example, on the Bitcoin blockchain, all information is public. However, it is pseudonymized, making it difficult to determine the owner, though it may 
+be possible through things such as graph analysis: blockchain. info/block/0000 000 000000000011eb70a82a16f9e 044eedaee22d34c88ad55412ddc362bb
+7
+
+--- Page 8 ---
+1.2 Blockchain Technology in Humanitarian Programming
+Blockchain Technology has the potential to provide 
+substantial benefits in the humanitarian sector, 
+such as protected data sharing, supply chain, donor 
+financing, cash programmes and crowdfunding. 
+By providing a decentralised, verifiable source of 
+data, Blockchain Technology can enable a more 
+transparent, efficient form of information and data 
+management.
+In the humanitarian sector, unreliable information 
+and information silos between different humanitarian 
+actors is often cited as a key barrier in information 
+management6. 
+Blockchain 
+can 
+overcome 
+the 
+barriers to data sharing by providing an information 
+marketplace that is publicly accessible to all users 
+while ensuring information security. A combination 
+of time-stamped and digitally verified information 
+hosted on an accessible ledger could play an important 
+role in reducing costs and increasing transparency 
+with humanitarian data7.
+Lack of identification documents is a key challenge in 
+humanitarian response and early recovery systems8. 
+Having basic documentation to verify one’s identity 
+is fundamental to survival and security, as they are 
+essential to obtain basic humanitarian assistance 
+and reach areas of safety. Blockchain can provide 
+accessible and verifiable identification where a 
+person can prove their existence and identity through 
+a distributed public ledger, akin to an international 
+public notary9. This enables a decentralsed personal 
+data-management system that individuals own and 
+control10. Since information is protected using 
+encryption, the technology can protect the personal 
+data of those who are most vulnerable.
+Humanitarian supply chain can be extremely 
+dynamic. As a result, supply chain visibility and data 
+tracing is often poor11. Strengthening supply chain 
+transparency can greatly improve humanitarian 
+operation by providing data to inform more effective 
+and accurate decisions. This will ensure evidence-
+6Humanitarian Information Management Failures; Survey Report (2016).  
+7McConaughey, T. et al, BigChainDB: A Scalable Blockchain Database (Tech.), Berlin: Ascribe GmbH (2016)
+8ICRC Advisory Service on International Humanitarian Law. Means of Personal Identification; Retrieved from: www.icrc.org/eng/assets/files/other/means_of_personal_id_eng.pdf
+9Rhodes III, Y. (31 May 2016), What does identity mean in today’s physical and digital world?; Retrieved from: azure.microsoft.com/en-us/blog/what-does-identity-mean-in-today-s-physical-
+and-digital-world/. 
+10Zyskind, G., Nathan, O., & Pentland, A. (2015), Decentralizing Privacy: Using Blockchain to Protect Personal Data. 2015 IEEE Security and Privacy Workshops. doi:10.1109/spw.2015.27. 
+11Privett, N. (24 February 2014), Improving visibility in humanitarian supply chains - ODI HPN; Retrieved from: odihpn.org/blog/improving-visibility-in-humanitarian-supply-chains/  
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+8
+
+--- Page 9 ---
+based interventions and management, exposing issues 
+for an effective remedy and increasing accountability. 
+By providing a publicly visible ledger, Blockchain 
+Technology offers a way to introduce transparency in 
+humanitarian supply chains. In this case, Blockchain 
+can be used as a data platform that traces the origins, 
+use and destination of humanitarian supplies. As a 
+share, secure record of exchange, Blockchain can 
+“track what went into a product and who handled 
+it along the way, breaking supply chain data out of 
+silos, and revealing the provenance of a product to 
+everyone involved from the originator to end user”12.
+The need for more flexible, efficient, transparent 
+and effective donor financing must be underscored. 
+This is coupled with a call for greater visibility 
+and transparency in financing, not only to address 
+corruption and misuse of funds, but also to enable 
+humanitarian actors better identify funding gaps based 
+on impact rather than institutional requirements13. 
+Through Blockchain, humanitarian actors can have 
+better control on the distribution of aid and ensure 
+that funds reach the intended recipients by lowering 
+transaction cost, getting rid of intermediaries and 
+publicly tracking commitments, distribution and use 
+(transparency).
+12Williams, R. (31 May 2015), How Bitcoin Tech Could Make Supply Chains More Transparent; Retrieved from: www.coindesk.com/how-bitcoins-technology-could-make-supply-chains-
+more-transparent/
+13IASC Task Team on Humanitarian Financing, Background document for the Future of Humanitarian Financing dialogues, October 2014; interagencystandingcommittee.org/system/files/
+fhf_looking_beyond_the_crisis_report.pdf
+Through Blockchain, humanitarian actors can have 
+better control on the distribution of aid and ensure 
+that funds reach the intended recipients by lowering 
+transaction cost, getting rid of intermediaries and 
+publicly tracking commitments, distribution and use 
+(transparency).
+9
+
+--- Page 10 ---
+Cash-based programming often relies on digital 
+technology, thus considerations on data exchange 
+standards, data security, privacy, and encryption 
+are critical to the process14. The biggest challenge 
+in cash-based programming is the use of centralised 
+databases limiting data security and sharing 
+information across multiple actors. A shared platform 
+based on Blockchain can allow humanitarian actors 
+to easily and responsibly share population and usage 
+trends and anonymised transaction data, reducing 
+the beneficiary survey fatigue. Digital cash payments 
+can be made traceable, interoperable across multiple 
+actors, more secure and at a lower cost through 
+Blockchain Technology, with the possibility of 
+tracking funds from original donor to final recipient 
+while still ensuring privacy and security15.
+Blockchain Technology can also be used in 
+crowdfunding during emergencies by using existing 
+digital currencies and by providing a decentralised 
+14United Nations World Food Programme, Information technology for cash-based transfers; Retrieved from: www.wfp.org/node/649700
+15Currion, P. (2015), AidCoin: a revolution in humanitarian financing; Retrieved from: medium.com/@paulcurrion/introduction-513f86ed92df#.2dz4l3166
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+10
+
+--- Page 11 ---
+As funds are processed on 
+a peer-to-peer basis, the 
+amounts can be approved 
+and transferred directly to 
+the recipients.
+funding platform. United Nations Office for the 
+Coordination of Humanitarian Affairs (OCHA) 
+Crowdfunding for Emergencies Think Brief reports 
+that “increasing transparency, accountability and 
+reporting among donors, project initiators and 
+funding recipient’s increases trust in the project and 
+ensures continued donor engagement16”.
+Blockchain can increase transparency, accountability 
+and trust by providing a verifiable platform. Examples 
+of crowdfunding programs using Bitcoin and other 
+cryptocurrencies to fund humanitarian emergencies 
+include Colu, BTC Funding, CoinFunder and 
+BitPesa, which have lower transaction costs and 
+ensure transparent and rapid disbursement of funds 
+during crises.
+Furthermore, crowdfunding initiatives go beyond 
+digital currencies, whereby Blockchain removes 
+the need for an intermediary third party to monitor 
+and disburse funds. Such platforms use Blockchain 
+Technology to reduce transaction costs and enable 
+rapid disbursement of micropayments. 
+As funds are processed on a peer-to-peer basis, the 
+amounts can be approved and transferred directly to 
+the recipients. Through the introduction of its own 
+dedicated cryptocurrency, the humanitarian sector 
+could reduce transaction times and exchange-rate 
+losses while maintaining transparency and traceability 
+of funds17.
+Since the inception of Blockchain Technology, the 
+endorsement in the humanitarian world has been 
+minimal at best. With the scepticism surrounding the 
+technology due to its decentralised and unchecked 
+nature, humanitarian organisations are shying away 
+from using it. For those organisations that have used 
+Blockchain Technology as part of their aid delivery, 
+most have shown that it does have a significant 
+positive impact.
+16United Nations OCHA, “Crowdfunding for Emergencies,” OCHA Policy and Studies Series, Issue brief (2015)
+17Currion, P. (2015), AidCoin: a revolution in humanitarian financing, Retrieved from: medium.com/@paulcurrion/introduction-513f86ed92df#.2dz4l3166
+11
+
+--- Page 12 ---
+In Jordan, the World Food Program (WFP), launched 
+a Blockchain based system called Building Blocks that 
+helps support 10,000 Syrian refugees in the Azraq 
+Camp. Refugees are given digital identities that they 
+use to purchase items using biometrics since all their 
+information is stored on the platform. Refugees who 
+arrive during the night can purchase items by morning 
+because the system can manage and process large 
+volumes of transactions and information in seconds18. 
+The International Federation of Red Cross and 
+Red Crescent (IFRC) in collaboration with AID: 
+Tech together with the Irish Red Cross (IRC) and 
+Lebanese Red Cross piloted a Blockchain project in 
+Tripoli, Aker Refugee Camp and Beirut. The project 
+provided digital identities to 100 Syrian refugee 
+families to allow them to use an electronic voucher 
+to purchase commodities. The pilot was considered a 
+success because families were able to purchase goods 
+and services with ease and the IRC tracked the whole 
+process in real time19. 
+In India, the Akshaya Patra Foundation which is the 
+largest non-governmental organisation (NGO) in the 
+world that offers mid-day meals to school children, 
+teamed up with Accenture Labs in 2017 to use 
+Blockchain based technology, the Internet of Things 
+(IoT), and artificial intelligence (AI), to improve their 
+products, efficiency, and expansion. The Foundation 
+feeds 1.7 million children from 14,173 schools 
+traversing 12 Indian states20. Blockchain has helped 
+the Foundation to increase the number of meals they 
+provide and also increase their efficiency by reducing 
+the time it takes to solve problems and avoid wastage.
+In February 2018, UN Women, the UN Office of 
+Information and Communication Technology (UN 
+OICT) in collaboration with Innovation Norway, 
+held a four-day workshop that brought together 
+seven Blockchain Technology companies and other 
+UN agencies, to find a way of using Blockchain 
+based technologies to help address challenges 
+faced by women and girls around the world. From 
+the workshop, it was evident that, humanitarian aid 
+organisations need to embrace new technologies to 
+ensure that no one is left behind during crises21.
+18http://innovation.wfp.org/project/building-blocks, retrieved in June 2018 
+19http://media.ifrc.org/innovation/2017/01/04/using-blockchain-technology-to-assist-
+refugees-in-lebanon, retrieved in June 2018
+20https://www.akshayapatra.org
+21http://www.unwomen.org/en/news/stories/2018/2/ retrieved in June 2018
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+12
+
+--- Page 13 ---
+1.3 Purpose of the Study
+The purpose of this study is to document the learnings 
+from this pilot, inform the way forward for KRCS, 
+and to explore the benefits and risks of Blockchain 
+Technology in its operations. The findings from the 
+pilot project will be shared with other humanitarian 
+organisations, decision makers and Blockchain 
+experts in different platforms with the aim of 
+promoting knowledge, sharing experiences, and 
+exploring further, the possibilities of Blockchain in 
+humanitarian programming
+The purpose of this 
+study is to document 
+the learnings from this 
+pilot, inform the way 
+forward for KRCS, and 
+to explore the benefits 
+and risks of Blockchain 
+Technology in its 
+operations.
+13
+
+--- Page 14 ---
+Over the last decade, cash transfer programming 
+(CTP) has increased due to its accountability and the 
+dignity it gives to beneficiaries. CTP is a tool that uses 
+money as a mode of intervention in a humanitarian 
+crisis. Like all other methods of aid delivery and 
+program implementation, there is constant change in 
+methodology and implementation. This is inevitable 
+because with time, the dynamics of disasters, donors 
+and the international humanitarian world changes 
+and programs need to be more efficient and effective 
+without compromising the quality of work, delivery 
+and impact.
+KRCS has been using CTP for close to seven years 
+as part of its emergency response. The strategic 
+focus when it comes to CTP is in line with the global 
+cash discussions that is centered on the need to 
+upscale CTP using partnerships and innovations. 
+Since the onset of CTP in 2011, KRCS has used 
+different delivery mechanisms such as banks, mobile 
+money and vendors. Banks and mobile money were 
+preferred because they greatly reduced the risk of 
+theft, diversion of funds and fraud through an audit 
+2.0 The Pilot Project
+trail that could be seen. Also, with the use of mobile 
+money, people who were deemed unbankable can 
+now transact money without having bank accounts.
+In May 2018, KRCS in collaboration with IFRC 
+conducted a Blockchain Open-Loop Cash Transfer 
+pilot project in Isiolo County, Kenya. The primary 
+focus of this project was to understand Blockchain 
+Technology 
+potential 
+for 
+transparency 
+and 
+accountability, which is important to the humanitarian 
+sector. This was the first of its kind in the humanitarian 
+sector, given that previously, the use of Blockchain 
+Technology for cash transfers by humanitarian 
+organisations has mostly used the closed-loop 
+payment mechanisms such as e-vouchers, where 
+payments are linked to merchants’ specifics outlets. 
+In this case, Blockchain was explored to make CTP 
+more effective, by promoting timely delivery of aid 
+while strengthening transparency and accountability 
+to beneficiaries and donors.
+Other partners in the project included, RedRose who 
+provided the cash data management platform, Craft 
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+14
+
+--- Page 15 ---
+Silicon Limited who were the Mpesa API integrator 
+and Safaricom, the financial service provider. 
+RedRose implemented a data management system 
+integrated with Safaricom Mpesa mobile money 
+and constructed a private Blockchain to record 
+transactions.
+...with the use of 
+mobile money, people 
+who were deemed 
+unbankable can now 
+transact money without 
+having bank accounts.
+15
+
+--- Page 16 ---
+   Figure 1: Steps involved in KRCS’ Cash transfer programming
+3.1 The Approach
+The usual KRCS CTP approach involves a minimum of nine steps as indicated in Figure 1. These 
+steps include; stakeholder engagements at county and sub-county levels, community mobilisation, 
+training of KRCS team, verification and validation of the beneficiary data, cash transfers, encashment 
+monitoring, conducting post-distribution monitoring and carrying out after action review.
+3.0 Results and Discussion
+05
+Integration between Blockchain 
+and MPESA platforms
+01
+County Steering Group assess 
+geographical targeting and 
+development of beneﬁciary 
+selection criteria for project.
+02
+Local administration and 
+Community leaders review 
+geographical targeted areas and 
+selection criteria at the Sub 
+County level.
+03
+Community mobilization by 
+local leaders for sensitization on 
+community based targeting, 
+household proﬁling, registration 
+and consent.
+04
+Conduct community review 
+meetings to Verify/validate 
+beneﬁciary data by KRCS and 
+the Community; handling of 
+complaints and feedback.
+06
+Beneﬁciaries receive cash 
+through MPESA mobile money 
+transfer platform/mechanism
+KSH
+07
+Anonymous Transaction record-
+ed in Blockchain to increase 
+transparency and accountability
+08
+Conduct encashment monitor-
+ing to ensure everyone received 
+the entitled cash; handling of 
+complaints and feedback.
+KSH
+09
+Conduct Post Distribution 
+Monitoring to understand 
+output and impact for cash 
+program
+10
+Carry out review of the pilot 
+through an After Action Review 
+process.
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+16
+
+--- Page 17 ---
+  Figure 2: A more responsive system developed for KRCS cash programme
+The approach utilised in the pilot project included 
+a combination of technologies that yielded a more 
+responsive system for the KRCS cash program. Since 
+the beneficiaries for the pilot project were already 
+registered, their information was extracted from the 
+KRCS KOBO data collection platform and uploaded 
+to RedRose data management system.
+The integrated system (Figure 2) included a mobile 
+money network (Safaricom), an internal electronic 
+funds transfer system (Craft Silicon), a humanitarian 
+data management platform (RedRose) and an open-
+source blockchain. Here, there was a segregation of 
+duties between the fund requester and the finance 
+manager who approves the disbursement. After 
+approval by the finance manager, cash was disbursed 
+to beneficiaries through Safaricom Mpesa. Once 
+Safaricom received the payment requested and 
+executed cash disbursement to the mobile wallets of 
+beneficiaries, the transaction was recorded on the 
+RedRose platform and the blockchain.
+17
+
+--- Page 18 ---
+3.2 Successes
+Transparency and accountability: 
+The pilot project implemented a blockchain 
+using multi-chains off-the-shelf solution by 
+making use of its native algorithm to secure 
+transaction data with cryptography, providing an 
+immutable digital ledger. Here, four nodes were 
+connected to blockchain allowing KRCS, IFRC, 
+and RedRose to view the transactions, thus 
+promoting transparency and accountability. 
+In the current KRCS scenario, information for 
+most projects is stored in different platforms 
+so with blockchain this information becomes 
+decentralized and every node (computer) in the 
+chain is considered a gatekeeper making the 
+information available and unchangeable.
+In terms of data protection and privacy, very 
+limited information and no personal information 
+was recorded on the blockchain during the 
+pilot project implementation. This was done to 
+ensure data protected as the benefits and risks of 
+Blockchain Technology were explored (Figure 3 
+and 4).
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+18
+
+--- Page 19 ---
+Figure 4: Snapshot of a cash disbursement transactions 
+to a beneficiary recorded in the blockchain
+ 
+ 
+ 
+  Figure 3: Snapshot of transactions recorded in the blockchain
+ Figure 4: Snapshot of a cash disbursement transactions to a beneficiary recorded in the blockchain
+19
+
+--- Page 20 ---
+Efficiency: The KRCS CTP verification and 
+validation process is ordinarily lengthy, sometimes 
+taking up to three weeks depending on the 
+geographical location where the project is being 
+implemented. The verification and validation 
+processes, the back and forth between volunteers in 
+the field, staff in headquarters and partners such as 
+Safaricom, are not only extended but in some cases 
+get delayed due to unexpected circumstances such 
+as flooded roads, beneficiaries’ migration and poor 
+network coverage. This was not experienced during 
+the pilot project, 2,090 beneficiaries received 
+their money in three days after consent, proving 
+that disbursement can be done efficiently and 
+without affecting the quality of delivery. RedRose 
+data management platform managed all aspects 
+of the project cycle in just ten days while consent, 
+disbursement and post-distribution monitoring was 
+also accomplished proving that CTP delivery can be 
+timely and up scaled.
+Effectiveness: Automation of the Mpesa payment 
+instructions and confirmation of the status of the 
+transactions for reconciliation purposes made it easy 
+for KRCS Finance Manager to disburse funds on the 
+click of a button from the data management platform 
+and view results of the transactions once a response 
+from Mpesa was received. Previously, the beneficiary 
+list was uploaded manually in to the Mpesa portal. 
+This is also made possible by the widespread of mobile 
+money networks in Kenya. In cases where money 
+disbursed to the beneficiary’s account appeared 
+inactive because Mpesa had frozen their accounts, 
+KRCS was able to confirm beneficiary payments 
+and accounts status immediately. This improved the 
+quality of service allowing KRCS staff to explain to 
+the beneficiaries why their funds appeared unusable.
+Better 
+auditability: 
+The 
+Blockchain 
+Technology offered auditors an independent way of 
+verifying a compiled list of transactions against the 
+records produced by the individual systems such 
+as RedRose or Mpesa, keeping each of the systems 
+honest and increasing confidence in the programme. 
+Any discrepancies with the data could help flag an 
+investigation quickly. In reality, blockchain makes 
+it harder to simply request the service provider to 
+change the data. For example, when a disbursement 
+is requested by mistake, it’s easy to call Mpesa and ask 
+them to reverse the transaction. However, because of 
+the integration with the data management platform 
+and blockchain, the process of reversing a transaction 
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+20
+
+--- Page 21 ---
+must be orchestrated, so a record to update the data is 
+reflected on the blockchain and to all the interacting 
+systems. An auditor should be able to see the record 
+for the original disbursement request and a separate 
+record to correct that request.
+Scalability: As one of the emerging technologies 
+for CTP, Blockchain Technology has demonstrated 
+its capacity to up scale in the last few years through 
+proof of concept and use cases. Blockchain pilot in 
+Lebanon (2015), was a closed-loop solution using 
+barcoded vouchers for 100 households and all 
+transactions were written on the blockchain. In 2017, 
+the Akshaya Patra Foundation in India teamed up 
+with Accenture Labs, the Internet of Things (IoT), 
+and artificial intelligence (AI) to use blockchain, to 
+improve their products, efficiency and expansion. 
+They used data on the blockchain to increase the 
+number of meals and change the operating systems. 
+The KRCS pilot project is the only one in the world 
+that used a open-loop solution with a large number 
+(2100) of beneficiaries and proved that it was scalable.
+The Blockchain 
+Technology offered 
+auditors an 
+independent way of 
+verifying a compiled 
+list of transactions 
+against the records 
+produced by the 
+individual systems such 
+as RedRose or Mpesa...
+21
+
+--- Page 22 ---
+Three features of the RedRose data solution that were essential 
+to the success of the Pilot Project 
+•	 It was based on open data kit (ODK) and worked offline. Power in Isiolo County was limited with frequent 
+outages. Internet connection was afforded by Safaricom hotspots, which were cumbersome and slow. 
+Being able to collect data offline and uploading it later when there was connectivity allowed the program to 
+continue without disruptions. Beneficiary and transaction reports could also be download and used offline. 
+Although not used in the Pilot, Red Rose’s mobile application for manual distribution also works offline and 
+could add value to future KRCS programming where mobile money is not feasible.
+•	 It integrates with financial service providers and other third parties through an application programming 
+interface (API) allowing seamless communications between different platforms. This feature allowed KRCS 
+to automate the distribution and reconciliation with M-PESA.
+•	 It helped ensure high program quality by providing audit logs so that decisions and approvals were 
+documented, segregating duties between the funds requester and the approver for financial controls, 
+and providing an easy way to see who received what so donor funds could be tracked all the way down 
+to beneficiary level. During the Pilot, the requester was an authorised programme staff member and the 
+approver was a KRCS finance manager. Audit logs captured the steps, timestamp, and actors involved in the 
+process for transparency.
+It helped ensure high program quality by 
+providing audit logs so that decisions and 
+approvals were documented...
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+22
+
+--- Page 23 ---
+23
+
+--- Page 24 ---
+3.3 Lessons Learnt
+•	 It is better to have several fit-for-purpose and 
+easy to integrate technologies that fulfil required 
+capabilities than a comprehensive system that is 
+difficult and costly to change. The combination 
+of a humanitarian data management platform, an 
+internal electronic funds transfer system (EFT) 
+and open source blockchain yielded a more 
+responsive system for KRCS’ cash programme.
+•	 Good collaboration and flexibility between the 
+technology partners, KRCS and IFRC was also 
+helpful in ensuring a successful project.
+•	 Community trust is paramount especially in the 
+consent getting process since it is still unclear 
+how informed consent can be obtained from 
+beneficiaries for projects involving complex data 
+structures like Blockchain. For beneficiaries, 
+the consent process was uncontroversial. 
+Beneficiaries explained that they trusted KRCS 
+and that this trust extended to its partners.
+•	 Having a robust data management system 
+significantly improved the KRCS processes, 
+increasing efficiency in the delivery of assistance 
+as well as improving the quality of programming. It 
+promoted the segregation of duties and financial 
+controls, auditability, and security of data. 
+RedRose’s capabilities to work offline, ability 
+to view up-to-date information on beneficiaries 
+and assistance, and the ability to monitor data 
+remotely increased KRCS’ responsiveness and 
+quality of service.
+•	 The Pilot Project demonstrated that Blockchain 
+Technology can add value to CTP. By combining 
+several fit for purpose technologies, the 
+blockchain open-loop cash transfer Pilot Project 
+offered greater transparency, accountability and 
+responsiveness to beneficiaries.
+•	 The process of obtaining consent for this 
+project was not only meant to record explicit 
+beneficiary consent for personal data processing, 
+but it was also used to ensure that beneficiaries 
+received communication on programme goals 
+and objectives, how they will receive their cash 
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+24
+
+--- Page 25 ---
+assistance, and feedback and 
+complaint mechanisms. The 
+consent 
+process 
+was 
+also 
+used to verify the targeted 
+beneficiaries 
+by 
+presenting 
+their 
+identification 
+cards. 
+These are fundamentals of 
+good programming. Sharing 
+information on how personal 
+data will be used is also a 
+requirement 
+regardless 
+of 
+which legal basis is used.
+Community trust is 
+paramount especially 
+in the consent getting 
+process since it is still 
+unclear how informed 
+consent can be obtained 
+from beneficiaries for 
+projects involving complex 
+data structures like 
+Blockchain.
+25
+
+--- Page 26 ---
+3.4 Challenges of Blockchain in Humanitarian Programming
+•	 Blockchain Technology is Internet based and 
+requires connectivity. In typical humanitarian 
+environments where operations take place 
+in difficult to access areas with limited to no 
+Internet access or electricity, incorporating 
+blockchain use should be designed to address 
+these environmental constraints. For the 
+Pilot Project, Blockchain complemented data 
+collection and data management technology that 
+worked offline.  Additionally, data stored in the 
+Blockchain was timestamped but not expected to 
+be updated in real time.
+•	 The Pilot Project raised fundamental questions 
+on consent and data privacy. Blockchain 
+Technology is a complex data structure involving 
+multiple stakeholders, which is still difficult 
+for most to understand and it remains unclear 
+how informed consent can be obtained from 
+beneficiaries for projects involving complex data 
+structures.
+•	 Due to time constraints, very basic elements 
+of how to generate, maintain and tracking 
+transaction using digital identity was tested. The 
+beneficiary profile was established in the RedRose 
+data management platform and a RedRose 
+beneficiary ID was assigned; on the blockchain, 
+private and public keys were generated based on 
+the RedRose beneficiary ID; transactions were 
+written on the blockchain based on the public 
+keys generated corresponding to beneficiaries. 
+Thus, there is need to explore the use of digital 
+identity generated by humanitarian organisations 
+such as KRCS as alternatives to government 
+identification cards.
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+26
+
+--- Page 27 ---
+Blockchain Technology is Internet based and 
+requires connectivity...For the Pilot Project, 
+Blockchain complemented data collection 
+and data management technology that 
+worked offline.  Additionally, data stored in the 
+Blockchain was timestamped but not expected 
+to be updated in real time.
+27
+
+--- Page 28 ---
+4.1 Conclusion
+As KRCS fulfils its commitment to scale up cash 
+transfer programming (CTP), better ways of 
+implementing and supporting its cash programmes 
+are necessary. Innovative technologies such as 
+blockchain offer new opportunities to address specific 
+needs for CTP. The use of Blockchain Technology 
+as an asset database is imperative, the paradigms of 
+aid intervention are shifting and donors as well as 
+beneficiaries are demanding for accountability and 
+transparency. Through its unalterable distributed 
+ledger, Blockchain Technology offers a way to 
+improve transparency and accountability. When this 
+is coupled with data management and integration with 
+open-loop payments such as mobile money transfer, 
+this technology not only enables efficient, timely 
+disbursement of cash at scale but also assures controls 
+and improves quality of service to beneficiaries.
+The focus of this Pilot Project was to understand the 
+potential of Blockchain Technology in transparency 
+and 
+accountability 
+within 
+the 
+humanitarian 
+sector. There are numerous opportunities that 
+KRCS can explore using Blockchain Technology 
+including the identification of funding gaps based 
+on impact rather than institutional requirements, 
+crowdfunding, and supply chain management. 
+Other opportunities include cash-assistance, the 
+use of smart contracts to secure forecast-based 
+financing arrangements, volunteer and membership 
+data management, the deployment of durable, self-
+sovereign digital identifications, tracking of peer-to-
+peer donations and payments and the potential use of 
+cryptocurrencies. 
+Is Blockchain Technology the game changer in 
+humanitarian programming including CTP? Only 
+more case studies from the implementation of 
+humanitarian projects using blockchain technology 
+will tell. One thing that is clear from this pilot study is 
+that, it is all about the overall design of the ecosystem 
+supporting a programme such as CTP and not a single 
+technology that will have a lasting, transformative 
+impact.
+4.0 Conclusion and    
+Recommendations
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+28
+
+--- Page 29 ---
+Is Blockchain Technology the game changer in 
+humanitarian programming including CTP? Only 
+more case studies from the implementation of 
+humanitarian projects using blockchain technology 
+will tell.
+29
+
+--- Page 30 ---
+4.1 Recommendations
+•	 For KRCS to fully implement Blockchain 
+Technology in its programming, guidelines 
+for safety and data sharing must be established. 
+Best practices and guidance for using data 
+responsibly must be adopted, which can then be 
+used to develop a framework on how to use the 
+blockchain responsibly. Questions about data 
+privacy still need to be explored.
+•	 Since Blockchain Technology is well suited 
+to provide an additional layer of security and 
+integrity to data from CTP, KRCS needs to 
+explore more on the process, tools and skillset to 
+audit data on blockchain by internal and external 
+auditors for assurance.
+•	 More research into the benefits, challenges and 
+consequences of using Blockchain Technology 
+should be pursued. Additional research and 
+evidence is also required to translate these 
+potential use cases to actual implementation.
+•	 On issues surrounding consent and data privacy, 
+KRCS in partnership with IFRC may need to 
+build a robust protocol on the legal bases which 
+includes, informed consent for using beneficiary 
+data involving complex data architectures and 
+contexts.
+•	 To 
+successfully 
+implement 
+Blockchain 
+Technology within KRCS operations, a team 
+drawn from different departments must be 
+trained in the technology.
+•	 Through different forums, reach out to 
+policymakers, 
+practitioners 
+and 
+other 
+humanitarian partners to create awareness on 
+the applicability of Blockchain Technology in the 
+humanitarian sector.
+•	 Conduct more collaborative work with other 
+national partners, IFRC, the Government 
+and private partners to ensure the scalability 
+of Blockchain Technology. For example, a 
+collaboration between Bitpesa (a Kenyan digital 
+payment platform that helps people in the 
+diaspora to send money to Kenya) and KRCS 
+might help reach more Kenyans in the diaspora 
+during fundraising 
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+30
+
+--- Page 31 ---
+•	 If the data transacted on the Blockchain 
+is immutable, do people have the right 
+or the ability to remove themselves from 
+a Blockchain system?
+•	 How 
+can 
+private 
+and 
+sensitive 
+information such as gender, religion, 
+and ethnicity be concealed from people 
+who may intend to do harm?
+•	 Who is accountable to ensure data 
+privacy?
+•	 In case of breach or abuse, what 
+jurisdiction applies?
+Frequently Asked Questions
+31
+
+--- Page 32 ---
+BLOCKCHAIN TECHNOLOGY IN HUMANITARIAN PROGRAMMING
+32
+South “C” (Bellevue) | Red Cross Road, Off Popo Road 
+P.O. Box 40712, 00100-GPO, Nairobi, Kenya. 
+Tel: (+254-20) 6003593/6002465/3950000 
+Fax: (+254-20) 3950444 
+Mobile: (+254) 703 037000/722 206958/733 333040
+Email: info@icha.net | Website: www.icha.net
+ South “C” (Bellevue) | Red Cross Road, Off Popo Road 
+P.O. Box 40712, 00100-GPO, Nairobi, Kenya.
+ Tel: (+254-20) 6003593/6002465/3950000 
+Fax: (+254-20) 3950444 
+ Mobile: (+254) 703 037000/722 206958/733 333040
+Email: info@redcross.or.ke | Website: www.redcross.or.ke
