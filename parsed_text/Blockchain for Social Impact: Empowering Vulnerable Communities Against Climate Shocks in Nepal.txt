@@ -1,0 +1,2050 @@
+
+--- Page 1 ---
+Blockchain for Social Impact: 
+Empowering Vulnerable Communities Against 
+Climate Shocks in Nepal
+Kamal Al-Alwan, Arushi Dahiya, Laura Hochheim Thomé, Vedant Iyer, Shristi Piya, Dilip Soman
+
+--- Page 2 ---
+The Reach Alliance
+The Reach Alliance is a consortium of global universities — with partners in Ghana, South 
+Africa, Mexico, Canada, United States, United Kingdom, Australia, and Singapore — 
+developing the leaders we need to solve urgent local challenges of the hard to reach — those 
+underserved for geographic, administrative, or social reasons. Working in interdisciplinary 
+teams, Reach’s globally minded students use rigorous research methods to identify innovative 
+solutions to climate, public health, and economic challenges. The United Nations Sustainable 
+Development Goals (SDGs) provide inspiration and a guiding framework. Research is 
+conducted in collaboration with local communities and with guidance from university 
+faculty members, building capacity and skills among Reach’s student researchers.
+The power of the Reach Alliance stems from engaging leading universities to unleash 
+actionable research insights for impact. These insights have been published in 
+numerous journals such as The Lancet and BMJ Global Health and are being used 
+by policymakers and sector leaders, such as the Government of Canada and the 
+Stanford Social Innovation Review, to catalyze impact around the world.
+The Reach Alliance was created in 2015 by the University of Toronto’s Munk School of Global 
+Affairs & Public Policy, in partnership with the Mastercard Center for Inclusive Growth. It is 
+guided by an advisory council of leaders in academia, and in the private, public, and nonprofit 
+sectors who help to drive impact, influence and scale, and support fundraising efforts.
+The Reach Alliance
+Note: Authors are listed alphabetically with the faculty mentor 
+listed last.
+Cover photo: Rahat conducting an awareness and digital 
+capacity-building workshop with beneficiaries (Photo courtesy 
+of Rumsan)
+
+--- Page 3 ---
+Acknowledgements
+This case study is a labour of love that was made possible 
+thanks to many different individuals’ support. We express 
+our sincere gratitude to Smriti Chhetri for her consistent 
+communication and coordination throughout this past year 
+and to Shristi Piya for her resourcefulness and guidance. Their 
+support was vital to the smooth execution of this work. We 
+thank Rumee Singh for giving us the opportunity to share 
+this exciting and impactful innovation with the world. We 
+are grateful to all stakeholders from Mercy Corps, Namaste 
+Pay, the Finnish Red Cross, Nepal Red Cross Society, Tikapur 
+and Janaki Municipalities in Nepal, and the Danish Red 
+Cross, without whose insights and contributions this research 
+would not have been possible. A special thank you to Moni 
+Kim for her steadfast mentorship during fieldwork. Finally, 
+we acknowledge the use of AI tools to support interview 
+transcription in preparing this report (ottera.ai).
+This research was vetted by and received approval from the 
+Ethics Review Board at the University of Toronto.
+Contribution
+Contributor (initials) 
+Conception or design of the work
+AD, DS, KA, LHT, MK, SP, VI
+Data collection
+AD, KA, LHT, MK, SP, VI
+Data coding
+AD, KA, LHT, VI 
+Data analysis and interpretation 
+AD, DS, KA, LHT, VI
+Drafting of the case study report
+AD, DS, KA, LHT, MK, SP, VI
+Critical revision of the case study 
+report
+AD, DS, KA, LHT, MK, SP, VI
+Final approval of the version to 
+be submitted
+AD, DS, KA, LHT, MK, SP, VI
+
+--- Page 4 ---
+1
+1
+5
+6
+9
+17
+22
+24
+Contents
+Executive Summary
+Disaster Risk Management Context
+Research Approach
+Anticipatory Action As a Solution to Disaster Relief
+Rahat’s Blockchain Solution
+Key Findings of Our Research
+Scaling and Sustainability
+Lessons Learned 
+	
+
+--- Page 5 ---
+In Nepal, disaster-prone regions face 
+persistent barriers to effective humanitarian 
+aid delivery due to the country’s unique 
+geography and consequently, the nation’s 
+natural disaster landscape. The need for 
+inclusive, anticipatory, and resilient aid-
+delivery systems has never been more urgent, 
+particularly as climate-induced disasters 
+become more frequent and severe. 
+Rahat, a blockchain-enabled humanitarian 
+aid platform developed by Nepal-based 
+tech firm Rumsan, responds to this need 
+by enhancing the efficiency, transparency, 
+and inclusivity of cash and communication 
+before, during, and after disasters. Rahat 
+facilitates multimodal access including short 
+message service (SMS), interactive voice 
+responses (IVR), mobile apps, and QR-coded 
+physical tokens to ensure that even the most 
+marginalized populations can access aid. The 
+platform enables real-time fund disbursement, 
+centralized beneficiary management, and 
+multistakeholder coordination by consolidating 
+communication, disbursement, and data 
+management into a single interface. Its offline 
+transaction capabilities and partnerships with 
+payment service providers allow the system to 
+function even in the midst of disasters when 
+internet access is scarce. A key innovation within 
+Rahat is its anticipatory action module, which 
+focuses on proactive disaster response and was 
+piloted for the first time in September 2024 
+during the monsoon season in the Barbardiya, 
+Gulariya, Janaki, and Tikapur districts in Nepal.
+Blockchain technology, while only one 
+component of the platform, offers critical 
+benefits. Rahat replaces fragmented, 
+rudimentary tools (like WhatsApp or 
+spreadsheets) with a traceable, secure, 
+and auditable dashboard that streamlines 
+anticipatory action and ensures accountability. 
+By offering multisignatory triggers and real-time 
+tracking, it reduces duplication and builds trust 
+among stakeholders involved in disbursing aid 
+to victims of floods or other natural disasters. 
+However, its success depends on careful 
+integration with Nepal’s legal and institutional 
+disaster risk management (DRM) context.
+Key stakeholders involved in disaster response 
+in Nepal report that Rahat has improved 
+coordination, accountability, and transparency 
+across agencies and levels of government. 
+The platform’s design helps minimize 
+residual risk in emergency aid distribution 
+and contributes to building a more robust, 
+data-driven social protection infrastructure. 
+Compared to conventional development-
+oriented cash-transfer systems, blockchain 
+platforms like Rahat offer enhanced traceability 
+and reliability — though they require 
+strong technical capacity and inter-agency 
+coordination to fully realize their potential.
+The Rahat platform offers a compelling proof of 
+concept for how emerging technologies, when 
+localized and co-developed with communities 
+and partners, can shift disaster response from 
+reactive to anticipatory. By addressing policy 
+gaps, strengthening multilevel partnerships, 
+and refining its user-centred technological 
+design, Rahat exemplifies how inclusive 
+digital systems can foster more resilient, 
+dignified, and accountable humanitarian aid 
+in the face of accelerating climate risks.
+	
+Disaster Risk 
+Management Context
+Nepal represents a unique and fragile case 
+because of its complex topography — the 
+high Himalayas and low-lying Terai plains (see 
+Figure 1). This distinctive geography makes 
+the country especially prone to recurring 
+Executive Summary
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+1
+
+--- Page 6 ---
+the country especially prone to 
+recurring hydrometeorological 
+and geophysical disasters like 
+floods (our focus in this case 
+study), droughts, earthquakes, 
+and landslides. Worse still, these 
+calamities further exacerbate 
+the region’s existing social and 
+economic fragilities, marked 
+by poverty, poor infrastructure, 
+caste-based exclusion, and 
+environmental degradation. This 
+dual intersection of climate risk 
+and human insecurity positions 
+Nepal as one of the nations that 
+are most vulnerable to climate 
+change, which is expected to 
+intensify the frequency and 
+impact of natural disasters. 
+Despite growing policy efforts, 
+particularly after the introduction 
+of the Disaster Risk Reduction 
+Management Act of 2017, weak 
+coordination, limited 
+local capacity, and an 
+emphasis on reactive 
+disaster response continue 
+to undermine climate 
+resilience in the region.
+The Terai region’s flooding 
+problems stem from 
+both natural and human-
+caused (anthropogenic) 
+factors. With over 6,000 
+rivers flowing from the 
+Himalayas, the area’s 
+monsoon rains often 
+lead to overflowing 
+riverbanks that inundate 
+the plains (including 
+in the Terai). These 
+floods are worsened 
+by deforestation, 
+poor embankment 
+maintenance, and 
+Figure 1. Topographical and political maps of Nepal (from Sanam Aksha, Luke Juran, 
+and Lynn Resler, “Spatial and Temporal Analysis of Natural Hazard Mortality in 
+Nepal,” Environmental Hazards 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+2
+Figure 2. Key country-level statistics of Nepal
+
+--- Page 7 ---
+Smrity Upadhyay and Kavita Arora, “Disaster-induced Vulnerabilities and Institutional Response in Indo-Nepal Tarai Region,” In 
+International Handbook of Disaster Research, edited by Amita Singh (Singapore: Springer, 2023), 413–32. 
+This is particularly relevant given that anticipatory action is still a relatively new approach to aid delivery in Nepal (first 
+introduced in 2018).
+urban encroachment. The region also has an 
+incredibly high population density which has 
+contributed to poor drainage infrastructure, 
+and large areas of informal settlements that 
+have heightened risks and the scale of human 
+and economic devastation from flooding.1
+Delivering humanitarian aid is a highly 
+complex operation, particularly when it 
+comes to defining and coordinating the roles 
+and responsibilities of nongovernmental 
+organizations, government bodies, and 
+private sector actors. For aid delivery to 
+function effectively, the needs, capacities, 
+and responsibilities of each stakeholder 
+must be clearly established in advance. This 
+clarity is essential because when disaster 
+strikes, the situation on the ground is already 
+chaotic — any ambiguity or confusion over 
+who is responsible for what can lead to 
+delays and inefficiencies at a time when 
+rapid, organized support is most critical.
+The management and delivery of humanitarian 
+aid for disaster in Nepal involves a number 
+of stakeholders operating at multiple levels 
+of government. Federally, the Department of 
+Hydrology and Meteorology and the National 
+Disaster Risk Reduction and Management 
+Authority coordinate national disaster 
+preparedness and response efforts. Municipal-
+level disaster risk reduction focal persons 
+are responsible for local implementation 
+and, as of recently, have gained greater 
+authority in decision making during disasters 
+thanks to legal amendments that assign 
+more power to municipalities. This shift 
+is a significant win for local governments 
+who experience devastation first-hand and 
+understand the local socioeconomic context 
+and thus are best positioned to act quickly. 
+However, despite their increased autonomy, 
+municipalities often lack the financial and 
+technical resources to respond independently 
+and still have to request support from the 
+federal government — a process that can 
+be challenging, especially in the anticipatory 
+phase when the benefits of these programs 
+can be abstract and more difficult to quantify.2 
+Local organizations such as the Nepal Red 
+Cross Society deploy volunteers to deliver 
+aid at disaster sites, while funding partners 
+— including Mercy Corps, the Danish Red 
+Cross Nepal, and the Finnish Red Cross 
+Nepal — finance aid delivery. These funds are 
+transferred to beneficiaries through financial 
+institutions and payment providers who 
+facilitate secure and timely cash transfers.
+Figure 3. A banner about disaster risk management at the 
+Danish Red Cross office in Kathmandu, Nepal
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+3
+1
+2
+
+--- Page 8 ---
+In recent years, 
+Nepal has 
+seen notable 
+improvements 
+in DRM, driven 
+in part by the 
+widespread 
+human loss 
+caused by major 
+natural disasters 
+such as the 2015 
+earthquake and 
+the 2019 floods. 
+However, despite 
+these advances 
+over the past decade, 
+traditional disaster 
+relief approaches’ 
+significant limitations persist, necessitating 
+continued innovation and strengthening 
+of disaster risk management systems.
+Traditional disaster responses in the Indo-
+Nepal Terai region have been primarily 
+reactive and focused on postdisaster relief 
+rather than pre-disaster planning. They include 
+emergency rescue, ad hoc relief distribution, 
+and rehabilitation, which are often delayed 
+because of weak inter-agency coordination, 
+lack of real-time data, and insufficient 
+resources. Institutional silos between local, 
+national, and cross-border entities exacerbate 
+this inefficiency and the lack of anticipatory 
+financing and early warning systems can 
+compound disaster impacts year after year, 
+consequently hindering long-term resilience.
+Finally, the reactive nature of the traditional 
+disaster management model creates delayed or 
+absent early warnings, minimal preparedness, 
+and a heavy reliance on rescue and relief after 
+impact. This often means that communities 
+suffer from a significant loss of life and property 
+and a long, costly recovery. These limitations of 
+Nepal’s DRM prevent some of the nation’s most 
+vulnerable populations from being protected, 
+supported, and empowered as disasters occur.
+Hardest-to-Reach Populations
+Considering that humanitarian action has 
+traditionally been reactive, rather than 
+anticipatory, communities in the Terai region 
+are further put at risk because of long response 
+times. Apart from delays in postdisaster 
+management, disaster-prone communities 
+also face significant barriers to financial 
+inclusion. For example, many households 
+lack access to formal financial services which 
+limits their ability to build financial resilience, 
+save for emergencies, or access timely aid. 
+Another common challenge is the lack of 
+official identity or citizenship cards among 
+beneficiaries, which may restrict their eligibility 
+for government-affiliated financial and social 
+protection programs. Although Terai region’s 
+geography and vulnerability to climate shocks 
+put the entire population at risk, some of the 
+most vulnerable community members include 
+1.	 people with disabilities, 
+2.	 seniors (those 60 and older), 
+3.	 pregnant and lactating women, and 
+4.	 members of “scheduled castes.” 
+Figure 4. Disaster Management Program Implementation Districts 2018 poster at the 
+Danish Red Cross office in Kathmandu, Nepal
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+4
+
+--- Page 9 ---
+Some of these hard-to-reach 
+populations are typically also registered 
+in the federal government’s Social 
+Security Assistance program. 
+In Rahat’s anticipatory action pilot program in 
+2024, people with disabilities in the Barbardiya, 
+Gulariya, Janaki, and Tikapur districts were 
+targeted as the main beneficiaries. People with 
+disabilities are already a disproportionately 
+affected group, especially when considering 
+climate disaster scenarios, where mobility, 
+communication, and resource barriers can 
+make rapid actions like evacuation even more 
+difficult. For this hard-to-reach community 
+and other marginalized groups, Rahat’s 
+blockchain solution attempts to address 
+these barriers through a dual approach of 
+anticipatory action and financial inclusion.
+	
+Research Approach
+Our research employed a systematic multiphase 
+approach to examine the effectiveness of 
+Rahat’s blockchain solution, with a particular 
+focus on its anticipatory action module. While 
+the case study addresses Rahat’s platform as 
+a whole, our analysis centres mainly on the 
+anticipatory action model.
+The Rahat anticipatory action project was 
+implemented for the first time in September 
+2024 in collaboration with the Danish Red Cross 
+(DRC) and funded by the GSMA Innovation 
+Fund in the Barbardiya, Gulariya, Janaki, and 
+Tikapur districts in Nepal’s Terai region. The 
+program was designed to facilitate timely and 
+effective actions before flooding occurred 
+in these regions. As a successful pilot, the 
+initiative enabled cash transfers for 774 
+beneficiaries with disabilities: 410 individuals 
+in Barbardiya and 364 in Gulariya. The 
+distribution of cash support was completed 
+within a rapid time frame of 5 hours, 23 
+minutes, and 51 seconds after activation. In 
+addition to cash, 4,583 beneficiaries received 
+early warning notifications via SMS and 
+interactive voice response (IVR) five to six 
+hours after activation, ensuring timely alerts.
+We began with comprehensive research 
+focusing on three key areas: (1) blockchain 
+technology in humanitarian assistance, (2) 
+anticipatory action approaches in disaster 
+Figure 5. Nepal Red Cross staff (Source: “Monsoon Pilot 2024: Digital and Blockchain Technologies in Anticipatory Action 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+5
+
+--- Page 10 ---
+response, and (3) climate vulnerability in Nepal’s 
+Terai region. We analyzed academic literature, 
+reports from the humanitarian sector, and 
+existing documentation regarding the Rahat 
+platform to gain an understanding of current 
+approaches to humanitarian cash transfers, 
+the function of blockchain technology in aid 
+distribution, best practices for anticipatory 
+action in flood response, and the specific 
+challenges involved in reaching vulnerable 
+communities in Nepal. This preliminary 
+research helped us to identify knowledge gaps, 
+particularly concerning the effectiveness of 
+blockchain-based anticipatory action systems 
+and their impact on community resilience, 
+thereby informing our primary research design.
+To fill these knowledge gaps, our team 
+conducted field research in May 2025 in 
+Kathmandu. We conducted semi-structured 
+interviews with multiple stakeholder 
+groups who have direct involvement in or 
+understanding of the Rahat platform and its 
+implementation. Relevant groups include 
+officials from Rumsan (responsible for 
+implementation), local municipal government 
+partners, representatives from Danish Red 
+Cross Nepal, community members, and local 
+vendors participating in the voucher system.
+Our sampling strategy used purposive and 
+snowball sampling to identify key informants 
+through our collaboration with Rumsan and 
+leverage their networks to connect with 
+additional relevant stakeholders. Next, 
+we analyzed the collected data using a 
+structured coding approach. This analysis 
+focused on identifying key aspects such as 
+the effectiveness of the early warning system, 
+the impact of anticipatory cash transfers 
+on household preparedness, community 
+perceptions of blockchain-based aid delivery, 
+operational challenges and successes 
+in reaching vulnerable populations, and 
+comparative advantages over traditional 
+cash-transfer programs. By assigning each 
+participant a unique identification number to 
+replace their personal details in all data sets we 
+ensured that interview data were anonymous.
+Findings from our research reveal that 
+while the Rahat platform has shown strong 
+operational potential, deeper structural and 
+systemic barriers persist that limit its scalability 
+and long-term impact. These include the 
+absence of a national anticipatory action 
+policy, a national ban on cryptocurrency, and 
+low blockchain and technological literacy 
+among many stakeholders. Building toward a 
+national anticipatory framework and clarifying 
+blockchain regulation will be essential to 
+scaling an innovation like Rahat. Furthermore, 
+frequent and structured touchpoints between 
+stakeholders — from government bodies 
+like the Department of Hydrology and 
+Meteorology to local community managers 
+— are needed to ensure coordination, 
+alignment, and mutual learning. Importantly, 
+scaling anticipatory action remains hindered 
+by unreliable long-term weather forecasting 
+data and unsustainable funding models. 
+Nepal’s forecasting infrastructure has improved 
+significantly, but trust and data accuracy 
+remain concerns. These challenges highlight 
+the importance of strengthening anticipatory 
+action frameworks in disaster-prone regions.
+Anticipatory Action As a 
+Solution to Disaster Relief
+Anticipatory action is an approach to disaster 
+risk management (DRM) that focuses on 
+providing warnings and aid to people living 
+in disaster-prone areas before disaster strikes. 
+More than just immediate cash relief or 
+giving monetary assistance before a disaster 
+hits, anticipatory action in practice includes 
+awareness programs, community workshops, 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+6
+
+--- Page 11 ---
+Juan Chaves-Gonzalez, Leonardo Milano, Dirk-Jan Omtzigt, et al., “Anticipatory Action: Lessons for the Future,” Frontiers in 
+Climate, 4 (2022). 
+Zoe Scott, “How Can Anticipatory Action Reach Scale and Sustainability? Learning from CERF in Nepal,” Learning report, 
+Centre for Disaster Protection, 2023. 
+3
+4
+and sharing important information — it is a 
+highly holistic and community-based approach.3
+Components of Anticipatory 
+Action: Preparedness, 
+Readiness, and Activation
+Typically, to ensure the alignment of public, 
+private, and nongovernmental stakeholders 
+involved in disaster risk management, roles and 
+responsibilities and triggers are all outlined in 
+Early Action Protocols (EAPs). These protocols 
+are drafted in advance of disaster and provide 
+accountability and clarity when disaster strikes.
+The Danish Red Cross (DRC) first pioneered 
+the use of anticipatory action in disaster 
+relief in 2018. The DRC Nepal has continued 
+to act on the frontier of anticipatory action, 
+leveraging the expertise of other national DRC 
+and International Federation of Red Cross 
+and Red Crescent Societies chapters that 
+have successfully deployed it, evidenced by 
+its pilot program with Rahat. In the broader 
+context of international aid and development 
+organizations in Nepal, interest in anticipatory 
+action has increased exponentially since 2018. 
+Its adoption has become so widespread that 
+some actors cynically see it as a buzzword 
+aimed to attract funders of aid efforts. 
+To support this growing use of anticipatory 
+action, the National Disaster Risk Reduction 
+and Management Authority, Nepal’s top 
+governing body that coordinates and oversees 
+all disaster relief efforts, has organized 
+three national dialogues on anticipatory 
+action. The first of these took place in 2019, 
+catalyzed by devastating mass casualty 
+natural disasters. They brought together 
+international development organizations, 
+disaster relief officials from all levels of 
+government, and private sector organizations 
+that provide technology solutions to deliver 
+aid in anticipation (e.g., Rumsan). These 
+national dialogues were organized with the 
+explicit long-term goal of creating a unified 
+policy framework for deploying anticipatory 
+action. Although this has not yet materialized, 
+the upcoming fourth national dialogue is 
+heavily focused on collating expertise from 
+different disaster-relief stakeholders to 
+standardize anticipatory action efforts.4
+Table 1. Anticipatory action vs postdisaster relief
+Timing of Aid
+Anticipation action
+Postdisaster
+Mode of aid
+Physical goods
+Physical items prior 
+to disasters
+Physical aid after 
+disaster
+Cash
+Physical
+Physical cash 
+transfers in 
+anticipation
+Postdisaster physical 
+cash transfers
+Digital
+Technology-based 
+cash in anticipation
+Postdisaster physical 
+cash transfers
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+7
+
+--- Page 12 ---
+ Chaves-Gonzalez, et al. “Anticipatory Action: Lessons for the Future.” 
+5
+Anticipatory Action’s Advantages 
+Over Other Forms of Disaster Relief 
+Multiple stakeholders emphasized that 
+anticipatory action cannot replace disaster 
+risk management in its entirety. Rather, it 
+should be viewed as a component of an 
+overarching disaster risk management strategy 
+that clearly outlines roles and responsibilities 
+for each stakeholder before, during, and 
+after a disaster. A technical officer at an 
+international aid organization in Nepal put 
+this succinctly, telling us “[anticipatory action] 
+is a piece of disaster risk management 
+initiatives, not a stand-alone approach to 
+disaster risk management. [It] will just address 
+the residual risk of disaster risk management 
+initiatives. If you try to cover everything within 
+anticipatory action, it wouldn’t work.” 
+As Table 1 shows, anticipatory action differs 
+from traditional postdisaster relief by focusing 
+on preparedness and early response, allowing 
+communities to act before a hazard strikes 
+rather than react only afterward. Municipal 
+government stakeholders consistently 
+emphasized this signature advantage: 
+prior to anticipatory-action-based disaster 
+relief, people would be devastated by 
+disasters and view themselves as victims 
+who needed and therefore demanded aid 
+from the government and international aid 
+organizations. But as anticipatory action has 
+increasingly been adopted, there has been 
+a significant mindset shift among people 
+living in flood-prone areas because they are 
+eager to equip themselves with the support 
+they need to not become victims in the first 
+place once they receive early warnings.5
+Although not directly an advantage, another 
+important component of anticipatory action 
+programs in Nepal (and globally) is that they 
+use a “no regret” approach, meaning that 
+disbursement of cash or aid is not rescinded 
+if a disaster doesn’t strike after the activation 
+stage. This feature further incentivizes 
+beneficiaries to embrace anticipatory action 
+Table 2. Understanding the optimal aid delivery model
+Aid decision
+Superior option
+Benefits
+Supporting quotes from 
+municipal DRM officials
+Mode
+Digital cash
+Hands decision making to the hardest 
+to reach, enables them to prepare 
+themselves in times of disaster as 
+they best see fit (empowerment).  
+Also enables a “no regrets” approach 
+because cash support better 
+improves beneficiaries’ well-being in 
+case of false alarms
+“Before there used to be equal 
+distribution of goods. For 
+example, if there were 10 glasses, 
+one glass was distributed to 
+each household, but now people 
+can buy what they need. So if 
+someone needs food, they can 
+buy food and so on.”
+Timing
+Anticipatory 
+action
+Ensures the hardest to reach are 
+focused on taking steps to avoid 
+disasters, rather than relying on 
+external stakeholders to rebuild and 
+recover once disaster strikes
+“As soon as the disaster struck, 
+they used to believe, since they 
+were victims, they wanted relief. 
+But now they want to avoid being 
+victims. So that’s the shift that we 
+have noticed [with anticipatory 
+action].”
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+8
+
+--- Page 13 ---
+because even when climate shocks don’t 
+occur, people can use cash and aid to 
+support their livelihoods, instead of fearing 
+retribution through being forced to repay 
+cash or return non-cash aid (see Table 2).
+There is also a financial imperative to move 
+toward anticipatory action. Interactive Voice 
+Recordings (IVR) and other forms of early 
+warnings and cash in advance of disasters 
+enable beneficiaries to buy items like sandbags 
+to protect their homes and evacuate areas 
+surrounding river basins, ultimately reducing 
+the human casualties of floods. Property 
+damage is not entirely mitigated by anticipatory 
+action, but its scale is reduced 
+when people are aware of the risk 
+and can put valuables in elevated 
+areas in their homes. This dual 
+effect of mitigating property and 
+human loss reduces the need for 
+postdisaster aid. A stakeholder 
+from a development organization 
+estimated that each dollar invested 
+in anticipatory action results in a 
+30-dollar reduction in human and 
+property damage, demonstrating its 
+efficacy in not only reducing human 
+suffering, but reducing the financial 
+burden of postdisaster aid that governments 
+and international agencies shoulder.
+The most scalable and effective aid solution 
+is one based on anticipatory action that 
+disburses digital cash. Rumsan is a technology 
+provider that implements this solution using 
+a blockchain-based platform focused on 
+accountability and timely aid delivery.
+	
+Rahat’s Blockchain Solution
+Rumsan is a digital innovation company 
+dedicated to creating impactful solutions for 
+society using frontier technology. Rahat — 
+its flagship solution — supports vulnerable 
+communities by improving their access to 
+financial services, especially in the context of 
+humanitarian aid. The organization has three 
+main operations:
+1. Aid access and delivery. Rumsan started 
+with a cash and voucher platform to help 
+vulnerable communities receive timely aid 
+during emergencies.
+2. Capacity building. Recognizing that 
+access alone isn’t enough, Rumsan runs 
+digital finance and literacy training sessions 
+for beneficiaries, vendors, mobilizers, 
+and humanitarian 
+partners. These 
+capacity-building 
+efforts ensure that all 
+users can effectively 
+use digital financial 
+tools, making aid 
+delivery more 
+inclusive and efficient.
+3. Financial resilience 
+products. Rumsan 
+aims to expand 
+into microloans and 
+insurance products 
+to help vulnerable populations build 
+longer-term financial resilience. Although 
+still in early development stages, its 
+vision is to support sustainable economic 
+empowerment beyond immediate aid.
+Core Technology Architecture
+Rahat is Nepal’s first blockchain-based 
+anticipatory action cash-transfer platform. 
+At its technical core, it functions as a digital 
+infrastructure that creates a permanent 
+corruption-free ledger of all aid distributions 
+while consolidating all stakeholder 
+responsibilities and activities and an associated 
+list of beneficiary data that is required in any 
+humanitarian response. 
+Anticipatory action 
+differs from traditional 
+postdisaster relief by 
+focusing on preparedness 
+and early response, 
+allowing communities to 
+act before a hazard strikes 
+rather than react only 
+afterward.
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+9
+
+--- Page 14 ---
+Figure 6. Rahat’s blockchain architecture explained
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+10
+
+--- Page 15 ---
+Figure 7. EAP schematic
+The platform was initially developed during 
+the COVID-19 pandemic as a solution for 
+transparent grocery distribution.
+The foundation of Rahat’s technology stack is 
+blockchain — a decentralized database system 
+that records information in a way that makes it 
+extremely difficult to change, hack, or cheat the 
+system. Unlike traditional databases, blockchain 
+creates a series of “blocks” containing 
+transaction data, with each new block linked 
+to all previous blocks in a cryptographically 
+secure manner. This architecture (see Figure 5) 
+enables Rahat to maintain a tamper-resistant 
+record of every aid transaction, from beneficiary 
+onboarding to initial aid approval to final 
+disbursement.
+Importantly, blockchain does not equal 
+cryptocurrency — its function in Rahat is 
+entirely different. Blockchain in this context 
+solves the persistent issue of communication 
+and information management that NGOs and 
+the government in Nepal have long struggled 
+with (see Figure 6). By offering a shared, 
+transparent system for tracking aid delivery 
+and managing beneficiary data, it becomes a 
+highly effective solution in the specific context 
+of humanitarian response and aid delivery in 
+Nepal.
+Smart Contracts and Tokenization
+One of Rahat’s distinctive features is its 
+implementation of smart contracts — self-
+executing agreements with terms directly 
+written into code. These smart contracts 
+automate the distribution process through 
+tokenization. This automation is a key 
+innovation, allowing for programmed 
+disbursement and operational actions to 
+be executed automatically once predefined 
+*These are a list of non-exhaustive sample tasks outlined in an Early Action Protocol for the Karnali River Basin in Janaki Rural 
+Municipality that highlight the diverse nature of tasks involved in supporting with flood prevention AA efforts
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+11
+
+--- Page 16 ---
+triggers are met. This capability shifts disaster 
+response from being reactive to enabling 
+pre-agreed early action, significantly reducing 
+delays in aid delivery and operational 
+responses.
+Tokens within Rahat represent cash that can 
+be exchanged for physical goods or services 
+by authorized vendors. As a blockchain officer 
+at Rumsan explained, “The idea of tokenizing 
+the distribution process [ensures] transparency 
+and efficiency.” This tokenization system allows 
+aid agencies to distribute cash, food, or service 
+vouchers digitally while maintaining a verifiable 
+record of every transaction. The effectiveness 
+of these automated, forecast-linked actions, 
+however, is fundamentally dependent on the 
+accuracy and timeliness of the underlying 
+forecast data. Without reliable data to feed 
+into the triggers, the full potential of this 
+automation, which offers a seamless transition 
+from reactive to pre-agreed early action, cannot 
+be fully realized.
+Anticipatory Action Module
+The most innovative aspect of Rahat’s 
+technological solution is its anticipatory action 
+module, which transforms disaster response 
+from reactive to proactive (see Figure 7). The 
+module automates the integration of weather 
+forecast sources and other data, improving 
+decision making and communication prior to 
+disaster events. This system incorporates:
+1. A multi-signature trigger system. 
+Critical decisions require approval from 
+multiple authorized stakeholders before 
+funds are released.
+2. Hydrological data integration. The 
+platform collects real-time data from various 
+sources including Nepal’s Department of 
+Hydrology and Meteorology and the Global 
+Flood Awareness System.
+3. Automated early warning notifications. 
+The system sends alerts via SMS and 
+Interactive Voice Recordings (IVRs) to 
+beneficiaries in high-risk areas.
+As a project coordinator at the Danish Red 
+Cross described, “The trigger mechanism 
+involves overlaying weather forecasts with risk 
+analysis to prioritize actions and communities ... 
+The application also includes human analysis to 
+ensure accurate and timely decision making.”
+Comprehensive Dashboard
+Importantly, the Rahat platform brings many 
+stakeholders together. This centralization is 
+precisely what is needed in a humanitarian 
+aid-delivery solution and has been missing in 
+aid responses to flooding in the Terai. So how 
+does it operate? Rahat’s user interface centres 
+on an integrated dashboard that serves as the 
+command centre for humanitarian organizations 
+and government partners. A staff member of a 
+local develop organization that has supported 
+the implementation of Rahat explained: The 
+platform provides a dashboard for “disaster 
+response, including disbursement, beneficiary 
+management, and anticipatory action 
+modules.” It “supports proactive responses with 
+forecasting data and trigger management” and 
+assigns users “specific roles with predefined 
+permissions.
+Key dashboard features include:
+Real-time monitoring of funds allocation 
+and disbursement
+Beneficiary data management and 
+verification tools
+Project activity tracking and stakeholder 
+communication
+Integration of multiple weather forecast 
+sources
+Visualization of risk areas and affected 
+populations.
+To address potential connectivity challenges 
+in times of natural disaster, the Rahat app’s 
+•
+•
+•
+•
+•
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+12
+
+--- Page 17 ---
+Figure 8. How Rahat’s anticipatory action platform works
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+13
+
+--- Page 18 ---
+offline functionality allows transactions to be 
+processed without internet connectivity. It syncs 
+transactions when connected to the internet, 
+but double spending can still occur, which 
+needs to be resolved manually.6 Rahat employs 
+several strategies to overcome connectivity 
+challenges:
+SMS-based communication: Essential for 
+areas with basic cellular service but limited 
+internet
+Interactive Voice Response: Enables 
+communication with beneficiaries who may 
+have limited literacy
+QR card distribution: Physical cards 
+containing QR codes that represent digital 
+tokens for beneficiaries without phones.
+Beneficiary Access Mechanisms
+For beneficiaries in remote areas who lack 
+technical knowledge and smartphones, Rahat 
+uses “custodial wallets” managed by Rumsan, 
+that allow beneficiaries to control their wallets 
+through SMS. Simply put, a “custodial wallet” 
+is a digital wallet managed by a third party on 
+behalf of the user. This means beneficiaries can 
+access and control their funds through simple 
+SMS commands without needing to navigate 
+the wallet which is sometimes a new and 
+potentially foreign digital technology for them. 
+This approach helps ensure financial access and 
+inclusion for beneficiaries in the Terai region 
+who have limited digital literacy.
+The platform supports three primary methods 
+for beneficiaries to access aid:
+Mobile-based access. For beneficiaries 
+with smartphones who can use a dedicated 
+app. They do not use the Rahat dashboard 
+— only stakeholders involved in aid 
+distribution and/or monitoring do.
+SMS-based access. For those with basic 
+mobile phones but no internet access
+QR card system. For individuals without 
+phones, providing a physical token that can 
+be redeemed at predesignated local stores.
+Figure 9. Rahat dashboard
+That is, re-recorded or re-entered in the ledger.
+6
+•
+•
+•
+•
+•
+•
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+14
+
+--- Page 19 ---
+A payment service provider involved in the 
+project explained that their role was “to 
+disperse funds, leveraging their offline service 
+provider status, which is crucial during natural 
+disasters when digital services may fail.” This 
+multimodal approach ensures that even the 
+most technologically disconnected populations 
+can be served.
+Financial Service Integration
+To facilitate cash transfers, Rahat integrates 
+with existing financial service providers while 
+maintaining blockchain verification. The 
+platform has “partnered with UNICEF and other 
+organizations, impacting more than 80,000 lives 
+through various projects.”
+The system accommodates multiple financial 
+distribution channels:
+Direct mobile money transfers for unbanked 
+beneficiaries
+Cash and value vouchers redeemable 
+through local vendors
+Bank transfers where traditional banking 
+infrastructure exists
+Local agent networks for areas without 
+formal banking presence.
+The flexibility of these distribution methods 
+allows Rahat to operate effectively across 
+varying contexts while maintaining the 
+accountability advantages of blockchain 
+technology.
+Rahat consolidates information management 
+for disaster-relief stakeholders in the form of 
+a dashboard and helps to coordinate roles 
+and responsibilities for each stakeholder, 
+improving accountability (see Figure 9). An 
+official at a development organization, who 
+otherwise was skeptical about the efficacy of 
+blockchain technology, explained this benefit to 
+us: “the main value proposition with the Rahat 
+platform is to simplify. It is centralizing a lot of 
+these different functions that previously were 
+siloed. Say there was one function that was 
+directly transferring bank to bank. There was 
+information through WhatsApp, through email. 
+You want to get all that into one place to make 
+it easier, just one central system where you 
+Figure 10. Workshop on user-centric design of the Rahat platform for anticipatory action, 2024 (Source: “Workshop on 
+User-Centric Design of Rahat platform for Anticipatory Action, 2024,” Rahat) 
+•
+•
+•
+•
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+15
+
+--- Page 20 ---
+Figure 11. Advantages of blockchain for humanitarian aid
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+16
+
+--- Page 21 ---
+have communication, coordination, information 
+management, and access to the actual weather 
+forecast.”
+Despite its clear operational gains and its role 
+in addressing many pain points for delivery 
+organizations and other aid stakeholders 
+concerning existing cash-transfer programs, 
+the Rahat platform still faces several structural 
+barriers and design flaws that prevent it from 
+reaching its full potential.
+Implementation Challenges
+Digital financial illiteracy is one of the 
+common challenges with digital cash-transfers 
+programs, and Rumsan’s solution, Rahat, has 
+helped address this issue through digital 
+financial literacy workshops. Apart from the 
+workshops, community support systems and 
+local volunteers play a critical role in guiding 
+individuals through mobile money processes. 
+Beyond digital literacy, other implementation 
+hurdles include system integration difficulties, 
+infrastructure weaknesses, and limitations within 
+the mobile application itself.
+A notable issue has been the disconnect 
+between delivery humanitarian organizations 
+and Rumsan, the tech company behind Rahat. 
+As a technology-focused entity, Rumsan’s 
+design choices sometimes do not fully capture 
+the realities of field workers. For instance, 
+field staff often lack regular access to laptops, 
+yet the Rahat dashboard, crucial for viewing 
+and updating information, was not initially 
+designed for mobile access during this pilot 
+project. However, a mobile version of the app 
+is currently under development to address this 
+specific need.
+Future Technological Improvements
+To enhance the Rahat platform’s capabilities 
+and address existing limitations, several 
+technological improvements are in the pipeline. 
+These include:
+Development of mobile applications for 
+field teams. This directly addresses the 
+need for field staff to access and update 
+the Rahat dashboard on the go, improving 
+operational efficiency.
+Integration with artificial intelligence (AI) 
+for improved decision making. Leveraging 
+AI could further refine risk analysis and 
+anticipatory action triggers.
+Enhanced offline functionality for disaster-
+affected areas. This improvement is critical 
+given the potential for internet connectivity 
+disruptions during natural disasters, 
+ensuring continued operation when online 
+access is scarce.
+Expanded financial service partnerships 
+for broader reach. Increasing the network 
+of financial service providers will allow 
+Rahat to serve an even wider range of 
+beneficiaries.
+Incorporation of additional hazard 
+monitoring beyond flooding. While 
+currently focused on hydrometeorological 
+disasters like floods, expanding monitoring 
+to other hazards would broaden Rahat’s 
+applicability for comprehensive disaster risk 
+management in Nepal.
+	
+Key Findings of Our 
+Research 
+Anticipatory Action
+Anticipatory action in Nepal offers a number of 
+benefits when compared to traditional cash-
+transfer programs, although several limitations 
+persist. Previously, national legislation 
+restricted municipalities from distributing cash 
+to flood victims ahead of disasters, thereby 
+limiting proactive disaster response. However, 
+following the introduction of the Disaster Risk 
+Management framework in 2018, anticipatory 
+•
+•
+•
+•
+•
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+17
+
+--- Page 22 ---
+action was formally integrated as a disaster-
+response mechanism. Municipalities are now 
+responsible for convening disaster management 
+committee meetings and verifying beneficiary 
+data through elected local boards to determine 
+which households or beneficiaries will receive 
+relief and in what order. 
+However, while local governments possess 
+autonomy in disaster 
+management, they often 
+lack the financial resources 
+and operational frameworks 
+needed to implement 
+anticipatory action 
+effectively. Early Action 
+Protocols, developed in 
+collaboration with the Red 
+Cross and Red Crescent 
+Climate Centre in Nepal, 
+outline actions to be taken before floods and 
+identify the triggers and thresholds necessary 
+to initiate early warnings. In 2023 there was a 
+regional dialogue that generated evidence for 
+a political push on anticipatory action’s positive 
+impact. This dialogue resulted in a shared 
+goal to establish a national anticipatory action 
+clinic and roadmap along with a framework 
+for Anticipatory Action in Nepal by 2030, to 
+ensure it is recognized as a national process and 
+clarifies the role of the multiple stakeholders 
+involved. Overall, while anticipatory action 
+enhances preparedness and response, its 
+scalability hinges on improved funding 
+structures, institutional clarity, and coordination 
+across government tiers. 
+Why Blockchain?
+Blockchain technology presents a strong value 
+proposition for disaster relief by enhancing the 
+efficiency, transparency, and accountability 
+of cash-transfer systems. When effectively 
+implemented, blockchain can centralize 
+beneficiary data, streamline the anticipatory 
+action process, and consolidate stakeholder 
+responsibilities during emergencies. The 
+Rahat platform exemplifies this by reducing 
+duplication and ensuring accountability through 
+a transparent, traceable system. Before Rahat’s 
+adoption, many nongovernmental organizations 
+(NGOs) and local government actors relied 
+heavily on fragmented communication channels 
+— such as WhatsApp groups and ad hoc 
+spreadsheets — which often led to chaotic 
+coordination, information 
+silos, and inefficiencies in aid 
+distribution. 
+By contrast, Rahat’s 
+blockchain-based dashboard 
+manages both the early 
+action processes and the 
+disbursement of funds, 
+enabling multisignatory 
+transactions and real-time 
+monitoring. These features 
+help build trust — an essential element 
+in humanitarian aid contexts. Moreover, 
+blockchain systems mitigate the risk of fund 
+mismanagement and contribute to a more 
+transparent social protection infrastructure. 
+However, challenges remain, including 
+difficulties in real-time data updating for 
+field staff and ongoing concerns about data 
+protection and the secure management of 
+beneficiary information. Also, explanations of 
+blockchain technology to non-technical aid and 
+disaster risk stakeholders can create confusion 
+and discourage engagement and interest. Still, 
+compared to development-oriented cash-
+transfer programs, blockchain-based systems 
+offer greater reliability and traceability, though 
+they demand substantial technical capacity 
+and stronger intergovernmental coordination. 
+Ultimately, blockchain complements 
+anticipatory action by minimizing residual risk 
+and enhancing the integrity of aid delivery 
+mechanisms.
+Critical Success Factors
+For an anticipatory action blockchain solution to 
+work smoothly, it needs certain features built in 
+While anticipatory action 
+enhances preparedness 
+and response, its scalability 
+hinges on improved funding 
+structures, institutional 
+clarity, and coordination 
+across government tiers.
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+18
+
+--- Page 23 ---
+Figure 12. Rahat’s implementation challenges
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+19
+
+--- Page 24 ---
+from its design to implementation. For example, 
+the platform’s design has to support data 
+sharing and management efficiently and quickly, 
+as required by an early action approach to 
+disaster relief. Awareness workshops were also 
+highlighted as a central part of this initiative. For 
+it to be effective, beneficiaries must develop 
+self-sustainability through financial literacy and 
+understanding of anticipatory action. Strong 
+partnerships and coordination among both 
+implementing and non-implementing actors 
+of the project were also emphasized because 
+enabling collaboration can lead to greater 
+success. These insights point to important 
+considerations for the sustainability and scaling 
+of Rahat’s anticipatory action platform.
+Factor 1: Platform Design 
+Beneficiary management tool. Rahat’s 
+platform plays a crucial role as an information 
+management system. Users, including local 
+governments and humanitarian organizations, 
+emphasized that its value lies in the ability to 
+quickly and accurately identify beneficiaries, 
+centralizing all necessary data in one place 
+and reducing duplication. Once beneficiaries 
+are identified, their information gets uploaded 
+to the system, enabling rapid and efficient 
+selection and fund disbursement once the 
+trigger is activated. 
+Early warning messages. Another important 
+aspect of the platform is its early warning 
+message system. During the preparedness, 
+readiness, and activation phases, Rahat uses 
+multiple communication methods, such as 
+SMS and Interactive Voice Response (IVR), to 
+send early warnings quickly and effectively, 
+helping beneficiaries better prepare for and 
+understand the current climate forecast. In the 
+pilot program, most beneficiaries took proactive 
+measures after receiving early warning 
+messages.
+Figure 13. Reach Alliance team at the Rumsan office in Kathmandu
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+20
+
+--- Page 25 ---
+Municipal actors noted that the IVR tool, in 
+particular, proved highly effective for reaching 
+illiterate individuals because it provides voice 
+messages rather than text. Rahat not only 
+enhances reliability by supporting multiple 
+activations in a short time but also significantly 
+improves inclusion and accessibility. In 
+addition to these digital tools, door-to-door 
+communication by local volunteers from 
+the Nepal Red Cross further extended the 
+platform’s reach, ensuring critical messages 
+reached even the most vulnerable communities.
+Stakeholder communication. A major success 
+factor in Rahat’s pilot was the way it enhanced 
+communication and improved transparency 
+and accountability among stakeholders. The 
+Rahat dashboard allowed for real-time activity 
+tracking, enabling stakeholders to assign 
+tasks based on the early action protocol and 
+allocate responsibilities to specific groups. This 
+clear division of roles made it easier to follow 
+up on early action tasks, allowing for a more 
+systematic and efficient response. 
+Before using Rahat, stakeholders relied on an 
+“informal” network of communication, mainly 
+through WhatsApp, phone calls, and emails. 
+However, as a Danish Red Cross officer noted, 
+“If I don’t check my phone for 30 minutes, 
+there’s going to be 100 notifications, and it’s 
+difficult to go through that, and then you can 
+miss out on important information,” adding 
+that for “someone from headquarters level, 
+it is quite overwhelming.” This underscores 
+how relying on informal channels can create 
+serious implementation challenges, especially 
+during the high-pressure period following a 
+trigger activation, including missed information, 
+overlapping responsibilities, and limited 
+accountability or coordination among actors.
+Humanitarian workers noted that the 
+information recording tool in the Rahat platform 
+was particularly valuable for how it brought 
+together diverse stakeholders, given that 
+anticipatory action is a layered process with 
+responsibilities distributed across different 
+levels. This structure allowed everyone 
+involved to track progress, identify who was 
+responsible for specific tasks, and maintain a 
+record of critical information throughout the 
+project phases. This approach not only clarified 
+individual roles but also strengthened overall 
+communication across various levels of the 
+response.
+Finally, in addition to improving communication, 
+Rahat now also supports task and resource 
+coordination workflows. For example, it can 
+automatically trigger early activities like drain 
+clearing after certain forecast thresholds. This 
+functionality expands Rahat’s anticipatory 
+action beyond just cash assistance to also 
+support broader operational readiness during 
+the time of disaster.
+Factor 2: Awareness Workshops 
+Rahat’s awareness and capacity-building 
+workshops on digital financial literacy and 
+anticipatory action were also a success factor 
+of the initiative. These sessions not only raised 
+awareness about digital fraud risks but also 
+educated beneficiaries on the concept and 
+importance of anticipatory actions. Municipal 
+actors noted that these sessions significantly 
+improved community preparedness and 
+understanding since informed individuals 
+were more likely to evacuate to safer regions, 
+reducing the risk to human life. Local 
+government officials observed that these 
+programs helped reduce instances of fraud 
+because beneficiaries became more cautious 
+about sharing their phone numbers and 
+personal information, addressing past issues 
+where cash transfers were stolen.
+These workshops were also fundamental in 
+addressing digital illiteracy, even in areas 
+with low levels of digitization, by equipping 
+communities with the skills they needed 
+to foster digital self-resilience and self-
+sufficiency. Contrary to initial expectations, 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+21
+
+--- Page 26 ---
+some stakeholders emphasized that literacy 
+and digital literacy were less of a barrier in 
+Nepal than we expected. A staff member from 
+a payment service provider noted that low 
+literacy is “not an obstacle because when it 
+comes to these kinds of anticipatory actions, 
+there is always someone who is helping 
+them [beneficiaries] out ... Even if they are 
+illiterate, there is someone who is assisting 
+them.” They also stressed that the Nepalese 
+population’s rate of change with respect to 
+digital and financial literacy rates has improved 
+dramatically. For example, five years ago only 
+40 per cent of people had bank accounts but 
+that number has now doubled to 80 per cent. 
+During the implementation of the anticipatory 
+action project, several volunteers from the 
+Nepal Red Cross and local communities were 
+trained to support beneficiaries, demonstrating 
+that illiteracy can be mitigated, or at least 
+reduced, through community-based assistance 
+and volunteer engagement.
+This success factor directly contributed to 
+the outcomes observed in the effectiveness 
+of anticipatory action. As a staff member at 
+a local development organization told us, 
+anticipatory action goes beyond direct cash 
+assistance, with capacity building being one of 
+its primary benefits. “The actions we selected 
+for the anticipatory actions should not harm 
+the community but further build the resilience 
+for other hazards.” This shift in mindset and 
+understanding among beneficiaries can lead 
+to more efficient and impactful humanitarian 
+responses.
+Factor 3: Partnerships
+The Rahat project created a valuable 
+opportunity for collaboration between 
+humanitarian organizations and the tech sector. 
+Implementation partners like the Nepal Red 
+Cross Society and Danish Red Cross noted 
+that the project helped break down barriers 
+to digital technology adoption within their 
+teams, fostering a more innovative culture. This 
+marks an important step in demonstrating how 
+technology can be leveraged to fill critical gaps 
+in delivering anticipatory action. 
+At the same time, however, the project also 
+revealed challenges in establishing a broader 
+national and institutional framework for 
+collaboration. For example, despite Rumsan’s 
+central role, efforts to formalize partnerships 
+with certain government agencies proved 
+difficult. This highlights a key tension: while the 
+project had the potential to foster innovative 
+collaborations, it also exposed the institutional 
+and bureaucratic obstacles that continue to 
+hinder effective cross-sector coordination in 
+anticipatory action.
+Scaling and Sustainability
+Data Collection for Anticipatory 
+Action
+One of the biggest impediments to anticipatory 
+action’s broader adoption in Nepal is a lack of 
+data availability, caused by a lack of regional 
+and national partnerships aimed at broad 
+weather data collection. Anticipatory action 
+works best when shocks are cyclical and 
+relatively easily predictable, with ample data 
+from various local, national, regional, and global 
+sources to cross-check and validate each other. 
+These data sources are then collated to identify 
+the relevant levels of predictable variables that 
+can be used as triggers to initiate the required 
+early action protocol. As recently as 2014, 
+flood forecasting data in Nepal was extremely 
+unreliable, until the Department of Hydrology 
+and Meteorology undertook significant efforts 
+to improve the frequency and coverage of its 
+network of over 800 weather stations across 
+the country. These efforts, which include the 
+adoption of telemetrics (e.g., transition from 
+manual to automatic weather stations), have 
+allowed for significant improvements in the 
+Department of Hydrology and Meteorology’s 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+22
+
+--- Page 27 ---
+flood forecasts. However, relative to other 
+national contexts where anticipatory action 
+has flourished and been widely adopted, 
+Nepal’s forecasts are still unreliable, especially 
+significantly earlier in time from the actual 
+disasters. This lack of accurate forecasting data 
+has resulted in (1) mistrust from people living in 
+flood-prone areas who previously have ignored 
+early warnings and other communications 
+and (2) a reliance on other major weather 
+data collectors when developing anticipatory 
+action triggers (e.g., data from Global Flood 
+Awareness System).
+Complementing this past decade’s rapid 
+advancements in data collection and accurate 
+short-term flood forecasting, the Department 
+of Hydrology and Meteorology has set its 
+sights on impact-based forecasting and 
+partnered with international development 
+organizations to improve its flood forecasting 
+infrastructure and gain access to data from 
+other South Asian nations that Nepal shares 
+rivers with.
+Funding Concerns
+Aside from Rahat’s technical components, a 
+lack of sustainable funding has jeopardized the 
+progress of disaster risk-management efforts 
+in Nepal. Beyond the uncertainty introduced 
+by US President Donald Trump’s funding cuts 
+to USAID, which supported many disaster-relief 
+efforts in Nepal, major funders’ interests are 
+also moving away from anticipatory action, 
+according to international aid stakeholders. 
+Part of this stems from the short-term nature 
+of funding contracts, which haven’t provided 
+sufficient time to develop triggers, onboard 
+beneficiaries, and ultimately provide aid and 
+early warnings on a recurring basis during 
+each monsoon season. Longer-term funding 
+structures (e.g., ten years instead of three to five 
+years) would enable a clearer demonstration 
+of the long-run cost-saving and empowerment 
+benefits of anticipatory action. 
+To respond to such concerns about funding, 
+Rumsan is exploring other uses of blockchain to 
+raise funds. For example, it recently partnered 
+with a leading eyewear company to distribute 
+blockchain-based vouchers for free glasses in 
+countries across Southeast Asia and East Africa 
+using its Rahat platform. Rumsan believes these 
+organizations are able to commit to longer-
+term contracts that mitigate concerns about the 
+benefits of blockchain not being realized due to 
+initially slow digital infrastructure development.
+Application of Blockchain in Other 
+Development and Aid Contexts
+Similar to the use of Rahat to support corporate 
+foundations’ humanitarian efforts, Rumsan is 
+also exploring additional avenues to leverage 
+its blockchain platform, especially in regulatory 
+contexts that enable blockchain to be used 
+to its full potential. For example, Rumsan 
+Figure 14. International Federation of Red Cross and 
+Red Crescent Societies (IFRC) country delegation office 
+in Kathmandu
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+23
+
+--- Page 28 ---
+is exploring a pilot with UNICEF to carry 
+out blockchain-to-blockchain cash voucher 
+assistance. 
+In this proposed pilot, both the transaction 
+record and the movement of funds would occur 
+entirely on the blockchain. Unlike the Nepal 
+pilot with Danish Red Cross, which focused 
+on low-tech beneficiaries using SMS-enabled 
+custodial wallets, this initiative is designed for 
+recipients with greater access to digital tools 
+and information. These include previously 
+economically prosperous refugees who have 
+sufficient digital literacy to set up and manage 
+their own digital wallets. Aid would be delivered 
+in the form of cryptocurrency or stablecoins, 
+which are digital currencies pegged to stable 
+assets like the US dollar.
+The use of cryptocurrency or stablecoins in 
+humanitarian aid has several advantages: 
+it allows for faster disbursement, greater 
+transparency, and traceability of transactions, 
+and facilitates cross-border payments without 
+reliance on traditional banking infrastructure. 
+By enabling beneficiaries to transact directly or 
+off-ramp into local fiat currency, such models 
+allow for more autonomous and dignified forms 
+of aid.
+Innovations like this illustrate how the same 
+Rahat technology used in anticipatory action 
+can be adapted and localized to meet the 
+diverse development and humanitarian needs 
+of different regions. Even within Nepal, the 
+possibilities for scaling anticipatory action 
+technology are large. An official from a 
+development organization told us about the 
+potential for anticipatory action being used 
+in other disasters and national issues. “Nepal 
+struggles with dengue and heat. It would be 
+really nice if we could use [anticipatory action] 
+for three different early action protocols (flood, 
+dengue, heat) because at the end of the day, 
+[Rahat] is an information management system, 
+so why not use this in other contexts? The 
+possibility is quite immense.”
+Achieving the promise and scale of anticipatory 
+action is not an easy task, and much of it will 
+require significant shifts in policy, partnerships, 
+and technology from Rumsan and anticipatory 
+action stakeholders. In each of these three 
+areas, these scaling considerations inform our 
+lessons learned and implications.
+	
+	
+Lessons Learned
+Implication 1: Advocate and Build 
+Toward a National AA Framework
+Currently, there is no dedicated regulation or 
+policy on anticipatory action within Nepal’s 
+disaster-risk-management framework. This 
+regulatory gap poses significant challenges 
+to implementing anticipatory action at the 
+municipal level, where unclear mandates and a 
+lack of institutional support can hinder timely 
+and effective action. To address this, stronger 
+advocacy is needed, particularly during key 
+national platforms such as the annual National 
+Dialogue on Anticipatory Action. These 
+events offer a strategic opportunity to engage 
+stakeholders and build momentum toward 
+establishing a stronger national framework that 
+would provide the necessary policy guidance, 
+coordination, and institutional support to scale 
+anticipatory action initiatives across all levels of 
+government.
+Implication 2: Set Up Frequent 
+Touchpoints Between All 
+Stakeholder Groups
+As part of ongoing advocacy efforts to build 
+an effective anticipatory action framework, 
+constant communication with stakeholders is 
+key. To enhance coordination, we recommend 
+frequent and structured touchpoints, such as 
+working groups, consultation processes, and 
+regular coordination and planning meetings. 
+A central working group with key stakeholders 
+would help prevent duplication of efforts, 
+reduce fragmentation, and allow for better 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+24
+
+--- Page 29 ---
+alignment of roles, resources, and timelines 
+among partners. These mechanisms would 
+support up-to-date knowledge sharing, 
+ensure alignment of initiatives, and strengthen 
+joint efforts in policy advocacy. Ultimately, it 
+would foster a more cohesive and responsive 
+anticipatory action ecosystem in Nepal
+Implication 3: Crypto and Blockchain 
+Regulation in Nepal
+A major hindrance to the Rahat platform 
+realizing its full potential is the legal status of 
+cryptocurrencies in Nepal, which are completely 
+banned. However, the nation’s central bank, 
+the Nepal Rastra Bank, published a white 
+paper assessing the benefits of launching a 
+central bank digital currency (CBDC) in 2022, 
+demonstrating some government interest 
+in adopting and using cryptocurrency. By 
+advocating for further advancements in Nepal’s 
+cryptocurrency and blockchain policy, Rumsan 
+could deliver cash transfers to beneficiaries, 
+further streamlining and centralizing processes 
+through the Rahat platform.
+Implication 4: Use a Stakeholder-
+Based Blockchain Communication 
+Framework
+Instead of communicating the value of Rahat 
+and its blockchain technology architecture using 
+a one-size-fits-all approach for all stakeholders, 
+Rumsan should tailor its message. One of 
+the big pain points for people implementing 
+and delivering aid was their confusion with 
+blockchain, muddying its value proposition 
+and consequently reducing the trust they had 
+in Rahat. By solely communicating blockchain 
+technology and its applicability to funding 
+organizations and other high-level decision 
+makers, Rahat could avoid this and ensure 
+Area
+Finding
+Implications
+Policy
+There is currently no anticipatory 
+action regulation within the disaster 
+risk-management framework in 
+Nepal
+Cryptocurrency is illegal in Nepal
+Advocate and build toward 
+a national anticipatory action 
+framework 
+Set up frequent touchpoints 
+between all stakeholder groups to 
+avoid duplication of efforts
+Address obstacles in current crypto 
+and blockchain regulation
+Partnerships
+Barriers to building an extensive 
+national and institutional system for 
+collaboration
+There is an overlap of 
+responsibilities and roles
+Awareness programs are vital, but 
+there is a need to improve and 
+expand
+Use a stakeholder-based blockchain 
+communication framework
+Strengthen and empower local 
+government/community 
+Build financial sophistication 
+among local communities to ensure 
+self-sustenance of disaster relief 
+delivery
+Technology
+The platform was not designed for 
+offline use 
+Blockchain accounts for just a minor 
+part of the Rahat platform
+Explanations of blockchain 
+technology can create confusion 
+and discourage engagement and 
+interest
+Ensure continuous design 
+consultation with aid and delivery 
+organizations as the platform is 
+built out
+Create mobile and offline variations 
+to accommodate for ways of 
+working in the field
+Decouple platforms from 
+“blockchain” and instead focus on 
+information management
+Generate evidence to support 
+funding and scale-up
+•
+•
+•
+•
+•
+Table 3. Key implications for policy, partnerships, and technology
+•
+•
+•
+•
+	
+•
+•
+•
+•
+•
+•
+•
+•
+•
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+25
+
+--- Page 30 ---
+that stakeholders who need to know about 
+blockchain and its specifics have the information 
+they need, while not confusing stakeholders 
+involved in implementation.
+Implications 5 & 6: Awareness 
+Workshops and Community Self-
+Sustainability 
+Multiple stakeholders recognized awareness 
+workshops on digital financial literacy and 
+anticipatory action, conducted under the 
+Rahat anticipatory action initiative, as a best 
+practice. To build on this success, we strongly 
+recommend continuing these workshops 
+with increased frequency — both during the 
+preparedness phase and in the postflood 
+period. Additionally, conducting follow-up 
+assessments after flood events is essential to 
+evaluate their impact and identify opportunities 
+for improvement, ensuring the workshops 
+remain responsive to community needs and 
+contribute to long-term resilience.
+While financial illiteracy remains a potential 
+barrier, several stakeholders emphasized that 
+it is not one of the major obstacles in Nepal. 
+However, given its importance in strengthening 
+long-term resilience, we strongly recommend 
+continuing and expanding awareness 
+workshops aimed at building financial 
+sophistication among local communities.
+Implication 7: Ensure Continuous 
+Design Consultation with Aid and 
+Delivery Organizations As the 
+Platform Is Built Out
+Building on the approach established in this 
+anticipatory action project, it is crucial to 
+continue regular, user-centred consultations 
+throughout the platform’s development. 
+Incorporating feedback from diverse sectors, 
+especially from those who actively use the 
+platform, will ensure that its design remains 
+practical, effective, and aligned with on-the-
+ground needs. These ongoing consultations will 
+help bridge the gap between the technological 
+and humanitarian sectors by creating a platform 
+that is both technically robust and user friendly 
+for humanitarian actors. 
+Implication 8: Create Mobile and 
+Offline Variations to Accommodate 
+for Working in the Field
+Understanding the reality of the Rahat 
+platform’s end users — members of 
+development organizations delivering aid at 
+the municipal level — is pivotal. Their work in 
+the Terai area often means they have limited 
+access to the internet and have to rely on 
+spotty (although rapidly improving) mobile 
+data. Their work in the field is also arduous and 
+long, preventing them from being able to log 
+changes and mark tasks complete on the Rahat 
+dashboard (which is available on only desktop 
+computers and laptops). Frequent updates from 
+all stakeholders are crucial when delivering aid 
+through an anticipatory action approach so 
+the Rahat platform should be expanded to be 
+available on mobile data and potentially, offline 
+(similar to the Unstructured Supplementary 
+Service Data or USSD technology used by 
+Nepal’s leading digital payments companies 
+to execute money transfers without internet 
+access). Rumsan is already developing some 
+of these versions, demonstrating they are 
+receptive to feedback from their implementing 
+partners, who initially lobbied for offline and 
+mobile functionality.
+Implication 9: Decouple Platforms 
+from “Blockchain” and Instead Focus 
+on Information Management
+Although the Rahat platform incorporates 
+some blockchain technology, its core strength 
+lies in its function as an effective information 
+management system. Given that cryptocurrency 
+is illegal in Nepal and that blockchain 
+remains an unclear concept among many aid 
+stakeholders, Rumsan’s messaging should shift 
+away from “blockchain” and instead highlight 
+Rahat’s practical value as an information 
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+26
+
+--- Page 31 ---
+management tool. Overemphasizing the 
+blockchain aspect has, in some cases, led to 
+confusion or disinterest, limiting stakeholder 
+engagement and the expansion of the 
+platform’s adoption. 
+Implication 10: Generate Evidence 
+to Support Funding and Scale-Up
+Adopting a strong evidence-based approach 
+is essential to secure funding and support the 
+scale-up of Rahat. Continued engagement 
+in producing research can help demonstrate 
+anticipatory action’s impact and build 
+credibility with funders. To support this, we 
+recommend continued partnerships with 
+academic and research initiatives, such as 
+Rumsan’s collaboration with the Reach Alliance, 
+to produce rigorous evidence needed to shift 
+perceptions around blockchain and anticipatory 
+action, influence policy, and attract long-term 
+investment.
+Incorporating feedback from 
+diverse sectors, especially 
+from those who actively use 
+the platform, will ensure that 
+its design remains practical, 
+effective, and aligned with 
+on-the-ground needs.
+Figure 15. Beneficiaries learning how to navigate the system and early warning messages
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+27
+
+--- Page 32 ---
+Research Team
+Kamal Al-Alwan is an industrial 
+engineering student at the University 
+of Toronto researching the intersection 
+of technology and humanitarian aid 
+delivery, with particular expertise in 
+blockchain applications for disaster 
+response and climate resilience. Kamal 
+brings extensive experience in data 
+science and AI solutions from his work 
+at Northbridge Financial, University 
+Health Network, and Microsoft, 
+where he developed machine 
+learning models, automated complex 
+processes, and led cross-functional 
+teams on technology implementation 
+projects. His technical expertise spans 
+operations research, machine learning, 
+and cloud technologies, with a focus 
+on applying these tools to address 
+real-world challenges in healthcare, 
+finance, and humanitarian contexts.
+Arushi Dahiya graduated from the 
+University of Toronto with an honours 
+BA in international development 
+studies (co-op), political science, and 
+socio-cultural anthropology. She 
+has worked with the United Nations 
+Office on Drugs and Crime in Laos on 
+an alternative development project 
+focused on reducing illegal opium 
+cultivation and conducted research on 
+climate decarbonization strategies with 
+the 100 Resilient Cities initiative. She 
+has also researched social solidarity 
+economies and how marginalized 
+communities challenge capitalist 
+norms by focusing on prioritizing social 
+profitability over financial gains. As a 
+Jackman Scholar-in-Residence Fellow, 
+Arushi studied sustainability in higher 
+education, coding and analyzing 
+mission statements to assess higher 
+education institutions’ commitments 
+to, and framing of, sustainability.
+Laura Hochheim Thomé recently 
+completed her Master of Global 
+Affairs (MGA) at the University of 
+Toronto’s Munk School of Global 
+Affairs & Public Policy.  Across the 
+public sector, NGOs, and international 
+organizations, her work has focused on 
+migration and refugees, human rights, 
+and international development. As 
+a research intern at the International 
+Policy Centre for Inclusive Growth 
+(IPC-IG), she supported international 
+development research projects 
+on social protection policies in the 
+Global South. Laura was also a 
+research volunteer for the “Projeto 
+Vida Migrante Empreendedora,” a 
+project supporting the socioeconomic 
+integration of Venezuelan immigrants 
+in Porto Alegre (Brazil). She aims to 
+work in policy assessment, research, 
+and international development 
+projects for refugees and migrants, 
+particularly women in Latin America.
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+28
+
+--- Page 33 ---
+Vedant Iyer recently completed 
+his undergraduate degree at the 
+University of Toronto, where he studied 
+management, data analytics, and 
+economics. He recently interned in 
+McKinsey and Company’s Toronto 
+office, where he co-developed the 
+five-year corporate strategy for a 
+major crown corporation. He also 
+designed interview guides and 
+interviewed subject matter experts 
+to gather insights that validated 
+his team’s strategy development 
+work. Completing over ten pro-
+bono consulting projects, he has 
+supported large organizations like 
+Greenpeace and Jack.org and small 
+nonprofits and startups. Academically, 
+Vedant has conducted econometric 
+research on the impacts of foreign-
+educated students on democracy 
+and how shocks to electoral violence 
+affect political trust in Nigeria.
+Shristi Piya has over seven years 
+of experience driving digital 
+transformation in diverse sectors 
+like health, humanitarian aid, and 
+agriculture. She has led impactful 
+projects such as Hamro LifeBank, 
+AgriClear, and Rahat, leveraging 
+frontier technologies like blockchain. 
+As chief development and impact 
+officer at Rumsan, she develops and 
+implements strategic initiatives to 
+enhance organizational efficiency and 
+achieve company goals. Her dedication 
+extends to using Rahat (a flagship 
+product of Rumsan) to address several 
+real-world challenges in access to 
+finance for vulnerable communities 
+through innovative initiatives like 
+anticipatory action.
+Dilip Soman is a Canada Research 
+Chair in Behavioural Science and 
+Economics at the Rotman School of 
+Management, University of Toronto. 
+He has degrees in behavioural science, 
+marketing, and engineering, and 
+is interested in the applications of 
+behavioural science organizations 
+more generally, and for welfare and 
+policy in particular. He is the co-
+author of Managing Customer Value 
+(2022), author of The Last Mile (2015), 
+and co-editor of The Behaviorally 
+Informed Organization (2021), 
+Behavioral Science in the Wild (2022), 
+Cash Transfers for Inclusive Societies 
+(2023), and What Works, What Doesn’t 
+(and When) (2024). Dilip serves as 
+the director of the Behaviourally 
+Informed Organizations partnership. 
+He has taught in the USA, Hong Kong, 
+and Canada, and has worked with 
+several corporations, governments, 
+international organizations, and start-
+ups. His non-academic interests 
+include procrastination, cricket, travel, 
+and taking weekends seriously.
+Blockchain for Social Impact: Empowering Vulnerable Communities Against Climate Shocks in Nepal
+29
+
+--- Page 34 ---
+Rumsan, founded in 2013, is a frontier technology company 
+dedicated to driving social impact through innovative 
+solutions. Rahat is an open-source, blockchain-based solution 
+developed by Rumsan. It helps vulnerable communities build 
+resilience against climate shocks. By using mobile phones 
+and blockchain technology, Rahat delivers aid quickly and 
+reliably before, during, and after crises. Rahat has already 
+supported over 87,000 individuals and mobilized $243k worth 
+of humanitarian support to vulnerable individuals.
+https://www.rumsan.com
+The University of Toronto (U of T). Founded in 1827, the 
+U of T is Canada’s leading institution of learning, discovery, 
+and knowledge creation. One of the world’s top research-
+intensive universities, students learn from and work with pre-
+eminent thought leaders through a multidisciplinary network 
+of teaching and research faculty, alumni, and partners. 
+Consistently ranked among the top 10 public universities 
+worldwide, U of T has remarkable strengths in disciplines 
+that span the humanities, social sciences, sciences, and the 
+professions. U of T’s three campuses host 93,000
+undergraduate and graduate students from 159 countries,
+who are taught by 15,000 faculty.
+https://www.utoronto.ca
+The Center for Inclusive Growth advances equitable and 
+sustainable economic growth and financial inclusion around 
+the world. The Center leverages the company’s core assets 
+and competencies, including data insights, expertise, and 
+technology, while administering the philanthropic Mastercard 
+Impact Fund, to produce independent research, scale global 
+programs, and empower a community of thinkers, leaders, 
+and doers on the front lines of inclusive growth.
+mastercardcenter.org
+
+--- Page 35 ---
+Published by the Reach Alliance, October 2025
+Munk School of Global Affairs & Public Policy | University of Toronto
+reachalliance.org |       @ReachAllianceTO     TheReachAlliance

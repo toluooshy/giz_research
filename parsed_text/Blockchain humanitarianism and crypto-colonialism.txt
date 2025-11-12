@@ -1,0 +1,921 @@
+
+--- Page 1 ---
+Perspective
+Blockchain humanitarianism and crypto-colonialism
+Olivier Jutel1,*
+1University of Otago, Dunedin, New Zealand
+*Correspondence: olivier.jutel@otago.ac.nz
+https://doi.org/10.1016/j.patter.2021.100422
+SUMMARY
+The humanitarian sector has emerged as a powerful mechanism of legitimation for blockchain technology.
+Platform developers in the aid sector have been eager to showcase the promise of decentralization and en-
+crypted blockchain data as the inheritance of the world’s poor and developing nations. This article claims that
+humanitarian blockchain projects are inextricably linked to the politics of the crypto-economy, proprietary
+platforms, and a class of solutionists championing Silicon Valley’s cultural values. Blockchain humanitarian-
+ism has emerged through a private-public partnership (PPP) model in the non-governmental organization
+(NGO) sector that embraces tech disruption and innovation. Ethically sound blockchain humanitarian pro-
+jects are precluded by the inherent obscurantism of the technology, the inability to transpose blockchain’s
+governance logic in the social realm, and inextricable ties to the political economy of cryptocurrencies. Pro-
+jects in the developing world have thus embodied a colonial logic of techno-experimentation for platform de-
+velopers and imbricate the NGO sector into the PR logic of blockchain solutionism.
+INTRODUCTION
+In May, blockchain visionary and Ethereum creator Vitalik
+Buterin was lauded for making ‘‘one of the largest individual phil-
+anthropic contributions ever’’;1 a 1.5 billion USD donation of
+cryptocurrency toward India’s battle with COVID-19. It was a
+gesture demonstrative of the legitimacy shell-game that en-
+meshes crypto-speculators, blockchain humanitarians, and
+techno-solutionist boosters. Buterin gifted the India Covid-
+Crypto relief fund an assortment of cryptocurrencies including
+50 trillion Shiba Inu coins (SHIBs). His possession of over $1
+billion USD in SHIBs was a result of the coin’s creator, the pseu-
+donymous Ryoshi, gifting Buterin a 50% stake in SHIB. As a
+meme coin derived from the more well-known Dogecoin
+(The co-founder of Dogecoin Jackson Palmer has recently
+denounced his creation and the crypto-economy at large as
+‘‘right-wing, hyper-capitalist technology’’.),2 SHIB and Buterin
+are seemingly evincing a social proof of crypto’s power and hu-
+manitarian idealism, no matter how risible this insular subculture.
+This gesture of largesse also attempts to create a payment infra-
+structure to work around an anticipated prohibition of cryptocur-
+rencies in India. The donation also ensures a long stake and
+increased liquidity in SHIB as the founder of the India Covid-
+Crypto relief fund Sandeep Nailwal has pledged not to implode
+the currency.3 What is consistent with the humanitarian block-
+chain paradigm is a wedding of solutionist idealism with efforts
+THE BIGGER PICTURE
+A critical political economy approach to new technologies is key to discerning suit-
+able use cases from highly ideological projects. This perspective considers the emergence of blockchain and
+cryptocurrencies in the aid sector. The ability of blockchain enthusiasts to experiment with governance and
+payment platforms in the developing world is a result of the ascendant private-public partnership (PPP)
+model in the non-governmental organization (NGO) sector, which has increasingly aligned itself with Silicon
+Valley’s cultural values. This overview of ﬂagship blockchain projects ﬁnds end-user solutions and outcomes
+that principally serve a public-relations (PR) function for the broader crypto-economy and extend colonial
+legacies of experimentation in the developing world. This paper argues that blockchain humanitarianism is
+inseparable from crypto-colonialism as the developers, platforms, and rhetoric are interchangeable. A min-
+imal requirement for an ethically sound blockchain humanitarian project would involve acknowledging the
+risk and ideological extremism of crypto, the importance of developing world sovereignty, and the legacies
+of colonialism through technological abstraction. The ethical failings of the PPP model in this case should be
+read alongside the scholarship of Madianou and Nothias and point to the need for developing world platform
+self-determination analogous to the Non-Aligned Movement’s call for a New World Information and Commu-
+nication Order.
+ll
+OPEN ACCESS
+Patterns 3, January 14, 2022 ª 2021 The Author.
+1
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+--- Page 2 ---
+to undermine the developing world’s ability to regulate this
+radical technology, a concern for media hype and PR trium-
+phalism over long-standing impacts, and the inseparability of
+blockchain technology from the speculative economic logic of
+cryptocurrencies.
+This paper seeks to contextualize the emergence of block-
+chain technology within the humanitarian sector as a product
+of the broader political economy of cryptocurrencies and block-
+chain platforms. Drawing on my own work in the Paciﬁc4 and a
+brief outline of blockchain humanitarian applications and princi-
+ples, I argue that these projects advance blockchain control and
+the crypto-economy through the guise of humanitarianism. The
+signiﬁcance of this is that the people and economies of the
+developing world have become testing grounds for technologies
+that undermine the independence of developing world countries,
+continue colonial legacies of value extraction, and contribute to
+the PR hype that is central to inﬂating cryptocurrencies. Block-
+chain white papers and project reports consistently skirt the
+questions of risk, technological and political suitability, and no-
+tions of end-user empowerment that are context speciﬁc.
+I turn ﬁrst to blockchain’s ‘‘treacherous vocabulary’’5 in
+arguing that enthusiasts do not promote speciﬁc use cases so
+much as the idea of blockchain as a new universal metaphor
+for our networked future. Blockchain is thus a ‘‘digital teleology’’6
+or universalist narrative premised on capturing all forms of social
+value as immutable data. The claims to algorithmic governance
+and pure mediation makes this technology obscurantist and
+difﬁcult to untangle from rhetoric and ideology. Robert Herian
+describes this as ‘‘the psycho-politics of blockchain’’ in which
+a fear of the social and pathological distrust of the other is over-
+come through this universal technological metaphor.7 He writes
+that this technological faith is ‘‘replete with types of religiosity
+and crytophoric symbolization that were once the preserve of
+spiritual authorities but now intermingle economic and political
+power.’’7 It is in this vein that Joe Lubin, founder of the block-
+chain startup incubator ConsenSys, has described Buterin as
+‘‘a genius alien that [has] arrived on this planet to deliver the
+sacrosanct gift of decentralization.’’8
+The presence of blockchain in the humanitarian sector is a
+result of a neoliberal emphasis on public-private partnerships,
+audit and procurement efﬁciencies, and the diminished role of
+the developing world state in social provision. Neoliberalism is
+a contested concept but can be broadly understood as the
+privileging of the market and price signals over the public sector.
+Blockchain advocates claim both the perfection of this market
+logic through the tokenization of all value and a transcendence
+of the state with concepts such as web3 or the metaverse.
+What is characteristic about projects such as the World Food
+Program’s Building Blocks and efforts in self-sovereign identity
+(SSI) is a hedging on future use cases and the assumption that
+more services will be absorbed by blockchain. While blockchain
+humanitarian use cases might be modest in scale, rhetorically
+they are essential in promoting the cultural values of Silicon Val-
+ley. Experiments in disaster relief, digital identity, and gover-
+nance may burnish the innovation credibility of aid agencies or
+generate media hype for a particular blockchain. In this way, hu-
+manitarian projects are inextricably linked to the grandiose pro-
+nouncements and speculation of the broader crypto-economy
+from El Salvador to Facebook’s Libra. In the case of Vanuatu,
+Oxfam’s ﬂagship blockchain project operates alongside the
+most dubious elements of crypto and against government at-
+tempts to regulate in the public interest. Beyond experimentation
+in the humanitarian sector, this technology has enabled neocolo-
+nial land grabs and forms of platform control that seek to impose
+blockchain as law in the developing world.
+AN OBSCURANTIST PARADIGM
+The central premise of blockchain technology is that the produc-
+tion of encrypted, distributed, and immutable data is a universal
+governance principle capable of solving all manner of social is-
+sues. The digital ledger created by the Bitcoin blockchain serves
+as the progenitor of this ideal. If one can cast aside the stag-
+gering environmental impact, the failure of Bitcoin to function
+for its purported purpose as money and the advent of a
+crypto-oligarchy, or crypto ‘‘Whales,’’ more fraudulent than the
+ﬁnancial system it intended to replace, then it can be said that
+the Bitcoin blockchain functions well. (One of the more stunning
+examples of the crypto economy’s failure is the stablecoin
+Tether which was founded by Bitcoin Foundation president
+Brock Pierce. In attempting to address crypto’s price stability
+problem Tether issues coins that it claims are backed by the
+equivalent USD, allowing users to lock in prices for crypto trans-
+actions. In practice the issuance of $62 billion USD in Tether has
+been a key driver in the surge of Bitcoin in 2020 and is the prin-
+ciple source of crypto liquidity. An investigation by the New York
+Attorney General’s ofﬁce has forced Tether to report that only
+2.9% of its reserves are cash creating an excessive leverage sit-
+uation worse than Lehman Brothers.9) Bitcoin miners are
+economically incentivized to create the immutable record of
+every bitcoin transaction through the energy intensive encryption
+protocol referred to as ‘‘Proof of Work.’’ The entirety of this uni-
+verse is well-represented by the blockchain up until the point a
+crypto-exchange is hacked or a fallout within the community
+leads to a ‘‘fork’’ in the blockchain. While a narrow technological
+success, bitcoin and blockchain are better thought of as ‘‘politics
+masquerading as technology.’’10 The ideal of subjects enriched
+by a God vista of data and freed from mediating institutions re-
+mains the last utopian narrative of the digital in the current
+‘‘Techlash.’’ For the converted, sending Dogecoin ‘‘to the
+moon’’ or other meme-fueled speculative rushes into crypto
+functions as a social proof of blockchain’s revolutionary status.
+These ideals have migrated to governance platforms through
+Buterin’s Ethereum blockchain. Buterin’s innovation was to
+allow any developer to launch other coins or digital applications
+on Ethereum. While this has largely meant the proliferation of
+crypto pump-and-dump schemes, the dream of smart con-
+tracts, digital autonomous organizations, and ‘‘a technical
+agency separate from the messiness of society and the
+economy’’ 11 resides in Ethereum. Ethereum co-founder Joe Lu-
+bin is the emissary of blockchain governance, having created the
+blockchain company and start-up incubator ConsenSys. Lubin
+professes faith in a ﬂourishing of human creativity through the
+blockchain ‘‘tokenization of everything.’’12 Behind the cyber-uto-
+pian rhetoric of disintermediation, decentralization and SSI are
+problems associated with the highly mutable nature of block-
+chain values and language. Blockchain is a sectarian space
+with rival platforms and communities vying to become the
+ll
+OPEN ACCESS
+2
+Patterns 3, January 14, 2022
+Perspective
+
+--- Page 3 ---
+standard bearer. A lack of standardization means competing
+factions are often clear about the shortcomings of a rival block-
+chain not living up to the principles of ‘‘Satoshi’s Vision.’’ (Of note
+here is BSV or Bitcoin Satoshi Vision which was a fork from the
+Bitcoin blockchain in 2018 ostensibly aimed at scaling block-
+chain with larger blocks of data. Its founder Craig Wright has
+claimed to be Bitcoin’s creator, the anonymous Satoshi Nako-
+moto, which provoked what is known as the ‘‘Bitcoin civil
+war.’’) Attempting to transpose algorithmic consensus protocols
+onto governance questions that exceed the discreet units and
+transactions of cryptocurrencies means that the blockchain met-
+aphor is highly contested and open to competing interpretations.
+Blockchain can be thought of as an obscurantist paradigm in
+which a purity of purpose overrides the necessity for design
+grounded in an understanding of existing human systems.
+The problems with implementation become self-evident in the
+need for a less wasteful consensus algorithm. Where Bitcoin re-
+wards computational power and energy consumption, Ether-
+eum’s Proof of Stake and Proof of Authority bestow upon coin/
+token holders the authority to validate transactions. This repre-
+sents a formalization of the centralized class power that under-
+girds blockchain. One can make abstract arguments about
+staking and tokenizing different forms of value, but the power
+of Whales and platform developers trumps any notion of a block-
+chain-decentralized community. This proposed alternative to the
+environmental cost of Proof of Work has not scaled and works
+only within private, centralized blockchains. Buterin’s much-
+touted Ethereum 2.0 remains ‘‘18 months away,’’ a horizon
+that David Gerard points out has been invoked consistently since
+2014.13 That does not stop blockchain enthusiasts from making
+claims to immutable truth often by lobbying governments to lend
+their power and legal imprimatur. From El Salvador’s recognition
+of crypto as legal tender, Arizona’s Electronic Transaction Act
+declaring blockchain ‘‘uncensored truth,’’5 or the various memo-
+randums of understanding (MOUs) signed between developing
+world countries and developers; this grand technology of disin-
+termediation attempts to reconcile its contradictions through
+the power and legal imprimatur of the state, NGOs, and suprana-
+tional institutions.
+BLOCKCHAIN HUMANITARIANISM AND NEOLIBERAL
+GOVERNANCE
+Blockchain humanitarian projects and partnerships with aid
+agencies have been a critical means of conferring legitimacy
+upon the claims of blockchain boosters. The technology’s emer-
+gence in this space is symptomatic of a neoliberal aid model that
+embraces PPPs, touts digital technologies under the rubric of efﬁ-
+ciency, and creates competition incentives for project funding.14
+Conceptions of ethical best practices for blockchain and other
+emerging technologies operate within these core principles of
+competitiveprocurement,auditculture,and transparency.Inaddi-
+tion to these governance principles, digital technologies are also
+synonymous with the rhetoric of individual empowerment and
+the ability to ‘‘correct the asymmetries on which humanitarianism
+is based.’’14 Blockchain advocates have positioned their projects
+as responsive to these imperatives and the humanitarian
+ethical best practices of ‘‘humanity, neutrality, impartiality, inde-
+pendence . [and] dignity.’’15 Furthermore, blockchain’s transfor-
+mational power is seen going beyond moribund and unresponsive
+bureaucracies, whether for the developing world state or tradi-
+tional aid. A report from the Overseas Development Institute, a
+European tech-humanitarian advocacy group, claims that the
+problems with inequities in aid lie in too limited an application of
+blockchain. This is a problem of blockchain projects ‘‘adopt[ing]
+a reformative, rather than transformative, approach . reproduc-
+ing many of the underlying power dynamics, hierarchical struc-
+tures, funding ﬂows, and deployment strategies that already exist
+in traditional humanitarianism.’’16 Blockchain thus represents the
+height of the market-led neoliberal approach to the development
+sector while presenting itself as a transcendent technology of
+empowerment.
+The most high-proﬁle application of blockchain in this manner
+is the World Food Program’s (WFP) Building Blocks. It is a project
+hatched in the WFP’s Innovation Accelerator that embraces the
+PPP model and Silicon Valley mantras in its branding: ‘‘Innova-
+tion to #DisruptHunger.’’17 The program centers on an Ethereum
+software platform for cash aid developed inside a Syrian refugee
+camp and is the ‘‘largest implementation of blockchain technol-
+ogy for humanitarian aid in the world.’’18 Recipients submit to a
+retinal scan, which functions as a unique digital identity analo-
+gous to a bitcoin wallet from which they can access a balance
+and make and receive payments. I will return to the ethical ques-
+tions of biometrics and digital identity, but ﬁrst, the contours of
+the blockchain are notable. As a private and permissioned sys-
+tem, this is the epitome of a database masquerading as a block-
+chain. There is no mining or consensus algorithm, and by the
+WFP’s own admission, scaling into an actual blockchain remains
+a speculative horizon dependent on the participation of other in-
+stitutions. UN Women has launched a pilot on Building Blocks
+and concludes the unrealized potential of blockchain serves
+‘‘as a stepping-stone towards broader collaboration within the
+humanitarian cash ecosystem.’’19 In this way, aid recipients are
+not the liberated subjects of blockchain so much as the test sub-
+jects for enterprise software that ﬁts the innovation rubric. The
+watchword of innovation pushes the ethical premises of tech-hu-
+manitarianism and PPPs to absurdity in the case of the WFP’s
+partnership with the CIA-funded American national security
+contractor Palantir, notorious for its lack of transparency.20
+Thus, blockchain’s governance ideal of immutable data creates
+technological affordances to entrenched geopolitical interests,
+bureaucratic intermediaries, and the shadowy world of private
+intelligence to survey and intervene in conﬂict zones and the
+developing world.
+Despite these shortcomings, the aid sector continues to
+champion one of the more grandiose ideas of blockchain, SSI.
+SSI has been the central metaphor of the blockchain-liberated
+subject immersed in web3, able to leave the state and mediating
+institutions behind. Blockchain and SSI have ﬁgured prominently
+among the solutions for digital identity in the developing world
+despite being ‘‘a ﬂexible and ambiguous concept.’’21 What the
+scaling up and integration of projects like Building Blocks prom-
+ise is a ﬂexible governance system that can use algorithmic trust
+as a workaround to perceived developing world dysfunction or
+institutional weakness. Refugees are seen as the chief beneﬁ-
+ciaries of a system of portable identity, stored on the blockchain,
+that includes biometrics, ofﬁcial documents, and social media
+data. As Joe Lubin puts it in explicitly cyber-libertarian terms,
+ll
+OPEN ACCESS
+Patterns 3, January 14, 2022
+3
+Perspective
+
+--- Page 4 ---
+the self-sovereign is ‘‘less enthralled to their governments and
+less subject to adverse situations . if someone is ejected
+from their country . they can reconstitute their life.’’22 This
+narrative of digital refuge has been invoked by crypto-advocates
+with the recent American withdrawal from Kabul resulting in Af-
+ghans ‘‘embark[ing] on an arduous and dangerous escape’’
+with Bitcoin allowing the ‘‘transfer [of] whatever wealth they
+have
+across
+borders.’’
+(The
+champion
+of
+blockchain
+in
+Afghanistan and the subject of this Coin Desk article is Roya
+Mahboob. Mahboob has been seen as an exemplary ﬁgure of
+private sector techno-humanitarianism and was named to the
+TIME 100, with an entry written by Sheryl Sandberg, for her
+championing of women’s digital education. She is also an
+ambassador
+for the Global
+Blockchain
+Business Council
+(GBBC) and coach of the Afghan women’s robotics team. Her
+team’s success in Estonia ‘‘was in part paid for with a bitcoin
+award that Mahboob had earned earlier that year at the annual
+Blockchain Summit on Necker Island.’’ The role of Richard Bran-
+son and the politics of the GBBC’s blockchain humanitarianism
+will be discussed further along.)23 Circumventing the developing
+world state through individual digital rights may represent
+mobility for some, while for others it will mean the ability of the
+global North to replace universal rights with digital risk assess-
+ment and the ‘‘segregation of the global population into relatively
+closed groups of varying value.’’24 The ongoing discussions
+around non-proprietary standards for SSI, on or off chain func-
+tionality, does little to change the contours of a tech-humanitar-
+ianism that allows blockchain developers to extract value from
+the global South.
+SOLUTIONISM, PR, AND THE AID SECTOR
+Blockchain developers are to able take advantage of the most
+ethically suspect aspects of the PPP aid model through maxi-
+malist rhetoric and the PR logic that bind crypto and blockchain
+humanitarianism. The claims of crypto and blockchain advo-
+cates are interchangeable as a universal governance infrastruc-
+ture that lowers and equalizes the cost of ﬁnancial and digital
+inclusion. The WFP conﬂate crypto and blockchain humanitari-
+anism in citing among their press clippings for Building Blocks
+the article ‘‘Transforming the Social Sector: Bitcoin and Block-
+chain for Good.’’25 With a seeming critique of ﬁnancial elitism,
+advocates have presented crypto as a progressive and human-
+itarian cause with the rallying cry of ‘‘banking the unbanked.’’
+Blockchain’s public relations and institutional apparatuses,
+whether the Bitcoin Foundation, Global Blockchain Business
+Council, or the MIT Media Lab Digital Currency Initiative, empha-
+size this notion that the principle beneﬁciaries of decentralization
+will be the world’s poor. When Facebook announced Libra (now
+Diem), the digital payment system nominally backed by a block-
+chain, the promotional materials offered visually lush representa-
+tions of the developing world and the promise of inviting
+everybody ‘‘to the global economy with the same ﬁnancial
+opportunities.’’26 In more ﬂamboyant terms, the director Spike
+Lee, in his video for CoinCloud entitled ‘‘Old Money is Out,
+New Money is in,’’ offers a funk-infused celebration of diversity
+and bitcoin ATMs. He describes crypto as ‘‘positive, inclusive,
+ﬂuid, strong, culturally rich’’27 in contrast to Fiat currency’s
+exploitative character. The language of rebellion, iconoclasm,
+and anarcho-capitalism are never far from the surface even in
+the policy documents of Oxfam that describe cryptocurrencies
+as ‘‘retalia[tion]’’ for the ﬁnancial crisis ‘‘with a digital currency
+believed to be impervious to unpredictable monetary policies
+or political inﬂuence.’’28
+The intertwining of crypto’s PR logic and notions of economic
+development, social justice, and humanitarianism in blockchain
+discourse owes to its status as a ‘‘techno-solution’’ 29 par excel-
+lence. Solutionism is the view that human systems can and
+should be perfected through the mandates of computation and
+the privileged class of technologists, programmers, and tech-
+capitalists who wield these universal skills. In the case of
+blockchain, data encryption and decentralization are universal
+principles that can solve human governance systems through
+self-executing code. There is no better proving ground for block-
+chain than the aid and NGO sectors, which increasingly avail
+themselves to solutionist experimentation through the PPP
+model. A combination of platform ‘‘philanthropy’’30 and the inter-
+ventions of the US State Department with initiatives such as
+‘‘Civil Society 2.0’’ and ‘‘Tech Camp’’31 are crucial in creating a
+vision of social empowerment and transformation through Sili-
+con Valley platforms. Hackathons, solutionist innovation, and
+performative entrepreneurialism have become ideals in this
+space, which encourages a blurring of boundaries between the
+goals of NGOs and platform developers. Developers are able
+to access funding streams for projects that boost the humanitar-
+ian cred of platforms and generate PR around potential proof of
+concept, while the embrace of solutionism for NGO workers
+may serve as a ‘‘rehearsal for future employment, partnerships,
+or investments.’’32
+Oxfam’s ‘‘Unblocked Cash’’ disaster relief blockchain is
+exemplary of this NGO solutionism. The program saw the launch
+of an ‘‘Oxlabs’’ innovation hub, which, like WFP’s Innovation
+Accelerator, is styled on the values of Silicon Valley disruption
+and
+bringing
+together
+developers
+such
+as
+Sempo
+and
+ConsenSys. Oxfam’s project leader Sandra Uwtange Hart exem-
+pliﬁes the ﬂuidity of PPP and solutionist space, serving as an
+ambassador for the international advocacy group the Global
+Blockchain Business Council before becoming the CEO for
+Emerging Impact, a consultancy ﬁrm centered on decentralized
+ﬁnancial services (DeFi) for the developing world. DeFi is a
+radical vision of a crypto ﬁnancial system based on Ethereum ap-
+plications and contracts, which allows participants to loan crypto
+and access credit and investments with astoundingly high inter-
+est rates. Key safeguards from traditional ﬁnance such as depo-
+sit insurance and know-your-customer rules do not apply, and
+DeFi systems are ‘‘plagued by hacks, fraud’’33 and account
+freezes. Presenting this as a solution to the unbanked of the
+developing world is highly ideological, presents intolerable risk,
+and lays bare the spurious distinctions between blockchain hu-
+manitarianism and crypto.
+The upselling of Unblocked Cash further dulls the distinctions
+between technological use cases and the public relations logic at
+the heart of blockchain solutionism. The plaudits and funding
+Unblocked Cash secured with the EU’s ‘‘Blockchain for Social
+Good’’34 prize features prominently in the self-narrativizing of
+Emerging Impact, Oxfam, and Sempo. Oxfam’s presentation
+to the EU Innovation Council is demonstrative of the way solu-
+tionism comes to mirror the performative style of a venture
+ll
+OPEN ACCESS
+4
+Patterns 3, January 14, 2022
+Perspective
+
+--- Page 5 ---
+capital pitch. Oxfam declares Unblocked Cash a scaleable solu-
+tion, stating, ‘‘we have the market, we have the network, we have
+the partners, we have the expertise.’’35 The project has also
+garnered attention for Sempo in Wired magazine as a solution
+to the problem of distributing stimulus checks during the COVID
+pandemic.36 While the ethical issues between capital, technol-
+ogy, and philanthropy are not exclusive to blockchain, it is a plat-
+form uniquely suited to the self-reinforcing cycles of solutionist
+hype regardless of project suitability (more on this below). As
+Gerard writes of Libra, the impetus may well be genuine but
+can only serve to cast problems and solutions in terms venture
+capitalists, tech developers, and crypto-billionaires under-
+stand.37 These imperial class politics become undeniable in
+the form of the Global Blockchain Business Council, which
+boasts having been conceived on Richard Branson’s Necker Is-
+land and launched at Davos.38
+BLOCKCHAIN COLONIALISM
+Blockchain colonialism in the developing world advances with
+a humanitarian face, taking advantage of a desire for techno-
+logical
+development
+and
+a
+regulatory
+weakness
+among
+developing world governments. Promises of technological
+leapfrogging and leading the charge toward a trillion-dollar dig-
+ital revolution appear as attractive alternatives to colonial leg-
+acies of dependence and the exploitation of natural resources.
+The exuberance of developers in the Paciﬁc has led to claims
+that indigenous societies are ‘‘naturally decentralized’’39 and
+uniquely positioned to develop the blockchain with ‘‘alternative
+economies and governance systems . deeply ingrained in our
+culture.’’40 In the developing world, blockchain advocates wield
+a narrative of authentic indigenous and blockchain values un-
+corrupted by mediating institutions. Shane Ninai of Papua
+New Guinea and Ledger Atlas has spoken of shell money as
+analogous to ‘‘proof of work’’ and communal structures as a
+‘‘consensus algorithm.’’41 In the Marshall Islands, a national
+cryptocurrency was touted by leaders as ‘‘manifesting our na-
+tional liberty’’ and marking them as the ‘‘ﬁrst nation to adopt a
+transparent crypto monetary system.’’42 The impetus to plant
+the blockchain ﬂag among developers and governments imbri-
+cates them in the logic of solutionist PR and blockchain trium-
+phalism. In the case of El Salvador’s president Nayib Bukele,
+his efforts in granting Bitcoin the status of legal tender has
+made him part of the crypto-elite, wielding the ‘‘aspirational
+chaos of cryptocurrency’’43 as a governance strategy to
+compensate for democratic deﬁcits. (A poll conducted by
+Francisco Gavidia University of Salvadoreans found popular
+sentiment regarding the legal implementation of Bitcoin as legal
+tender overwhelming negative with 49% of respondents ex-
+pressing ‘‘Uncertainty,’’ 29% ‘‘Fear’’ compared to 20% as
+‘‘Optimistic.’’)44
+The rollout of blockchain and other vanguard technologies in
+the developing world trace colonial histories, power imbalances,
+and the advance of western capital through technological
+abstraction. Madianou has described techno-solutionism in the
+aid sector as shifting ‘‘the risks of experimentation . to some
+of the most fragile environments in the world with value extracted
+for the beneﬁt of stakeholders including private entrepreneurs
+and large companies.’’45 The speculative logic of blockchain
+colonialism is evident in an extraordinary MOU between the gov-
+ernment of Papua New Guinea and Ledger Atlas, a Delaware-
+registered company backed by Silicon Valley venture capitalist,
+billionaire, and Bitcoin evangelist Tim Draper. The MOU sought
+to establish a blockchain ‘‘extraterritorial’’ special economic
+zone with Ledger Atlas acting as an ‘‘independent stand-alone
+administrative entity speciﬁcally constituted for regulating and
+administering the economic zone under the stewardship of Led-
+ger Atlas inc.’’46 Draper announced the project to a crowd gath-
+ered outside of Draper University in San Mateo, California,
+declaring the creation of a ‘‘virtual governance platform’’ using
+bitcoin and blockchain to serve as a ‘‘model for all governments
+in the world for the next ﬁfty years.’’47 While this agreement has
+yielded no tangible output, and the Ledger Atlas URL has since
+lapsed, it demonstrates the blockchain shell games of legiti-
+mation that leverage solutionism, tech-development, and the
+legal imprimatur of the state to obscure blockchain colonialism.
+The audacious failure of Ledger Atlas in PNG may appear as
+an excess of tech-capitalist hubris; however, it highlights the
+inseparability of ‘‘humanitarian’’ blockchain from proprietary
+platforms and design principles transposed from the private
+sector that lack context-speciﬁc knowledge suitable to devel-
+oping world societies.15 In Vanuatu, Oxfam’s aforementioned
+Unblocked Cash has been one of the ﬂagship humanitarian
+blockchain projects unfolding alongside the most unseemly ele-
+ments of the crypto-economy. Vanuatu’s status as a tax haven
+with citizenship-by-investment has made it a hub for wealth pro-
+tection, crypto scams, and libertarian fantasies of a tax-free
+island paradise. Vanuatu made headlines in the international
+business press with the shadowy businessman and govern-
+ment-approved passport broker Geoffrey Bond selling citizen-
+ship via Bitcoin.48 Bond would also go on to purchase land for
+a resort in Vanuatu with Sebastien Greenwood,49 the indicted
+co-founder of Onecoin, a cryptocurrency-style Ponzi/multi-level
+marketing (MLM) scheme that defrauded users of billions, partic-
+ularly in the developing world. Vanuatu has also provided citizen-
+ship for the creators of the billion-dollar scam Africrypt,50 and the
+sale of Vanuatu’s Paciﬁc Private Bank allowed the Lithuanian
+cryptocurrency Bankera to acquire a bank license, something
+denied to them in their home country.51 From its Vanuatu foot-
+hold, Bankera claimed to be a blockchain-driven digital bank
+and raised $150 million in what amounted to a conventional
+pump-and-dump initial coin offering with its value collapsing
+almost immediately.52 These developments were unwelcome
+in light of the Vanuatu government’s efforts to comply with the
+Financial Action Task Force’s anti-money-laundering standards.
+In response, the Reserve Bank of Vanuatu issued a statement
+‘‘strongly advising all corporate, ﬁnancial institutions, public en-
+terprises, and individual customers and public at large to refrain
+from involving themselves in Bitcoin.’’53
+A minimum requirement of any ethically sound humanitarian
+blockchain project should be to address the context of crypto’s
+highly speculative and techno-colonial logic as well as acknowl-
+edge the importance of Vanuatu’s economic sovereignty. These
+are distinctions that blockchain humanitarian projects fail to
+address, as they are imbricated in the solutionist hype machine
+that serves other priorities. Unblocked Cash’s self-reporting is
+laudatory, and my research beneﬁts greatly from it, but it under-
+scores the inseparability of these paradigms and a solutionist
+ll
+OPEN ACCESS
+Patterns 3, January 14, 2022
+5
+Perspective
+
+--- Page 6 ---
+myopia that evades ‘‘the rationale for choosing blockchain plat-
+forms.’’15 The project centers on cash aid in disaster response,
+with recipients receiving preloaded near-ﬁeld communication
+(NFC) cards with DAI-stable coins and approved vendors and
+distributers using smart phones to clear transactions and feed
+back information to Oxfam. Oxfam credits the system with
+‘‘modest cost-savings and signiﬁcant time-savings’’28 while
+acknowledging difﬁculties with user literacy and the highly
+centralized nature of the blockchain in which the core developer
+‘‘represents a single point of failure.’’15 What is characteristic of
+humanitarian and blockchain governance projects is how princi-
+ples of disintermediation fail or are abandoned when confronting
+the reality of network infrastructure and social systems. NFC
+cards help to work around connectivity issues but do not allow
+end-users to have ‘‘access or the literacy to comprehend the in-
+formation stored on the network.’’28 Its an end-user outcome
+that begins with the unexamined premise of blockchain solution-
+ism that ends up functioning as a private database.
+A crucial ﬁnding in their reporting on Unblocked Cash was that
+‘‘disintermediation was undermined by the reliance on incum-
+bent Financial Service Providers related to unforeseen complex-
+ities of actors cashing out of the system.’’28 Put simply, cash was
+a necessary mediator in this project for vendors as a result of the
+Reserve Bank’s crypto prohibition. However, this key regulatory
+framework and its political context go completely unacknowl-
+edged, and the subsequent recommendation ‘‘is to encourage
+vendors to exchange their DAI for ﬁat currency through third-
+party exchanges such as Binance . remov[ing] the reliance on
+incumbent ﬁnancial institutions.’’28 For the greater universal
+good of disintermediation, Oxfam shows blithe disregard of the
+Reserve Bank’s policy and declaration of ‘‘Vatu currency as
+the sole legal tender in the country,’’53 calling instead for a migra-
+tion to the vanguard institutions of crypto, namely crypto-ex-
+changes. Binance is a strikingly reckless recommendation, as
+the exchange has been banned in major markets54 and
+holds the largest stake in Tether,55 bringing with it the very likely
+risk of illiquidity. Such a recommendation can only be counte-
+nanced by a solutionist ignorance of crypto-politics or a desire
+to transform developing world governance over all else. As Ox-
+fam takes this program to Papua New Guinea, solutionist
+exuberance and speculation will continue to be deﬁning features
+of blockchain humanitarianism.
+CONCLUSION
+The failings of blockchain humanitarian projects owe to an
+inability to operate outside the solutionist PR machinery and
+the broader crypto-economy central to this technological para-
+digm. The partnerships between blockchain platform devel-
+opers, NGOs, and developing world governments invest all
+parties in the same PPP disruption model that champions Silicon
+Valley solutionism. For blockchain developers and evangelists,
+humanitarian headlines and aspirations are crucial to deﬂecting
+questions about environmental costs, immense concentrations
+of wealth, and crypto’s role in enabling all manner of criminal
+activity. Blockchain’s humanitarianism offers a redemptive
+trajectory in the face of the current techlash, as IBM’s ‘‘Dear
+Tech’’ apology campaign puts it: ‘‘let’s use blockchain to help
+reduce poverty.’’56 The emphasis has changed from explicitly
+crypto-radicalism, but the platforms, key movers, and valoriza-
+tion through PR remain the same. Governance blockchain’s
+lack of standardization, technical shortcomings, and new
+intermediating layers derive from the fact that claims to data
+immutability and consensus algorithms cannot be replicated in
+complex social systems. While there may be rancor within this
+paradigm, solutionism ensures a lack of self-awareness, as all
+parties are invested in their own claim to proof of concept and
+their purity of purpose. Scammers, evangelists, and humanitar-
+ians are interchangeable in this space. Forcefully confronting
+the techno-colonialism of Bitcoin Foundation president Brock
+Pierce, Silicon Valley scion Tim Draper or the Ethereum Whales
+Vitalik Buterin and Joe Lubin cuts against the interests of the sol-
+utionist class. Within these political economic contours, the
+prospects for a blockchain humanitarianism able to address
+the ethical concerns around experimentation and platform spec-
+ulation appear slim.
+Beyond this kind of speculation, it is worth considering brieﬂy
+the explicitly colonial objectives of organizing bodies and advo-
+cacy groups such as the GBBC. Blockchain governance pro-
+jects function as tools of digital cartography for developing
+world markets and for the extraction of value. The champion
+of this blockchain development paradigm is Hernando de
+Soto, principal economist on the GBBC board of directors,
+long-time political ally and advisor to the far-right Fujimori po-
+litical dynasty in Peru, and a key ﬁgure in forging the so-called
+‘‘Washington Consensus’’ of property rights and market re-
+forms in the developing world. de Soto has championed block-
+chain as a means to ‘‘end poverty’’ by bringing ‘‘undeveloped
+assets and resources worth $170 trillion’’ into the global market
+via a ‘‘single computer platform [that], can share the blessings
+of private-property registration with the whole world.’’57 The in-
+clusion of these resources through ‘‘organized knowledge
+about the location of every visible asset on earth’’28 serves to
+undermine the developing world state and precludes non-mar-
+ket conceptions of value. In Fiji, where 90% of lands have re-
+mained under indigenous control as a result of the anti-colonial
+struggle against the British,58 this digital cartography is unfold-
+ing under the auspices of the Asian Development Bank. A
+blockchain land registry, which builds in banks, insurance,
+and investment agencies as permissioned stakeholders59 in
+indigenous land tenders, has been key in efforts to rationalize
+land use under the rubric of the market. This prizing open of
+Fijian lands for appraisal and the streamlining of leases has
+provoked recent political unrest60 and the sense that tools of
+technological and market abstraction threaten indigenous sov-
+ereignty. Viewed in this way, blockchain humanitarianism is not
+simply the human face of the crypto-economy but an intensiﬁ-
+cation of the South-to-North extraction of value via solutionism
+and blockchain platforms.
+DECLARATION OF INTERESTS
+The author declares no competing interests.
+INCLUSION AND DIVERSITY
+While citing references scientiﬁcally relevant for this work, we also actively
+worked to promote gender balance in our reference list.
+ll
+OPEN ACCESS
+6
+Patterns 3, January 14, 2022
+Perspective
+
+--- Page 7 ---
+REFERENCES
+1. Sankaran,
+V. (2021). Ethereum Co-founder
+and Crypto
+Billionaire
+Donates $1bn to India Covid Fight – and Currency Instantly Plummets
+(Independent). https://www.independent.co.uk/asia/india/ethereum-
+founder-vitalik-buterin-cryptocurrency-b1847042.html.
+2. Locke, T. (2021). The Co-creator of Dogecoin Explains Why He Doesn’t
+Plan to Return to Crypto. CNBC https://www.cnbc.com/2021/07/14/
+dogecoin-co-creator-jackson-palmer-criticizes-the-crypto-industry.html.
+3. Sriram, M. (2021). A Billionaire Donated Crypto Meme Tokens Worth $1
+Billion to India. It May Just be Worth $50 Million – Here’s Why. Money
+Control
+https://www.moneycontrol.com/news/business/a-billionaire-
+donated-crypto-meme-tokens-worth-1-billion-to-india-it-may-just-be-
+worth-50-million-heres-why-6890501.html.
+4. Jutel, O. (2021). Blockchain imperialism in the paciﬁc. Big Data Soc.
+8, 1–14.
+5. Walch, A. (2017). Blockchain’s treacherous vocabulary: one more chal-
+lenge for regulators. J. Internet L. 21, 9–16.
+6. Jutel, O. (2020). Blockchain, affect and digital teleologies. In Affective Pol-
+itics of Digital Media, M. Boler and E. Davis, eds. (Routledge), pp. 101–115.
+7. Herian, R. (2019). Regulating Blockchain. Routledge, 140.
+8. Peck, M. (2016). The Uncanny Mind That Built Ethereum. Wired https://
+www.wired.com/2016/06/the-uncanny-mind-that-built-ethereum/.
+9. Tether. (2021). Tether Releases Breakdown of its Reserves. March 31.
+https://tether.to/wp-content/uploads/2021/05/tether-march-31-2021-
+reserves-breakdown.pdf.
+10. Golumbia, D. (2015). Bitcoin as politics: distributed right-wing extremism.
+In Moneylab Reader, G. Lovink, N. Tkacz, and P. De Vries, eds. (Institute of
+Network Cultures), p. 118.
+11. Zook, M.A., and Blankenship, J. (2018). New spaces of disruption? The
+failures of bitcoin and the rhetorical power of algorithmic governance.
+Geoforum 96, 253.
+12. Lubin, J. (2019). Highlight’s from Joe Lubin’s Ethereal NY Keynote 2019.
+(ConsenSys
+Media).
+https://media.consensys.net/highlights-from-joe-
+lubins-ethereal-ny-keynote-2019-7683c65d6d95.
+13. Noone, G. (2021). Bitcoin and the Environment: Crypto’s Uncertain Future.
+(Tech Monitor). https://techmonitor.ai/leadership/sustainability/bitcoin-
+and-the-environment.
+14. Madianou, M. (2021). Nonhuman humanitarianism: when ‘AI for good’ can
+be harmful. Inf. Commun. Soc. 24, 850–868.
+15. Baharmand, H., Saaed, N., Comes, T., and Lauras, M. (2021). Developing
+a framework for designing humanitarian blockchain projects. Comput. In-
+dustry 131, 103487.
+16. Coppi, G., and Fast, L. (2019). Blockchain and Distributed Ledger
+Technologiesd in the Humanitarian Sector. (Humanitarian Policy Group
+Commissioned
+Report).
+https://www.econstor.eu/bitstream/10419/
+193658/1/1067430997.pdf.
+17. World Food Programme (2021). Innovation accelerator. https://innovation.
+wfp.org.
+18. Wang, F., and De Filippi, P. (2020). Self-sovereign Identity in a Globalized
+World: Credentials-Based Identity Systems as a Driver for Economic Inclu-
+sion. (Frontiers in Blockchain). https://www.frontiersin.org/articles/10.
+3389/fbloc.2019.00028/full.
+19. U.N. Women (2021). UN women-WFP blockchain pilot project for cash
+transfers in refugee camps. https://reliefweb.int/sites/reliefweb.int/ﬁles/
+resources/un%20women-wfp%20blockchain%20pilot%20project%
+20for%20cash%20transfers%20in%20refugee%20camps%20jordan%
+20case%20study.pdf.
+20. Responsible Data (2019). Open letter to WFP re: palantir agreement.
+https://responsibledata.io/2019/02/08/open-letter-to-wfp-re-palantir-
+agreement/.
+21. Cheesman, M., and Slavin, A. (2021). Self-sovereign identity and forced
+migration: slippery terms and the refugee data apparatus. In Digital
+Identity, Virtual Borders and Social Media, E. Korkmaz, ed. (Edward Elgar
+Publishing).
+22. Stanley, A. (2017). US State Department Seeks Blockchain Boost
+amid
+$10 Billion
+Reboot.
+(Coin
+Desk). https://www.coindesk.com/
+markets/2017/10/12/us-state-department-seeks-blockchain-boost-amid-
+10-billion-reboot/.
+23. Casey, M. (2021). Money Reimagined: Afghan Activist Roya Mahboob
+on Crypto. Coin Desk https://www.coindesk.com/markets/2021/08/20/
+money-reimagined-afghan-activist-roya-mahboob-on-crypto/.
+24. Gstrein, O.J., and Kochenov, D. (2020). Digital identity and distributed led-
+ger technology: paving the way to a neo-feudal brave new world? Front.
+Blockchain 10, 17.
+25. World Food Programme (2021). Building Blocks: Innovation for Zero Hun-
+ger. (Innovation Accelerator). https://innovation.wfp.org/project/building-
+blocks.
+26. Jutel, O. (2021). Facebook Libra Cryptocurrency Ad. (YouTube). https://
+www.youtube.com/watch?v=ILDQ3xa4uGQ.
+27. Coincloud (2021). The Currency of Currency – Directed by Spike Lee.
+(YouTube). https://www.youtube.com/watch?v=5XMFEUNut18.
+28. Rust, B. (2019). Unblocked Cash: Piloting Accelerated Cash Transfer
+Delivery in Vanuatu. (Oxfam). https://oxfamilibrary.openrepository.com/
+bitstream/handle/10546/620926/rr-unblocked-cash-delivery-vanuatu-
+311019-en.pdf?sequence=1.
+29. Morozov, E. (2013). To Save Everything Click Here (Public Affairs).
+30. Nothias, T. (2020). Access granted: facebook’s free bascis in Africa. Me-
+dia, Cult. Soc. 42, 329–348.
+31. US Department of State (2019). Civil society 2.0. https://2009-2017.state.
+gov/statecraft/cs20/index.htm.
+32. Irani, L. (2019). Hackathons and the cultivation of platform dependence. In
+Digital Economies at Global Margins, M. Graham, ed. (MIT Press), p. 225.
+33. Hajric, V., and Greﬁeld, K. (2021). WhaleFarm Crash Is Latest Is Too Good
+to Be True DeFi Collapse. (Bloomberg). https://www.bloomberg.com/
+news/articles/2021-06-30/whalefarm-crash-is-latest-too-good-to-be-
+true-deﬁ-collapse.
+34. European Commission (2020). The Commission’s European Innovation
+Council awards V5 million to blockchain solutions for social innovations.
+https://ec.europa.eu/digital-single-market/en/news/commissions-
+european-innovation-council-awards-eu5-million-blockchain-solutions-
+social.
+35. NGI (2020). Blockchains for social good. https://www.ngi.eu/wp-content/
+uploads/sites/48/2020/02/16.-OXBBU.pdf.
+36. Adolﬁni, S. (2020). The US Could Deliver Cheques Faster – with
+Tech’s
+Help.
+(Wired).
+www.wired.com/story/opinion-the-us-could-
+deliver-stimulus-checks-faster-with-techs-help/.
+37. Gerard, D. (2020). Libra shrugged: how facebook tried to take over money.
+www.davidgerard.co.uk/blockchain/libra/pp.93.
+38. GBBC (2021). About GBBC. https://gbbcouncil.org/about/.
+39. Southurst, J. (2021). ‘Naturally Decentralized’ Island Nations like Tuvalu
+Are Perfect for Blockchain Ledgers, Says Forum. (Coingeek). https://
+coingeek.com/naturally-decentralized-island-nations-like-tuvalu-are-
+perfect-for-blockchain-ledgers-says-forum/.
+40. Rollins, A. (2017). Bypassing Banking with Blockchain. (In the Black). https://
+www.intheblack.com/articles/2017/08/01/Bitcoin-bypasses-banks.
+41. Ninai, S. (2017). Making it Real: Blockchain in Papua New Guinea.
+(Lowy Institute). https://auspng.lowyinstitute.org/article/making-it-real-
+blockchain-papua-new-guinea/.
+42. Patterson, J. (2018). Marshall Islands Launches ‘The Sovereign’, the World’s
+First Crypto Tender. (Finance Magnate). https://www.ﬁnancemagnates.
+com/cryptocurrency/news/cryptocurrencynewsmarshall-islands-launches-
+sovereign-worlds-ﬁrst-crypto-tender/.
+ll
+OPEN ACCESS
+Patterns 3, January 14, 2022
+7
+Perspective
+
+--- Page 8 ---
+43. Broderick, R. (2021). El Salvador’s President Is Pioneering Hustle
+Bro Populism. (Foreign Policy). https://foreignpolicy.com/2021/07/19/el-
+salvador-bukele-bitcoin-hustle-bro-populism/.
+44. Centro de Estudios Ciudadanos. (2021). Los Salvadoren˜ os Opinan
+Sobre
+la
+Ley
+de
+Bitcoin
+(UFG).
+https://www.disruptiva.media/wp-
+content/uploads/2021/07/Encuesta-Bitcoin-Final.pdf.
+45. Madianou, M. (2019). Technocolonialism: digital innovation and data prac-
+tices in the humanitarian response to the refugee crises. Social Media +
+Soc. 5, 1–13.
+46. Papua New Guinea Government (2018). Finschaffen special economic
+zone bill. https://d6mljhs7208w9.cloudfront.net/uploads/2018/09/FSEZ-
+Bill-Bind.pdf.
+47. PNG Blogs (2018). Controversial bill could push ﬁnschhafen to be sold to
+foreign company, Atlas Ledger. https://www.pngblogs.com/2018/08/
+controversial-bill-could-push.html.
+48. McGarry, D. (2017). Bitcoin of the Realm? (Daily Post). https://www.
+dailypost.vu/opinion/bitcoin-of-the-realm/article_644693e4-796e-5a71-
+819f-16dd900acb31.html.
+49. McGarry, D. (2018). The Companies We Keep. (Daily Post). https://www.
+dailypost.vu/opinion/the-companies-we-keep/article_07616bfb-0705-
+5dbf-a89e-a75919c4c367.html.
+50. Ward, E., and Lyons, K. (2021). Who’s Buying vanuatu Passports?
+(The Guardian). https://www.theguardian.com/world/2021/jul/15/whos-
+buying-vanuatus-passports-crypto-moguls-wanted-men-and-even-a-
+prime-minister.
+51. Vila Times (2018). Vanuatu’s paciﬁc private bank acquired by Lithuanian
+‘‘Cryptocurrency’’
+bankera.
+https://www.vilatimes.com/2018/01/26/
+vanuatus-paciﬁc-private-bank-acquired-by-lithuanian-cryptocurrency-
+bankera/.
+52. Crypto Rank (2021). Bankera. https://cryptorank.io/price/bankera.
+53. Reserve Bank of Vanuatu (2018). Public notice: use of cryptocurrencies
+and blockchain. https://www.rbv.gov.vu/images/Press_Releases/2018/
+PR10%20-RBV%20Stance%20on%20the%20cryptocurrencies.pdf.
+54. Reynolds, K. (2021). Binance isn’t allowed to be operating in the UK,
+Watchdog Warns (Coindesk). https://www.coindesk.com/binance-isnt-
+allowed-to-be-operating-in-the-uk-watchdog-warns.
+55. Tether (2021). Rich list. https://wallet.tether.to/richlist.
+56. IBM (2019). Dear tech. https://vimeo.com/356437337.
+57. Gramm, P., and De Soto, H. (2018). How Blockchain Can End Poverty.
+(Wall
+Street
+Journal).
+https://www.wsj.com/articles/how-blockchain-
+can-end-poverty-1516925459.
+58. Nicole, R. (2016). The People versus the Commission: Resistance to Land
+Registration in Fiji’s Early Colonial History. (Conference proceedings).
+http://repository.usp.ac.fj/9090/.
+59. Ron˜ o, C.A., Kent, P., and Ikhwan, T. (2018). Developing a Blockchain-
+Based Land Registry System for Fiji. (ADB Knowledge Events). https://
+events.development.asia/materials/20181204/developing-blockchain-
+based-land-registry-system-ﬁji.
+60. Rovoi, C. (2021). Fiji Govt Urged to Scrap Plan to Amend Land Bill. (RNZ).
+https://www.rnz.co.nz/international/paciﬁc-news/448102/ﬁji-govt-urged-
+to-scrap-plan-to-amend-land-bill.
+Dr. Olivier Jutel is a communications lecturer at the University of Otago whose
+research has been concerned with digital media and politics. His ongoing work
+examines the role of techno-utopian and cyber-war discourses in the geopol-
+itics of platforms. Jutel’s work is highly interdisciplinary, bringing together po-
+litical economy, critical theory, and psychoanalytic political theory to examine
+the rise of online political movements and the failures of the normative liberal
+visions of the internet. His work in the Paciﬁc follows 4 years of teaching and
+researching at The University of the South Paciﬁc in Fiji.
+ll
+OPEN ACCESS
+8
+Patterns 3, January 14, 2022
+Perspective

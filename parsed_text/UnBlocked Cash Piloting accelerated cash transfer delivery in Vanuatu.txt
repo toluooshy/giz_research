@@ -1,0 +1,4185 @@
+
+--- Page 1 ---
+UnBlocked Cash: 
+piloting accelerated 
+cash transfer delivery 
+in vanuatu 
+research report 
+october 2019
+
+--- Page 2 ---
+Author: Björn Rust
+Project Lead: Sandra Uwantege Hart, Pacific Cash and Livelihoods Lead, Oxfam in Vanuatu
+Information and Data Management Support Specialist: Vivian Fischer, Oxfam in Vanuatu
+Designer: Tahnee Le Pine/Tootsie&Co 
+Cover image: Pango, Vanuatu: Jamison Kaltabang, a recipient with a disability, is registered and given a payment card by Tevita 
+Gideon, Oxfam staff during the Oxfam UnBlocked Cash Blockhain Pilot. Photo: Keith Parsons/OxfamAUS
+Images: Keith Parsons, Oxfam Australia
+Publication: Oxfam Australia, October 2019. Oxfam Australia | 132 Leicester Street, Carlton Victoria 3053 Australia 
+Tel  +61 3 9289 9444 | Fax +61 3 9347 1983 | enquire@oxfam.org.au | www.oxfam.org.au
+Acknowledgements: This report would not have been possible without the support of expert staff from Oxfam in Vanuatu and Oxfam 
+Australia. The author especially thanks the Vanuatu cash and voucher assistance staff: Kalua salerua, Margaret Daniels, Tevita 
+Gideon, Harry Nauko, Catharine Patunvanu, Dano Naryle, and Ester Samson.
+In Australia, the author acknowledges the support of the OxLabs team members past and present, especially Elsa Carnaby, Kate 
+Carter, David Gunn, and Josh Hallwright. These people were pivotal to the project’s inception. Special thanks also goes to Ellen 
+Lu, OxLabs intern-the cost analysis in this report would not have been possible without your baseline analysis. The author also 
+acknowledges additional input from the UnBlocked Cash research advisory group: Chris Elsden, Ellie Rennie, and Ludwig Trotter.
+This report also draws on the work of Sempo and Consensys, which were Oxfam’s technical partners during the UnBlocked Cash pilot. 
+Special thanks to Nick Williams and Melanie Hardman of Sempo. Oxfam would also like to acknowledge the time and support of the 
+Government of Vanuatu in Shefa Province.
+About this report: The UnBlocked Cash pilot is one in a series of Oxfam-initiated examinations of cash and voucher assistance in 
+Vanuatu. This pilot builds on the Pacific Cash Preparedness Partnership, which aims to increase awareness, capacity, and expertise 
+in cash and voucher assistance in the Pacific. The UnBlocked Cash pilot has been funded by the Australian Department of Foreign 
+Affairs and Trade (DFAT) through the Australian NGO Cooperation Program (ANCP).
+Disclaimer: This document references humanitarian preparedness activities implemented with financial assistance from the Australian 
+Government through the Australian Aid program. The views expressed herein are those of the author, and do not necessarily reflect the 
+views of Oxfam Australia or other partners, or of the Australian Government Department of Foreign Affairs and Trade. 
+Oxfam encourages readers to comment on this report so that we can improve future research, design, and implementation of our 
+cash and voucher assistance.
+Please contact: 
+Sandra Hart — sandrah@oxfam.org.au
+Elsa Carnaby — elsac@oxfam.org.au
+Josh Hallwright — joshh@oxfam.org.au
+Statement of copyright: Oxfam gives permission for text excerpts from this report to be reproduced provided 
+that the source is properly and clearly acknowledged; with the exception of reproduction of photographs of 
+project participants, where specific permission must be sought.
+
+--- Page 3 ---
+RESEARCH REPORT OCTOBER 2019    1
+CONTENTS
+Contents	
+1
+Acronyms	
+3
+1. Executive summary	
+4
+2. Introduction	
+6
+3. Background & context	
+7
+3.1. Unblocked cash partners	
+8
+3.1.1. Sempo	
+8
+3.1.2. Consensys	
+9
+3.2. Guiding frameworks	
+9
+3.3. Country context	
+9
+3.3.1. Pango	
+10
+3.3.2. Mele Maat	
+11
+3.4. Cash and voucher assistance	
+12
+3.5. Distributed ledger technologies	
+12
+3.5.1. Transparency	
+13
+3.5.2. Immutability	
+13
+3.5.3. Disintermediation	
+13
+3.5.4. Degree of participation	
+13
+3.5.5. The importance of trust	
+14
+3.6. Ethereum	
+14
+3.7. Stablecoins and Dai	
+15
+3.8. Near-field communication	
+15
+4. Dlt-based cash transfers in vanuatu	
+19
+5. Approach and methods	
+20
+5.1. Expected research outcomes	
+20
+5.2. Research participants	
+21
+5.2.1. Vendors	
+21
+5.2.2. Recipients	
+22
+5.3. Community engagement	
+23
+6. Stories	
+25
+6.1. Complex funds flow	
+25
+6.2. Hub-and-spoke funds flow	
+26
+6.3. How value is spent	
+28
+6.3.1. How value was not spent	
+31
+6.3.2. Transaction details	
+31
+6.4. Responding in real-time	
+31
+6.4.1. Outcomes of transparency	
+31
+6.4.2. Responsiveness	
+31
+6.4.3. Efficiency	
+32
+6.5. Competing with existing technologies and actors	
+32
+6.6. Hardware delays & failures	
+32
+
+--- Page 4 ---
+2    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+6.7. DLT-based CVA durability in an urban context of Vanuatu	
+33
+6.8. The indispensable expert	
+33
+7. Analysis of the data informed by the stories	
+35
+7.1. Time	
+35
+7.1.1. Baseline time	
+35
+7.1.2. Response time	
+35
+7.1.3. Onboarding time	
+35
+7.2. Cost	
+37
+7.2.1. Baseline costs	
+37
+7.2.2. Sempo costs	
+38
+7.2.3. Total direct cost estimation	
+38
+7.3. Transparency	
+39
+7.3.1. Platform transparency	
+39
+7.4. Security	
+40
+7.4.1. Personal security	
+40
+7.4.2. Cyber security	
+40
+7.5. User experience	
+41
+7.5.1. User interface	
+41
+7.5.2. Integrations	
+43
+8. Recommendations	
+44
+8.1. Consider the location in project planning	
+44
+8.2. Consult communities more broadly	
+44
+8.2.1 Consult at-risk urban communities	
+44
+8.3. Uniquely identifiable cards	
+44
+8.4. More super vendors for post-disaster scenarios	
+44
+8.4.1. Alternatives to the super vendor	
+46
+8.5. Cashing out via digital exchange	
+46
+8.6. The use of Stablecoins	
+46
+8.7. App improvements	
+47
+8.7.1 Super vendor compatible app	
+47
+8.7.2 Donor compatible app	
+47
+8.8. Digital wallets	
+47
+8.8.1. Governance of digital wallets in a corporate environment	
+47
+8.8.2. Digital wallets in developing contexts	
+47
+8.9. Scaling-up	
+49
+8.9.1. Adding additional actors	
+49
+8.10. Lifetime research and development costs	
+49
+8.10.1. Staff training and operational considerations	
+49
+8.10.2. Clarify business models	
+49
+8.11. Addressing research limitations	
+50
+8.11.1. Onsite monitoring disconnected from PDM	
+50
+8.11.2. More comprehensive baseline studies	
+50
+8.12. Addressing risks	
+50
+8.12.1 Single point of failure	
+50
+8.12.2. Privacy breach due to real-time monitoring?	
+50
+9. References	
+52
+
+--- Page 5 ---
+RESEARCH REPORT OCTOBER 2019    3
+Acronyms
+AML	
+Anti-money Laundering
+ANCP 	
+Australian NGO Cooperation Program
+API 	
+Application Programming Interface
+AUD 	
+Australian Dollar
+AWS 	
+Amazon Web Services
+BSP 	
+Bank South Pacific
+BTC	
+Bitcoin
+CaLP 	
+Cash Learning Partnership
+CCT 	
+Conditional Cash Transfer
+CCV 	
+Crypto Collateralised Voucher
+CTF 	
+Counter-Terrorism Financing
+CTP 	
+Cash Transfer Programme/Cash Transfer Programming
+CVA	
+Cash and Voucher Assistance
+DFAT	
+Department of Foreign Affairs and Trade
+DLT	
+Distributed Ledger Technology
+DLTs 	
+Distributed Ledger Technologies
+DRR 	
+Disaster Risk Reduction
+ETC 	
+Emergency Telecommunications Cluster
+FGD 	
+Focus Group Discussion
+FSP 	
+Financial Service Provider
+IC	
+Integrated Circuit
+ICT 	
+Information and Communications Technology
+ID 	
+Identification
+IIT 	
+Intra-institutional Transfers
+KII 	
+Key Informant Interviews
+KYC 	
+Know Your Customer
+MoU 	
+Memorandum of Understanding
+NFC 	
+Near-field Communication
+NGO	
+Non-government Organisation
+OAU 	
+Oxfam Australia
+ODI 	
+Overseas Development Institute
+OiV 	
+Oxfam in Vanuatu
+P2P	
+Peer-to-peer
+PDM	
+Post-distribution Monitoring
+PIN 	
+Personal Identification Number
+PoS	
+Proof-of-stake
+PoW	
+Proof-of-work
+QR 	
+Quick Response
+RFP	
+Request for Proposal
+SCP 	
+Supply Chain Performance
+TVL 	
+Telecom Vanuatu Limited
+UCT 	
+Unconditional Cash Transfer
+UI 	
+User Interface
+UID 	
+Unique Identifier
+UN 	
+United Nations
+URL	
+Uniform Resource Locator
+USD 	
+U.S. Dollor
+UX 	
+User Experience
+VNSO 	
+Vanuatu National Statistics Office
+VUV 	
+Vanuatu Vatu
+WFP 	
+World Food Programme 
+
+--- Page 6 ---
+4    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+1. Executive Summary
+Overview of project and findings
+1	
+Stablecoins are “cryptoassets that are developed with the aim of minimising price volatility by embedding a stability mechanism” (Berentsen and Schär 2019, p65). 
+DAI is a collateralised stablecoin with on-chain collateral pegged to the U.S. Dollar (USD). This is distinct to algorithmic stablecoins or collateralised stablecoin with 
+off-chain collateral.
+During the UnBlocked Cash pilot, Oxfam in partnership with Sempo and ConsenSys distributed 966,443 Vanuatu Vatu (VUV) or 
+11,896.91 Australian Dollars (AUD) to 187 heads of households and 29 vendors, which was estimated to have directly benefited some 
+1,209 individuals in two urban communities in one of the world’s most at-risk countries.
+Over the course of a month, Oxfam and its partners were able to successfully deliver a first-of-its-kind Distributed Ledger 
+Technology (DLT) based solution employing the Dai (DAI) stablecoin.1 Additionally, the system piloted in Vanuatu saw the successful 
+deployment of a novel near-field communication (NFC) card, which in tandem with a ‘side-channel’ developed by Sempo, allowed the 
+system to cope with poor internet connectivity while ensuring double-spends were impossible despite offline transactions.
+Oxfam set out to determine whether DLTs can reduce the cost and transaction time of cash and voucher assistance (CVA), while improving 
+transparency, security, and overall user experience (UX) within the urban context of Port Vila, Republic of Vanuatu.
+With the support of Sempo, the UnBlocked Cash pilot has shown modest cost-savings and significant time-savings related to 
+operational activities. Onboarding recipients to the platform was reduced to an average of 3.6 minutes per individual compared to 
+over an hour during the Ambae volcano response in 2018. Additionally, the tested system eliminated slow identity (ID) verifications 
+and reduced dependency on post offices or banks to deposit cheques.
+However, there is little evidence that the direct time and cost of financial transaction between programme stakeholder accounts has been 
+reduced. This is due to the reliance on existing financial service providers (FSPs) for foreign exchange and cashing-out vendors in this 
+particular implementation. In contrast, the indirect time and cost appear to have fallen due to the efficacy gains promoted by the Sempo 
+platform. Fortunately, the unexpected challenges with the existing FSP in Vanuatu created an opportunity to test a more community-
+integrated hub-and-spoke cash-out mechanism via the ‘Super Vendor’ model.
+The quality of the tested solution, which encompassed transparency, security, and user experience indicators, was found to be 
+extremely high. Recipient and vendor feedback alike indicates an overwhelming preference for assistance of this type.
+
+--- Page 7 ---
+RESEARCH REPORT OCTOBER 2019    5
+Figure 1: Pango Village, Vanuatu: Kalua Salerua, Cash Transfer Coordinator, leading a focus group discussion with recipients. 
+Photo: Keith Parsons/OxfamAUS
+
+--- Page 8 ---
+6    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Distributed ledger technologies (DLTs) are among the most 
+promising innovations to have emerged during the last decade, 
+with the potential to fundamentally transform existing economic, 
+institutional and social systems. Often referred to as ‘Blockchains’ 
+in honour of the first example developed by Satoshi Nakamoto, 
+these distributed ledgers present enormous social and commercial 
+potential across a range of sectors and have been broadly applied 
+by several of the largest humanitarian actors, including Oxfam.
+The promise of these technologies to deliver aid at low cost 
+while reducing transaction times and streamlining reporting has 
+obvious appeal at a time where humanitarian budgets are under 
+increasing pressure. However, DLTs have also been used to enhance 
+the transparency of supply chains, ensure wages and working 
+conditions meet acceptable standards, and deliver tamper-proof 
+voting systems among many other applications.
+In recent years, DLTs have seen increasing support among non-
+government organisations (NGOs) as a means of delivering financial 
+assistance in place of traditional in-kind support, especially among 
+the unbanked.2 Many of these DLT-based interventions build on an 
+upswell of support for cash and voucher assistance (CVA), which 
+also promise to change the way aid is delivered. Unlike in-kind 
+support, market-based interventions like CVA stimulate local 
+economies and promote personal agency.
+Initiatives like the Grand Bargain, drafted during the World 
+Humanitarian Summit in 2016, called for signatories to “increase 
+the use and coordination of cash-based programming”, which 
+coincided with a reported 40 per cent increase in cash and 
+voucher-based humanitarian assistance by local and international 
+NGOs together with the United Nations (UN) through 2015–2016 
+(Smith 2018, p6).
+This workstream continued to perform well in 2018 according to 
+an independent report by the Humanitarian Policy Group. “The two 
+largest UN humanitarian agencies scaled up their use of cash 
+and vouchers in 2018: WFP’s cash and voucher programming 
+increased by 21%, to $1.7 billion, reaching 20 million people in 2018, 
+compared to $1.4 billion and 19.2 million people in 2017; UNHCR 
+programmed $568 million in cash in 2018, up from $502 million in 
+2017 (an increase of 13%). UNICEF programmed $184 million to 2.4 
+million households in 2018” (Metcalfe-Hough et al 2019, p38).
+Overall, 44 per cent of signatories report ‘Good Progress’, however, 
+CVA accounted for only 10 per cent of humanitarian assistance in 
+2016, up by 2.5 per cent from 2015 (Metcalfe-Hough et al 2019, p38; 
+Smith 2018, p3).
+Despite the advantages of CVA, these interventions can incur 
+significant costs associated with transferring value through 
+financial incumbents and often exclude the unbanked. Voucher 
+systems that intend to address financial inclusion are nevertheless 
+2	
+The unbanked are those without a formal account issued by an FSP. While financial inclusion is on the rise globally, “1.7 billion adults remain unbanked, yet two-
+thirds of them own a mobile phone that could help them access financial services” (The World Bank 2018).
+3	
+Pacific Cash Preparedness Partnership, is an effort by Oxfam, Save the Children, and the World Food Programme (WFP) and others, to raise awareness of cash and 
+voucher assistance in Vanuatu, Fiji, and Solomon Islands, while increasing the capacity and expertise in the area over four years between 2017–2020.
+slow to distribute and reconcile, which in turn drives high 
+operational costs for the issuing donor or NGO. This is particularly 
+true of paper-based systems as e-vouchers and pre-paid 
+debit card solutions are typically faster than their paper-based 
+equivalents. Even so, it is important to note that no matter 
+the delivery method, CVA is generally less costly than in-kind 
+assistance (Smith 2018, p.80).
+DLT-based CVA offers the potential to not only reduce transfer 
+fees by eliminating incumbents, but also by streamlining recipient 
+onboarding and automating reporting. Additionally, an appropriately 
+designed DLT-based intervention can function independently of 
+financial service providers (FSPs), which allows for total inclusion of 
+unbanked recipients.
+DLT-based solutions represent an enormous opportunity for 
+disaster responders and development actors to drive social impact 
+and improve quality of life in alignment with the United Nations’ 
+Sustainable Development Goals (SDGs), while also meeting several 
+Grand Bargain commitments concerning transparency, reduced 
+management costs, and simplifying reporting.
+Given this potential, Oxfam sought to explore the flexibility and 
+applicability of DLTs for CVA in the Pacific to build on the existing 
+Pacific Cash Preparedness Partnership.3 
+The design of the UnBlocked Cash pilot and the objectives of this 
+subsequent research was explicitly informed by the ‘Commitments 
+for Cash Transfer Programming’ as proposed by Cash Learning 
+Partnership (CaLP). This includes actions related to capacity 
+building, ensuring programme quality, strengthening coordination, 
+and inventing in research and innovation. See section 3.2. ‘Guiding 
+frameworks’ for more information.
+The UnBlocked Cash pilot was designed to address challenges 
+of CVA in the Pacific region while evaluating the transformative 
+characteristics and social impacts of DLTs on communities at risk 
+from disasters. Ultimately, this pilot set out to determine whether 
+DLTs can reduce the cost and transaction time of CVA while 
+improving transparency, security, and overall user experience (UX) 
+within the urban context of Port Vila, Republic of Vanuatu.
+To that end, Oxfam in partnership with Sempo and ConsenSys 
+distributed 966,443 Vanuatu Vatu (VUV) or 11,896.91 Australian 
+Dollars (AUD) to 187 heads of households and 29 vendors via a 
+sub-currency of the Ethereum platform designated DAI, ‘wrapped’ 
+in a Crypto Collateralized Voucher (CCV), and issued on near-
+field communication (NFC) card designed for low-connectivity 
+environments.
+This report will address some of the most common assumptions 
+surrounding DLT-based cash transfers and present the most potent 
+findings from the four week UnBlocked Cash pilot in Pango and Mele 
+Maat on the island of Efate in the Republic of Vanuatu.
+2. Introduction
+
+--- Page 9 ---
+RESEARCH REPORT OCTOBER 2019    7
+3. Background & Context
+In March 2018, Oxfam Australia (OAU) established OxLabs, an 
+innovation hub designed to challenge the traditional ways of 
+working within the organisation, while pursuing new solutions to 
+address development and humanitarian challenges. The cross-
+disciplinary team was assembled from across the organisation 
+with support from volunteers and external specialists. This 
+process brought together humanitarians, disaster risk reduction 
+advisers and cash programming experts alongside technologists 
+and finance professionals.
+In addition to its own activities, the OxLabs team has supported 
+a number of initiatives across the Oxfam confederation and 
+developed partnerships across the humanitarian sector related 
+to DLT-based solutions, most notably as a member of the 
+‘Identity Alliance’ with TypeHuman and Australian Red Cross. 
+This aim of this partnership is to develop a DLT-based self-
+sovereign identity solution to quickly and safely deploy and 
+manage humanitarians, ensuring that they hold the necessary 
+qualifications and safety checks (Australian Red Cross 2018).
+Among Oxfam’s own initiatives globally are the BlocRice project 
+and the OxChain ‘Smart Donations’ app, which holds value in 
+escrow to allow programmable donations to trigger the release 
+of value when particular donor-defined conditions are met 
+(OxChain n.d.).
+The BlocRice project works with small-holder organic rice 
+farmers in Cambodia’s Preah Vihear province to verify the 
+conditions of their contracts with the Agricultural Cooperative. 
+Additionally, BlocRice tracks the rice from farmer to retailer via 
+all the intermediates and ensures the farmer is paid the correct 
+amount in a timely fashion (Oxfam in Cambodia 2019).
+During the early stages of the UnBlocked Cash initiative, the 
+OxLabs team observed that CVA was typically slow to set up, 
+and the delivery of payments to participants endure long lead 
+times. Additionally, CVA often incurs high staff costs related 
+to monitoring and reconciliation, payments processing, 
+and recipient registration. Finally, the team noted a lack of 
+transparency regarding the redemption and use of ‘cash’ by 
+recipients. According to a report by the WFP (2015), operational 
+costs for food distribution following Severe Tropical Cyclone 
+Pam in Vanuatu during 2015 were as high as VUV 79.61/AUD 
+0.98 for every VUV 81.23/AUD 1 of food delivered where food 
+costs represented USD 1,779,399 of a total USD 3,521,037 spent. 
+By comparison, Oxfam’s 2018–19 Ambae volcano response 
+delivered multipurpose grants at an operational cost of VUV 
+27.62/AUD 0.34 per VUV 81.23/AUD 1 provided to recipients. 
+These observations lead OxLabs to research the investigations 
+covered in this report via the UnBlocked Cash pilot.
+Note: The WFP’s operational costs were converted from USD at a 
+mid-market-rate of 1 USD = 1.39902 AUD for the purposes of this 
+comparison. VUV costs are based on the mid-market-rate of 1 VUV 
+= 0.01231 AUD. Both rates were captured from XE on 22 April 2019, 
+the day the pilot commenced.
+Figure 2: Port Vila, Vanuatu: Sempo working alongside the Oxfam in Vanuatu team on the pilot design. (L-R) Nick Williams (Sempo), Sandra Hart (OiV), 
+Melanie Hardman (Sempo) and Vivian Fischer (OiV). Photo: Keith Parsons/OxfamAUS
+
+--- Page 10 ---
+8    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+3.1. UnBlocked Cash partners
+3.1.1. Sempo
+Sempo is an Australian-based start-up co-founded by Nick 
+Williams and Tristan Cole in July 2017. Since then, Sempo has 
+delivered cash to 150 Syrian families in Lebanon and helped 
+distribute aid to refugees in Athens and Iraqi Kurdistan. Its 
+mission is to efficiently distribute relief funds to at-risk 
+communities across the globe while increasing financial 
+inclusion. Sempo is a privately held for-profit company backed 
+by early-stage investors in Australia and US, including SOSV, 
+Blackbird Ventures, H2 Ventures, Startmate, and dLab.
+Sempo was one of six shortlisted companies invited by Oxfam to 
+propose a technical solution to help evaluate the cost, quality, 
+and time efficiency of DLT-based humanitarian CVA in Vanuatu. 
+Sempo submitted a joint submission with ConsenSys, which 
+was also among the six. Sempo was then engaged as a service 
+provider for the UnBlocked Cash pilot in February 2019.
+Sempo provided its existing software platform, including 
+a ‘Dashboard’ and Android app. The platform was modified 
+to respond to Oxfam’s requirements, which included a new 
+distribution model incorporating DAI and a novel NFC card 
+designed to function in low-connectivity environments. During 
+the four weeks of the UnBlocked Cash pilot, Sempo’s co-founder 
+Nick Williams and head of humanitarian operations Melanie 
+Hardman travelled to Vanuatu to oversee the implementation 
+and maintenance of the Sempo platform. They supported Oxfam 
+staff in Vanuatu in participant registration and onboarding. They 
+trained Oxfam staff in Vanuatu and pilot participants on the 
+platform and contributed to programme monitoring.
+Figure 3: ConsenSys staff (L-R) Brianna Davis, Kris Randall and Rosa Thompson pictured during the UnBlocked Cash pilot. 
+Photo: Keith Parsons/OxfamAUS
+
+--- Page 11 ---
+RESEARCH REPORT OCTOBER 2019    9
+3.1.2. Consensys
+ConsenSys was founded by Joseph Lubin in 2015. It self-
+describes as a “… global blockchain technology company 
+building the infrastructure, applications, and practices that 
+enable a decentralized world”.
+ConsenSys joined Sempo in response to Oxfam’s request for 
+proposal. ConsenSys staff included researchers and media 
+specialists charged with the task of reporting on the UnBlocked 
+Cash pilot and making recommendations for future scale-up.
+Both companies contributed to an Oxfam-led programme 
+workshop and post-pilot learning session. Members of the team 
+also joined an Oxfam film crew in Vanuatu during the pilot’s first 
+round to document and learn from the pilot process.
+3.2. Guiding frameworks
+The UnBlocked Cash pilot addresses a number of the Grand 
+Bargain commitments, while also fostering Oxfam’s alignment 
+with the Global Framework for Action defined by the Cash Learning 
+Partnership (CaLP). In particular, these pilots have been developed 
+to address the humanitarian sector’s appetite for greater 
+transparency and accountability to both donors and communities, 
+while also increasing the amount of cash-based programming 
+and simplified reporting requirements. Both the Grand Bargain 
+commitments and CaLP framework are included below for reference.
+The Grand Bargain Commitments:
+1.	 Greater transparency
+2.	 More support and funding tools for local and national 
+responders
+3.	 Increase the use and coordination of cash-based 
+programming
+4.	 Reduce duplication and management costs with periodic 
+functional reviews
+5.	 Improve joint and impartial needs assessments
+6.	 A participation revolution: include people receiving aid in 
+making the decisions which affect their lives
+7.	 Increase collaborative humanitarian multi-year planning and 
+funding
+8.	 Reduce the earmarking of donor contributions
+9.	 Harmonise and simplify reporting requirements
+10.	Enhance engagement between humanitarian and 
+development actors
+Global Framework for Action:
+A Consolidated Summary of Commitments for Cash Transfer 
+Programming
+1.	 Ensure sufficient funding is available for cash transfer 
+programming
+2.	 Ensure cash is routinely considered, alongside other tools
+3.	 Build sufficient capacity for cash transfer programming
+4.	 Ensure the quality of cash transfer programming
+5.	 Strengthen coordination of cash transfer programming
+6.	 Strengthen the evidence base and invest in innovation
+3.3. Country Context
+The Republic of Vanuatu is an archipelago of volcanic origin 
+composed of 82 islands in the South Pacific some 1,750 
+kilometres east of northern Australia (The Logistics Cluster n.d.). 
+Its population of 272,459 comprises primarily Ni-Vanuatu people 
+of Melanesia ethnicity speaking Bislama, an English-based 
+creole language, which is first of three national languages 
+followed by English and French. Nonetheless, there are more 
+than 80 different language groups among the islands and 
+a great diversity of social structures (VNSO 2016, p.1; The 
+Logistics Cluster n.d.).
+Roughly 75.13 per cent of the population are based in rural 
+areas, while the remaining urban populace primarily occupies 
+Luganville on Espiritu Santo island and the nation’s capital 
+Port Vila on Efate island (VNSO 2016, p.1, 18, 38). Vanuatu’s 
+three largest islands—Espiritu Santo, Malekula, and Efate—
+accommodate more than half of the total population (VNSO 
+2016, p.1).
+Six provincial councils administer Vanuatu; Torba, Sanma, 
+Penama, Malampa, Shefa, and Tafea. Municipal governments 
+administer the provincial capitals of Port Vila in Shefa province, 
+Luganville in Sanma province, and Lenakel in Tafea province. 
+Meanwhile, the National Council of Chiefs upholds matters of 
+custom and tradition.
+The World Risk Index considers Vanuatu as the country with 
+the highest disaster risk of the 172 countries included in the 
+report (Heintze et al 2018, p.6, 53). Situated on the infamous 
+Ring of Fire and within the Cyclone Belt, Vanuatu experiences 
+many geophysical and hydro-meteorological hazards, including 
+earthquakes, volcanic eruptions, tsunamis, landslides, 
+cyclones, floods and droughts.
+Figure 4: Map of Vanuatu.
+vanuatu
+fiji
+australia
+
+--- Page 12 ---
+10    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+This high disaster risk and the vast distance between markets 
+on each of the islands restrict economic development. Economic 
+activity is concentrated in the two most populous urban centres 
+of Port Vila and Luganville. While the islands of Tanna and Malekula 
+also boast commercial centres, economic activity is hampered by 
+the absence of international cargo ports.
+Much of the country’s food is produced locally by way of own-
+account production, resulting in generally very low levels of 
+extreme poverty. However, sea-based imports are critical for 
+fuel, manufactured goods and non-perishable foods, which fill 
+the shelves of many of the UnBlocked Cash vendors. The quality 
+of transport infrastructure limits the movement of these goods. 
+Many remote areas rely on small vessels with outboard motors 
+or light aircraft capable of operating on grass airstrips.
+Vanuatu is predominately a cash-based society, with an average 
+of 68 per cent of an individual’s total income derived from cash 
+sources (VNSO 2010, p.vi). The Household Income and Expenditure 
+Survey (2010) reports that 90 per cent of households had some form 
+of cash income—with 99 per cent of urban households and 91 per 
+cent of rural households having ‘cash’ sources of income (p.27). 
+Wages and salaries account for 39 per cent of household income; 
+meanwhile, 59 per cent of urban households and 92 per cent of 
+rural households received income from own-account production 
+(p.26). This includes goods produced and consumed in the home, 
+such as food and firewood.
+Population growth is estimated at 2.3 per cent nationally, and 
+the average household is estimated to represent 4.8 members 
+(p.1). However, the combined average of Pango and Mele Maat is 
+estimated to be closer to 5.6 members based on data collected 
+for this report.
+According to Vanuatu’s National Population and Housing Census 
+(2009), 12 per cent of the total population reported a disability 
+and the proportion of females with a disability was marginally 
+higher than that of males.
+“Gender-based inequality is deeper in urban areas, compared 
+to rural areas, and, to some extent, reflects wage inequality. 
+Women’s share of the benefits from economic growth has 
+been less than men’s with more of the growth being in 
+male-dominated jobs such as construction. More women are 
+vulnerable to falling below the poverty line than are men. The 
+unemployed poor, elderly and people with disabilities are more 
+vulnerable in urban areas than in rural areas” (VNSO and UNDP 
+2010, p.17).
+In Port Villa, 23.3 per cent of people with disabilities are living 
+below the ‘Basic Needs Poverty Line’, although there is no 
+gender gap reported, which is not the case in other parts of the 
+country (p.57).
+Regulations governing CVA in Vanuatu are the same as those 
+that apply to any financial transaction, which is overseen 
+by the Financial Intelligence Unit under the Reserve Bank of 
+Vanuatu.4 Generally, these include anti-money laundering (AML), 
+counter-terrorism financing (CTF) and know-your-customer 
+4	
+More information on the Financial Intelligence Unit and its polices are available at: https://fiu.gov.vu/
+(KYC) statutes requiring due diligence and record-keeping of the 
+recipients’ ID, the transferred amount, and intended use of the 
+transferred amount.
+3.3.1. Pango
+Pango is located some seven kilometres south of downtown Port 
+Vila at the mouth of Erakor Lagoon. It is one of five peri-urban 
+villages, including Mele-Maat, Mele, Ifira, and Erakor “along with 
+significant settlements of migrants from other areas of Vanuatu 
+who have relocated on the outskirts of town” (Rawlings 1999, p.72).
+Just 3 per cent of Efate’s population lives in Pango, approximately 
+2,326 people, in contrast to 50,944 in Port Vila (VNSO 2016, p.38). 
+Pango reports 460 heads of households, which prominently cater 
+to 6–9 people. These people primarily live in one family house 
+detached from any other house (p.156). Approximately 73 per 
+cent of household heads own their home (p.166), and 61 per cent 
+holds a customary land title, only 10 per cent occupy with informal 
+arrangements (p.164).
+Source: Vanuatu National Statistics Office (VNSO) (2016) Mini - 
+Census Report.
+49.37 per cent of the 1,513 people surveyed hold a bank account 
+with a commercial bank, while 7.93 per cent holds an account 
+with a non-commercial bank (p.141–142). This leaves a significant 
+number of residents unbanked.
+The vast majority of residents, 98.23 per cent of the 2,322 surveyed, 
+hold a birth certificate which served as identification for the 
+UnBlocked Cash pilot (p.125).
+Figure 5: Map of Pango on the island of Efate.
+Name
+Total
+1
+2
+3
+4
+5
+6–9
+10+
+Pango
+460
+20
+45
+69
+80
+80
+137
+29
+Table 1: Household size
+PANGO
+port vila
+Bauerfield 
+International 
+Airport
+
+--- Page 13 ---
+RESEARCH REPORT OCTOBER 2019    11
+3.3.2. Mele Maat
+Mele Maat was established in 1952 by Ambrymese relocating the 
+village of Maat from Ambrym after the eruption of the island’s 
+volcano—evidence of Vanuatu’s volatile state (Rawlings 1999, 
+p.75). The village is located west of the Bauerfield International 
+Airport and approximately 20–25 mins by car from downtown 
+Port Vila.
+Data on Mele Maat is scarce as it is not disaggregated in the 
+national census data. According to data collected by Oxfam 
+staff in Vanuatu, the average household is composed of roughly 
+six people.
+56.98 per cent of households in Mele Maat own a phone 
+compared with 70.30 per cent in Pango. Similarly, fewer people 
+hold bank accounts—only 39.53 per cent of household heads 
+surveyed reported having a bank account in the family in 
+contrast to the 47.52 per cent in Pango. These finding may 
+indicate slightly lower household income in Mele Maat compared 
+with Pango.
+Figure 7: Map of Mele Maat on the island of Efate.
+Figure 6: Registration site in Pango pictured with a shuttle that is used to transport a community member with a disability. 
+Photo: Keith Parsons/OxfamAUS
+MELE MAAT
+port vila
+Bauerfield 
+International 
+Airport
+
+--- Page 14 ---
+12    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+3.4. Cash and voucher assistance
+Cash and voucher assistance (CVA) are mechanisms by which cash, 
+vouchers, or alternative representations of value are provided 
+directly to recipients to be exchanged for goods or services. CaLP 
+insists that this term is only used to describe “… the provision 
+of cash transfers or vouchers given to individuals, household or 
+community recipients; not to governments or other state actors.” 
+This form of assistance excludes remittances and microfinance, 
+although microfinance and money transfer institutions may be 
+used for the provisioning of value. It is also important to note that, 
+CaLP only supports the use of the terms ‘cash’ or ‘cash assistance’ 
+when referring specifically to unrestricted assistance in the form of 
+physical currency or e-cash.
+These mechanisms are often considered recent innovations, 
+and yet Red Cross is recorded as having employed CVA as early 
+as the Franco-Prussian war in 1870–1871, and in response to 
+famine during 19th-century India and Botswana in the 1980s 
+(Harvey and Bailey 2015, p2). In recent years, however, CVA has 
+become an increasingly common tool in emergency response 
+and recovery efforts (Harvey and Bailey 2015, p.2; Mercy Corps 
+n.d., p.1–2).
+Compared to in-kind assistance that is typically food, household 
+goods, medical supplies, building materials, and education—a 
+market-based approach, as represented by CVA—can be more 
+dignified and empowering for recipients who are free to define 
+and respond to their own needs with locally available resources 
+(OCHA n.d.). Some within the humanitarian sector consider CVA a 
+complement to the provision of in-kind assistance (OCHA n.d.). 
+Meanwhile, others argue that when appropriate and in the right 
+context, where local markets are functioning well and can meet 
+demand, market-based approaches are preferable to in-kind 
+assistance, which has until recently accounted for the vast 
+majority of international aid (Harvey and Bailey 2015, p.3; Mercy 
+Corps n.d. p.1–2).
+This approach also ensures foreign assistance does not 
+undermine local human or market capacity, hereby, promoting 
+local economies to recover more quickly (Mercy Corps n.d., 
+p.1–2). This is especially important for signatories to the Charter 
+for Change and the Grand Bargain such as Oxfam.
+The Overseas Development Institute (ODI) (2015, p.8) estimates 
+that “cash transfers are among the most well-researched and 
+rigorously-evaluated humanitarian tools of the last decade”. 
+GiveWell (2012), the U.S. based nonprofit dedicated to effective 
+altruism, largely agrees, but argues that evidence drawing 
+a direct connection to particular humanitarian outcomes 
+is sparse. Nevertheless, it states: “cash transfers have the 
+strongest track record we’ve seen for a non-health intervention, 
+and are a priority program of ours”.
+The acceptance of such mechanisms is further exemplified by one 
+practitioner quoted in the Mercy Corps ‘Cash Transfer Programming 
+Toolkit’ (n.d., p.2), who commented that “the discussion is no 
+longer about whether cash transfer programming is a legitimate 
+intervention type, but about how best to use cash assistance”. 
+Meanwhile, within Oxfam, “If not market-based, why not?” is a 
+common refrain (Oxfam in Vanuatu 2017).
+While Oxfam’s experience with market-based approaches dates 
+back to the 1990s, its commitment has increased sharply from 
+2005 to now, during which time it has implemented programmes 
+in more than 40 countries. Today, Oxfam favours aid delivered 
+through local markets, while also working to support and 
+strengthen local capacity by improving access to credit, and 
+rehabilitating infrastructure (Oxfam 2015).
+In contrast to traditional non-market-based assistance or 
+conventional nonfungible aid, CVA is delivered in a fungible 
+form, which is easily exchangeable with other assets. However, 
+some limitations may be applied depending on whether or not 
+the assistance is conditional or unconditional. A conditional 
+cash transfer (CCT) places restrictions on how a recipient can 
+spend their assigned value. This might include where the value 
+can be spent or on what, i.e. food, healthcare, or education 
+(OCHA n.d.). Unconditional cash transfers (UCTs) or multipurpose 
+grants are provided to recipients without any obligations or 
+limitations (OCHA n.d.). The second provides greater agency 
+to recipients, and is the most market-based approach. While 
+users showed a preference for multipurpose grants during the 
+Ambae volcano response in 2018, Vanuatu’s government voiced 
+a preference for the use of vouchers instead of unconditional 
+cash in past consultations with Oxfam staff in Vanuatu.
+Regardless of the mode by which CVA is delivered, all 
+programmes generally share the same objectives of providing 
+timely, cost-effective assistance to crisis-affected populations, 
+while supporting local economies (CaLP n.d.). Where 
+programmes differ is in the amount of value transferred, the 
+means and frequency of the transfers, and the duration of the 
+programme. These differences are the focus of this report.
+3.5. Distributed Ledger Technologies
+When Lehman Brothers filed for Chapter 11 bankruptcy 
+protection in September 2008, it signalled the beginning of a 
+worldwide collapse of the banking sector at an unprecedented 
+scale. Within months of this event, a mysterious person or 
+persons named Satoshi Nakamoto retaliated with a digital 
+currency believed to be impervious to unpredictable monetary 
+policies or political influence (Tapscott 2016; Davis 2011).
+In the case of Nakamoto’s Bitcoin (BTC), the underlying 
+technologies are unified by the name Blockchain, which was 
+the first of many distributed, append-only ledgers, generically 
+known as Distributed Ledger Technologies (DLTs). Among the 
+most notable DLTs to emerge since Blockchain is Ethereum, first 
+made publicly available on July 30, 2015. Ethereum is the DLT on 
+which the UnBlocked Cash pilot relies.
+As with traditional ledgers, DLTs allow users to enter and retrieve 
+data within a database. However, unlike conventional ledgers, 
+the entries of a distributed ledger are spread among a series 
+of nodes or participants in which the data is cryptographically 
+and immutably stored in every copy as a series of ‘blocks’. Once 
+data is assigned to a block, it cannot be altered retroactively 
+except by colluding with the network majority to simultaneously 
+change all subsequent blocks. This characteristic is only true of 
+‘append-only’ ledgers like that of the Ethereum ‘mainnet’, not all 
+DLTs necessarily behave this way.
+
+--- Page 15 ---
+RESEARCH REPORT OCTOBER 2019    13
+It is also worth noting that app developers have the freedom 
+to choose what is coded onto the chain or merely referenced 
+by off-chain code. The former creates greater degrees of 
+immutability, while the latter allows for a degree of changeability 
+or mutability.
+DLTs can be described in many ways; however, there are three 
+characteristics that are particularly important in the context of this 
+pilot; these are transparency, immutability, and disintermediation.
+It is important to note that no two DLTs are exactly alike by 
+design and even less so in deployment. As such, transparency, 
+immutability, and disintermediation are not inherent to all 
+DLT-based solutions. The UnBlocked Cash pilot revealed some 
+limitations of these properties under certain conditions. While 
+transparency was important, participants could not easily check 
+their balances. Meanwhile, disintermediation was undermined 
+by the reliance on incumbent FSPs related to unforeseen 
+complexities of actors cashing out of the system. See section 6. 
+‘Stories’ for a more detailed explanation of these limitations.
+3.5.1. Transparency
+Oxfam believes, at minimum, transparency for the UnBlocked 
+Cash pilot means “anyone with access to the network can view 
+a history of transactions in real-time” (Galen 2018, p.8). Oxfam 
+acknowledges that not everyone served by the Sempo platform 
+has access or the literacy to comprehend the information stored 
+on the network. Nevertheless, by deploying the solution to the 
+Ethereum mainnet, Sempo ensures that the platform meets 
+Oxfam’s definition.
+The mainnet is the primary public network whereby transactions 
+are entered into Ethereum’s distributed ledger. The mainnet 
+is contrasted by the ‘testnet’, where applications can be 
+developed, and virtual currencies with no actual value can be 
+traded to test systems in a safe environment.
+Unliked the mainnet, which is a distributed computer spanning 
+thousands of nodes, a testnet can be installed on a single 
+server or on a group of servers under centralised control. 
+As such, only applications running on the mainnet can take 
+full advantage of Ethereum’s robust decentralisation and 
+transparent public record.
+The decentralisation of computing power and record-keeping 
+creates redundancies, which reduces the risks associated with 
+single-point dependency.
+Since Ethereum is a permissionless DLT, trust is established 
+by way of contracts embedded in digital code and stored in 
+transparent, tamper-resistant shared databases. Without 
+decentralisation, this trust mechanism does not work.
+3.5.2. Immutability
+Entangled with transparency is immutability. This characteristic 
+speaks to the tamper-proof nature of the typical public 
+distributed ledger. Data committed to the distributed ledger 
+cannot be altered retroactively, except by colluding with the 
+network majority to simultaneously change all subsequent 
+blocks. This is practically impossible with current technology.
+This characteristic is both powerful and potentially harmful 
+depending on the nature of the information committed to 
+the distributed ledger. Since data cannot be deleted, storing 
+personal information is in tension with right-to-be-forgotten 
+laws. As such the UnBlocked Cash pilot does not store any 
+personally identifiable information on the Ethereum mainnet.
+It is important to note that immutability is not guaranteed on 
+private deployments of a DLT like Ethereum. Immutability is 
+ensured by many different participants acting on the network, 
+allowing the system to compare one actor’s copy of the ledger 
+to that of the others. If a single actor owns a network, no 
+number of nodes ensures immutability, as that one actor is free 
+to delete or modify data on each node.
+One such example is the World Food Programme’s (WFPs) 
+Building Blocks project. Like UnBlocked Cash, Building Blocks is 
+built on Ethereum with the aim of making voucher-based cash 
+transfers more efficient, transparent and secure, while also 
+improving collaboration across the humanitarian system. While 
+the World Food Programme (WFP) should be commended for 
+the excess of USD 11 million worth of entitlements processed 
+through the system to date, it is questionable whether just 
+four nodes with one controlling entity can promote greater 
+transparency and security. To WFPs credit, the agency has 
+announced an ambition to onboard UN Women as the first 
+non-WFP participating entity on the platform (Coppi and Fast 
+2019, p11). See section 3.5.5. ‘The Importance of Trust’ for 
+more information.
+3.5.3. Disintermediation
+Disintermediation is the process of removing entrenched third-
+party intermediaries from an exchange. Since DLTs can stand-in 
+for the traditional agents of trust like banks and governments, 
+they are able to facilitate peer-to-peer (P2P) exchanges at a 
+low financial cost. This is key to the assumption that DLTs can 
+reduce the time and cost required for a transaction.
+However, if actors are not directly connected by the DLT, 
+disintermediation is also not guaranteed.
+3.5.4. Degree of Participation
+Broadly speaking, DLTs can fall into one of four quadrants 
+defined by the degree of participation, see Figure 8. On one 
+axis a DLT can either be public (open) or private (closed). The 
+former often provides the option for pseudonymity, while 
+the latter emerges as the preferred approach for enterprise 
+implementations (Mercy Corps 2017, p.11). The second axis 
+relates to the degree to which a participant is allowed to 
+interact with the functions of the distributed ledger. On the 
+permissioned end, users are only given access to the parts of 
+the distributed ledger that a higher authority deems appropriate. 
+While on the permissionless end, every participant enjoys the 
+same level of read/write access (Mercy Corps 2017, p.12). This is 
+typical on public distributed ledgers like the Ethereum mainnet 
+used by Sempo for the UnBlocked Cash pilot.
+It is important to note that the UnBlocked Cash pilot issued 
+NFC cards to recipients on account of the low connectivity 
+
+--- Page 16 ---
+14    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+and technical literacy in the target area. This limits the degree 
+to which the participants can interact with the platform. The 
+question of participation is a conceptual point that bears 
+mentioning, but in the context of this pilot, it was considered 
+more important to address the low connectivity, ease of 
+use, and recipient dignity. The NFC cards, described in a 
+later section, allow previously unbanked recipients to make 
+contactless transactions familiar to anyone who has used a 
+conventional payment card.
+3.5.5. The Importance of Trust
+To understand how disintermediation is possible, it is essential 
+to understand how DLTs stand-in for trusted intermediaries. 
+First, consider the elements required to establish trust in a 
+typical exchange—a valid identity and a record of ownership, 
+both of which must be verifiable.
+To verify identity, DLTs rely on public-key or asymmetric 
+cryptography. This technology depends on a set of keys issued 
+to each user, one private and the other public. Galen (2018, p.9) 
+draws the comparison of a public key with an account number 
+and the private key as similar to a password.
+Meanwhile, to prove ownership, DLTs employ a technology 
+called cryptographic hashing, a process by which data is 
+algorithmically shortened. Here the immutable quality of a 
+DLT comes to bear, since each new block contains a hashed 
+representation of the data stored in the previous block. “Once 
+a piece of data is hashed, any change to the data causes the 
+hash value to change. By comparing hash values, any observer 
+can easily detect whether an alteration has been made to the 
+original data” (Mercy Corps 2017, p.10).
+5	
+Smart-contracts define a set of actions that will automatically trigger a new series of actions (Coppi and Fast 2019, p.vi).
+6	
+The Ethereum token API is currently debated as an ERC (Ethereum request for comment) and may be outdated. Information on Ethereum Standardized Contract APIs is 
+available at: https://eips.ethereum.org/EIPS/eip-20
+7	
+In proof-of-work (PoW) based DLTs, the algorithm rewards participants who solve cryptographic puzzles to validate transactions and create new blocks (Ethereum 
+2019). This computationally demanding and thus energy-intensive process is referred to as ‘mining’, which is a critical component of Nakamoto’s Blockchain and the 
+current implementation of Ethereum. However, more secure and energy-efficient proof-of-stake (PoS) DLTs, such as Ethereum’s forthcoming Casper implementation, 
+trade puzzle-solving for a turn-based voting system in which the weight of each validator’s vote depends on the size of its deposit (Ethereum 2019).
+Finally, the network must arrive at ‘distributed consensus’. 
+This process begins with one or more nodes in the network 
+receiving and inspecting transaction data. If the data is found 
+to be incomplete or flawed, the transaction will be rejected; 
+otherwise, the validated transaction data is broadcast to the 
+nodes in the peer-to-peer network. Once the nodes receive the 
+data, they must agree on which “… transactions will be added to 
+the block and in which order” (Mercy Corps 2017, p.9).
+Neither asymmetric cryptography nor hash technology is by any 
+means new, but it is the unique way that DLTs combine these 
+concepts with P2P networked ledgers/databases that enable 
+previously impossible applications.
+3.6. Ethereum
+Unlike Nakamoto’s Blockchain, which was designed to transmit 
+and store its native cryptocurrency designated BTC, Ethereum is 
+better characterised as a decentralised global computer on top 
+of which developers can program decentralised applications.
+There are principally three types of applications described in 
+the Ethereum Wiki (2019), these are: financial, semi-financial, 
+and non-financial. The Sempo platform is a financial application 
+that provides Oxfam with a more powerful way of managing 
+aid distribution with the support of ERC20 smart-contracts. 
+Generally, smart-contracts are stores of value that only 
+unlock if certain predefined conditions are met.5 On the Sempo 
+platform, they are used to record transfers of value between 
+pseudonymous addresses, which are reconciled with identities 
+using an internal database. The ERC20 designation refers to the 
+technical standard for smart-contracts running on Ethereum.6 
+It guarantees consistent access to several vital functions, 
+which facilitate the transfer of tokens from one address to 
+another and the approval of a third-party address to transfer a 
+specified amount of tokens from an address.
+Just like the Blockchain, Ethereum produces a native 
+cryptocurrency named ‘Ether’ (ETH) following a proof-of-work 
+model.7 ETH shares many of the same fundamental features 
+as BTC, including decentralisation, scarcity, and an absence 
+of government control (Ethereum, n.d.). It is an entirely digital 
+asset, which is available to anyone with a sufficiently advanced 
+internet-connected device to make payments, store value, or 
+use as collateral.
+In some contexts, including Vanuatu, the use of 
+cryptocurrencies like ETH and BTC are not permitted. As such, 
+the solution developed for the UnBlocked Cash pilot holds value 
+in a sub-currency designated DAI, which is ‘wrapped’ in a Crypto 
+Collateralised Voucher (CCV) to be used in-country. See section 
+3.7. ‘Stablecoins and Dai’ for more information.
+Figure 8: The degree of participation allowed by a DLT depends on the 
+two axis of this diagram.
+permissionless
+permissioned
+private
+public
+open, free
+closed, free
+open, controlled
+closed, controlled
+
+--- Page 17 ---
+RESEARCH REPORT OCTOBER 2019    15
+The CCV ensures that only pre-approved participants of the 
+UnBlocked Cash pilot are permitted to access value, which is a 
+critical component of the AML considerations made by Sempo. It 
+also insures that donor funds are tied to the programme, which 
+protects against poor budget management or re-allocation by 
+the NGO.
+To create a CCV token during the UnBlocked Cash pilot, Sempo 
+would issue 1 DAI to the governing smart-contract, which held 
+the DAI in escrow. To release DAI from escrow, one must provide 
+the smart-contract with a CCV token. However, to make this trade, 
+one’s address must be on a whitelist defined by Sempo and stored 
+in the smart-contract. As a result, only selected participants could 
+access the underlying value of a CCV token, which can theoretically 
+be sold at an exchange for fiat currency. This limitation ensures 
+that no cryptocurrency was traded in Vanuatu and the CCV token 
+was not in violation of AML regulations.
+As mentioned in section 3.5.2. ‘Immutability’, Ethereum can be 
+privately deployed to servers accessible to only a small number 
+of users. In Oxfam’s experience, this is the common configuration 
+among DLT-based CVA providers. The UnBlocked Cash pilot was 
+proudly deployed to the Ethereum mainnet, which ensures that no 
+single entity controls the data associated with the pilot.
+By running the UnBlocked Cash pilot on Ethereum, Oxfam joined 
+the largest and most active DLT-based community in the world, 
+one that actively maintains and improves the technology over 
+time—which is essential as Ethereum has no centralised control 
+over the platform.
+3.7. Stablecoins and Dai
+According to the Ethereum Wiki (2019), “One of the main 
+problems with Bitcoin is the issue of price volatility. The value 
+of a Bitcoin often experiences very large fluctuations, rising or 
+falling by as much as 25% in a single day and 3x in a month”. 
+Since the price of many cryptocurrencies is directly proportional 
+to demand, which is unpredictable, volatility is common among 
+these digital assets, including Ethereum’s own ETH. This makes 
+the use of cryptocurrencies a risky prospect for aid delivery.
+One solution to this problem is to create a cryptocurrency 
+that tracks a specific asset. This kind of collateral-backed 
+cryptocurrency is commonly known as a stablecoin since the 
+value is ‘stable’ relative to a trusted asset.
+The UnBlocked Cash pilot takes advantage of the Dai Stablecoin 
+System, which was specifically designed to address the stable 
+exchange of value in the Ethereum ecosystem (MakerDAO n.d.).8 
+DAI’s creator, MakerDAO, achieves ‘stability’ in part by setting a 
+‘Target Price’ for the cryptocurrency of USD 1, translating to a 
+1:1 USD soft-peg. This relationship is significant as USD is widely 
+accepted as the global reserve currency.
+It is important to note that DAI can be sold for fiat currency on 
+a digital exchange. This high degree of tradability means that 
+8	
+More information on DAI is available at: https://makerdao.com/en/whitepaper/
+9	
+A full list of NFC Forum members is available at: https://nfc-forum.org/about-us/our-members/
+distributing DAI directly to recipients who have not passed KYC 
+checks would violate AML regulations. As such the UnBlocked 
+Cash pilot distributed DAI ‘wrapped’ in a CCV that could only be 
+‘unwrapped’ by pre-approved participants.
+To Oxfam’s knowledge, the UnBlocked Cash pilot is the first 
+instance of a stablecoin being used in CVA.
+3.8. Near-field communication
+Near-field Communication (NFC) is a standardised contactless 
+communication technology based on a radio frequency (RF) 
+field defined and maintained since 2004 by the not-for-profit 
+industry association ’NFC Forum’ (Ortiz 2008; NFC Forum n.d.; 
+Francis et al n.d.).9 This global consortium of hardware and 
+software companies, governments, financial institutions, and 
+network-providers works to share development, application, and 
+marketing expertise to advance the technology.
+The technology uses a base frequency of 13.56 MHz, with a typically 
+low data transfer rate or Baud (Bd) of between 106–424 kilobits 
+per second (kbit/s). It is designed to exchange data between two 
+NFC-compatible devices, or between an NFC-compatible device and 
+an NFC-compatible card, tag or token when they are brought within 
+close proximity (Ortiz 2008; NFC Forum n.d.). The first scenario, 
+which might include two smartphones communicating via NFC, is 
+described as an ‘active’ or P2P mode, while the second scenario 
+mirrors a more conventional contactless system, sometimes 
+described as ‘passive’.
+In the Oxfam-Sempo system, the data stored on the NFC-
+compatible card could only be modified by an NFC-compatible 
+smartphone, which powered the card when held nearby—two 
+cards could not interact.
+Since the transmission range is so short, approximately four 
+centimetres or closer, NFC-based transactions are considered by 
+some to be inherently secure (Ortiz 2008). However, Francis et al 
+(n.d.) warn that the computational capabilities of smartphones 
+coupled with the capabilities of NFC-compatible devices to 
+behave as both reader and token does put NFC cards at risk of 
+contactless ‘skimming’ and ‘cloning’. With a few exceptions, “… the 
+NFC specifications and standards leave application security in the 
+hands of the developer” (Francis et al n.d.).
+
+--- Page 18 ---
+16    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Figure 10: An NFC card being scanned with an NFC-compatible device. Photo: Keith Parsons/OxfamAUS
+Figure 9: An NFC card as distributed to members of the Pango community. Photo: Keith Parsons/OxfamAUS
+
+--- Page 19 ---
+RESEARCH REPORT OCTOBER 2019    17
+Figure 11: A QR code printed on the reverse side of an NFC card. Photo: Keith Parsons/OxfamAUS
+The NFC cards used during the UnBlocked Cash pilot relied on the 
+MIFARE Ultralight EV1 contactless integrated circuit (IC), which 
+included a cryptographic module not to be confused with the more 
+significant cryptographic process implemented by Sempo.
+When the entitlements were loaded onto a card, that amount 
+was recorded locally and signed with Sempo’s private key. This 
+signing process employed asymmetric key cryptography, which 
+allowed anyone with access to Sempo’s public key to verify that 
+Sempo deposited the amount recorded on the card.
+The entitlements are held on the card as a sequence of 
+deposits and withdrawals. Each time a recipient makes a 
+purchase, the amount spent is recorded by incrementing a one-
+way counter, creating an irreversible record of the total amount 
+deducted. Entitlements were added to a separate counter, 
+which only Sempo could add value to using its private key. The 
+balance of a recipient can then be calculated as: balance = 
+[amount loaded on] - [amount deducted]. Since this process 
+occurred locally, double-spending was impossible even if the 
+ledger had not been synced between vendors.
+Each card’s unique identifier (UID) was stored securely and 
+could not be tampered with, and was mapped one-to-one 
+with a corresponding Ethereum address that was whitelisted 
+by the admin account to which all the addresses belong. This 
+made the aforementioned ‘skimming’ exceptionally difficult if 
+not impossible as only pre-approved addresses could transact 
+within the pool.
+As a security precaution, the NFC cards were not attributed 
+value until they were assigned to a recipient in country; as such 
+field staff required a mechanism by which to assign a card’s 
+UID to a participant. To this end, quick response (QR) codes 
+were printed on the NFC cards, which revealed the cards UID 
+used in the aforementioned signing process. This also ensured 
+that field staff would not require an NFC-compatible device 
+to onboard participants. When onboarding a participant, the 
+Sempo platform recorded which UID was assigned to which 
+participant and the value of their entitlement.
+
+--- Page 20 ---
+18    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Figure 12: A QR code being scanned during recipient registration in Pango. Photo: Keith Parsons/OxfamAUS
+
+--- Page 21 ---
+RESEARCH REPORT OCTOBER 2019    19
+4. DLT-based Cash Transfers 
+in Vanuatu
+UnBlocked Cash system design
+The DLT-based CVA deployed in Pango and Mele Maat built on 
+Oxfam’s experience with market-based responses in the Pacific 
+and the specialised technological expertise of Sempo. At the 
+heart of the system was the Sempo platform, which had been 
+previously tested in Lebanon, Greece, and Iraqi Kurdistan. The 
+UnBlocked Cash pilot introduced untested and novel features 
+to the platform in response to the low connectivity in the region 
+and government-imposed limitations on cryptocurrencies.
+The Sempo platform was composed of five key elements. 
+The first was an NFC card issued to all 187 recipients as the 
+exclusive means by which to exchange VUV 4,000/AUD 49.24 
+per card of tokenised value for goods and services offered by 
+approved vendors. Each NFC card was mapped one-to-one with 
+an address on the Ethereum mainnet, where the recipient’s 
+balance was held—these might otherwise be described as ‘cold’ 
+digital wallets. Recipients were encouraged to exhaust their 
+assigned value within one week of disbursement. In practice, 
+some flexibility was exercised to ensure that all recipients had 
+sufficient spending opportunity.
+The second element was the Sempo app, which was preinstalled 
+onto Android devices provided to each of the 29 vendors. 
+These NFC-compatible devices allowed vendors to interact with 
+recipients via the NFC cards. A recipient tapped the NFC card 
+against the device to complete the desired transaction.
+The third was Sempo’s dashboard, which was used by both Oxfam 
+and Sempo to register participants, monitor the programme, 
+and manage disbursements. In addition to the functions of the 
+dashboard, Sempo’s platform verified transactions locally and 
+updated a local database before committing transaction records 
+to Ethereum. A single account held by Sempo submitted the 
+records. This account was authorised to commit transactions on 
+the recipient’s behalf during the initial disbursement. The smart 
+contract stored this approval notice, and checked to ensure it was 
+valid every time Sempo attempted to process a transaction on 
+behalf of that user.
+The two remaining elements of the system relied on Ethereum. 
+First, the flow of value was verified on the mainnet. Second, 
+the DAI stablecoin was ‘wrapped’ in a Sempo-developed 
+CCV, which was theoretically tradable between community 
+members and represented the ‘token’ used to purchase 
+goods from local vendors. Given many recipients lacked the 
+adequate documentation to pass KYC checks, and the local 
+government’s strict regulatory requirements, direct distribution 
+of cryptocurrency was not possible. The DAI that underpins the 
+Sempo CCV or ‘token’ was only directly accessible by parties that 
+met the government’s regulations. These approved parties were 
+recorded on a whitelist stored in the smart contract. As a result, 
+virtually any party who met local requirements could act as a 
+guarantor of value for the programme.
+Vendors were encouraged to ‘cash-out’ twice per week via 
+direct bank transfers to reimburse their sales. However, this 
+was not possible on account of a two-day settlement period 
+for each transfer found between banks in Vanuatu. As a 
+result of these long bank transfer times, a Super Vendor was 
+commissioned to allow smaller vendors to exchange their 
+tokenised value currency for fiat currency. The Super Vendor 
+was financially incentivised with a cash advance in anticipation 
+of the transfer fees they would incur. See section 6.2. ‘Hub-and-
+spoke funds flow’ for more information on the Super Vendor.
+
+--- Page 22 ---
+20    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+5. Approach and Methods
+To determine whether DLTs can reduce the cost and transaction 
+time of CVA while improving transparency, security, and overall 
+UX, Oxfam partnered with Sempo and ConsenSys Solutions to 
+distribute VUV 966,443/AUD 11,896.91 to 187 households of 
+non-fungible value from OAU to recipients in Pango and Mele 
+Maat on the island of Efate in the Republic of Vanuatu.
+Field research conducted by Oxfam staff in Vanuatu has been 
+aggregated with data captured from Sempo and ConsenSys 
+Solutions to inform a supply chain performance (SCP) 
+measurement. This measurement evaluated the pilot against 
+three key dimensions: time, cost, and quality.
+While for-profit supply chains and humanitarian relief chains differ 
+in many ways, Beamon & Balcik (2008, p.5) suggest that: “Effective 
+performance measurement systems would assist relief chain 
+practitioners in their decisions, help improve the effectiveness and 
+efficiency of relief operations, and demonstrate the performance 
+of the relief chain, thereby increasing the transparency and 
+accountability of disaster response”.
+Research activity carried out by Oxfam staff in Vanuatu included 
+detailed participant registration and real-time monitoring, 
+surveying of the entire participant pool, six key informant 
+interviews, and four focus group discussions.
+The team collected over 520 surveys across a range of 
+activities including:
+•	
+Preliminary analysis for vendors (prior to the programme 
+commencement)
+•	
+Registration/baseline vendors
+•	
+Registration/baseline recipients
+•	
+Onsite monitoring recipients
+•	
+Post-distribution Monitoring (PDM)/Endline for vendors
+•	
+Post-distribution Monitoring (PDM)/Endline for recipients
+•	
+Focus group discussion (FGD)
+•	
+Key informant interviews (KII)
+•	
+Internal staff interviews (after the first and the second round)
+The extent of the monitoring during the UnBlocked Cash pilot 
+is not typical of a humanitarian programme — ordinarily only 
+a statistically representative number of randomly sampled 
+participants are monitored. Given this pilot was examining 
+entirely new technology in this context, it was essential to 
+thoroughly observe the communities’ experiences and gather 
+feedback from as many participants as possible to catalogue 
+their experiences and understanding of the product.
+5.1. Expected Research Outcomes
+This research set out to deliver the following outcomes:
+1.	 Demonstrate the capabilities of the Sempo platform.
+2.	 Understand existing transfer mechanisms and the 
+associated organisational processes within Oxfam.
+3.	 Time and cost comparison of DLT-based solutions with 
+existing transfer mechanisms.
+4.	 Comparison of stakeholders’ ratings concerning 
+transparency, security, and user experience between DLT-
+based and existing solutions.
+5.	 Develop an understanding of potential risks and mitigation 
+measures.
+6.	 Develop an understanding of DTL infrastructure and 
+deployment consideration.
+7.	 Evaluation of platform endpoints, i.e. time and cost of 
+distributing and reconciling NFC cards.
+Figure 13: Oxfam’s Kalua Salerua, discusses proceedings with Pango community members ahead of registrations for the UnBlocked Cash pilot on 
+the island of Efate. Photo: Keith Parsons/OxfamAUS
+
+--- Page 23 ---
+RESEARCH REPORT OCTOBER 2019    21
+Figure 14: Local Pango store owner Melika Kaluat at her store during the first round of the UnBlocked Cash pilot in Pango. 
+Photo: Keith Parsons/OxfamAUS
+5.2. Research Participants
+Participants were engaged in two rounds over four weeks. 
+Each round lasted two weeks from participant registration 
+to completion. The first round was conducted in the Pango 
+community located in the south-eastern part of Efate in the 
+Republic of Vanuatu. The second round was conducted in Mele 
+Maat, north-west of Bauerfield International Airport.
+Since the UnBlocked Cash pilot was not a needs-based 
+intervention, the selection criteria for these communities were 
+not typical of an Oxfam humanitarian programme. The following 
+criteria was used:
+1.	 Communities must be based in a location prone to disasters 
+but not currently experiencing a disaster.
+2.	 Communities must be in close proximity to the Oxfam office.
+3.	 Communities must be based in province with a high 
+feasibility score based on Vanuatu Cash Transfer Feasibility 
+Assessment (2019).
+4.	 Communities must be based in an urban or peri-urban 
+area in which mobile networks and electricity supply are 
+consistent and likely to be rapidly restored after an event.
+5.	 Oxfam must have a pre-existing partnership with the local 
+government responsible for the community.
+These five criteria ensured that the participants were of low 
+variability and the pilot could proceed rapidly with maximum 
+logistical simplicity. Oxfam had an existing memorandum of 
+understanding (MoU) with Shefa Province, in which Pango 
+and Mele Maat are based, for the implementation of disaster 
+preparedness interventions. According to Holt and Hart (2019), 
+10	 The LGBTIQ+ acronym is intended to encompass the full spectrums of sexuality and gender which include but are not limited to lesbian, gay, bisexual, transgender, 
+intersex, and questioning.
+Shefa province on the island of Efate is the most feasible 
+location for CVA interventions.
+Secondary criteria were applied in the selection of recipients to 
+ensure that those most likely to be marginalised post-disaster 
+were included in the pilot. These include: single mothers, 
+widows, people with a disability, and LGBTIQ+ members.10 
+Participants were registered in the mornings, based on community 
+preference. Initially, both rounds were to be run in immediate 
+succession. However, due to a wedding in Mele Maat, Oxfam 
+delayed deployment in that community out of respect and also 
+to ensure that spending patterns were not affected by the event.
+Within these communities, Oxfam defined two participant types: 
+Vendors and Recipients.
+5.2.1. Vendors
+Vendors were existing store owners operating in Pango and Mele 
+Maat at a variety of scales, with a varying selection of items. 
+Some small vendors stocked a minimal number of items and 
+did not necessarily hold a business licence or bank account 
+designated explicitly to their business.
+Initially, the UnBlocked Cash pilot sought 10 vendors based on 
+the minimum number required for a total recipient population of 
+200. The total number of vendors increased to 29 based on an 
+eligibility survey conducted two weeks before Sempo’s arrival.
+Vendors were selected on the basis of where they operated, 
+their willingness to participate, bank account ownership, access 
+to the internet, and compliance with KYC requirements.
+
+--- Page 24 ---
+22    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+It was considered essential to onboard as many vendors as 
+possible to ensure recipients have greater freedom of choice. 
+Ultimately, 29 were included in the pilot: 15 in the first round 
+and 14 in the second. Vendors were 65.5 per cent female with 
+an average age of 41. While male vendors averaged 54 years of 
+age, the combined average age of the vendors participating was 
+44. Further demographic data is provided below:
+5.2.2. Recipients
+Recipients were represented by 187 heads of households: 101 
+in Pango and 86 in Mele Maat; 81.28 per cent of whom identified 
+as female. Oxfam intended that only women would be issued 
+cards. However, in a country where only 18 per cent of 
+households are headed by females, according to 2016 census 
+data, this did not necessarily ensure that the most vulnerable 
+people were being included.
+The same census reported that nationally the average 
+household is composed of 4.8 individuals. Meanwhile, the 
+combined average of Pango and Mele Maat, determined by 
+surveying 157 heads of households, is composed of 5.6 
+11	 The number of recipients surveyed for the PDM data set was calculated based on a 5 per cent error margin and 99 per cent confidence level. This calculation was 
+made because the activities of the pilot were carried out across two communities at different times. At the time of the calculation, 200 recipients were expected to 
+take part, which yielded a recommended sample size of 154. Oxfam staff in Vanuatu conducted three more interviews than required for that number, which resulted in 
+a total of 157. With only 187 recipients taking part in the UnBlocked Cash pilot, the sample size became much larger than the 147 required. These calculations were 
+made using Raosoft’s ‘Sample size calculator’ available at: http://www.raosoft.com/samplesize.html
+individuals.11 As such, it is estimated that the UnBlocked Cash 
+pilot directly benefited 1,210 individuals. This estimation was 
+made by combining 187 recipients, 29 vendors, and their 
+respective families. Further demographic data is provided below:
+Access
+Count
+Percentage
+Yes
+11
+73.33
+No
+3
+20
+Not Recorded
+1
+6.67
+SUM
+15
+100
+Table 2: Business Accounts in Pango
+Access
+Count
+Percentage
+Yes
+14
+100
+No
+0
+0
+SUM
+14
+100
+Table 3: Business Accounts in Mele Maat
+Gender
+Count
+Percentage
+Female
+10
+66.67
+Male
+5
+33.33
+Transgender
+0
+0
+SUM
+15
+100
+Table 4: Vendors by Gender in Pango
+Gender
+Count
+Percentage
+Female
+11
+78.57
+Male
+3
+21.43
+Transgender
+0
+0
+SUM
+14
+100
+Table 5: Vendors by Gender in Mele Maat
+Gender
+Count
+Percentage
+Female
+83
+82.18
+Male
+17
+16.83
+Transgender
+1
+0.99
+SUM
+101
+100
+Table 6: Recipients by Gender in Pango
+Status
+Count
+Percentage
+Single mama
+34
+33.66
+Person with disability
+33
+32.67
+Widows
+33
+32.67
+Transgender
+1
+0.99
+SUM
+101
+100
+Table 7: Recipients by Status in Pango
+Figure 15: A member of the Pango community is registered for the 
+UnBlocked Cash pilot using KoBoToolbox, which directly interfaced 
+with the Sempo platform. Photo: Keith Parsons/OxfamAUS
+Gender
+Count
+Percentage
+Female
+69
+80.23
+Male
+17
+19.77
+Transgender
+0
+0
+SUM
+86
+100
+Table 8: Recipients by Gender in Mele Maat
+Status
+Count
+Percentage
+Widows
+31
+36.05
+Person with disability
+28
+32.56
+Single mama
+27
+31.4
+Transgender
+0
+0
+SUM
+86
+100
+Table 9: Recipients by Status in Mele Maat
+
+--- Page 25 ---
+RESEARCH REPORT OCTOBER 2019    23
+Each of the 187 recipients was issued with an NFC card holding 
+VUV 4,000 of tokenised value, which on 22 April 2019, the day 
+the pilot commenced, exchanged to 49.24 AUD at the mid-
+market-rate of 1 VUV = 0.01231 AUD according to XE.
+According to the Household Income and Expenditure Survey 
+(2010), this amount was not a significant value for social 
+support. However, it allowed recipients to make multiple 
+purchases, which helped to conduct a more sophisticated test 
+of the Sempo platform. Oxfam placed no limitations on how 
+recipients could spend the allocated value with the 29 vendors 
+onboarded. However, taboo items such as kava, alcohol, 
+and cigarettes were defined on the platform to determine if 
+recipients would ‘misuse’ the value and to reduce the burden 
+of vendors that might have to argue over these items with 
+insistent recipients.
+Misuse is rare—in a comparison of 11 studies representing 
+programmes in eight countries: six in Africa, one in Asia, and 
+another in the Middle East, the World Bank found the median 
+proportion of households that spent some or all of their 
+entitlement on taboo items was 1.2 per cent. While some 
+interviewees in a study from Malawi had “heard of four men” 
+or knew “certain men” that had spent entitlements on alcohol, 
+these numbers appeared very low, which suggests that “… on 
+average, there is no positive impact of transfers on alcohol 
+expenditures” (Evans and Popova 2014). There was no recorded 
+misuse reported in vendor or recipient interviews, or in the 
+expenditure data from this pilot.
+It is important to note that it was not the intention of the 
+UnBlocked Cash pilot to understand temptation spending in 
+the target communities, instead to demonstrate that capturing 
+such spending patterns in real-time is possible; in contrast to 
+relying on post-distribution monitoring (PDM), which does not 
+allow NGOs to adapt to this behaviour during the distribution.
+5.3. Community Engagement
+The involvement of the communities of Pango and Mele Maat was 
+essential to the pilot’s success. Through consultation with these 
+communities, Oxfam staff in Vanuatu and Sempo were able to 
+understand and respond to community attitudes and expectations.
+Early survey responses indicated that both communities 
+were curious about the UnBlocked Cash pilot and willing to 
+participate. Many of the community’s questions during these 
+early interviews centred on pilot eligibility criteria, which Oxfam 
+staff in Vanuatu determined based on an individual’s reported 
+vulnerability, and the type of identifiable information that might 
+be associated with the NFC cards. There were also concerns 
+regarding the loss of NFC cards and supplied Android devices, 
+which triggered a policy change in which vendors agreed to pay 
+a penalty if the devices were not returned to Sempo.
+Among the most potent examples of community involvement 
+were the referrals made by the Area Secretary and the relatives 
+of the would-be participants. Approximately 62.76 per cent of 
+participants learned about the pilot via non-Oxfam sources.
+Note: 12 of the 157 PDM respondents did not answer this question.
+Early consultation during recipient registration informed 
+the initial product categories programmed into the Sempo 
+dashboard, which allowed vendors to contribute to a better 
+understanding of the communities’ spending patterns. 
+Additionally, Oxfam staff in Vanuatu facilitated ‘inception 
+workshops’ to enhance community support.
+Following this, Sempo and Oxfam staff in Vanuatu jointly 
+facilitated an information session with community leaders 
+representing local councils and women’s committees during 
+which three people in Pango were elected ‘Community Focal 
+Points’. These community members supported the pilot by 
+checking the balance of recipients’ NFC cards as required.
+Oxfam staff in Vanuatu developed awareness campaigns 
+within the communities to encourage participation and provide 
+instructions for transactions in-store. Posters describing the 
+pilot and instructional material was distributed in the national 
+creole language of Bislama. However, the Area Secretary felt 
+that Sempo should have offered further instructions on the 
+working of the app in the form of a booklet.
+The Area Secretary was a notable supporter of the UnBlocked 
+Cash pilot. He spoke of his plans to introduce Business Education 
+training for local vendors after observing varying competencies in 
+bookkeeping, which results in varying degrees of financial success. 
+In contrast, he spoke highly of the general financial literacy among 
+vendors. His influence and ongoing presence during the pilot 
+was a significant factor in the willingness of Pango’s vendors to 
+participate in the UnBlocked Cash Pilot.
+Type
+Count
+Percentage
+Area Secretary
+59
+40.69
+Oxfam staff
+54
+37.24
+Relatives
+28
+19.31
+Community Focal 
+Points
+2
+1.38
+Chief
+1
+0.69
+Other
+1
+0.69
+SUM
+145
+100
+Table 10: Source of Programme Referral
+
+--- Page 26 ---
+24    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Figure 16: Pango Area Council Secretary, Alan Sope, during an interview. Photo: Keith Parsons/OxfamAUS
+
+--- Page 27 ---
+RESEARCH REPORT OCTOBER 2019    25
+digital wallets managed by sempo
+6. Stories
+The stories in this section draw on both empirical data and anecdotal evidence collected during the UnBlocked Cash pilot to 
+illustrate some of the strengths and weaknesses of the tested system as observed by Oxfam staff in Australia and Vanuatu.
+6.1. Complex funds flow
+To address government-imposed limitations on the use of cryptocurrency in Vanuatu, Sempo developed a unique distribution model. 
+In this design, there were six major steps.
+First, the donor or NGO, in this case Oxfam staff in Australia, 
+purchased DAI to the equivalent value of the total amount to 
+be distributed. In practice, Oxfam staff in Australia engaged 
+Sempo to purchase the DAI and distribute the balance of the 
+programme to vendors and recipients. This arrangement would 
+not be necessary for future implementations if DFAT and Oxfam 
+could approve the direct purchase of cryptoassets such as DAI.
+In the following step, the DAI was sent to an escrow contract 
+where the CCV was created.12 For each unit of DAI deposited into 
+escrow, the programme administrator is permitted to distribute 
+an equivalent number of CCVs to recipients.
+Thirdly, administrators distributed CCVs to recipients on the 
+Sempo dashboard. While the holder of each CCV was recorded 
+on the Ethereum mainnet, the value could not be exchanged for 
+fiat currency. These CCVs were tokens in an accounting process 
+managed by the administrator to record debt within the programme.
+After the value had been assigned to the recipient address on 
+the Ethereum mainnet, which were mapped to an NFC card, 
+the recipients exchanged their assigned value for goods and 
+services at approved vendors.
+12	 Escrow: an agreement between two people or organisations in which money or property is kept by a third person or organisation until a particular condition is met. 
+Definition available at: https://dictionary.cambridge.org/dictionary/english/escrow
+The programme administrator or another approved party such 
+as Sempo then reimbursed vendors for the goods and services 
+they had exchanged with recipients for tokenised value. This 
+cash-out process relied upon Sempo or Oxfam to exchange 
+CCV tokens for fiat currency held within their respective bank 
+accounts. The actual transfer of funds occurs off-chain 
+between existing FSPs held by either Sempo or Oxfam and the 
+vendors. This fiat currency was necessary for vendors to trade 
+off-chain for goods. At this point, the CCVs were recorded as 
+spent, or in possession of an approved party.
+Finally, the approved party was reimbursed by using the CCV to 
+trigger a release of funds from the escrow contract.
+At the expense of complexity, this approach allowed Oxfam, and 
+its back donors, to engage with a highly traceable flow of value 
+using a recognised cryptoasset, without the cryptoasset being 
+distributed in-country.
+See section 6.7. ‘DLT-based CVA durability in an urban context 
+of Vanuatu’ for additional features of the Sempo platform as 
+tested during the UnBlocked Cash pilot.
+Figure 17: UnBlocked Cash pilot system design as proposed by Sempo.
+Donor
+NGO’s 
+Smart 
+Contract
+Affected 
+Person
+Affected 
+Person
+Affected 
+Person
+Vendor
+Sempo
+Flat
+Digital 
+Currency
+Transfer 
+via SMS, Card 
+or App
+Goods and 
+Services
+
+--- Page 28 ---
+26    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+6.2. Hub-and-spoke funds flow
+The Super Vendor
+Among the most significant issues to emerge in the early 
+days of the pilot was the slowness of cash-outs from Sempo 
+to vendors. Initially, it was expected that cash-outs would 
+be made to vendor bank accounts at regular intervals from 
+Sempo’s Australian bank account, which held the total amount 
+of fund to be distributed. These twice-weekly cash-outs, in 
+which tokenised value was exchanged for fiat currency, were 
+anticipated to provide adequate liquidity for vendors to restock 
+as required during the pilot. To facilitate these transfers, Sempo 
+obtained bank details and documentation required for KYC 
+compliance during vendor enrolment.
+However, the cost of such transfers was unsustainably high 
+for Sempo to bear. This method also added unnecessary 
+complexity to the system and did nothing to remove incumbent 
+intermediaries. During field testing ahead of the pilot, Sempo 
+discovered that the minimum allowable amount for international 
+transfers from its Australian account was VUV 10,000/AUD 
+123.10, which was far higher than the volume of business 
+smaller vendors were conducting before needing to restock. 
+During vendor registration and surveying, most vendors reported 
+an anticipated weekly revenue of between VUV 5,001–10,000/
+AUD 61.56–123.10 and not one expected in excess of VUV 
+10,000/AUD 123.10, this created an acute problem for the 
+liquidity of participating vendors.
+Additionally, these international transfers included an entirely 
+unacceptable receiver’s fee of VUV 1,000–1,200/AUD 12.31–
+14.77, and often took days to process, depending on the 
+receiving vendor’s FSP. This delay was considered inconvenient 
+for vendors needing to restock during the pilot. This reported 
+slowness, in addition to the high fees to both sender and 
+receiver, reinforced the assumptions made during the design 
+phase of the UnBlocked Cash pilot.
+In response to these early difficulties, Sempo and Oxfam staff in 
+Vanuatu identified three potential solutions. The first was that 
+Sempo would cash-out from a newly established bank account 
+based in Vanuatu. The second was to enlist Oxfam staff in both 
+Australia and Vanuatu to facilitate the process. Finally, it was 
+decided to pursue a hub-and-spoke model by which the hubs, 
+called a ‘Super Vendor’, would offer cash-out services to smaller 
+vendors. Within the space of roughly two hours, Sempo and 
+Oxfam staff in Vanuatu had workshopped the concept, identified 
+a candidate based on the vendor’s inventory and liquidity, and 
+formalised an agreement with the candidate, a vendor in Pango 
+Village. This nimble response illustrated the flexibility of the 
+platform and the applicability of this DLT-based CVA solution in 
+the context of an emergency response. This flexibility allowed 
+the implementing agent to improve its practices incrementally, 
+by learning from the outcomes of decisions made during 
+previous stages in the programme; in this way, the platform 
+promoted an adaptive project management approach.
+Figure 18: ‘Super Vendor’ Loid Albert pictured at her store during the first round of the UnBlocked Cash pilot in Pango. Photo: Keith Parsons/OxfamAUS
+
+--- Page 29 ---
+RESEARCH REPORT OCTOBER 2019    27
+This model was not without its challenges. During an interview 
+with Oxfam staff in Vanuatu, the vendor explained that “it 
+took too long to get repaid and I had to use my own money 
+to restock”. She went on to say that “I also had to take out 
+my own savings to pay out the small vendors…”. She felt that 
+there needed to be a clearer understanding that the cash-out 
+process will take time, but she appreciated the extra interest 
+and financial bonuses with each small vendor cash-out. Her 
+incentives included a VUV 30,000/AUD 369.30 advance, in 
+anticipation of the demand for cash-out services and the 
+transfer fees they would incur. Additionally, she was offered 5 
+per cent of the amount cashed-out to small vendors.
+While this improved the rate at which smaller vendors could 
+restock, this approach compromised the Super Vendor’s user 
+experience, as the Sempo app distributed to vendors did not 
+delineate between income from product sale and income 
+from cash-out services. This distinction between income from 
+product sale and income from cash-out services is only visible 
+on the dashboard by Oxfam and Sempo staff. The Super Vendor’s 
+positive relationship with Oxfam staff in Vanuatu helped bolster 
+her confidence in the system and willingness to proceed in her 
+role as a Super Vendor despite the app’s limitations.
+Due to the lack of clarity surrounding the role of the Super 
+Vendor in Pango, in addition to UX challenges and the smaller 
+scale of vendors in Mele Maat, Oxfam opted not to retest the 
+Super Vendor model in Mele Maat. In its place, Oxfam cashed-out 
+vendors once per week from accounts held in Vanuatu to reduce 
+the time and direct cost of bank transfer.
+When a vendor in Mele Maat was asked if the Super Vendor 
+model could have worked in Mele Maat, she answered with an 
+emphatic “Yes!”. She felt that the model would have helped 
+owners of small and medium shops who were prone to running 
+out of goods within 1-2 days to cash-out faster and, therefore, 
+restock sooner. Unfortunately, she felt no shop in her community 
+was large enough to fulfil the role of a Super Vendor. See 
+section 8.4. ‘More Super Vendors for post-disaster scenarios’ for 
+potential considerations for future CVA programmes.
+Figure 19: Local store owner Melika Kaluat cashes out at ‘Super Vendor’ Loid Albert’s store in Pango. Photo: Keith Parsons/OxfamAUS
+
+--- Page 30 ---
+28    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Figure 20: A small cross-section of goods available at Loid Albert’s store in Pango. Photo: Keith Parsons/OxfamAUS
+In the context of an emergency response, the ability to restock 
+quickly is crucial. When compared to the conditions of the pilot, 
+the inability to meet demand during a crisis has significant 
+effects on the health and wellbeing of an affected population. 
+65.5 per cent of Vendors reported running out of goods during 
+the pilot; of those 78.95 per cent were able to restock. It is 
+conceivable that if a solution like that piloted in Pango and Mele 
+Maat were to be scaled up in response to a disaster, the rate at 
+which stocks depleted might increase with greater demand and 
+the ability to restock might be significantly affected.
+According to the ‘Vanuatu Cash Transfer Feasibility 
+Assessment’, “… smaller markets lack the capacity for CTP 
+due to their size and reduced variety of goods. They are then 
+unable to scale up quickly in response to a rapid increase in 
+demand due to the lack of warehousing and credit agreements 
+with suppliers, which reduces shopkeepers’ ability to replenish 
+or purchase stock ahead of time. As such, they then have to 
+rely on shipments that are subject to regular delays, and may 
+need to limit purchase orders and frequency due to the cash 
+resources that they have available”. The authors Holt and Hart 
+(2019) point out that the inadequate infrastructure at local 
+seaports can create further delays due to the increased risk of 
+damage to goods during handling.
+Therefore, the authors report a considerable risk of inflation 
+attributed to CVA in remote locations, particularly where 
+significant population movement has occurred. In this context, 
+inflation could be attributed to a shortage of supply, which 
+drives higher prices or as a consequence of vendors increasing 
+prices because they are aware of a majority shift in purchasing 
+power regardless of supply.
+Despite its drawbacks, support for the Super Vendor solution 
+was strong among programme stakeholders. While it lacked 
+refinement, this hub-and-spoke model could be developed to 
+put more control into the hands of the community to self govern 
+and further help to stimulate the local economy. This solution 
+could also help unbanked vendors participate in the economy, 
+which could be particularly important in emergency response and 
+recovery efforts where informal markets are likely to emerge.
+6.3. How value is spent
+By strict definition, the UnBlocked Cash pilot is a CCT programme 
+due to the small pool of 29 vendors with whom recipients could 
+transact, and the discouraging of taboo items such as kava, 
+alcohol, and cigarettes. These conditions notwithstanding, the 
+programme intended to provide as much choice and agency as 
+possible within the context.
+During recipient registration, Oxfam staff in Vanuatu consulted 
+with community members to determine the types of items they 
+hoped to purchase during the pilot. The resulting data informed 
+the categories programmed into the Sempo platform. These 
+included: Food, Household Items, Hygienic Items, Clothes, 
+Medical Services, School Fees (added in the second round), 
+Transportation Fares, Building Material, Phone Credit, Smart 
+Meter Refill, and ‘Other’ for taboo items which included alcohol, 
+kava and cigarettes.
+Within the Food category, Sempo recorded long-life and fresh 
+foods despite the overwhelming bias toward shelf-stable products 
+present in the inventory of most vendors, see Figure 20. Later, the 
+‘cash-out’ category was added in support of the Super Vendor.
+
+--- Page 31 ---
+RESEARCH REPORT OCTOBER 2019    29
+Roughly 94 per cent of recipients in Pango and 99 per cent in 
+Mele Maat planned to purchase food during the pilot period. In 
+both communities, hygienic items were the second most desired 
+category, with approximately 62 and 83 per cent of the population 
+nominating this category respectively. Both communities 
+demonstrated that ‘priority needs’13 and ‘planned purchases’ 
+followed the same trend with food, hygienic items, and household 
+items holding the first three positions. The remaining categories 
+were sorted by percentage in descending order in the tables below.
+13	 Priority needs are items a household or individual requires to survive or recover during or following a humanitarian crisis. For this pilot, recipients were asked to 
+estimate which categories they considered a ‘priority need’. Planned purchases, on the other hand, relate only to the items the recipients intended to buy in the 
+context of the UnBlocked Cash pilot.
+Of the 80 recipients in Pango surveyed during PDM, 100 per cent 
+purchased food, which represented approximately 40 per cent 
+of total purchases in that community. 86.25 per cent bought 
+hygienic items, and 43.75 per cent bought household items. 
+These figures demonstrate that the recipients’ spending patterns 
+roughly matched their reported intentions. In this community, the 
+in-country team was surprised to find 6.25 per cent of recipients 
+purchased electricity via a smart meter refill. This became the 
+fourth largest spending category. The complete list of categories 
+is sorted by percentage in descending order in the table below.
+Data captured by the Sempo platform indicates that of the 582 
+transactions, excluding cash-outs, made in Pango between 
+22 April and 17 May 2019, 87.97 per cent contained food items. 
+Long-life food represented 59.3 per cent of all items purchases 
+in Pango. In contrast to the recipient reported figures, hygienic 
+items represented just 15.07 per cent of items purchased 
+compared to 34.67 per cent reported. Similarly, household items 
+represented just 13.12 per cent of items purchased compared 
+to 17.59 per cent reported by recipients.
+In Mele Maat between 20 May and 6 June 2019, food items 
+appeared in 78.95 per cent of all 708 transactions. As in Pango, 
+long-life food was the most dominant item, representing 56.43 
+per cent of all items purchased.
+Type
+Count
+Percentage
+Food
+95
+36.82
+Hygienic Items
+58
+22.48
+Household Items
+37
+14.34
+Other
+21
+8.14
+Medical Services
+16
+6.2
+Clothes
+14
+5.43
+Phone Credit
+7
+2.71
+School Fees
+4
+1.55
+Transportation Fares
+3
+1.16
+Building Materials
+3
+1.16
+SUM
+258
+100
+Table 11: Priority Needs in Pango
+Type
+Count
+Percentage
+Food
+86
+36.75
+Hygienic Items
+73
+31.2
+Household Items
+32
+13.68
+Phone Credit
+11
+4.7
+Clothes
+8
+3.42
+School Fees
+8
+3.42
+Medical Services
+7
+2.99
+Transportation Fares
+4
+1.71
+Other
+3
+1.28
+Building Materials
+2
+0.85
+SUM
+234
+100
+Table 13: Priority Needs in Mele Maat
+Type
+Count
+Percentage
+Food
+95
+39.92
+Hygienic Items
+63
+26.47
+Household Items
+37
+15.55
+Medical Services
+16
+6.72
+Clothes
+10
+4.2
+Other
+10
+4.2
+Phone Credit
+5
+2.1
+School Fees
+1
+0.42
+Transportation Fares
+1
+0.42
+Building Materials
+0
+0
+SUM
+238
+100
+Table 12: Planned Purchases in Pango
+Type
+Count
+Percentage
+Food
+85
+36.96
+Hygienic Items
+71
+30.87
+Household Items
+38
+16.52
+Phone Credit
+12
+5.22
+Clothes
+9
+3.91
+Medical Services
+6
+2.61
+Other
+6
+2.61
+School Fees
+2
+0.87
+Transportation Fares
+1
+0.43
+Building Materials
+0
+0
+SUM
+230
+100
+Table 14: Planned Purchases in Mele Maat
+Type
+Count
+Percentage
+Food
+80
+40.2
+Hygienic Items
+69
+34.67
+Household Items
+35
+17.59
+Smart Meter Refill
+5
+2.51
+Medical Services
+4
+2.01
+Clothes
+3
+1.51
+Phone Credit
+3
+1.51
+School Fees
+0
+0
+Transportation Fares
+0
+0
+Building Materials
+0
+0
+Other
+0
+0
+SUM
+199
+100
+Table 15: Reported Purchases in Pango
+
+--- Page 32 ---
+30    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+The influence of item availability on both reported and recorded 
+purchases is impossible to conclusively assess without a complete 
+inventory from each vendor and a record of where recipients 
+transacted. Of the 34 vendors evaluated by Oxfam, 38.24 per cent 
+provided a basic inventory. The data presented in the table below 
+indicates a bias toward food items, particularly in the long-life 
+category followed by hygienic items. In both cases 100 per cent of 
+the thirteen vendors stocked items in these categories.
+Given the dominance of food items in the inventories of 
+surveyed vendors, it is little surprise that vendors report food as 
+the most bought items in both Pango and Mele Maat as see in 
+the tables below.
+Additionally, it is essential to acknowledge that the context of the 
+UnBlocked Cash pilot was expected to affect spending patterns, 
+when compared with those during an active crisis such as the 
+Ambae volcano response. As in the UnBlocked Cash pilot, recipients 
+in the post-disaster scenario of Ambae spent the majority of their 
+allocation on food items: 32.51 per cent in the first month and 30.72 
+per cent in the following (Oxfam 2019). This compares with 40.2 per 
+cent in Pango during the UnBlocked Cash pilot. While significant, 
+this is also the only similarity between the UnBlocked Cash pilot and 
+the Ambae volcano response. It is somewhat unsurprising that in 
+the post-disaster scenario, building materials and transportation 
+fares were much more critical than during the UnBlocked Cash pilot 
+where no money was spent in either of those categories. Clothes 
+and medical services were also far more significant in the former 
+than in the latter.
+Note: Above data was captured during the second PDM of the 
+‘Multipurpose Cash Transfer’ to Evacuees from Ambae from 
+10–16 January 2019.
+Type
+Count
+Percentage
+Long-life Food
+522
+56.43
+Hygienic Items
+149
+16.11
+Household Items
+148
+16
+Fresh Food
+50
+5.41
+Bills
+22
+2.38
+Medicine
+17
+1.84
+Clothing
+15
+1.62
+Taboo
+1
+0.11
+School Fees
+1
+0.11
+SUM
+925
+100
+Table 17: Recorded Purchases in Mele Maat
+Type
+Count
+Percentage
+Long-life Food
+488
+59.3
+Hygienic Items
+124
+15.07
+Household Items
+108
+13.12
+Fresh Food
+44
+5.35
+Bills
+22
+2.67
+Clothing
+15
+1.82
+Medicine
+14
+1.7
+Taboo
+8
+0.97
+School Fees
+0
+0
+SUM
+823
+100
+Table 16: Recorded Purchases in Pango
+Type
+Count
+Percentage
+Food
+13
+92.86
+School Fees
+1
+7.14
+SUM
+14
+100
+Table 20: Most bought items in Mele Maat
+Type
+Count
+Percentage
+Food
+13
+92.86
+Building Materials
+1
+7.14
+SUM
+14
+100
+Table 19: Most bought items in Pango
+Type
+Percentage 
+(Jan)
+Percentage 
+(Feb)
+Combined
+Food
+32.51
+30.72
+31.77
+Building Materials
+7.78
+12.9
+9.89
+Transportation Fares
+14.69
+11.83
+13.51
+Savings
+5.62
+9.83
+7.36
+Clothes
+13.82
+8.91
+11.79
+Medical Services
+7.56
+5.99
+6.91
+Gifts
+2.7
+3.53
+3.04
+School Fees
+1.19
+2.92
+1.9
+Water
+5.18
+2.46
+4.06
+Agricultural Inputs
+2.38
+2.46
+2.41
+Electricity
+1.08
+2.3
+1.59
+Buy Land
+1.3
+2
+1.59
+Rent
+0.54
+1.69
+1.01
+Recharge Cards
+1.73
+0.92
+1.4
+Firewood
+0.97
+0.92
+.0.95
+Business Investment
+0.65
+0.46
+0.57
+Livestock
+0.32
+0.15
+0.25
+SUM
+100
+100
+100
+Table 21: Reported Purchases During Ambae Volcano Response
+Type
+Count
+Percentage
+Canned Food (fish, tuna, chicken, beef, 
+or pork)
+13
+11.21
+Crackers and/or Biscuits
+13
+11.21
+Hygienic Items (soap, or women's 
+hygiene products)
+13
+11.21
+Rice
+12
+10.34
+Products for Babies and/or Infants 
+(diapers, powder, or formula)
+11
+9.48
+Drinks (bottles or cans, excluding water)
+10
+8.62
+Phone Credit
+10
+8.62
+Bread
+7
+6.03
+Bottled Water
+6
+5.17
+Household Items
+6
+5.17
+Cooked Food
+5
+4.31
+Fresh Food (vegetables and/or fruits)
+4
+3.45
+Kitchen Set
+3
+2.59
+Slippers (shoes)
+2
+1.72
+Clothes
+1
+0.86
+School Materials
+0
+0
+SUM
+116
+100
+Table 18: Stocked items in Pango and Mele Maat
+
+--- Page 33 ---
+RESEARCH REPORT OCTOBER 2019    31
+From this comparison, it is apparent then when contrasting 
+CVA with in-kind support, food distribution provides the most 
+relevant comparison. Therefore, it stands to reason that future 
+CVA programmes could be optimised for food purchases.
+6.3.1. How value was not spent
+During on-site monitoring, an elderly widow in Pango commented: 
+“It is helpful…” referring to the pilot, “… but if cash was given to me, 
+I could go to the market and buy for fresh food”.
+This reflection raises an important limitation of the pilot’s 
+design. Even with 29 vendors, it was not possible to cater to 
+all needs. Many of the foods available in these relatively small 
+stores are long-life, shelf-stable, and imported products. Many 
+of these items are like those that might be dispatched during 
+an emergency response. While this is appropriate in the context 
+of this pilot, it illustrated how a closed-loop economy promotes 
+inherent conditionality even if it is market-based. By expanding 
+the pool of vendors and encouraging product diversity, it is 
+conceivable that a ‘true’ economy might emerge.
+6.3.2. Transaction details
+During the UnBlocked Cash pilot, Sempo distributed VUV 
+966,443/AUD 11,896.91 in value by way of 1,572 individual 
+transactions. This number is the aggregate of Disbursements, 
+Payments, and Withdrawals, which are defined in the follow way:
+•	
+Disbursement: refers to the NGO or Sempo transferring funds 
+to a recipient or vendor digital wallet.
+•	
+Payment: refers to a recipient making a payment at a vendor, 
+or a vendor making a payment at a vendor.
+•	
+Withdrawal: refers to a vendor requesting a reimbursement 
+of digital tokens for fiat.
+Note: Discrepancy between value distributed and value spent 
+includes payments to vendors who immediately cashed-out 
+without recirculating their funds, including their VUV 4000/AUD 
+49.24 entitlement, among other vendors.
+With a slightly larger number of participants, Pango also 
+boasted a larger number of transactions when compared with 
+Mele Maat. On average, the pilot participants in Pango made 
+75.5 transactions per day with each transaction averaging VUV 
+2,286/AUD 28.14 in value. In total VUV 541,602/AUD 6,667.12 was 
+distributed across its 101 participants.
+The participants in Mele Maat are considered by Sempo to have 
+been more comfortable with the platform, evidenced by the 
+greater number of lower value exchanges. In this community 
+of 86, VUV 424,841/AUD 5,229.79 was spent across 745 
+transactions with an average of 106.4 per day. The average 
+value per transaction was VUV 1,320/AUD 16.25 or roughly 42.26 
+per cent lower than Pango.
+Mele Maat notably reports a greater number of withdrawals, 
+which may reflect the smaller scale of the vendors in this 
+community. Oxfam observed that smaller vendors required more 
+liquidity to maintain stock.
+6.4. Responding in real-time
+6.4.1. Outcomes of transparency
+Often when transparency is presented in relation to aid delivery, 
+especially where DLTs are concerned, it is presented as a donor 
+feature to eliminate misappropriation/misspending or tampering 
+of allocated funds. In the case of the World Food Programme 
+(WFP) intervention in Jordan, as reported by Reedy (2017), the 
+agency “…was immediately able to track and verify the way 
+families used these funds”. This feature was also central to 
+the UnBlocked Cash pilot, but its greatest strength was not 
+verification and oversight, but rather cost savings and support.
+The transparency provided by the Sempo platform eliminated 
+some of the time-intensive manual checks and balances 
+required to comply with KYC, AML, and other donor requirements. 
+Additionally, the reconciliation of value occurred in real-time, 
+as opposed to the weeks and months reported by Oxfam staff 
+in Vanuatu during the Ambae volcano response. “As a result of 
+this transparent and efficient reporting, some predict financial 
+reporting costs could shrink by 70%.” (Myler 2017).
+6.4.2. Responsiveness
+Personalised response to unused funds
+It is the support that responders could render recipients that 
+was most valuable. Rather than merely tracking and verifying 
+what recipients were purchasing, the UnBlocked Cash team 
+would also consider instances where recipients were failing to 
+make purchases. In this way, the team could quickly identify 
+if an NFC card had been lost or stolen, or was simply unused 
+due to misunderstandings or confusion. While there were 
+no instances of either, one recipient reported a stolen card, 
+which Sempo was able to trace to a local vendor, based on its 
+activity, where it was discovered that the recipient’s sibling had 
+used the card. In another case, a woman with a disability had 
+appeared not to have used her entitlement by the third day of 
+the pilot. When Oxfam staff in Vanuatu identified the anomaly, 
+they found that she not only did not understand how to use the 
+NFC card, but she had also misplaced it. The team re-issued the 
+NFC card and assisted her shopping twice that week.
+Type
+Amount
+Disbursements
+196
+Payments
+619
+Withdrawals
+12
+SUM
+827
+Table 23: Transaction Breakdown in Pango
+Type
+Amount
+Disbursements
+124
+Payments
+593
+Withdrawals
+28
+SUM
+745
+Table 24: Transaction Breakdown in Mele Maat
+Name
+Amount (VUV)
+Amount (AUD)
+Value Distributed
+966,443
+11,896.91
+Value Spent
+816,497
+10,051.08
+Table 22: Total Value
+
+--- Page 34 ---
+32    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+In another case, a card showing no activity was traced to a 
+recipient who was unsure of how to access their allocated 
+funds. When questioned, the holder confessed that they 
+had not completely understood the instructions during the 
+onboarding procedure and was too embarrassed to ask for 
+clarification. After a quick explanation, the recipient was able 
+to use the NFC card as intended hereby unlocking its value. It 
+is important to note that this real-time response comes at the 
+cost of some degree of privacy, see section 8.14. ‘Addressing 
+risks’ for more details.
+6.4.3. Efficiency
+In traditional CVA, it might have taken weeks for this situation to be 
+identified, if at all. In the worse case, this may have resulted in that 
+household not receiving the aid to which they were entitled.
+It is worth noting that during the PDM surveys, all but one of 
+the 157 recipients reported that the solution tested was easier 
+than “other forms of assistance” they had experienced. In this 
+group, only 16 of these survey respondents felt that they did not 
+receive enough support on how to use the NFC card.
+However, during on-site monitoring of 120 recipients, 12 
+required support with the NFC card. Five were not sure how 
+to use the card, another five were afraid to use the card, and 
+two were not sure if there was enough value on their card. The 
+on-site monitoring revealed that precisely 10 per cent of the 
+population reported a problem, while roughly 6 per cent reported 
+an issue during the PDM surveys. Neither is insignificant; 
+however, it is anticipated that if this same system were to be 
+used in these communities again in the context of emergency 
+response and recovery effort, the communities’ familiarity would 
+mitigate some of the ‘teething’ issues.
+6.5. Competing with existing 
+technologies and actors
+How the system interacts with existing banks
+It is sometimes claimed that DLT-based CVA represents a good 
+alternative to traditional CVA programmes where ATMs or banks do 
+not exist or are not functioning (Smith 2018, p.91). However, like 
+traditional CVA programmes which rely heavily on existing FSPs 
+and voucher providers, Oxfam observed no disintermediation of 
+financial incumbents during the UnBlocked Cash pilot.
+Despite this observation, the Sempo platform competed with a 
+number of similar platforms that promised to reduce the time 
+and costs associated with financial transactions. Oxlabs alone 
+evaluated AID:Tech, Disberse, and Everest as potential partners 
+while planning the UnBlocked Cash pilot. Of those, Disberse 
+presented promising results in its pilot with the START network, 
+during which it reported no leakage of value and reduced costs 
+(Ibid). Meanwhile, World Vision International helped develop a DLT-
+based digital asset transfer platform in Nepal called Sikka, while the 
+WFP in Jordan has been providing assistance to refugees in Azraq 
+camp using an Ethereum testnet since 2017 (Ibid).
+Many of these solutions, including Sempo, rely upon existing 
+FSP to hold funds or as foreign exchange providers. Others rely 
+on third-party online payment service providers such as Stripe.
+Smith (2018) reports that during a CaLP ‘Learning Event’ 
+partners, donor, governments, and service providers came 
+together to address operational challenges related to cash-
+based programming. The author notes that: “In the end, partners 
+had to use a variety of delivery mechanisms and rely on direct 
+cash distributions through banking service providers and their 
+own staff”. Ultimately, direct cash distribution represented 87 
+per cent of transfers made during USAID/Food for Peace-funded 
+interventions, of which 30 per cent were made via traditional 
+banks, compared to just 13 per cent via e-transfers, which are 
+defined as a “digital transfer of money or vouchers from the 
+implementing agency to a programme participant” (p.16, 130).
+This example illustrates the infancy of market-based solutions, 
+DLT-based or otherwise, which despite some rhetoric, are still 
+tethered to financial incumbents. In Oxfam’s experience, some 
+of this tendency toward these well-established methods of 
+transferring value relates to the internal struggle with existing 
+business processes. Unless the technology can be designed 
+to fit the process or the process is adapted to the technology, 
+the friction may drive the implementing agency to run ‘belt and 
+suspenders’ solutions, which promote inefficiency.
+See section 6.2. ‘Hub-and-spoke funds flow’ for details on how 
+Sempo and Oxfam modified the tested system in response to 
+limitations imposed by existing FSP.
+6.6. Hardware delays & failures
+To complete a transaction on the Sempo platform, vendors 
+must use an NFC-compatible Android device loaded with 
+Sempo’s proprietary app. Since mobile phone penetration was 
+presumed low in the target communities, Sempo planned to 
+distribute their own for the duration of the pilot. No data was 
+collected on mobile phone ownership during the first round 
+in Pango. Realising the importance of this data, Oxfam staff 
+in Vanuatu asked vendors in Mele Maat to report on whether 
+they owned a ‘Smart Phone’ or a Feature Phone. Only 28.57 per 
+cent of the vendors in that community owned a Smart Phone, 
+which reinforced the decision to issue Android devices as a 
+component of the platform deployment.
+However, as the number of vendors was increased two weeks 
+before Sempo deployed in the county, from 10 to 29, Sempo did 
+not have a large enough inventory of mobile phones. This change 
+was considered appropriate by all stakeholders including Sempo 
+to ensure the recipients would not have to alter their behaviour 
+significantly when using the cards; i.e. they could continue using 
+vendors with whom they already had a relationship.
+Additional phones were ordered on 16 April 2019. Despite being 
+held in customs, they were available to the team for the scheduled 
+programme commencement date of 22 April 2019, on which Sempo 
+arrived. This scenario illustrates the low friction setup of the Sempo 
+platform and might bode well in a post-disaster scenario.
+The most significant hardware issue was not the perceived 
+delay, but the unanticipated variation in the supplementary 
+devices. Despite sharing the same model designation with 
+Ownership
+Count
+Percentage
+Smart Phones
+4
+28.57
+Feature Phones
+10
+71.43
+SUM
+14
+100
+Table 25: Cell/Mobile Phone Ownership in Mele Maat
+
+--- Page 35 ---
+RESEARCH REPORT OCTOBER 2019    33
+previously tested devices, Sempo unverifiably suggested that 
+80 per cent of the HTC M7 that arrived in Vanuatu were installed 
+with a different microprocessor to that of the tested model. This 
+variation was estimated to increase the login time to the Sempo 
+app by 30 seconds.
+6.7. DLT-based CVA durability in an 
+urban context of Vanuatu
+Summary:
+•	
+Connectivity was not an issue in the first community
+•	
+Connectivity was poor in the second community
+The system deployed for the UnBlocked Cash pilot was a one-
+of-a-kind DTL-based solution co-designed by Sempo and Oxfam 
+to test such technologies in a low-connectivity environment. 
+This is essential for the future of DLTs as a tool for emergency 
+response and recovery efforts or as a component of a Disaster 
+Risk Reduction (DRR) programme.
+Central to this is an NFC card developed by NXP Semiconductors 
+with two counters, one which only counts up and the other 
+which only counts down. With this configuration, Sempo can 
+keep track of spending even when the vendor device is offline. 
+It is critical to note that the ‘amount loaded’ counter is only 
+editable by Sempo or another trusted party. This mechanism 
+prevents recipients from double-spending during network 
+outages. When connectivity returns, the vendors’ devices 
+sync with the Sempo servers and the Ethereum mainnet. 
+This mechanism also allows vendors to confidently accept 
+payment from a recipient, knowing that the recipient has money 
+to spend.
+In practice, Sempo estimated that the system in its current 
+design can endure roughly 24 hours of downtime, but added 
+that no connectivity was easier for the system to resolve 
+than low connectivity. Among other services, the Emergency 
+Telecommunications Cluster (ETC) provides voice and data 
+connectivity in post-disaster scenarios within 24 hours after 
+activation. This service offers basic IEEE 802.11b/g compatible 
+WLAN and internet connectivity distributed from a single 
+location, where possible using portable high-speed data 
+satellite terminals or local broadband links. While this initial 
+service may not be suitable to run a system like that offered 
+by Sempo, coverage provided by the ETC progressively expands 
+over 4–7 days to a point where the requirements of the Sempo 
+platform could be met (ETC n.d.).
+Since Sempo’s servers run in Docker containers14, it estimates that 
+the entire platform could be run without internet connectivity if the 
+community was connected to a central server using long-range 
+mesh or an ad-hoc network on an array of WIFI hotspots distributed 
+for the intervention. It should be noted that in this scenario, some 
+of the benefits of the system would not be available in real-time. 
+In particular, Sempo’s co-founder suggested that “… a lack of 
+connectivity made responding to problems slower”.
+14	 “A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing 
+environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an 
+application: code, runtime, system tools, system libraries and settings”. More information on Docker available at: https://www.docker.com/
+During the second round in Mele Maat, the system’s resilience 
+was put to the test when Telecom Vanuatu Limited (TVL) 
+announced scheduled maintenance in the area, which would 
+guarantee internet outages over the opening weekend.
+The internet connection became extremely slow, which 
+prevented Sempo’s devices from synchronising. Sempo reported 
+that some vendors called the support hotline and asked “why 
+does the transaction say it is pending?”. When the situation was 
+explained and the vendors were reassured that the transactions 
+were still valid, they replied, “oh, okay that’s fine”.
+Three days later, Sempo still had not seen some devices 
+synchronise. Since this was the first extended test of the offline 
+mode in a non-simulated environment, Sempo was not sure if 
+these few unsynchronised devices were suffering from poor 
+connectivity or bugs in the system. Regardless, Sempo was 
+ultimately pleased with the performance of the platform.
+6.8. The indispensable expert
+A single point of failure
+A key component of Sempo’s ideology is acknowledging the 
+“unknown unknowns”. Sempo insists that the solution it deploys 
+must be tailored to the particular context in which its platform 
+is assigned to operate. Many of the novel solutions tested 
+during the UnBlocked Cash pilot, such as the NFC card for offline 
+transactions and the CCV ‘wrapped’ stablecoin, have never been 
+tested in a humanitarian context in the Pacific or elsewhere.
+A consequence of these complexities was Oxfam’s immense 
+dependence on Sempo’s core staff, who travelled to Vanuatu 
+for the duration of the pilot. The co-founder turned out to be 
+an indispensable asset for even the smallest technical support 
+queries. One Oxfam staff member based in Vanuatu anecdotally 
+estimated that the co-founder was the only person able to solve 
+the problem at hand in all but a few occasions. When asked if Oxfam 
+staff could be trained to respond to these issues they replied, “Yes, 
+but we didn’t know what they would be until they emerged”.
+Unless Oxfam staff are indeed able to respond to hardware 
+and software issues in-country without Sempo support, this 
+indispensable expert represents a single point of failure, 
+and, therefore, a significant risk for future implementations. 
+It also restricts the scalability of the platform to a number of 
+participants within an area that a single expert can service.
+One Oxfam staff member in Vanuatu reported that, among 
+other things, the Sempo co-founder added additional spending 
+categories to the dashboard, addressed transaction lag due in 
+part to TVL’s scheduled maintenance in Mele Maat, and fixed a 
+bug that produced duplicate transactions.
+Despite this, Sempo claimed that no technical changes, 
+including project-responsive code, were made during the 
+second round in Mele Maat.
+
+--- Page 36 ---
+34    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Figure 21: Pango village, Vanuatu: Catharine Patunvanu, Oxfam Staff, describes the registration process to a recipient. Photo: Keith Parsons/OxfamAUS
+
+--- Page 37 ---
+RESEARCH REPORT OCTOBER 2019    35
+7. Analysis of the Data 
+Informed by the Stories
+7.1. Time
+Linear time, measured in seconds, minutes, and hours, is a 
+significant marker of operational efficiency.
+The UnBlocked Cash pilot was an opportunity to evaluate whether 
+DLT-based CVA via Sempo’s platform could deliver humanitarian 
+aid faster than in-kind support or conventional CVA programmes. 
+Initially, the project was concerned with the end-to-end speed of 
+aid delivery from a donor in Australia to a recipient in Vanuatu. Due 
+to human resources constraints in Vanuatu, the research objective 
+focus shifted to onboarding time.
+This study is not concerned with the set-up time of the Sempo 
+platform. As this product matures, the set-up is expected to 
+simplify and quicken. To compare like scenarios, this study 
+assumes both the banking system and the DLT-based applications 
+are operational in a disaster-affected site at the time of transfer. 
+In this scenario, we expect DLT-based CVA will deliver support in a 
+more timely manner than by traditional means.
+That data collected during the UnBlocked Cash pilot is sufficient 
+to make partial claims against the hypothesis. However, Oxfam 
+cannot unconditionally claim that the system tested during the 
+pilot is unconditionally faster than other CVA programmes.
+7.1.1. Baseline time
+When considering the time it takes for funds to be transferred 
+from donor to recipient, Oxfam considered two factors: banking 
+time and internal processing time.
+The amount of time it takes for a value to be credited to Oxfam’s 
+Australian bank accounts varies depending on when a donation is 
+made. Donations made on a weekday before 6PM are credited on 
+the same day, while those made after that time are processed the 
+following working day. Meanwhile, bulk transfers from Australia take 
+roughly 1.3 working days to be received by Vanuatu.
+Taking into account these typical processing times, Oxfam 
+assumes the transfer takes an average of two working days 
+from an Australian donor to Oxfam’s bank accounts in Vanuatu, 
+excluding internal processing time. As a proxy for the time 
+required to transfer back donor funds to a country office, this 
+report draws on Oxfam’s internal processing time for monthly 
+bulk transfers in Australia and Vanuatu in addition to the 
+‘processing’ time incurred by the Oxfam’s FSPs. While these 
+bulk transfers are only used for salaries and, therefore, not 
+relevant to an emergency response or recovery effort, Oxfam’s 
+Pacific Cash and Livelihoods Lead suggests that for CVA, bulk 
+transfers should be adopted as they are more efficient and less 
+costly. According to research conducted by OxLabs, the FSPs 
+processing time is relatively efficient; most bulk transfers are 
+completed on the same day or within 1–2 working days.
+By contrast, the Oxfam accounts team typically took 5.6 working 
+days to process a transfer. At worst, the process could take 12 
+working days. One explanation for this delay is the tendency for 
+the accounts team to process monthly bulk transfers during 
+the first week of that month. This process was developed to 
+mitigate accounting issues that arise if it is processed earlier. 
+Even if the bulk transfer request form is passed to the accounts 
+team one month earlier than the approved transfer date, it is 
+not processed until the month of. An alternative explanation is 
+that the finance department based in Vanuatu enforces a policy 
+of only three payment days per week: Monday, Wednesday, and 
+Friday. As such, a payment prepared on Tuesday or Thursday 
+would be delayed by one day. However, in the context of an 
+emergency response, neither situation would apply as alternate 
+policies are put into place during emergencies.
+For the purpose of this report, the total time for funds to 
+transfer from an Australian donor to a Ni-Vanuatu recipient 
+is 7.3–8.3 working days, excluding internal processing. See 
+section 8.11.2. ‘More comprehensive baseline studies’ for 
+recommendations regarding the limitations of the baseline data 
+presented in this section.
+7.1.2. Response Time
+In Vanuatu, “communities reported that the average wait time for 
+disaster assistance was 21 days after impact” (Holt and Hart 2019).
+However, the authors report some inconsistencies in the collective 
+memory of the households, “with answers ranging from one week 
+to more than four weeks for the same location”. Subsequently Hart 
+notes that variations in reports “… may be due to the fact that the 
+distribution and access to assistance for households also tends to 
+be inconsistent, i.e. households close to a main road may receive 
+assistance while those living away from the road may not; male 
+headed households are more likely to receive assistance than 
+female-headed households; households with a family affiliation 
+with the local chief or government representative are also more 
+likely to receive assistance”.
+Nevertheless, it should be noted that these inconsistencies are 
+an exception—the data collected sufficiently demonstrates the 
+21-day average waiting period to receive assistance in Vanuatu.
+7.1.3. Onboarding Time
+Oxfam’s Pacific Cash and Livelihoods Lead equated the 
+onboarding process of the UnBlocked Cash pilot with 
+the registration and distribution process of a typical CVA 
+programme. During registration, Oxfam records an individual’s 
+information and issues a record of their entitlement. The 
+entitlement is typically made available on a subsequent day.
+By their estimation, registration takes a “minimum of 10–15 
+minutes”, usually after waiting in line and the same again 
+
+--- Page 38 ---
+36    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+on a following day to receive an entitlement in the form of a 
+cheque or voucher. This process incurs a heavy travel burden 
+on recipients who must make at minimum two trips to receive 
+their entitlement. By combining registration and distribution, 
+which on aggregate costs a recipient between 20–30 minutes in 
+addition to the time required to make two trips, the UnBlocked 
+Cash pilot was considerably more time-efficient.
+Additionally, the KoBoToolbox integration offered by the Sempo 
+platform allowed Oxfam staff in Vanuatu, already trained in the 
+use of this tool, to move around the target community registering 
+programme participants into a database that directly linked to the 
+system of tracking entitlements. This eliminates the time typically 
+required to transfer registration data from one platform to the other. 
+See section 7.5.2. ‘Integrations’ for more information.
+Theoretically, additional entitlements could be distributed 
+remotely, which eliminates the need for the recipient to collect 
+an additional cheque or voucher. The recipient could exchange 
+their assigned value immediately, which represented another 
+significant efficiency gain.
+It is important to note that during an emergency response, 
+Oxfam staff do not record onboarding time in the same way as 
+it was recorded for the UnBlocked Cash pilot. Full onboarding to 
+an existing CVA platform during the Ambae volcano emergency 
+response from the identification and registration of individuals 
+to recording and verification of beneficiary data and distribution 
+took place over 2–3 dates.
+The following information is an approximation of this process 
+based on the operational experience of Oxfam’s Pacific Cash 
+and Livelihoods Lead. They note that these figures are the 
+minimum time required per recipient during the Ambae volcano 
+response. Meanwhile, the entire process of registration to 
+distribution for Oxfam is typically much longer.
+Note: If a recipient does not have a valid ID—40 per cent of 
+individuals did not—they are sent to have a picture taken and 
+have a card printed, which takes 5 and 10 minutes respectively, 
+15 minutes in total.
+Note: If a recipient does not have a valid ID, an additional 5 
+minutes is added to the process to accommodate the time of an 
+Oxfam staff member to find and issue an ID card.
+During the UnBlocked Cash pilot, Oxfam staff in Vanuatu timed 
+onboarding of vendors and recipients in Pango and Mele Maat. 
+By comparing the average time of these groups between 
+rounds, the team was able to estimate their staff performance. 
+It is assumed that the lower average time in the second group is 
+due to greater familiarity with the process on the part of Oxfam 
+staff in Vanuatu and not some other conflating factor.
+Vendor onboarding was 5.88 per cent faster in Mele Maat, while 
+recipient onboarding was an astonishing 33.33 per cent faster. 
+The average time of each round are documented below in 
+fractions of a minute:
+Activity
+Time (mins)
+Description
+Site Set-up
+Division of lines and desks according 
+to area council of origin: east, west, 
+south, north Ambae.
+Community 
+Awareness 
+Presentations
+20
+Located at the registration site.
+Line-up for 
+Registration
+20
+ Registration
+10
+Individual provides name, existing ID, 
+and testimony from another member 
+of the same household that the 
+family agrees to the individual being 
+designated as beneficiary. A registration 
+slip is provided at this stage.
+Post-
+Registration
+This step is not included in the 
+estimated one-hour wait time for an 
+individual recipient and not required 
+when using the Sempo platform.
+Download Data 
+from Database
+5
+Download collected data from 
+SurveyCTO.
+Verify List
+45
+The database is verified by chiefs from 
+each area council.
+Remove 
+Duplicates
+60
+The database is cross-checked in 
+Excel for duplicates.
+Table 26: Registration Day
+Activity
+Time (mins)
+Description
+Site Set-up
+Division of lines and desks according 
+to area council of origin: east, west, 
+south, north Ambae
+Community 
+Awareness 
+Presentations
+20
+Located at the registration site.
+Line-up for 
+Registration
+20
+Present ID & 
+Registration 
+Slip
+10
+Identify 
+Cheque
+The recipient's name is checked 
+against the distribution list and the 
+family ID number is written on the 
+registration slip. The recipient's 
+name is crossed off the list and the 
+corresponding cheque is identified.
+Issue Cheque
+The cheque is issued in a plastic 
+sleeve with registration slip and ID.
+Cash-out 
+Cheque
+20
+The recipient visits a bank to cash-out 
+their entitlement. 
+SUM
+70
+Table 27: Distribution Day
+Activity
+Time (mins)
+Description
+Generate 
+Family ID
+5
+Family ID numbers are generated in 
+Excel for all registered individuals.
+Filter List for 
+Eligibility
+15
+The database is filtered according 
+to eligibility criteria: evacuee (VUV 
+17,000/AUD 209.27) or host family (VUV 
+7,000/AUD 86.17), and entitlement is 
+added to the list.
+Divide List
+60
+The database is divided according to 
+the recipient's financial service provider, 
+residents, and distribution site.
+Schedule 
+Distribution
+120
+Distribution schedule is created.
+Print
+45
+Final distribution lists printed 
+according to schedule.
+SUM
+405
+Table 26: Registration Day (continued)
+
+--- Page 39 ---
+RESEARCH REPORT OCTOBER 2019    37
+Additionally, the KYC process was also timed; here too a 
+significant efficiency gain was observed: 10.7 per cent faster 
+in the second round when compared to the first. Oxfam 
+acknowledged the possibility of a ‘learning effect’ in these 
+figures, so it crucial that both rounds be considered especially 
+in regards to the KYC processing time.
+Oxfam’s Pacific Cash and Livelihoods Lead noted that while 
+vendors were slower to onboard than recipients during the 
+UnBlocked Cash pilot, they are also issued with entitlement and, 
+therefore, are concurrently being registered as both vendors 
+and ‘recipients’.
+On average, vendors were onboarded in 8.25 minutes per business 
+owner, while recipients took just 4.5 minutes per person.
+While this staff member’s experience during the Ambae volcano 
+response—as outlined above in the Registration Day and 
+Distribution Day estimations—cannot be directly compared 
+with the UnBlocked Cash pilot, it serves as a potent example 
+of the time-intensive nature of existing CVA processes. Many 
+incremental improvements could be made to such processes to 
+make significant efficiency gains. Many of Sempo’s time-saving 
+features are independent of the underpinning DLT and are, 
+therefore, easily replicable. Based on the information presented 
+in this section, it is impossible to say a DLT-based solution is 
+more timely than a non-DLT-based solution. However, it is clear 
+that a well-designed platform, such as Sempo’s, can indeed 
+save staff time, which in turn reduces operational costs.
+7.2. Cost
+Cost is a significant performance metric in light of an 
+increasingly competitive funding landscape and greater scrutiny 
+from donors.
+The UnBlocked Cash pilot set out to capture transaction and 
+set-up fees associated with the Sempo platform in addition to 
+ongoing programming and operational cost incurred by Oxfam. 
+The former are identified as ‘direct costs’ in the report, while the 
+latter are referred to as ‘indirect costs’.
+It is presumed that the set-up costs of the technology 
+underpinning the UnBlocked Cash pilot relative to the sum being 
+transferred would negatively affect the cost dimension of this 
+study. However, due to Sempo’s relatively immature business 
+model, Oxfam cannot conclusively comment on the set-up costs 
+associated with the UnBlocked Cash pilot.
+Even so, it might be assumed that cost savings would likely be 
+much more significant if set-up expenses were not amortised 
+into the programme. When measuring the cost of a market-
+based programme backed by existing FSP, one does not typically 
+factor the cost of setting up the banking system which has 
+been amortised across countless transactions over many years.
+As with the previous dimension, see section 7.1. ‘Time’, Oxfam 
+cannot unreservedly claim to have tested a comparatively 
+more cost-effective solution during the UnBlocked Cash pilot. 
+Data indicates that the tested system required significantly 
+fewer human resources than previous CVA programmes tested 
+in Vanuatu. This suggests that the indirect costs of the pilot 
+should also be significantly lower. Direct costs on the other 
+hand are lower only if on-chain activities are considered. 
+Otherwise, many of the costs associated with transferring fiat 
+currency between incumbent FSPs remain the same.
+7.2.1. Baseline costs
+When considering indirect costs, the most significant 
+contributor is the cost of salaries of both existing staff and 
+additional personnel required for reconciliation. During the 
+Ambae volcano response in 2018, reconciliation required the 
+support of an external accounting firm at the approximate cost 
+of VUV 6,000,000/AUD 73,860 to account for the approximately 
+VUV 98,000,000/AUD 1,206,380 transferred, against a total 
+operational cost of AUD 1,985,987. This was in addition to an 
+estimated four finance staff with an approximate salary of 
+VUV 236,000/AUD 2,905.16 per month. Given the operational 
+efficiency observed during the UnBlocked Cash pilot, it is 
+presumed that indirect cost savings were significant to the 
+point that even a slight increase in direct costs would be moot.
+For direct costs, Oxfam considered four different scenarios to 
+establish a baseline; these were:
+•	
+Donors transferring funds to Oxfam Australia (OAU)
+•	
+Oxfam Australia (OAU) transferring to Oxfam in Vanuatu (OiV)
+•	
+Oxfam in Vanuatu (OiV) transferring to partners
+•	
+Partners transferring to beneficiaries or other partners
+The cost of transferring funds across a range of FSPs are 
+summarised in the table below.
+Location
+Recipients
+Vendors
+KYC
+Pango (first round)
+5.4
+8.5
+5.6
+Mele Maat (second round)
+3.6
+8
+5
+AVERAGE
+4.5
+8.25
+5.3
+Table 28: Onboarding Time (mins)
+Transaction
+Cost to send 
+(Westpac)
+Cost to send 
+(Western 
+Union)
+Cost to send 
+(ANZ)
+Cost to 
+receive 
+(Average)
+Cost to 
+receive 
+(ANZ)
+Cost to 
+receive 
+(Bred Bank)
+Cost to 
+receive 
+(NBV)
+Cost to 
+receive 
+(BSP)
+Donors to OAU
+$0.50
+OAU to OiV
+$15.00
+$0.00
+VUV 1,200
+OiV to Partner
+VUV 20
+VUV 0
+$0.00
+Partners (or OiV) to 
+Recipients
+VUV 20
+VUV 75
+$0.00
+VUV 150
+VUV 100
+VUV 30
+AVERAGE
+$7.75
+$0.00
+VUV 20
+VUV 425
+$0.00
+VUV 150
+VUV 100
+VUV 30
+Table 29: Transfer Costs Compared
+
+--- Page 40 ---
+38    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+On average, it costs Oxfam AUD 0.50 to transfer funds within 
+Australia; it is, therefore, presumed that the same is true for a 
+back donor. Meanwhile, in Vanuatu, it costs Oxfam VUV 20/AUD 
+0.25 to transfer funds to a partner, and the same amount for a 
+partner to transfer funds to a recipient. Therefore, a transaction 
+that leaps from Oxfam’s accounts in Vanuatu to a partner and 
+on to a recipient incurs a total cost of VUV 40/AUD 0.50. Given 
+the average cost to recipients to receive funds equates to VUV 
+93.33/AUD 1.15, the total cost of transactions in Vanuatu alone 
+can amount to VUV 133.33/AUD 1.64. 
+One of Oxfam’s goal for the UnBlocked Cash pilot was to reduce the 
+overall cost of transactions, but most importantly eliminate the 
+cost to recipients entirely; therefore, Oxfam bears all receiver costs.
+(0.50+15)+((20+20+93.33)*0.01231)=17.14
+From the figures above, it is estimated that to complete a chain of 
+transaction from an Australian donor to recipient in Vanuatu, Oxfam 
+would incurred transfer fees amounting to VUV 1,392.36/AUD 17.14.
+15	 SendMoneyPacific’s most current data on transfers between Australia and Vanuatu is available at: https://www.sendmoneypacific.org/compare/list/200/australia-
+to-vanuatu.html
+7.2.2. Sempo costs
+Based on data from SendMoneyPacific15 Oxfam’s Australian FSP, 
+Westpac, charges a fee of AUD 10 for an account-to-account 
+transfer that takes 3–5 days to process. Under some conditions, 
+the fee can exceed AUD 20, but receivers are never charged. 
+In contrast, Western Union charges between AUD 2.90–35 
+depending on the transfer method. Given the higher exchange 
+margins, Western Union can cost the sender upwards of AUD 56 
+in some instances. In the best case, SendMoneyPacific reports 
+that a transfer of AUD 200 via Westpac attracts a 10 per cent 
+fee, while Western Union attracts just 4.77 per cent.
+In contrast to both, the average cost of an individual 
+transaction on the Ethereum mainnet during April and May, 
+according to Etherscan, was just ETH 0.04, which equates to 
+USD 0.12 during the same period. Based on the mid-market-
+rate according reported by XE on 22 April 2019, the day the pilot 
+commenced, each transaction on the mainnet can be said to 
+have a direct cost of roughly AUD 0.17.
+7.2.3. Total direct cost estimation
+Figure 23: The flow of value relative to the flow of funds and the associated direct costs incurred by FSPs during the second round of the pilot in Mele 
+Maat in which the Super Vendor was removed.
+Figure 22: The flow of value relative to the flow of funds and the associated direct costs incurred by FSPs during the first round of the pilot in Pango in 
+which the Super Vendor was tested.
+DFAT
+OIV
+OAU
+Beneficiaries
+Sempo
+SuperVendor
+Vendors
+0.5
+AUD 0.50
+Estimated Time 
+(days)
+Estimated Cost
+Value Flow
+Funds Flow
+0.5
+AUD 0.50
+1.3
+AUD 15.00
+VUV 1200
+UNKNOWN
+
+VUV 20
+2.3
+AUD 16.00
+VUV 1200
+DFAT
+OIV
+OAU
+Beneficiaries
+Sempo
+Vendors
+Estimated Time 
+(days)
+Estimated Cost
+0.5
+AUD 0.50
+Value Flow
+Funds Flow
+0.5
+AUD 0.50
+1.3
+AUD 15.00
+VUV 1200
+2.3
+AUD 16.00
+VUV 1200
+
+--- Page 41 ---
+RESEARCH REPORT OCTOBER 2019    39
+By combining the findings from section 7.2.1. ‘Baseline costs’ 
+and section 7.2.2. ‘Sempo costs’, it is possible to estimate 
+the total direct cost of a transaction during the UnBlocked 
+Cash pilot. Figures 22 and 23 represent the estimated cost of 
+transactions for the Unblocked Cash pilot in both rounds.
+The following equation represents the direct cost to complete 
+a chain of transactions from a donor in Australia to a recipient 
+in Vanuatu in addition to cashing out a vendor during the first 
+round of the UnBlocked Cash pilot.
+(0.50+0.50+15)+5*0.17=16.85
+Note: In addition to this direct cost, the Super Vendor was 
+offered 5 per cent of the amount cashed-out to small vendors. 
+Also, this equation assumes a cash-based exchange between 
+the Super Vendor and the vendor, which incurs no charge.
+The following equation represents the direct cost to complete a 
+chain of transactions from a donor in Australia to a recipient in 
+Vanuatu in addition to cashing out a vendor in the second round 
+of the UnBlocked Cash pilot.
+((0.50+15)+((20+93.33)*0.01231))+3*0.17=17.40
+At best, the direct costs of the tested system was 1.69 per cent 
+lower than a traditional series of transfers; at worse, the tested 
+system was 1.52 per cent more costly.
+7.3. Transparency
+7.3.1. Platform Transparency
+Oxfam observed three critical layers to the transparency of the 
+UnBlocked Cash pilot, which was defined as the state in which 
+everything is apparent and accessible.
+16	 More information on Etherscan is available at: https://etherscan.io
+The first is the Sempo dashboard, which allowed programme 
+stakeholders to watch transactions in real-time provided 
+vendors had internet connectivity at that moment. The 
+dashboard was anecdotally praised by Oxfam staff; however, 
+some staff who had not been formally onboarded complained 
+that the terms ‘Payment’, ‘Disbursement’ and ‘Withdrawal’ were 
+not immediately clear.
+During PDM with Oxfam staff in Vanuatu, 60 per cent, or three out 
+of five, felt that learning to use and understand the dashboard 
+was their most difficult task during the first round. In the second 
+round, one of these staff members continued to feel this way. In 
+an interview with one staff member, it was suggested that some 
+of these difficulties might have stemmed from the lack of time 
+dedicated to fully exploring the dashboard during training.
+This tool was not available to everyone from the outset as the 
+Sempo dashboard requires login credentials composed of a 
+username and password. Stakeholders and staff were granted 
+permissioned access at the discretion of Oxfam’s Pacific Cash 
+and Livelihoods Lead and project manager in-country. Every one 
+of the aforementioned staff members stated that the reason 
+they found the dashboard so difficult to understand is that they 
+either had no access or very limited access to it. Therefore, it is 
+arguable that the information provided via the dashboard was 
+not sufficiently accessible. Figure 24 shows the landing page of 
+the Sempo dashboard as seen by a user with ‘view’ permission.
+Given the transaction records were stored on the Ethereum 
+mainnet, technologically savvy stakeholders could follow the pilot 
+using an aggregator like Etherscan.16 This makes a great deal of 
+pilot data highly accessible, but it is not expected to be apparent 
+to those without a good understanding of Ethereum or DLTs.
+Figure 24: Oxfam Australia’s view of the Sempo dashboard captured at 12:55pm on 10/05/2019.
+
+--- Page 42 ---
+40    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Finally, there is the attitude of UnBlocked Cash pilot participants. 
+The position of Sempo, in particular, tended towards presenting 
+apparent and accessible information so long as it did not 
+threaten its business interests. This is perhaps the most 
+important feature as merely making information available ‘on-
+chain’ does not guarantee transparency for all parties. If the 
+transparency is to serve everyone, all observations must be 
+allowed to flow freely without pretence or deceit, and presented 
+in a readily understandable form. Since DLTs are inherently 
+complex and require a high degree of technological literacy, an 
+asymmetric power relationship emerges between participants of 
+a DLT-based intervention. Humanitarians should not assume that 
+the mere existence of open information is sufficient.
+Recipients were at a particular disadvantage, exemplified by one 
+recipient who was afraid there might not be any funds on their NFC 
+card. This illustrates that sometimes, information must be actively 
+shared rather than simply made available to be truly transparent. 
+The onboarding process could be modified to include an 
+opportunity to check one’s balance or make a dummy transaction.
+This anxiety was present despite the Community Focal Points in 
+Pango, whose role was to check the balance of recipients’ NFC 
+cards as required. These community members were issued with 
+phones and announced to the community as points where one’s 
+balance could be checked without completing a transaction 
+with a vendor. Although these roles were allocated, Oxfam 
+staff in Vanuatu felt that more time should have been taken to 
+ensure Community Focal Points were playing a more active role 
+in the pilot and that recipients were regularly reminded to check 
+their balances with them.
+During the pre-pilot training, most recipients had the 
+opportunity to make a dummy transaction using a test card, 
+rather than their own. A small number were able to make a small 
+VUV 1/AUD 0.012 transaction using their own card.
+In Mele Maat, Oxfam and Sempo staff were appointed as 
+‘touchpoints’ to ensure that every recipient had the opportunity 
+to see the balance of their NFC card. Previously, Sempo was 
+not certain that this process would improve confidence in the 
+system among recipients.
+7.4. Security
+7.4.1. Personal Security
+During the pilot there were no known instances of theft, 
+violence, or other behaviour that might have threatened the 
+safety of participants. During the PDM, all but four of the 157 
+recipients surveyed—which equates to 97.45 per cent of the 
+population—communicated that they felt safe using the NFC 
+card, and all but five felt safe with their information being 
+stored. It is worth noting that only 39.47 per cent of those 96.81 
+per cent reported knowing what information was being stored. 
+All those who knew what data was being stored, felt safe.
+No personally identifiable information was stored on the NFC 
+cards; they only carried the amount loaded, the amount spent, 
+Sempo’s cryptographic signature for verification, and the UID. 
+Personal data was stored in a central off-chain database that 
+included: name, age, gender, location, eligibility status, and 
+participant type, i.e. vendor or recipient.
+For vendors, Sempo stored bank account details and a passport 
+or driver’s licence photo for KYC compliance. These details will 
+be held for seven years and are not accessible to Oxfam.
+It should be noted that Oxfam informed each participant of the 
+information that would be collected for the pilot at the time 
+of onboarding.
+7.4.2. Cyber Security
+Sempo stored four types of data between Amazon Web Services 
+(AWS) infrastructure and the Ethereum mainnet, these are:
+•	
+Application Source Code
+•	
+Application Access Keys
+•	
+Database Contents
+•	
+Blockchain Transaction Records
+The two major security risks for any digital service provider are a 
+loss of data and unauthorised access. Much of the way Sempo 
+manages these issues is private information; however, an Oxfam 
+review of the technical documents revealed that Sempo takes 
+these matters seriously.
+Furthermore, there was no evidence of unauthorised access 
+to the system, according to Sempo platform logs. The logs 
+Figure 25: Public view of UnBlocked Cash transactions via Etherscan 
+captured at 12:56pm on 10/05/2019.
+
+--- Page 43 ---
+RESEARCH REPORT OCTOBER 2019    41
+recorded a small number of attempts to connect to Sempo’s 
+servers from unfamiliar Internet Protocol (IP) addresses. 
+Sempo describes these attempts as the equivalent of turning 
+a doorknob to see if the door will open. While these failed 
+attempts do not constitute a real threat, they nonetheless 
+illustrate Sempo’s due diligence.
+7.5. User Experience
+In this section, Oxfam is concerned with the quality of all 
+interactions between recipients, vendors, operational staff, and 
+the Sempo platform. This includes but is not limited to onboarding, 
+troubleshooting, transferring value and redeeming value.
+This study’s examination of UX abides to the Norman & Nielsen (n.d.) 
+definition of usability as a quality attribute of the user interface (UI). 
+Unlike UX, which captures all components of a user’s journey with a 
+product or service, usability is only concerned with the experience 
+within a product’s interface. Usability is a measure of intuitiveness, 
+pleasantness, and efficiency.
+Based on participant feedback, support for the solution trialled 
+during the UnBlocked Cash pilot was immensely high. 100 per cent 
+of the 157 participants questioned during the pilot reported that 
+their overall experience of the NFC card was positive; and all but 
+one felt it was easier to use than other forms of assistance. Only 
+two of the participants surveyed in this group claimed to have had 
+an issue with the NFC card, which they reported to Oxfam staff in 
+Vanuatu at the time of the incident.
+Meanwhile, during onsite monitoring of 120 participants, 40 
+chose to describe the system as ‘easy’ or ‘very easy’; of those, 
+19 also described it as ‘fast’ or ‘quick’.
+Three recipients in this pool commented on their initial 
+experiences with the system, stating that:
+“The first time that I have been shopping, I was afraid that there 
+was no money on the e-voucher, but after the first time I think it 
+was just easy.”
+“The first time I used the system, it was not really flexible, but 
+the second time I felt it was very easy. It has helped us all in the 
+community, especially me as a single mama.”
+“At first, when I started using the card, I feel scared because 
+that was my first time using it. But after sometimes, I feel 
+shopping was very easy. Also, I do not need to travel long 
+distances to go to the shops.”
+The three recipients quoted above demonstrated that after their 
+encounter with the system, they were very satisfied, each then 
+going on to join the 40 others who commented on the platform’s 
+ease of use. Furthermore, 100 per cent of the PDM group 
+nominated to receive an e-voucher—in this case, represented 
+by the NFC card—in place of other assistance when they were 
+asked to consider the next time a disaster strikes.
+Unfortunately, due to a limitation of how data was collected, it 
+is not possible to determine if the people having these positive 
+experiences are in the unbanked category. If that were true, 
+their fears and doubts concerning the solution tested might 
+be related to their prior experiences being limited to the use 
+of cash, whereas others who had used cards of one form or 
+another might have felt otherwise. Presumably, the majority of 
+the pilot’s participants had no understanding of cryptocurrency, 
+so it is conceivable that many fears and doubts may be 
+associate to the newness of the technology. See section 8.11. 
+‘Addressing research limitations’ for more information regarding 
+the limitations of this study.
+7.5.1. User Interface
+There are two elements of the Sempo platform to consider when 
+interrogating the UI. The first is a browser-based dashboard with 
+a public-facing Uniform Resource Locator (URL), the second is 
+the Android app.
+While each user group engaged with the Sempo UI, recipients 
+primarily interacted with the platform by tapping their assigned 
+NFC card and verifying purchases by glancing at the Sempo app 
+Figure 26: Sammy Kalmer, the owner of Pam Store, reviews transactions on the Sempo app. Photo: Keith Parsons/OxfamAUS
+
+--- Page 44 ---
+42    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+on devices held in the vendor’s hands. As such, this section will 
+evaluate the experience of the vendors and Oxfam staff.
+Vendors were the primary user of the Sempo app, which was 
+installed on an NFC-compatible device to facilitate in-person 
+transactions between vendors and recipients. The app also 
+provided vendors with a record of their transactions, see Figure 
+26, and the ability to cash-out their accumulated value into fiat 
+currency, see Figure 27. The cash-out feature was referred to as 
+a ‘withdrawal’ within the app UI.
+The receiver of the CCV entered the amount owed in VUV on a 
+three-by-four numeric keypad; the value was rendered above 
+the keypad as if on a calculator, see Figure 27. The receiver of 
+goods was asked to verify the amount before the transaction 
+was confirmed with the press of a button, see Figure 30.
+The same three-by-four numeric keypad was used for logging into 
+the app by way of a personal identification number (PIN). Given 
+the limited experience among vendors with smartphones, some 
+struggled with this process. Ultimately, the inability to log in was 
+not the result of the app UI, but rather to connectivity issues, or 
+the vendor having created and subsequently forgotten their PIN.
+Figure 27: Amount owed being entered in a transaction between and Melika Kaluat (Vendor) and Loid Albert (Super Vendor). 
+Photo: Keith Parsons/OxfamAUS
+
+--- Page 45 ---
+RESEARCH REPORT OCTOBER 2019    43
+Figure 28: Balance assigned to an NFC card displayed on the 
+Sempo app. Photo: Keith Parsons/OxfamAUS
+The Sempo app was also used by vendors and Community Focal 
+Points to check the balance held on a recipient’s NFC card. The 
+UI presented a distraction-free white background with the value 
+rendered in VUV approximately centred on both axis, see Figure 28.
+In contrast to the vendor experience seen in Figure 26, Oxfam 
+staff typically saw all activity across the programme via the 
+dashboard, see Figure 29. Much like the app, Sempo’s dashboard 
+UI was uncomplicated with all values displayed in VUV.
+Confusion among Oxfam staff were limited to the language used 
+to describe actions on the platform, especially when viewed in 
+relation to the activity recorded on the Ethereum mainnet. No 
+significant feedback was recorded in regards to the dashboard 
+UI; see section 7.3.1. ‘Platform Transparency’ for user experience 
+issues faced by Oxfam staff unrelated to the UI.
+7.5.2. Integrations
+One of the key features of the Sempo platform is its tight 
+integration with KoBoToolbox.17 This open-source suite of tools is 
+supported by the Harvard Humanitarian Initiative (HHI), Brigham and 
+Women’s Hospital, and Kweyo, among many humanitarian actors. 
+It is popular among those collecting field data in challenging 
+environments, such as a humanitarian crisis or in developing 
+countries. The suite is composed of a form builder that informs the 
+way data is collected and a data manager/visualiser. 
+Sempo’s KoBoToolbox integration streamlined recipient onboarding 
+by taking advantage of existing humanitarian processes. Since 
+Oxfam staff in Vanuatu have used KoBoToolbox in past programmes, 
+no additional training was required.
+17	 More information on KoBoToolbox available at: https://www.kobotoolbox.org/
+Figure 29: Oxfam Australia’s view of the Sempo transfer page captured at 
+12:55pm on 10/05/2019.
+
+--- Page 46 ---
+44    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+8. Recommendations
+8.1. Consider the location in project 
+planning
+While connectivity and stable power were among the selection 
+criteria for the UnBlocked Cash pilot and the system was 
+designed to withstand some degree of service interruption, 
+issues did present with intermittent connectivity in the second 
+round. As such, additional consideration may have to be made 
+to ensure a high-quality intervention.
+Intervening parties may consider creating local networks by 
+introducing their own hardware. This might include resilient 
+mesh-networks or simple local area networks depending on 
+the context. See section 6.7. ‘DLT-based CVA durability in an 
+urban context of Vanuatu’ for a more detailed explanation of the 
+connectivity issues faced during the UnBlocked Cash pilot.
+8.2. Consult communities more 
+broadly
+8.2.1 Consult at-risk urban communities
+Since the UnBlocked Cash pilot was not tested in a disaster 
+or other adversely affected area, the needs of the pilot 
+participants are anticipated to be quite different from a 
+disaster-affected population—noting that building materials 
+were the least-purchased items during the UnBlocked Cash 
+pilot, see section 6.3. ‘How value is spent’ for a comparison 
+of spending patterns between the Ambae volcano emergency 
+response and the UnBlocked Cash pilot.
+As such, more work should be done to understand the needs of 
+at-risk communities to prepare a solution like that offered by 
+Sempo for the unique conditions of a post-disaster scenario. 
+This might include more extensive comparative studies of 
+spending patterns from PDM surveys of disaster-affected 
+communities or other anthropological activities.
+It is important to note that Pango and Mele Maat were specifically 
+selected for their low-risk status, as it is Oxfam’s position that 
+solutions should not be ‘tested’ on highly at-risk, vulnerable or 
+actively disaster-affected communities. Oxfam believes that since 
+Tropical Cyclone Pam heavily impacted both Pango and Mele Maat in 
+2015, these communities hold a recent living memory of a disaster 
+and are, therefore, well-informed research participants.
+8.3. Uniquely identifiable cards
+Since all the NFC cards issued to both vendors and recipients 
+were visually identical with the exception of a QR code, it 
+was common to observe cards accidentally switched during 
+a transaction. This was particularly problematic when vendor 
+cards, used as identification (ID) for the system, were mistaken 
+as recipient cards. The vendor cards could be accidentally 
+picked up from a table, and neither party could immediately 
+resolve the situation. According to Sempo, there was only one 
+instance of a pair of families accidentally switching cards; 
+however, at scale, this issue is likely to become more common.
+Cards might be differentiated by role, with a different colour 
+assigned to Super Vendors, Vendors, and Recipients. Each card 
+might also include a noncritical piece of identifiable information 
+such as name or initials and gender. Additionally, the cards 
+might be emblazoned with an algorithmically generated pattern 
+so that no two cards are alike.
+8.4. More Super Vendors for post-
+disaster scenarios
+In a post-disaster scenario, Super Vendors could be used 
+to help the local economy recover faster. Typically financial 
+institutions take time to recover after an event, the length 
+and extent to which depends on whether either or both their 
+headquarters and branch network are effected (Hosono et al 
+2016, p.17). Beyond the time required to repair physical damage 
+to banking infrastructure, lending capacity may be weakened for 
+up to three years after an event (Ibid).
+The traditional banking system, as well as conventional 
+deployments of DLT-based assistance, rely on fragile 
+information and communications technology (ICT). While these 
+often bounce back quickly under the right conditions and with 
+the right support, there is a period where interpersonal and 
+organisation trust could allow a system like that tested in 
+Vanuatu to operate before aid arrives in the county.
+If Super Vendors have an agreement with Oxfam that a certain 
+amount of funds will be made available within a specific time of 
+the event, Oxfam could issue value to the recipient cards locally, 
+and the Super Vendors could begin exchanging their inventory 
+with community members on a ‘side-channel’. Once ICTs recover, 
+the transaction could sync with the Ethereum mainnet, and the 
+Super Vendors could redeem the value from Oxfam or via a digital 
+exchange depending on the state of the network. Alternatively, 
+Oxfam could replenish the vendor stocks with goods through relief 
+channels or invite local wholesalers to participate as vendors, 
+thereby enabling smaller vendors to restock more often and 
+without having to cash-out in order to do so. In the latter scenario, 
+wholesalers could also perform the function of the Super Vendor.
+In these scenarios, the recovery solution becomes more 
+community-owned, as it is the Super Vendors that are providing 
+liquidity during the ICT outage. There may also be other 
+community-initiated resilience programmes like time-banks that 
+allow participants to accrue value, which could be exchanged 
+at an agreed rate for the tokenised value used during the 
+emergency response. In the case of Oxfam, hours in the time-
+bank could be exchanged for the Sempo CCV and subsequently 
+spent at participating vendors.
+
+--- Page 47 ---
+RESEARCH REPORT OCTOBER 2019    45
+Figure 30: Vendor Sammy Kalmer confirms a transaction on the Sempo app. Photo: Keith Parsons/OxfamAUS
+
+--- Page 48 ---
+46    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+This solution presumes working mobile phones and some means 
+by which to charge batteries.
+8.4.1. Alternatives to the Super Vendor
+In addition to examining the Super Vendor model in different 
+contexts, alternatives to the Super Vendor must also be 
+explored. Depending on the design of the total system, it could 
+be argued that the Super Vendor represents an additional and 
+perhaps unnecessary step. Indeed the Super Vendor was not 
+tested in Mele Maat in favour of traditional account-to-account 
+bank transfers.
+8.5. Cashing out via digital exchange
+Cashing-out vendors in a timely and cost-effective manner was 
+among the most significant challenges of the UnBlocked Cash 
+pilot. This was due in large part to the limitations of existing 
+FSPs on which Sempo and Oxfam relied. These FSPs imposed 
+fees on both sender and receiver in addition to setting minimum 
+transfer values, which were higher than what vendors required. 
+These conditions lead to the Super Vendor model discussed in 
+section 6.2. ‘Hub-and-spoke funds flow’.
+Regardless of the Super Vendor, the tested system still 
+required that all vendors held a traditional bank account, and 
+all major reimbursements were nevertheless made with the 
+aid of financial incumbents. As a result of this, the UnBlocked 
+Cash pilot did not disintermediate when compared to Oxfam’s 
+standard process. Since disintermediation represents potential 
+time-efficiencies and cost-savings and is one of the three 
+characteristics of DLTs as defined by this report, Oxfam 
+considers it an important goal.
+One approach to disintermediation is to encourage vendors 
+to exchange their DAI for fiat currency through third-party 
+exchanges such as Binance, Coinbase, or Kraken. This would 
+serve to remove the reliance on incumbent financial institutions. 
+In this scenario, there are more actors in the relief chain 
+than Oxfam’s standard process, i.e. Sempo and an exchange; 
+however, there is no need for Oxfam to handle fiat currency after 
+the CCVs are created.
+Given the moratorium on the individual use of cryptocurrencies 
+in Vanuatu, including the purchase and use of exchanges and 
+subsequent unavailability and inaccessibility thereof, this 
+solution is not currently possible. However, it is conceivable 
+that if systems like that trialed during the UnBlocked Cash pilot 
+demonstrated clear advantages at a low risk, then the situation 
+in Vanuatu and elsewhere might change.
+During the UnBlocked Cash pilot, Sempo was the only 
+organisation on its whitelist that controlled which actors 
+had access to the DAI and the sale thereof to a third party. 
+Theoretically, any party capable of transferring funds 
+into Vanuatu to cash-out vendors in compliance with KYC 
+regulations could be on the list. Alternatively, vendors who have 
+passed KYC checks could be added to the whitelist, which would 
+allow the direct sale of DAI on any exchange while meeting 
+Sempo’s regulatory obligations.
+The second approach to further disintermediate is to develop a 
+proprietary DLT-based solution equivalent to that tested. Even in 
+a perfect world, Sempo essentially replaces existing FSPs in the 
+relief chain; it is, therefore, impossible to truly disintermediate 
+unless actors are subtracted from the current solution.
+An advantage of this which is unique to Oxfam is the ability for 
+confederates to hold one another accountable without ‘external’ 
+influence. This consensus mechanism works because each 
+confederate has self-interests and is simultaneously obliged to 
+cooperate. Additionally, a proprietary system could have significant 
+benefits to Oxfam’s internal operations, which might include but is 
+not limited to intra-institutional transfers (IITs).
+Currently, Sempo is a small start-up testing a development 
+phase product. In contrast, Oxfam enjoys global reach, and 
+considerable brand recognition—an endorsement from Oxfam is 
+likely to carry weight in the sector.
+Since DLTs can be made interoperable, especially if data is stored 
+publicly, a proprietary solution does not necessarily limit ‘hand 
+over’, which is an important function of humanitarian programmes.
+8.6. The use of stablecoins
+More should be done to understand the benefits of using 
+cryptoassets where a simple representation of value would 
+suffice. As indicated in section 8.5. ‘Cashing out via digital 
+exchange’, there are currently many legal restrictions on the 
+direct use of cryptoassets, such the stablecoin DAI, in countries 
+like Vanuatu. As a result, the inclusion of such assets increases 
+complexity for questionable gains if the solutions described in 
+the previous section are not possible.
+In the case of the UnBlocked Cash pilot, Oxfam, as a trusted 
+entity, could back its own token, which would provide all the 
+same reporting efficiencies as the tested system without the 
+complexity of the ‘wrapping’ and ‘unwrapping’ of DAI.
+
+--- Page 49 ---
+RESEARCH REPORT OCTOBER 2019    47
+8.7. App improvements
+8.7.1. Super Vendor compatible app
+A significant limitation affecting the Super Vendor is the 
+inability to see the amount they are owed from performing 
+cash-out services. Given the relative success of the Super 
+Vendor model, Oxfam recommends that the Sempo app offer 
+equivalent information to the dashboard without overwhelming 
+the interface.
+8.7.2. Donor compatible app
+Oxfam’s work with DLTs has been relatively diverse. Among its 
+experiments is the Smart Donations app described in section 
+3. ‘Background & Context’. This experience creates an obvious 
+opportunity to test the extent of the disintermediation promised 
+by supporters of DLTs. If funds jumped from the donor directly 
+to recipients or a single liquidity partner in-country—which 
+might include Oxfam—the system would, by virtue of fewer bank 
+transfers, become more cost-effective to maintain. A baseline 
+study conducted by OxLabs suggests that the merchant fees 
+incurred by Oxfam for low-value-high-volume donations from 
+individual donors can incur high overheads when compared with 
+high-value-low-volume donations from a back donor such as 
+DFAT. As such, extending the functionality of the Sempo app to 
+accept individual or back donor payments presents potentially 
+dramatic cost savings. See section 8.9.1. ‘Adding additional 
+actors’ for more context.
+8.8. Digital wallets
+8.8.1. Governance of digital wallets in a corporate 
+environment
+Value on Ethereum’s distributed ledger is assigned to a public 
+address, which anyone with the correct key can access. The 
+combination of an address or a public key with a private key 
+constitutes a digital ‘wallet’.18 
+The underlying public-key cryptography, sometimes called 
+asymmetric cryptography, is at the heart of the user experience 
+of any tokenised exchange on a distributed ledger. This 
+technology generates a pair of keys from a randomly generated 
+string. One of the keys is public, which can be shared in the 
+way a bank account number is disseminated. The other is 
+private, which the owner keeps to themselves like a PIN used to 
+withdraw funds from that bank account.
+Contrary to popular belief, value cannot be ‘lost’ on a distributed 
+ledger; since there are many copies of the ledger, there are also 
+many copies of the record that a particular address holds a 
+certain amount a value. However, one can lose access to value 
+if the private key is lost. This makes the management of the 
+keypair or wallet critical. The type of wallet dictates how the 
+18	 The digital ‘wallet’ serves as a gateway to interact with a DLT. A wallet is to a DLT what a browser (Chrome or Firefox etc.) is to the internet. The ‘wallet’ is the second-
+to-last mile in CVA, where the last mile is represented by the off-chain exchange of goods for non-fungible tokens or CCVs in the case of the UnBlocked Cash pilot.
+keys are managed and, more recognisably, how one interacts 
+with the associated value. The table below provides a summary 
+of the different wallet types and some of their properties.
+Note: The assessment of security and usability, i.e. speed of 
+use and ease of use, above is the author’s opinion and not a 
+statement of fact. Additionally, the usability assessment has 
+been contextualised to the UnBlocked Cash pilot.
+The question for Oxfam and other similar corporate 
+environments is who governs the wallet and what processes 
+need to be developed for safe and effective use thereof? 
+Alternatively, does Oxfam need to govern the wallet at all? 
+More work must be done to identify these questions and 
+subsequently develop guidelines with respect to their answers.
+8.8.2. Digital wallets in developing contexts
+In developing contexts where cryptoassets are untested or 
+misunderstood, it remains unclear what jurisdiction local 
+administrations have or should have over such assets and the 
+digital wallets to which they are assigned. During the UnBlocked 
+Cash pilot, the NFC cards behaved much like a ‘custodial’ paper 
+wallet, which was used to retrieve rather than store value. This 
+is in contrast to a ‘non-custodial’ wallet with which the holder 
+is personally responsible for the assigned value. In this design, 
+there is no risk of value being lost along with the card; however, 
+the cardholder must trust the custodian.
+This presents the second jurisdictional question: if the NFC card is 
+just a right to access a wallet, which is centrally held alongside all 
+others in the programme, who is legally responsible?
+Type
+Category
+Example
+Security
+Speed
+Ease
+Mobile 
+wallets
+Software
+Bitcoin Wallet, 
+TrustWallet etc.
+Medium
+Medium
+Medium
+Desktop 
+wallets
+Software
+Bitcoin Core, 
+MyEtherWallet 
+etc.
+Medium
+Medium
+Low
+Browser 
+wallets
+Software
+MetaMask.
+Medium
+Medium
+Low
+Web/
+Online 
+wallets
+Software
+Coinbase, 
+MyCrypto etc.
+Low
+Medium
+Medium
+Hardware 
+wallets
+Hardware
+KeepKey, 
+Ledger, Trezor 
+etc.
+High
+Low
+Low
+Paper 
+wallets
+Physical
+Representation 
+of an address 
+committed to 
+paper.
+Medium
+Low
+Low
+Smart 
+cards
+Physical
+As issued 
+by Sempo; 
+functionally 
+equivalent to a 
+‘paper wallet’.
+Medium
+High
+High
+Table 30: Wallet Solutions
+
+--- Page 50 ---
+48    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+Figure 31: Catharine Patunvanu, an Oxfam staff member using KoBoToolbox during participant registration in Pango. Photo: Keith Parsons/OxfamAUS
+
+--- Page 51 ---
+RESEARCH REPORT OCTOBER 2019    49
+8.9. Scaling-up
+Testing the pilot in different contexts and with more donors
+With just 187 heads of households and 29 vendors participating 
+in the UnBlocked Cash pilot, it remains unclear how the tested 
+system is likely to respond at scale or in a different context, 
+especially in an emergency response or recovery effort.
+Without further testing at a larger scale, it is impossible to 
+determine how the Sempo platform or the underlying DLT 
+will cope. In 2017, Vitalik Buterin told TechCrunch “Bitcoin is 
+processing a bit less than three transactions per second”. 
+Ethereum at the time was capable of five transactions per 
+second, which Buterin points out is considerably less than the 
+12 rides a second Uber provides (Biggs 2017). This illustrates 
+one of the many scaling issues DLT-based applications have to 
+contend with.
+8.9.1. Adding additional actors
+A clear scale-up opportunity exists in the inclusion of donors 
+to the DLT-based relief chain. This might include traditional 
+government back donors like DFAT, corporate donors, or 
+individual donors.
+Donors could contribute cryptoassets directly or convert fiat 
+currency at a digital exchange such as Binance, Coinbase, or 
+Kraken into an asset like DAI. The asset could be forwarded directly 
+to an NGO like Oxfam or committed to a specific type of intervention 
+by way of a ‘Smart Donation’ feature. Such donations could also 
+be triggered if donor-defined conditions are met as in the Smart 
+Donation app briefly described in section 3. ‘Background & Context’. 
+For such functionality, the Sempo app would have to be redesigned 
+to accommodate a donor front end as previously described in 
+section 8.7.2. ‘Donor compatible app’.
+However, it is possible to add additional actors without 
+modifications of this nature. By simply assigning a digital wallet 
+to each actor in the relief chain, it is possible to test the business 
+processes required to accommodate this new technology.
+Alternatively, Oxfam might test the implications of using DLTs 
+to track its IITs. If it is taken for granted that funds flow back 
+and forth between Oxfam confederates constantly, it stands to 
+reason that any two confederates in the network may in time 
+reach equilibrium. One actor might owe another a payment of 
+100,000 dollars. Meanwhile, the other actor owes the first four 
+payments of 25,000 dollars. In this scenario, both actors pay 
+bank transfer fees for effectively 0 dollars transferred. If a DLT 
+was employed to track these IITs, tokens could be sent back 
+and forth at no cost. Then at agreed intervals, the two actors 
+could settle any outstanding amount in a single transfer, hereby 
+reducing direct costs and potentially increasing liquidity as the 
+funds are not held hostage by intermediaries for ‘processing’.
+8.10. Lifetime research and 
+development costs
+OxLabs has been working on testing DLT-based CVA, among 
+other activities, since March 2018. While this small team only 
+dedicates an incredibly small amount of their time to OxLabs, 
+this length of time relative to the period of the UnBlocked Cash 
+pilot and the small amount of value dispersed, represents a high 
+operational overhead. Much of this time was exploratory, as only 
+three months past between engaging Sempo and successfully 
+delivering the pilot. Nevertheless, this exploratory period 
+contributes to the research and development costs of the 
+UnBlocked Cash pilot and any others to follow. Additionally, this 
+study does not take into consideration the development costs 
+incurred by Sempo; it is, therefore, impossible to say what it 
+would cost to develop a platform equivalent to that tested. This 
+section explores some of the elements that might contribute to 
+the costs of future DLT-based CVAs.
+8.10.1. Staff training and operational 
+considerations
+During the UnBlocked Cash pilot, Oxfam observed a clear 
+reduction in the time required to onboard participants when 
+compared to traditional CVA solutions and between the first and 
+second rounds of the pilot. This suggests both an inherently 
+more efficient process facilitated by the Sempo platform and a 
+possible learning effect, which is typical as staff become more 
+familiar with the system.
+Staff in Vanuatu reported that they did not have sufficient 
+time to familiarise themselves with the Sempo dashboard. This 
+suggests that not enough time was spent on staff training or 
+that expectations were not properly set for the degree of time 
+that would be dedicated to internal capacity building. Due to 
+resource limitations, the staff did not log the time spent on 
+many of their activities regarding the pilot, see section 8.11. 
+‘Addressing research limitations’ for more information. It is, 
+therefore, impossible to report how much time each step took 
+or how much staff time was dedicated to training. For future 
+implementations and for a better understanding of the lifetime 
+cost of implementing a system like that tested during the 
+UnBlocked Cash pilot, it is essential that more rigorous records 
+be kept of staff activities.
+To directly address staff concerns regarding their lack of 
+familiarity with elements of the platform, it is recommended that 
+Oxfam or the service provider develop a clear training process as 
+a component of staff onboarding.
+8.10.2. Clarify business models
+Presently, many of the service providers evaluated by Oxfam, 
+including Sempo, are in a start-up or scale-up phase with 
+evolving business models. Some like Sempo offer turnkey 
+solutions for a fixed price, while others rely on volume-based 
+pricing. At the scale of the UnBlocked Cash pilot, the service 
+providers’ business model or pricing structure has little impact; 
+however, at scale, a volume-based system becomes highly 
+uncompetitive compared to Oxfam’s existing arrangements. It is, 
+therefore, essential that Oxfam and others in the humanitarian 
+sector set clear expectations for start-ups amidst evolving 
+business models and offer insight into existing humanitarian 
+operations and ways of working.
+Furthermore, to establish the true cost of a full-scale 
+implementation of a system like that tested during this pilot, 
+the business models of both the service provider and the 
+humanitarian organisations involved must be clearly defined.
+
+--- Page 52 ---
+50    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+8.11. Addressing research limitations
+8.11.1. Onsite monitoring disconnected from PDM
+Many of the insights that inform the user experience dimension 
+of this study were made during onsite monitoring. This is due 
+to the potency of the responses of the 120 recipients who were 
+asked to “… tell us a bit about your experience with the pilot”.
+While insightful, this data was collected without names; it is, 
+therefore, impossible to connect the insights from this data set 
+with others. For instance, are people who reported struggling 
+with the Sempo platform also in the unbanked category and, 
+therefore, unfamiliar with representations of value other than 
+cash? It is recommended that future data collection asks one 
+identifying question to ensure the data sets are interoperable.
+8.11.2. More comprehensive baseline studies
+To make robust comparisons of new and novel solutions with 
+existing ones, it is imperative Oxfam collects baseline data 
+with a one-to-one relationship to the tested system. Given the 
+speed with which the UnBlocked Cash project was iterated upon, 
+the baseline study conducted by Oxlabs for the time and cost 
+dimensions of this research became largely irrelevant. As such, 
+much of the information used for comparison is either anecdotal or 
+extrapolated. It is for this reason that it is impossible to comment 
+confidently on many aspects of the time and cost dimensions.
+Direct costs, such as transfer fees, should be more 
+comprehensively evaluated in relation to the context of future 
+activities. In particular, transfers from back donors such as 
+DFAT to Oxfam, and subsequent transfers from that pool of 
+funds to country offices, should be tracked. This report relies 
+on the measurement of bulk transfers from Oxfam’s Australian 
+bank accounts to those in Vanuatu as a proxy for the transfers 
+described above. The most significant limitation of using 
+monthly bulk transfers in place of a transfer made during an 
+emergency response is Oxfam’s internal processing time, which 
+is slowed by policies enforced by finance departments in both 
+Australia and Vanuatu. To arrive at an accurate rendering of 
+the time required to transfer funds between the two countries, 
+observations must be made during an emergency response or in 
+a simulation thereof. Additionally, and more critically, staff time 
+must be assigned to well-defined tasks within a programme so 
+that operating costs can be confidently calculated.
+8.12. Addressing risks
+8.12.1 Single point of failure
+The Sempo co-founder’s privileged knowledge of the platform 
+represents a vulnerability if this system is to scale beyond 
+the parameters of the pilot. If the Sempo platform is to be 
+implemented as a component of an emergency response, more 
+qualified experts or additional staff training should be deployed 
+to ensure platform issues can be addressed quickly and safely. 
+See section 6.8. ‘The indispensable expert’ for more information.
+8.12.2. Privacy breach due to real-time monitoring?
+Real-time monitoring of transactions during the UnBlocked Cash 
+pilot provided both greater transparency than traditional CVA 
+solutions and faster response to participant needs. However, 
+this raised issues of privacy, power, and potential risk of 
+pseudonymous transaction records available in real-time or 
+near real-time.
+More work should be done to identify risks associated with this 
+system and to understand the potential implications.
+
+--- Page 53 ---
+RESEARCH REPORT OCTOBER 2019    51
+Figure 32: Pango, Vanuatu: Pango Community member Ruth Nalau registers for the Unblocked Cash Transfer Pilot. Photo: Keith Parsons/OxfamAUS
+
+--- Page 54 ---
+52    UNBLOCKED CASH: PILOTING ACCELERATED CASH TRANSFER DELIVERY IN VANUATU
+9. References
+1.	 Australian Red Cross (2018) Harnessing the Transformational Power of Technology for Good. 10.
+2.	 Beamon BM and Balcik B (2008) Performance measurement in humanitarian relief chains. International Journal of Public Sector 
+Management 21(1): 4–25. Available at: https://doi.org/10.1108/09513550810846087 (accessed 17/07/19).
+3.	 Biggs J (2017) Ethereum will match Visa in scale in a ‘couple of years’ says founder. TechCrunch. Available at: 
+http://social.techcrunch.com/2017/09/18/ethereum-will-replace-visa-in-a-couple-of-years-says-founder/ (accessed 22/08/19).
+4.	 The Cash Learning Partnership (CaLP) (n.d.) Overview. Available at: http://www.cashlearning.org/overview/what-we-do-overview 
+(accessed 10/07/19).
+5.	 The Cash Learning Partnership (CaLP) (n.d.) CVA Glossary. Available at: http://www.cashlearning.org/resources/glossary 
+(accessed 10/07/19).
+6.	 Coppi G and Fast L (2019) Blockchain and distributed ledger technologies in the humanitarian sector. 46.
+7.	 Davis J (2011) The Crypto-Currency. Available at: https://www.newyorker.com/magazine/2011/10/10/the-crypto-currency 
+(accessed 17/07/19).
+8.	 Emergency Telecommunications Cluster (ETC) (n.d.) Voice and Data Connectivity. Available at: https://www.etcluster.org/
+services/voice-and-data-connectivity (accessed 31/08/19).
+9.	 Ethereum (n.d.) ethereum.org. Available at: https://ethereum.org (accessed 13/07/19).
+10.	Ethereum (2019) The Ethereum Wiki. Available at: https://github.com/ethereum/wiki (accessed 14/07/19).
+11.	Evans DK and Popova A (2014) Cash Transfers and Temptation Goods: A Review of Global Evidence. 36.
+12.	Francis L, Hancke G, Mayes K and Markantonakis K (n.d.) Practical Relay Attack on Contactless Transactions by Using NFC Mobile 
+Phones. 16.
+13. Galen D (2018) Blockchain for Social Impact: Moving Beyond the Hype. Stanford Graduate School of Business.
+14.	GiveWell (2012) Cash Transfers. Available at: https://www.givewell.org/international/technical/programs/cash-transfers 
+(accessed 11/07/19).
+15.	Harvey P and Bailey S (2015) Cash transfer programming and the humanitarian system. 6.
+16.	Holt C and Hart S (2019) Vanuatu Cash Transfer Feasibility Assessment. Oxfam.
+17.	Hosono K, Miyakawa D, Uchino T, Hazama M, Ono A, Uchida H and Uesugi I (2016) Natural Disasters, Damage to Banks, and Firm 
+Investment: Natural Disaster and Firm Investment. International Economic Review 57(4): 1335–1370.
+18.	MakerDAO (n.d.) White Paper. Available at: https://makerdao.com/en/whitepaper/ (accessed 14/07/19).
+19.	Mercy Corps (n.d.) Cash Transfer Programming Toolkit.
+20.	Metcalfe-Hough V, Fenton W and Poole L (2019) Grand Bargain annual independent report 2019. 100.
+21.	Heintze H-J, Kirch L, Küppers B, Mann H, Mischo F, Mucke P, Pazdzierny T, Prütz R, Radtke K, Strube F and Weller D (2018) 
+WorldRiskReport 2018. Bündnis Entwicklung Hilft and Ruhr University Bochum – Institute for International Law of Peace and Armed 
+Conflict (IFHV).
+22.	Myler L (2017) Transparent Transactions: How Blockchain Payments Can Make Life Easier For B2B Companies. Forbes. Available at: 
+https://www.forbes.com/sites/larrymyler/2017/11/09/transparent-transactions-how-blockchain-payments-can-make-life-
+easier-for-b2b-companies (accessed 15/07/19).
+23.	NFC Forum (n.d.) About the Technology. Available at: https://nfc-forum.org/what-is-nfc/about-the-technology/ (accessed 
+12/07/19).
+24.	Norman D and Nielsen J (n.d.) The Definition of User Experience (UX). Nielsen Norman Group. Available at: https://www.nngroup.
+com/articles/definition-user-experience (accessed 17/07/19).
+25.	OCHA (n.d.) Cash transfer programming. Available at: https://www.unocha.org/philippines/cash-transfer-programming 
+(accessed 11/07/19).
+26.	Ortiz CE (2008) An Introduction to Near-Field Communication and the Contactless Communication API. Available at: 
+https://www.oracle.com/technetwork/articles/javame/nfc-140183.html (accessed 12/07/19).
+27.	Overseas Development Institute (ODI) and Center for Global Development (CDG) (2015) Doing Cash Differently - How cash transfers 
+can transform humanitarian aid.
+28.	OxChain (n.d.) Programmable Donations. Available at: https://oxchain.uk/smart-donations-app/ (accessed 01/09/19).
+29.	Oxfam (2015) Cash transfer programming: can Oxfam stay ahead of the game? Oxfam Views & Voices. Available at: 
+https://views-voices.oxfam.org.uk/2015/04/oxfams-cash-work/ (accessed 12/07/19).
+
+--- Page 55 ---
+RESEARCH REPORT OCTOBER 2019    53
+30.	Oxfam (2019) Cash Transfers for Rapid Livelihoods Recovery of Volcano-Displaced Families in Vanuatu, Sanma Province.
+31.	Oxfam in Cambodia (2019) BlockChain For Livelihoods From Organic Cambodian Rice (BlocRice) Project. Available at: 
+https://cambodia.oxfam.org/BlocRice (accessed 01/09/19).
+32.	Oxfam in Vanuatu (2017) Terms of Reference for the Cash Transfer Feasibility Study.
+33.	Reedy C (2017) Blockchain Is Helping Us Feed the World’s Hungriest Families. Futurism. Available at: https://futurism.com/
+blockchain-is-helping-us-feed-the-worlds-hungriest-families (accessed 15/07/19).
+34.	Rawlings GE (1999) Foundations of Urbanisation: Port Vila Town and Pango Village, Vanuatu. Oceania 70(1): 72–86.
+35.	Berentsen A and Schär F (2019) Stablecoins: The quest for a low-volatility cryptocurrency.
+36.	Smith G (2018) The State of the World’s Cash Report: Cash Transfer Programming in Humanitarian Aid.
+37.	Tapscott D (2016) How the blockchain is changing money and business. TEDSummit. Available at: https://www.ted.com/talks/
+don_tapscott_how_the_blockchain_is_changing_money_and_business (accessed 17/07/19).
+38.	The Logistics Cluster (n.d.) Digital Logistics Capacity Assessments. Available at: https://dlca.logcluster.org/display/public/
+DLCA/Vanuatu (accessed 21/08/19).
+39.	The World Bank (2018) Financial Inclusion on the Rise, But Gaps Remain, Global Findex Database Shows. World Bank. Available 
+at: https://www.worldbank.org/en/news/press-release/2018/04/19/financial-inclusion-on-the-rise-but-gaps-remain-global-
+findex-database-shows (accessed 13/08/19).
+40.	Vanuatu National Statistics Office (VNSO) (2009) National Population and Housing Census.
+41.	Vanuatu National Statistics Office (VNSO) (2010) Household Income and Expenditure Survey.
+42.	Vanuatu National Statistics Office (VNSO) and UNDP Pacific Centre (2010) Vanuatu Hardship & Poverty Report.
+43.	Vanuatu National Statistics Office (VNSO) (2016) Mini - Census Report.
+44.	World Food Programme (WFP) (2015) WFP Emergency Operation: Vanuatu 200833 - Emergency Food Assistance to Victims of 
+Cyclone Pam. Available at: https://reliefweb.int/sites/reliefweb.int/files/resources/wfp274152.pdf (accessed 04/11/19).
+
+--- Page 56 ---

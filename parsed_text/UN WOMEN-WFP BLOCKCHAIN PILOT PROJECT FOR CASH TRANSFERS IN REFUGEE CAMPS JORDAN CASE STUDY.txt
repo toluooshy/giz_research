@@ -1,0 +1,1024 @@
+
+--- Page 1 ---
+UN WOMEN-WFP BLOCKCHAIN PILOT 
+PROJECT FOR CASH TRANSFERS IN 
+REFUGEE CAMPS
+Jordan Case Study
+
+--- Page 2 ---
+© 2021 UN Women. 
+Photo Credit: UN Women/Lauren Rooney
+The views expressed in this publication are those of the author(s) 
+and do not necessarily represent the views of UN Women, the United 
+Nations or any of its affiliated organizations.
+This case study is generously supported by the Governments of 
+Australia, Canada, Finland, France, Iceland, Italy, Japan and UN Women 
+National Committees.
+
+--- Page 3 ---
+CASE STUDY
+UN WOMEN-WFP BLOCKCHAIN  
+PILOT PROJECT FOR CASH  
+TRANSFERS IN REFUGEE CAMPS
+UN WOMEN JORDAN
+January 2021
+
+--- Page 4 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+4
+TABLE OF CONTENTS
+BLOCKCHAIN’S APPLICATION IN JORDANIAN 
+REFUGEE CAMPS 	
+5
+Simulation lab and live test	
+6
+UN Women blockchain pilot	
+6
+Benefits of using blockchain during the COVID-19 
+        pandemic	
+6
+The results	
+7
+IMPACT FOR BENEFICIARIES	
+ 8
+Flexibility and access to cash	
+8
+Reliability and convenience	
+8
+Control, safety and security 	
+8
+Ability to save and budget	
+9
+Digital and financial literacy	
+10
+BENEFITS FOR UN WOMEN AND PARTNERS 
+12
+Efficiency and cost reductions	
+ 12
+Improves security and reduce risks	
+12
+Greater oversight and effectiveness	
+12
+Improved insights for humanitarian programming	
+13
+Increased harmonization of aid efforts	
+13
+CONCLUSION
+15
+REFERENCES	
+ 17
+
+--- Page 5 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+5
+In February 2016, WFP began using iris scans 
+to allow refugees in Jordan to purchase 
+food at camp supermarkets. In January 2017, 
+WFP initiated a pilot project in Pakistan, to 
+test the use of blockchain for authenticating 
+and registering beneficiary transactions. 
+After refining both projects, in mid-2017, 
+the Building Blocks pilot began in Za’atari 
+and Azraq refugee camps. Today, 106,000 
+refugees in these camps can use their 
+entitlements to purchase groceries after 
+scanning their iris at store checkouts. There 
+are currently 126,832 Syrian refugees living 
+in Jordanian camps, and half are female.1
+Breaking new ground, UN Women partnered with the World Food Programme (WFP) to pilot test 
+the use of blockchain technology to transfer salaries to women enrolled in Oases cash-for-work 
+programmes in Za’atari and Azraq refugee camps, beginning in June 2019. The pilot reached 467 
+women and has been expanded to all four camp-based Oases in June 2020 in response to the 
+COVID-19 pandemic.
+Ms. Anita Bhatia, Assistant UN Secretary-General and Deputy Executive Director of UN Women, accompanied by Mr. Ziad Sheikh, Representative, UN Women 
+Jordan Country Office visited the Sameh Mall Supermarket in the Azraq refugee (Jordan) in November 2019 to assist to a blockchain payment simulation with 
+a UN Women’s Oasis beneficiary. Photo: UN Women/Lauren Rooney
+Blockchain's application in Jordanian refugee camps
+1. UNHCR. 2020. Syria Regional Refugee Response Portal. https://
+data2.unhcr.org/en/situations/syria/location/36 [Retrieved 2 December 
+2020]. 
+
+--- Page 6 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+6
+Simulation lab and live test 
+In January 2018, UN Women hosted a 
+‘Blockchain Simulation Lab and Live Test’ 
+in New York, in partnership with Innovation 
+Norway and the UN Office of Information 
+and 
+Communications 
+Technology. 
+The 
+four-day simulation lab spurred a range of 
+stakeholders to explore blockchain’s use 
+in humanitarian contexts, through practical 
+applications. 
+Private-sector 
+companies 
+presented cutting-edge blockchain-based 
+solutions that addressed current challenges 
+faced by women and girls in humanitarian 
+settings. Following the Simulation Lab 
+and a corporate level Memorandum of 
+Understanding (MoU) on collaboration for 
+innovation, UN Women Jordan entered a 
+partnership with WFP to use blockchain 
+technology 
+to 
+assist 
+Syrian 
+refugee 
+women participating in its cash-for-work 
+programmes at the Za’atari and Azraq 
+refugee camps, building the system for the 
+first transactions to take place in 2019. 
+UN Women blockchain pilot
+Under the Building Blocks inter-agency pilot, 
+UN Women’s foray into blockchain began in 
+Za’atari in June 2019 and Azraq in September 
+2019, involving nearly 200 vulnerable Syrian 
+refugee women per month who are enrolled 
+in incentive-based volunteering (also known 
+as cash-for-work) programmes at two of its 
+four Oasis Centers for the Resilience and 
+Empowerment of Women. By leveraging 
+this system, participants’ cash-for-work 
+entitlements are stored securely on UN 
+Women’s blockchain node. To access their 
+funds – either as cash or to pay for goods – 
+beneficiaries go to WFP-run supermarkets, 
+where an iris scan identifies and links them 
+to their blockchain account.
+Benefits of using blockchain during the 
+COVID-19 pandemic
+In light of the measures adopted in March 
+2020 by the Jordanian Government to 
+prevent the spread of the novel coronavirus, 
+the benefits of blockchain have become 
+even more palpable. As UN Women 
+beneficiaries were no longer able to 
+physically work at the Oases, the system 
+quickly shifted to cash assistance, ensuring 
+no disruption to their incomes. Although the 
+lockdown restricted UN staff movement, the 
+blockchain system allowed salaries to be 
+managed and transferred remotely, with no 
+interruptions. 
+Meanwhile, beneficiaries in the non-pilot 
+Oases experienced a delay in receiving their 
+salaries since the outbreak of the pandemic 
+in March 2020, which had to be physically 
+collected once partners were finally granted 
+a permit allowing them to enter the camp.
+Moreover, restrictions on all people’s 
+movement during the lockdown have meant 
+that refugees are only allowed to leave
+home to go to the supermarket or to seek
+A UN Women cash-for-work beneficiary gets her iris scanned at the Sameh 
+Mall Supermarket in the Azraq refugee camp, Jordan. Photo: UN Women/
+Lauren Rooney
+
+--- Page 7 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+7
+medical assistance. As such, the supermarket 
+has proven to be a strategic location for UN 
+Women beneficiaries involved in the pilot to 
+continue receiving their salaries. In addition, 
+the IrisGuard biometric scan is contactless, 
+so beneficiaries need not touch any buttons 
+to pay for groceries, the way others must 
+if using cards, making it a safer and more 
+hygienic method. 
+In fact, UN Women’s blockchain cash-
+disbursement system has made it one of 
+the few humanitarian actors in Jordan that 
+have been able to seamlessly and remotely 
+ensure that cash continues to reach 
+beneficiaries involved. This unexpected 
+emergency situation has provided valuable 
+lessons for the pilot’s future continuation 
+and the decision to expand it to cover the 
+nearly 2,500 yearly participants in Oases 
+camp-based 
+cash-for-work 
+programmes 
+– as well as for its potential rollout to host 
+communities in partnership with WFP in 
+future.
+The results
+Cumulatively, from June 2019 - April 2020, 
+467 women cash-for-work beneficiaries 
+have participated in the pilot: 254 in Za’atari 
+and another 213 in Azraq. Baseline and 
+midline monitoring reports were conducted 
+with different beneficiary rotations, in June, 
+November and December 2019 and in 
+January 2020 to assess their experiences. 
+External independent researchers from the 
+University of Oxford’s Internet Institute also 
+prepared a value assessment of the pilot’s 
+partnerships and impact, after a series of 
+visits, observations, interviews and 18 focus 
+group discussions with 101 beneficiaries in 
+December 2019. 
+Findings have also emerged from a wider 
+context of multi-stakeholder discussions 
+and value analysis workshops about the 
+pilot, involving several UN agencies, and 
+the private sector partners. These reports 
+and inputs have all served to assess the 
+pilot’s impact, for beneficiaries and the 
+organization.
+The team from the University of Oxford’s Internet Institute conduct a focus 
+group discussion with blockchain beneficiaries in the UN Women’s Oasis in 
+the Za’atari camp, December 2019. Photo: UN Women/Ana Lukatela
+
+--- Page 8 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+8
+2.  Margie Cheesman. 2020. “Field report: UN Women pilot: Za’atari 
+and Azraq refugee camps, Jordan.” Oxford Internet Institute.
+3.  Ibid.
+Impact for beneficiaries
+Flexibility and access to cash
+Women’s 
+salaries 
+are 
+now 
+deposited 
+weekly, as opposed to monthly, giving them 
+more flexibility in how often they can access 
+their funds. Previously, women received a 
+physical cash payment of their salaries on 
+a monthly set date directly at the Oases. 
+Under the new system, women can also 
+choose how to use their funds: as cash-
+back, applying it towards purchases at the 
+supermarket, or saving some or all of it. The 
+cash-back function is unique to UN Women, 
+as WFP recipients can only apply their 
+entitlements to supermarket purchases.
+In baseline reports at both camps, common 
+responses as to why the process was 
+beneficial included: that recipients can 
+‘save money easily’, ‘access their salary 
+whenever they desire,’ and that women 
+‘are permitted to leave the home for this 
+purpose’ and so it provides them with some 
+welcomed freedom to their movement. The 
+value assessment concluded that overall, 
+taking into account the variation in financial 
+circumstances and money management 
+strategies, an important benefit of the pilot 
+was that it provides everyone with choice.2
+The same report cited a respondent who 
+said: “I like that this week I can withdraw the 
+salary whenever I need it, but when I don’t 
+need it, I can keep it till the end of the month.” 3
+Reliability and convenience
+In both Za’atari and Azraq, the Oases are in 
+close proximity to the supermarkets – both 
+less than a 5-minute walk away – making 
+them a convenient location.
+Despite some initial problems with knowing 
+when salaries would be deposited, 100% of 
+the beneficiaries consulted for the baseline 
+report in Azraq said that they had not faced 
+problems in the disbursement process, as did 
+94% in Za’atari. Reported problems related 
+mostly to the periodic lack of cash available 
+at the supermarket – which has since been 
+addressed by UN Women and WFP directly 
+with the vendors. In a midline assessment 
+in December 2019, all 114 respondents con-
+firmed that they are regularly informed when 
+entitlements are added to their balances by 
+UN Women staff. Moreover, 92% confirmed 
+that with the blockchain approach they have 
+never had cash shortfalls.
+It is worth mentioning that the endline as-
+sessment was due to take place in May 2020. 
+However, due to global travel restrictions 
+and confinement measures adopted in both 
+refugee camps as result of the COVID-19 
+pandemic, the exercise has been postponed 
+to 2021 once circumstances will allow.
+Control, safety and security
+The ‘digital wallet’ was seen as a more 
+secure way for participants to safeguard
+
+--- Page 9 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+9
+their money, akin to a bank. According 
+to an independent value assessment of 
+the pilot, there have been no reported in-
+stances of victimization or theft from women 
+collecting their salary.4 In baseline reports, 
+respondents in Za’atari called the biometric 
+process “safer”. One noted: “Little by little, I 
+take money instead of taking a big amount, 
+because maybe I would lose it.” Another 
+woman, from Azraq, specifically stated: “I 
+feel safe knowing what I spend and what I 
+save”. 
+The blockchain also increases women’s agen-
+cy and control over their salaries, extending 
+their financial independence as the iris-scan 
+process at the supermarket checkout ensures 
+that only the owner of the wallet can access 
+the cash. The independent value assess-
+ment cites some women as saying that the 
+system “protects women who are abused and 
+have no say.”5 In baseline reports in Za’atari, 
+one beneficiary noted that “the recipient is 
+the  only one who can withdraw, so children 
+or husbands cannot access your money,” 
+while another said: “the Iris scanner is good 
+because it doesn’t let the children go to re-
+trieve it or other family members who waste 
+their money on cigarettes and things that 
+are not useful.” 
+Ability to save and budget
+In the baseline report at the Azraq refugee 
+camp, 
+89% 
+respondents 
+said 
+that 
+a 
+“digital wallet” is better for their financial 
+management; and 78% of respondents in 
+Za’atari noted the same. Of those 89%, the
+majority claimed the digital wallet is better 
+than cash because they ‘can withdraw 
+money whenever they need to’, and ‘it is 
+better to save money’. One beneficiary from 
+Za’atari said “I feel it helps me and may 
+give me ideas on how to save a little bit of 
+money.” 
+The independent value assessment noted 
+that despite the shared understanding that 
+long-term saving was impossible, there was 
+4. Ibid.
+5. Ibid.
+Our impact: Aisha Salam, 36, arrived in Za’atari 
+refugee camp in 2014 from Damascus, and had 
+to find a way to support herself, as well as, her 
+three children. She enrolled in the Oasis Center 
+as a teaching assistant and childcare provider, 
+which allowed her to pay for the medication 
+her daughter required and provide for the 
+family’s needs. “Being able to save money for 
+my daughter’s medication is very important 
+to me,” Salam explained. “For myself and I 
+know for many other women, it is reassuring 
+to know that no one else can take the money 
+or take advantage of our salaries.”
+Aisha Salam, 36, uses the blockchain assistance in Tazweed Supermarket, in 
+Za’atari refugee camp, Jordan. Photo: UN Women/ Lauren Rooney
+
+--- Page 10 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+10
+indication that some participants put money 
+aside for budgeting, with one woman 
+saying: “I might put some money aside for 
+a specific purchase, to buy important things 
+like a mattress or pillow covers or a water 
+filter.”6 Blockchain records also show that
+there were 3,246 unique transactions during 
+the pilot, meaning beneficiaries each made 
+seven transactions on average in one month. 
+This indicates that they are not cashing out 
+their full salary once a month but using their 
+e-wallets much like bank accounts that they 
+can access regularly.  
+Our impact: in 2012, Ibtsam Sayeed Ahmed 
+fled Syria after a bomb fell on her family home 
+in Dar’aa, which left her with life-changing 
+injuries. Ahmed spent the next three years in 
+and out of the hospital to fully recover, “I had 
+to learn to walk again, to adjust to only having 
+one hand, support myself, and ultimately learn 
+how to live in a new way,” she remembers. 
+Ahmed lives alone and has the responsibil-
+ity of financially supporting herself, so when 
+an opportunity came to enroll in the UN 
+Women Oasis Center, she took the position. 
+ 
+As part of UN Women’s incentive-based 
+volunteer programme at the Oasis, Ahmed 
+now earns a salary as a qualified Remedial 
+Education Teacher, “(The position) allowed 
+me to financially support myself and save 
+money to pay for my medical bills.” To sup-
+port women like Ahmed enrolled in the Oasis 
+Centers, UN Women in partnership with the 
+World Food Programme (WFP), and IrisGuard 
+provide secure access to their funds and sav-
+ings through blockchain assistance. “Knowing 
+that I have the option to save money has made 
+a difference in the way that I spend money and 
+think about the future,” Ahmed affirms.
+Ibtsam Sayeed Ahmed, 40, uses the blockchain assistance in Tazweed 
+Supermarket, in Za’atari refugee camp, Jordan. Photo: UN Women/ Lauren 
+Rooney
+6. Ibid.
+“We know that women in crisis situations 
+and displacement settings tend to have lower 
+digital literacy than men, and often lack ac-
+cess to the technology and connectivity that 
+are so critical in today’s world. UN Women 
+is partnering with WFP to change this by us-
+ing innovative technology to drive change 
+for women in the most challenging settings 
+and to accelerate progress towards women’s 
+economic empowerment on a large scale.” 
+—UN Women Executive Director Phumzile 
+Mlambo-Ngcuka  
+Digital and financial literacy
+To increase the financial literacy of its 
+beneficiaries, UN Women has provided 
+expense-tracking and budgeting seminars 
+at its Oases. 
+In the baseline report for Azraq, where 
+99% of respondents reported having their 
+own phone, 81% stated that they can use 
+their phone to track their expenditures and 
+savings, while 74% of respondents said they 
+
+--- Page 11 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+11
+would like to receive more training on using 
+phones to track expenditures and savings. 
+In Za’atari, where 94% of respondents had 
+their own phones, 76% said they are able to
+use it to track their expenditures and savings, 
+and 31% of respondents expressed that they 
+would like to receive training on using phones 
+to track their expenditures and savings. 
+As one woman put it: “[By tracking 
+expenditures] I feel a sense of freedom”. In 
+the mid-line assessment, all respondents 
+expressed interest in more training to 
+be 
+able 
+to 
+track 
+their 
+expenditures. 
+They said this would be a ‘good step to 
+save and track money’. In addition, 54% 
+indicated that the withdrawal of cash on 
+a weekly basis has helped in one way 
+or another with their decision-making. 
+
+--- Page 12 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+12
+Benefits for UN Women and partners
+Efficiency and cost reductions
+Blockchain 
+is 
+the 
+technology 
+behind 
+cryptocurrencies 
+such 
+as 
+Bitcoin 
+and 
+Ethereum. 
+These 
+encrypted 
+digital 
+currencies allow transactions to go directly 
+to recipients without third parties, making 
+money transfers easier, speedier and 
+cheaper.7  Oxford University’s independent 
+value assessment conclues that a key benefit 
+of the UN Women pilot lies in its removal of 
+banks as an intermediary, which streamlines 
+costs and reconciliation processes.
+Prior to the pilot, UN Women relied on UNOPS 
+to provide physical cash at the Oases, which 
+UN Women staff would then distribute in 
+envelopes to its incentive-based volunteers. 
+According 
+to 
+the 
+independent 
+value 
+assessment, this involved much bureaucracy 
+and time, as staff had to organize queueing 
+times, check IDs and salary amounts, and 
+deliver envelopes one at a time.8 Now, that 
+process is automated, via iris-scanners at 
+the supermarkets. This leaves time for UN 
+Women staff to attend to other priorities in 
+the camps, significantly reduces overhead 
+and administrative costs and bank fees 
+and as all transactions are digitized where 
+there is a problem in reconciliation this can 
+be solved in a matter of hours as opposed 
+to days or weeks. 
+Improves security and reduces risks
+Building 
+Blocks 
+runs 
+on 
+a 
+private, 
+permissioned blockchain using encrypted 
+transactions. The fact that UN Women and 
+WFP validate each other’s transactions 
+through a common blockchain network 
+results 
+in 
+improved 
+security 
+and 
+accountability. The use of digital cash 
+payments for humanitarian financing have 
+been touted by experts as being more 
+secure, while still ensuring privacy.9 WFP 
+has stated that through Building Blocks, 
+it is better able to protect beneficiary 
+data and control financial risks.10 Experts 
+say reducing third-party involvement can 
+increase security and reduce the risk of 
+fraud and of being hacked.11 Storing records 
+on a blockchain also makes them essentially 
+tamper-proof, thereby reducing the potential 
+for misappropriation.12
+Greater oversight and effectiveness
+Through 
+blockchain, 
+UN 
+Women 
+has 
+oversight over data from beneficiaries’ digital 
+wallets – in particular automated information 
+about 
+their 
+balance 
+and 
+withdrawls.
+7.  Tissa Riani. 2018. “Blockchain for social impact in aid and development” 
+Humanitarian Advisory Group. https://humanitarianadvisorygroup.
+org/blockchain-for-social-impact-in-aid-and-development/
+8. Margie Cheesman. 2020. “Field report: UN Women pilot: Za’atari and 
+Azraq refugee camps, Jordan.” Oxford Internet Institute.
+9.  P. Currion. 2015. AidCoin: a revolution in humanitarian financing. 
+medium.com/@paulcurrion/introduction513f86ed92df#.2dz4l3166
+10. Angela Smith. 2019. “How the World Food Programme uses 
+blockchain to better serve refugees,” ITU News. https://www.itu.
+int/en/myitu/News/2020/04/08/12/32/How-the-World-Food-
+Programme-uses-blockchain-to-better-serve-refugees
+11.     Tissa Riani. 2018. “Blockchain for social impact in aid and development” 
+Humanitarian Advisory Group. https://humanitarianadvisorygroup.
+org/blockchain-for-social-impact-in-aid-and-development/
+12. Michael Pisa and Matt Juden. 2017. “Blockchain and Economic 
+Development: Hype vs. Reality.” CGD Policy Paper. Washington, DC: 
+Center for Global Development. https://www.cgdev.org/publication/
+blockchain-and-economic-development-hype-vs-reality  
+
+--- Page 13 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+13
+Being the custodian of this information 
+means that potential disputes and problems 
+(for example, if the wrong amount were 
+uploaded) can be identified easily and 
+resolved quickly and effectively, whereas 
+this can be more challenging with an in-
+person, manual system. WFP has reported 
+that with their blockchain system, any 
+issues with transactions can be resolved 
+more quickly, offering users a more efficient 
+experience.13
+Improved insights for humanitarian 
+programming
+Automatic 
+transactional 
+data 
+on 
+how 
+beneficiaries 
+use 
+their 
+digital 
+wallets 
+also gives UN Women new insight into 
+their  spending and saving patterns. 
+UN Women’s Gender Statistics Analyst 
+analysed such spending behaviour by 
+location to deliver a trend analysis that 
+can 
+inform 
+future 
+programming. 
+The 
+independent 
+value 
+assessment 
+also 
+notes that such information can be put to 
+good use, potentially through combined 
+analyses with other UN blockchain partners’ 
+data, “which might enhance strategic, 
+coordinated programming in the camps.”14
+Development sector literature emphasizes 
+that blockchain technology could facilitate 
+data-sharing, help reduce bureaucracy and 
+facilitate coordination of actions among 
+donors, which all have their own agendas – 
+which would also make it easier to identify 
+funding gaps in the development aid sector.15
+Increased harmonization of aid efforts
+The Building Blocks pilot project in Jordan 
+represents a major step towards meaningful 
+inter-agency collaboration as it marks the 
+first time two humanitarian organizations are 
+using a common blockchain network while 
+using different entitlement management 
+systems 
+and 
+keeping 
+their 
+internal 
+operations intact. This pilot is expected to 
+serve as a stepping-stone towards broader 
+collaboration 
+within 
+the 
+humanitarian 
+cash ecosystem and it paves the way for 
+increased harmonization of aid efforts.
+To date, most blockchain pilots have involved 
+only a single donor or agency. However, 
+the real promise of using a blockchain to 
+distribute aid is the potential for coordination 
+across multiple donors. Sharing information 
+across several organizations, including 
+donors and partner governments, auditors 
+and 
+potentially 
+even 
+beneficiaries 
+on a single platform, could make aid 
+distribution more efficient in several ways.16 
+It could help to prevent unnecessary 
+duplication 
+of 
+effort 
+by 
+donors 
+and 
+partner governments; it could promote 
+greater 
+harmonization 
+of 
+procedures 
+by revealing areas where donors are 
+asking 
+for 
+similar 
+information 
+from 
+13. Margie Cheesman. 2020. “Field report: UN Women pilot: Zaatari and 
+Azraq refugee camps, Jordan.” Oxford Internet Institute.
+14. Ibid.
+15. Aiste Rugeviciute1 and Afshin Mehrpouya. 2019. “Blockchain, 
+a Panacea for Development Accountability? A Study of the 
+Barriers and Enablers for Blockchain’s Adoption by Development 
+Aid Organizations.” Frontiers in Blockchain. Vol. 2. https://doi.
+org/10.3389/fbloc.2019.00015
+16. Michael Pisa and Matt Juden. 2017. “Blockchain and Economic 
+Development: Hype vs. Reality.” CGD Policy Paper. Washington, DC: 
+Center for Global Development. p. 33-34. https://www.cgdev.org/
+publication/blockchain-and-economic-development-hype-vs-reality 
+
+--- Page 14 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+14
+governments but have different reporting 
+standards; and it would allow partner
+governments to better integrate aid into 
+their budget decisions.17
+Beyond 
+cash-transfer 
+programming, 
+blockchain also has the potential to be 
+used by humanitarian actors for information 
+management, coordination of aid delivery, 
+management of crowdfunding, tracking 
+supply chains, and boosting humanitarian 
+financing.18 Digital cash payments can be 
+made interoperable across multiple actors, 
+with the possibility of tracking funds from 
+original donor to final recipient, while still 
+ensuring privacy and security.19
+In addition, WFP has stated that the 
+blockchain system has allowed it to “set up 
+assistance operations more rapidly in the 
+wake of emergencies.”20  In fact, blockchain’s 
+resilience in the face of emergencies, 
+and unexpected disruptions to business-
+as-usual, are another benefit and lesson 
+learned, to be detailed next in the concrete 
+context of COVID-19.
+17.   Ibid.
+18.    Tissa Riani. 2018. “Blockchain for social impact in aid and development” 
+Humanitarian Advisory Group.https://humanitarianadvisorygroup.
+org/blockchain-for-social-impact-in-aid-and-development/
+19.  P. Currion. 2015. AidCoin: a revolution in humanitarian financing. 
+medium.com/@paulcurrion/introduction513f86ed92df#.2dz4l3166
+20. Angela Smith. 2019. “How the World Food Programme uses 
+blockchain to better serve refugees,” ITU News. https://www.itu.
+int/en/myitu/News/2020/04/08/12/32/How-the-World-Food-
+Programme-uses-blockchain-to-better-serve-refugees
+
+--- Page 15 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+15
+Conclusion 
+Through blockchain technology, women 
+working at UN Women’s Oasis Centers 
+now have the option to either collect cash, 
+save or spend it, opening up a new frontier 
+of choice and agency for them. The pilot 
+initiative has facilitated their access to 
+physical cash, seen as a trusted mainstay, 
+as well as access to a digital wallet, which is 
+viewed as helpful in managing budgets. In 
+digitalizing cash delivery, the pilot has given 
+refugee participants:
+•	
+More 
+choice 
+and 
+flexibility, 
+by 
+enabling them to withdraw any amount 
+from their UN Women wallet at a time 
+convenient to them, in a convenient 
+location at the supermarket.
+•	
+More regular access to cash, by 
+reliably disbursing cash on a weekly 
+rather than monthly basis to address 
+issues caused by cash shortfalls.
+•	
+Greater 
+financial 
+control 
+and 
+security, as the iris-scan process at 
+the supermarket checkout ensures 
+that only the owner of the wallet can 
+access the cash, rather than husbands 
+or children.
+•	
+Enhanced ability to save, particularly 
+for 
+emergencies, 
+by 
+allowing 
+beneficiaries to store some or all of 
+their salary on the digital wallet for up 
+to six months after their work contract 
+ends. 
+•	
+Improved 
+digital 
+and 
+financial 
+literacy, through training on how to 
+use mobile phones to track spending, 
+as well as budgeting seminars.
+Moreover, participants report that the 
+initiative has helped in their decision-making.
+The 
+pilot 
+has 
+also 
+had 
+important 
+organizational benefits, for UN Women and 
+WFP, which could also have future positive 
+repercussions for Oasis beneficiaries. These 
+include:
+•	
+Greater efficiency and reduced costs, 
+by eliminating third parties, making 
+money transfers faster and cheaper – 
+with significant cost-savings so far for 
+UN Women and WFP. 
+•	
+More 
+security 
+and 
+reduced 
+risk, through the use of private, 
+permissioned 
+blockchain 
+and 
+encrypted currency, which reduces 
+hacking and fraud while protecting 
+beneficiary data. 
+•	
+Greater traceability and transparency, 
+increasing accountability to donors 
+and in line with Grand Bargain 
+commitments.21
+21. Grand Bargain commitments, as cited in Aiste Rugeviciute and 
+Afshin Mehrpouya. 2019. “Blockchain, a Panacea for Development 
+Accountability? A Study of the Barriers and Enablers for Blockchain’s 
+Adoption by Development Aid Organizations.” Frontiers in 
+Blockchain. Vol. 2. https://doi.org/10.3389/fbloc.2019.00015
+
+--- Page 16 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+16
+•	
+Enhance oversight and effectiveness, 
+allowing UN Women to easily identify 
+and resolve potential errors, analyse 
+spending patterns and identify trends 
+to inform future programming.
+•	
+Increased 
+harmonization 
+of 
+aid 
+efforts, as the first UN collaboration 
+involving two organizations using 
+a common blockchain network, it is 
+expected to pave the way for greater 
+interoperability 
+and 
+collaboration.
+Finally, this project has had the unintended 
+benefit of illustrating blockchain’s resilience 
+during emergencies, as evidenced by UN 
+Women’s ability to remotely ensure that cash 
+continues to reach beneficiaries despite 
+COVID-19 movement restrictions on staff 
+and beneficiaries, while the non-contact 
+nature of the iris scanning has proven to be 
+a safe and hygienic approach.
+Based on all of the aforementioned results 
+and impacts of the blockchain pilot, in April 
+2020, UN Women made the decision to 
+scale-up the approach and adopt this cash 
+disbursement modality as the new standard 
+for all of UN Women’s camp-based Oasis 
+cash-transfer programmes, which it was 
+able to do as of June 2020. Moving forward 
+UN Women will continue to explore with 
+WFP opportunities to roll out the approach 
+and pilot also in host community settings 
+where UN Women in partnership with the 
+Ministry of Social Development runs eight 
+Oasis centers. 
+
+--- Page 17 ---
+BLOCKCHAIN PILOT PROJECT FOR 
+CASH  TRANSFERS IN REFUGEE CAMPS
+17
+Thylin, Theresia and María Fernanda 
+Novelo Duarte. 2019. Leveraging blockchain 
+technology in humanitarian settings – 
+opportunities and risks for women and girls 
+available at: https://www.tandfonline.com/
+doi/abs/10.1080/13552074.2019.1627778 
+Cheesman, Margie. 2020. “Field report: UN 
+Women pilot: Zaatari and Azraq refugee 
+camps, Jordan.” Oxford Internet Institute.
+Currion, P. 2015. AidCoin: a revolution in 
+humanitarian financing. Available at medium.
+com/@paulcurrion/introduction513f86ed92
+df#.2dz4l3166 
+Ko, Vanessa and Andrej Verity. 2020. 
+Blockchain 
+for 
+the 
+Humanitarian 
+Sector: 
+Future 
+Opportunities. 
+Digital 
+Humanitarian 
+Network. 
+Available 
+at 
+https://reliefweb.int/sites/reliefweb.int/
+files/resources/BlockChain%20for%20
+the%20Humanitarian%20Sector%20
+-%20Future%20Opportunities%20-%20
+November%202016.pdf
+OCHA. 2015. Crowdfunding for Emergencies. 
+OCHA Policy and Studies Series, Issue brief.
+Pisa, Michael and Matt Juden. 2017. 
+“Blockchain and Economic Development: 
+Hype vs. Reality.” CGD Policy Paper. 
+Washington, 
+DC: 
+Center 
+for 
+Global 
+Development. Available at https://www.
+cgdev.org/publication/blockchain-and-
+economic-development-hype-vs-reality   
+Riani, 
+Tissa. 
+2018. 
+“Blockchain 
+for 
+social impact in aid and development” 
+Humanitarian Advisory Group. Available 
+at 
+https://humanitarianadvisorygroup.org/
+blockchain-for-social-impact-in-aid-and-
+development/
+Rugeviciute, Aiste and Afshin Mehrpouya. 
+2019. 
+“Blockchain, 
+a 
+Panacea 
+for 
+Development 
+Accountability? 
+A 
+Study of the Barriers and Enablers for 
+Blockchain’s Adoption by Development Aid 
+Organizations.” Frontiers in Blockchain. Vol. 
+2. https://doi.org/10.3389/fbloc.2019.00015.
+Smith, Angela. 2019. “How the World Food 
+Programme uses blockchain to better serve 
+refugees,” ITU News. Available at
+h t t p s : / / w w w . i t u . i n t / e n / m y i t u /
+News/2020/04/08/12/32/How-the-World-
+Food-Programme-uses-blockchain-to-
+better-serve-refugees
+United Nations. 2016. Too important to fail—
+addressing the humanitarian financing gap. 
+High-Level Panel on Humanitarian Financing 
+Report to the Secretary-General. 
+References
+
+--- Page 18 ---
+UN WOMEN IS THE UN ORGANIZATION 
+DEDICATED 
+TO 
+GENDER 
+EQUALITY 
+AND THE EMPOWERMENT OF WOMEN. A 
+GLOBAL CHAMPION FOR WOMEN AND 
+GIRLS, UN WOMEN WAS ESTABLISHED 
+TO 
+ACCELERATE 
+PROGRESS 
+ON 
+MEETING THEIR NEEDS WORLDWIDE. 
+UN Women supports UN Member States as they set global standards 
+for achieving gender equality, and works with governments and civil 
+society to design laws, policies, programmes and services needed 
+to ensure that the standards are effectively implemented and truly 
+benefit women and girls worldwide. It works globally to make the 
+vision of the Sustainable Development Goals a reality for women and 
+girls and stands behind women’s equal participation in all aspects 
+of life, focusing on four strategic priorities: Women lead, participate 
+in and benefit equally from governance systems; Women have 
+income security, decent work and economic autonomy; All women 
+and girls live a life free from all forms of violence; Women and girls 
+contribute to and have greater influence in building sustainable 
+peace and resilience, and benefit equally from the prevention of 
+natural disasters and conflicts and humanitarian action. UN Women 
+also coordinates and promotes the UN system’s work in advancing 
+gender equality.
+UN Women Jordan Country Office
+6 Jeddah Street, Un-Uthanina
+Amman, Jordan 11183
+P.O. Box 830896
+www.jordan.unwomen.org
+www.facebook.com/unwomenjordan 
+www.twitter.com/unwomenjordan 

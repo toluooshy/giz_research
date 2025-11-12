@@ -1,0 +1,353 @@
+
+--- Page 1 ---
+ 
+ 
+Jaime Fernandez-Pontes (2021) How could 
+Blockchain 
+technology 
+revolutionise 
+humanitarian 
+aid?, 
+LSE 
+International 
+Development Review 
+ 
+ 
+ 
+ 
+© Jaime Fernandez-Pontes, 2021. This is an open access article under 
+the terms of the Creative Commons Attribution License, which permits use, 
+distribution and reproduction in any medium, provided the original work is 
+properly cited. 
+ 
+1
+ 
+ 
+ 
+How could Blockchain technology revolutionise 
+humanitarian aid? 
+ 
+Jaime Fernandez-Pontes 
+ 
+Columbia University (SIPA), j.fernandez-pontes-vinuela@lse.ac.uk  
+ 
+ 
+Abstract 
+Despite numerous advances in the disbursement of humanitarian aid by 
+developed nations and other institutions, current practice in the way these 
+funds are given often result in inefficiencies, greater costs, and a lack of 
+traceability and transparency. This article explores and analyses how 
+blockchain technology disruption in the transfer of foreign aid and remittances 
+within the humanitarian landscape could become a powerful force in 
+addressing some of these issues. Whilst blockchain technology is no panacea 
+for these flaws in the system, we argue it certainly provides an alternative 
+mechanism to current practice. Built-in mechanisms of blockchain networks 
+ensure a greater level of traceability and transparency is achieved as well as 
+a reduction in transaction costs arising from current foreign aid giving as a 
+result of the unique characteristics of this novel technology. This article does 
+not envision a full disruption of current practice. However, current 
+inefficiencies in the development landscape and the constant critique of 
+practitioners and institutions lacking effective tools to improve their efforts in 
+regions and countries where they operate are widely spread. In turn, we have 
+argued blockchain technology could be an efficient and reliable tool for major 
+stakeholders in the humanitarian landscape to improve their efforts in the 
+years to come by providing both donors and recipients with a better 
+mechanism to help those in need.  
+Keywords: Humanitarian Aid; Blockchain Technology; Innovation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 2 ---
+LSE International Development Review 
+ 
+ 
+2
+With more than 125 million people in need of humanitarian aid, public organisations and 
+private ventures are striving to make an impact in the humanitarian landscape using 
+blockchain technology to tackle rising transaction fees and eliminate the high degree of 
+corruption and bribery in non-governmental organisations (NGOs). Such deceit takes up more 
+than 30% of aid failing to reach its destination, according to former UN Secretary-General Ban 
+Ki-Moon (UN 2012). However, blockchain technology may have the key to eliminate the 
+donors' biggest concern, whether their donations will arrive to the place or people where funds 
+are supposed to arrive. 
+ 
+What are the current problems in the humanitarian landscape? 
+ 
+Firstly, one of the main problems found in the development arena is a profound lack of 
+transparency. In 2018 “only 3.1% of global humanitarian aid delivery was channelled either 
+directly to a local or national NGO, or through only one intermediary” (Bricout and Aurez 2020 
+citing Urquhar, 2019). Given the number of intermediaries present in these transactions, this 
+precludes any form of efficient management of funding, of tracing the journeys of foreign aid 
+flows, ultimately reducing the degree of transparency (Ibid). The inefficiencies of the foreign 
+aid supply chain are well documented, but until now, it seemed a thorough reform of supply 
+chain management proved would prove to be a difficult task. Indeed, data is the name of the 
+game. Without comprehensive data, “it is impossible to know where and whom to target, and 
+how to coordinate, evaluate and analyse aid flows” (Ingram, 2018). The chaotic nature of 
+current practice leads to a lack of transparency of aid flows, creating high levels of mistrust by 
+major stakeholders, i.e., donors and other institutions, as to how funds will be managed, by 
+whom, and whether the terms will be respected (Ibid). Consequently, the amount of aid that 
+would normally be disbursed is reduced by billions of dollars because of the mistrust of donors 
+towards the current practice (de Vrij, 2018).  
+ 
+Another problem that remains in the field is the lack of coordination between different actors. 
+Because many actors pursue the same goal, this situation “favours redundancy, policy 
+incoherence, inefficient use of resources, and unnecessary administrative burdens on host 
+countries” (Bricout and Aurez 2020 citing Lawson, 2013). Also, the ever-present issue of 
+transaction costs arises due to the lack of cooperation and fragmentation of donors (Ibid). With 
+the many actors operating in the field obtaining heterogeneous interests, structures, 
+methodologies, it is thus unavoidable that these processes become inefficient, resulting in 
+both duplicities and increased transaction costs, ultimately reducing the bulk of funds donated 
+to those populations in need (de Vrij, 2018). Indeed, a study by Stanford University found that 
+organizations working with foreign aid lose around 3-10% of the funds in transaction fees 
+(Galen et al., 2018). Reducing the scope of these costs, i.e., reducing the number of nodes 
+shown in Figure 1 remains paramount for the efficient delivery of aid, by reducing leaks in aid 
+transfers, and increasing accountability of various actors on the field (Rugeviciute1 and 
+Mehrpouya 2019). 
+ 
+ 
+ 
+
+--- Page 3 ---
+How could Blockchain technology revolutionise humanitarian aid? 
+ 
+ 
+3
+ 
+ 
+Source: Oloruntoba & Gray 2006 
+ 
+ 
+What is blockchain, and what would it solve 
+ 
+One of the main barriers in the development landscape is the lack of reliable information being 
+accessible for actors in the field. This prevents reliable information management within the 
+sector. One of the many benefits of blockchain technology is that it enables actors to share 
+data that then become immutable. Hence all users can access this information which enters 
+the public domain. As Miguel Santafé put it,” blockchain lends itself well to being a universal, 
+permanent, searchable, irrevocable public records repository” (Santafé 2020). This system, 
+where information is digitally verified, immutable as well as time-stamped, ultimately provides 
+a solution to information asymmetries within the humanitarian field, as it reduces the cost of 
+accessing information and facilitates a more transparent mechanism for information sharing 
+(Ibid).   
+ 
+Additionally, Blockchain technology enables actors in the field to achieve more control over 
+aid distribution, more specifically the journey of these funds from the donor to the recipient. 
+This significantly reduces transaction costs through eliminating intermediaries, and ensuring 
+contracts are in the blockchain. Whether they are normal contracts or smart contracts, they 
+display what the commitment made are, how distribution will take place, while also clearly 
+stating the intended use of the funds. Therefore, this mechanism increases transparency 
+levels in the various stages of foreign aid by providing reliable information to the different 
+stakeholders, and above all, donors (Ibid).  
+Another benefit of blockchain technology is the rate at which funds can be delivered (Bäckman 
+2019). A rapid response in a humanitarian emergence is critical. Blockchain can deliver these 
+funds much more rapidly than current transfer mechanisms, and it can do so without funds 
+disappearing or being misappropriated in the process (Ibid). On this front, blockchain 
+technology would address some of the issues outlined above, with regards to transaction costs 
+and the ability of this technological innovation to harmonize coordination and procedures, 
+thereby reducing transaction costs to a large extent (Ashoff, 2004).  
+ 
+A further benefit from blockchain applications to humanitarian aid is it provides a viable 
+solution to traceability and transparency issues. Addressing lack of transparency is primordial 
+for aid to be effective (de Vrij, 2018). Blockchain would allow “funds from private donors, 
+governments, or NGOs to be traced through every step of the supply chain and to register 
+every action taken by each intermediary” (Galen et al., 2018), therefore ensuring funds and 
+resources arrive to its intended purpose and recipients.  A further aspect related to traceability 
+and transparency is the possibility to the build-in smart contract in donations. This would 
+enable stakeholders to outline the conditions under which funds would be released and grant 
+them permission to access the data and follow the journey of their donations (Galen et al., 
+2018). 
+
+--- Page 4 ---
+LSE International Development Review 
+ 
+ 
+4
+ 
+ 
+Evidence from the field 
+ 
+As an example, the United Nations (UN), has suffered numerous counts of fraud, substantial 
+administrative fees, and mishandling of funds for many decades. In response to these 
+inefficiencies and desire to tackle the mismanagement of finances, the UN has been a pioneer 
+in the use of blockchain technology. To ensure the maximum amount of aid is delivered to 
+those recipients in need, through one of its subsidiaries, the World Food Programme (WFP), 
+it launched a pilot program in 2016 destined to use blockchain technology in the humanitarian 
+landscape. Building Blocks, the WFP pilot programme launched on an Ethereum network has 
+saved the WFP around $150,000 a month by eliminating close to 98% of bank-related transfer 
+fees thus far (WFP 2021). This program has been deployed in a refugee camp in Jordan 
+successfully, which helped the WFP distribute cash-for-food aid to more than 100,000 Syrian 
+refugees in Jordan through a public Ethereum blockchain (Ibid). The WFP building blocks 
+project leveraged the capabilities of blockchain technology for humanitarian impact as it 
+became a tool for authenticating and registering the main beneficiaries of the transactions and 
+enabled users in two refugee camps in Jordan, to “purchase groceries by scanning an iris at 
+checkout” (WFP 2021).  
+ 
+ 
+The case of Aid: Tech, a precursor in the use of blockchain for humanitarian causes, alongside 
+the Irish Red Cross also provides substantial evidence of the far-reaching impact of using new 
+technologies to consolidate practitioners’ work. In their case, this joint venture successfully 
+used digital identities on a blockchain network to deliver aid to Syrian refugees located in 
+Lebanon (Aid: Tech 2020). Further examples by Aid: Tech include projects in Tanzania and 
+one new project in Serbia launched in 2018, which attempts to solve issues with remittances 
+in the region alongside the UNDP (Ibid). On innovations within the blockchain sphere, Aid: 
+Tech is currently attempting to solve one of the biggest problems in the development 
+landscape, how remittances are currently being sent and received. By leveraging the power 
+of blockchain technology and its unique properties, Aid: Tech launched the first peer-to-peer 
+donation system through mobile applications, thus, helping donors ensure payments and 
+remittances would arrive safely (Ibid). 
+ 
+Further examples of blockchain use in the humanitarian landscape include Oxfam’s solution 
+UnBlocked Cash project (UBC). The cash transfer solution aims to leverage the power of DLT 
+to reduce the cost of aid distribution, lower delivery times of aid, as well as increasing the level 
+of transparency and accountability of actors to the aid-giving process (Oxfam 2020). Such 
+mechanism involves three major elements, “1) e-voucher “tap-and-pay” cards provided to 
+beneficiary households which they can use to purchase goods, 2) smartphones with a pre-
+installed app through which vendors receive payments, and 3) a single-payment online 
+platform where NGOs like Oxfam can disburse funds and monitor transactions remotely and 
+in real-time” (Ibid). Through training support and help from Oxfam experts, this ensures this 
+innovation can successfully provide an alternative to current practice, as well as training the 
+various actors' new skills. More specifically, the project was first implemented in Vanuatu in 
+2019, in the aftermath of Tropical Cyclone Harold, as well as the impact of Covid-19, which 
+had profoundly affected the population in terms of lower-income levels, particularly those 
+whose situation had been aggravated by these external shocks (Ibid). Since its 
+implementation, over 35,000 users have benefited from this program. The design of the 
+program was simple, but highly innovative. By using digital forms of local currencies, which 
+were then collateralized into blockchain tokens, a population that up to now had lived off the 
+grid in terms of banking services have now been financially included in the system thanks to 
+this solution (Ibid). Moreover, this solution also benefits donors and potential institutional 
+
+--- Page 5 ---
+How could Blockchain technology revolutionise humanitarian aid? 
+ 
+ 
+5
+donors, who can track funds and disburse aid through this mechanism which are more 
+transparent and reliable than previous aid practices.  
+ 
+ 
+A crucial aspect found in the Oxfam solution is that it can harness the power of blockchain 
+technology to drive the economic development of regions. Through the project’s user-centered 
+approach, it is having an empowering component built-in. With local communities and 
+business owners taking part, the main beneficiaries of the program are those simultaneously 
+speeding up the economic recovery, without resorting to direct forms of foreign aid (Ibid). This 
+is particularly interesting as one of the unique features of this solution is it allows for “vendor-
+to-vendor cash-out”, meaning, vendors are allowed to exchange their tokens for fiat currency, 
+thus, increasing the level of “financial liquidity and ease of exchange that is essential for 
+economic development” (Ibid).  Moreover, another benefit of this solution is it reduces the 
+scope of gender-based violence, which can sometimes occur once cash and voucher 
+assistance is given. This system of tokens is thus beneficial for women, as no hard currency 
+is given out. Also, this system has resulted in a greater degree of digital literacy of female 
+participants, who have become more technologically savvy because of this program (Ibid).  
+ 
+ 
+Concluding remarks 
+ 
+Blockchain technology can indeed be a powerful solution to many of the problems plaguing 
+the development arena. Whilst it is no panacea to the many evils that preclude practitioners' 
+work from delivering the best possible results, we argue it could become a useful tool for 
+stakeholders in the humanitarian landscape. Whilst its full potential has not been seen, its 
+power of disruption offers promising alternatives to current practice, in the way it would solve 
+many of the coordination, transaction costs, traceability, and transparency issues arising from 
+aid transfers. Nevertheless, we are optimistic about the future scalability of blockchain 
+technology in the humanitarian sphere, and, as Robert Opp, head of innovation at WFP noted, 
+if Blockchain “can reach the poorest people in the world, the most vulnerable people in the 
+world, I really think it could be a transformation story.” (BBVA 2017) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 6 ---
+LSE International Development Review 
+ 
+ 
+6
+ 
+ 
+ 
+References 
+ 
+Aid: Tech. (2020). https://www.aid.technology/remittances., Accessed October 1st, 2021 
+ 
+Bäckman, A. (2019). Blockchain as a tool in humanitarian action – a brief overview of 
+potential uses., 
+https://eba.se/wp-content/uploads/2019/05/WP-2019-maj_Blockchain_Tillganp.pdf.,  
+Accessed October 4th, 2021  
+ 
+BBVA. (2017), Blockchain is also a chain for humanitarian aid., 
+https://www.bbva.com/en/blockchain-also-chain-humanitarian-aid/., Accessed September 
+27th, 2021 
+ 
+Bricout, A., Aurez, V. (2020). Solving Humanitarian Aid Inefficiencies with Blockchain 
+Technology., https://fsblockchain.medium.com/solving-humanitarian-aid-inefficiencies-with-
+blockchain-technology-ad3e7531c58c., Accessed October 9th, 2021 
+ 
+de Vrij, A. (2018). Blockchain in Humanitarian Aid: A Way out of Poverty and Famine? 
+Leiden University. 
+ 
+Galen, D., Brand, N., Boucherle, L., Davis, R., Do, N., El-Baz, B., Kimura, I., Wharton, K., 
+Lee, J. (2018). Blockchain for Social Impact: Moving Beyond the Hype. Stanford Graduate 
+School of Business — Center for Social Innovation. 
+ 
+Ingram, G. (2018).  How better aid transparency will help tackle global development 
+challenges. Brookings. URL https://www.brookings.edu/blog/up-front/2018/06/21/how-better-
+aid-transparency-will-help-tackle-global-development-challenges., Accessed October 7th, 
+2021 
+ 
+Oloruntoba, R. and Gray, R. (2006), "Humanitarian aid: an agile supply chain?", Supply 
+Chain Management, Vol. 11 No. 2, pp. 115-
+120. https://doi.org/10.1108/13598540610652492 
+ 
+ 
+Oxfam. (2021). UnBlocked Cash Project: using blockchain technology to revolutionize 
+humanitarian aid., https://www.oxfam.org/en/unblocked-cash-project-using-blockchain-
+technology-revolutionize-humanitarian-aid., Accessed October 4th, 2021 
+ 
+Reinsberg, B. (2019). Blockchain technology and the governance of foreign aid. Journal of 
+Institutional Economics, 15(3), 413-429. doi:10.1017/S1744137418000462 
+ 
+Rugeviciute, A, Mehrpouya, A (2019). Blockchain, a Panacea for Development 
+Accountability? A Study of the Barriers and Enablers for Blockchain's Adoption by 
+Development Aid Organizations., Frontiers in Blockchain., DOI=10.3389/fbloc.2019.00015      
+ 
+Santafé, M. (2020). Blockchain and humanitarian aid by Miguel Santafé., 
+https://www.linkedin.com/pulse/blockchain-humanitarian-aid-miguel-santafé-miguel-
+santafé/., Accessed September 29th, 2021 
+ 
+
+--- Page 7 ---
+How could Blockchain technology revolutionise humanitarian aid? 
+ 
+ 
+7
+UN News. (2012). At high-level discussion, UN officials highlight costs of corruption on 
+societies., https://news.un.org/en/story/2012/07/415122-high-level-discussion-un-officials-
+highlight-costs-corruption-societies., Accessed October 5th, 2021 
+ 
+ 
+WFP. (2021). Building Blocks-Blockchain for Zero Hunger.,  
+https://innovation.wfp.org/project/building-blocks., Accessed October 7th, 2021 
+ 

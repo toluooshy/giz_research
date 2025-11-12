@@ -1,0 +1,3205 @@
+
+--- Page 1 ---
+i 
+ 
+ 
+ 
+Between efficiency and do no harm:  
+Blockchain-based innovation in cash and voucher 
+assistance 
+ 
+ 
+ 
+Jamile Teles Hamideh 
+ 
+ 
+ 
+ 
+ 
+ 
+Department of Marketing 
+Supply Chain Management and Social Responsibility 
+Hanken School of Economics 
+Helsinki 
+2023 
+ 
+ 
+
+--- Page 2 ---
+ii 
+HANKEN SCHOOL OF ECONOMICS 
+Department of: Marketing – Supply Chain 
+Management and Social Responsibility 
+ 
+Type of work: Thesis 
+ 
+Author: Jamile Teles Hamideh 
+Date: 31/01/2023 
+Title of thesis: Between efficiency and do no harm: Blockchain-based innovation in 
+cash and voucher assistance 
+Abstract:  
+ 
+The focus of this study is the determination of the risk factors for beneficiaries that arise 
+from the use of blockchain technology in the delivery of cash and voucher assistance 
+(CVA), as part of a framework for the identification of digital harm. The study also aims 
+to use the said framework to create actionable points for humanitarian organizations 
+working on reducing risks to beneficiaries when implementing this type of program. 
+As the need for humanitarian assistance grows, trends such as cash and voucher 
+assistance and digitalization emergence. CVA can lead to benefits such as cost efficiency, 
+more timely and accurate meeting of beneficiaries’ needs, operational flexibility, and 
+empowerment of beneficiaries. When blockchain is used in CVA, further benefits such 
+as 
+higher 
+transparency 
+and 
+accountability, 
+less 
+corruption, 
+security, 
+and 
+programmability can be acquired. Nevertheless, the analysis of the risks that arise from 
+this implementation must be conducted, addressing a gap in both literature and 
+practice.  
+Through an extensive literature review and the investigation and comparison of three 
+cases (the World Food Programme’s Building Blocks, Oxfam’s UnBlocked Cash, and 
+Finn Church Aid’s Kenya Feasibility Study), using an abductive research approach, this 
+thesis has identified twelve risk factors, classified into five major categories, that make 
+up the notion of digital risk to beneficiaries in blockchain-based CVA. This framework 
+constitutes the study’s theoretical contribution. 
+Furthermore, a list of seven measures was suggested to help humanitarian organizations 
+in reducing digital harm to beneficiaries in the context in question. Those measures are 
+considered the thesis’s managerial contribution. 
+Keywords: Humanitarian supply chain, cash and voucher assistance, blockchain, 
+digital harm 
+ 
+ 
+ 
+
+--- Page 3 ---
+iii 
+ACRONYMS 
+ 
+ 
+ 
+CALP  
+The Cash Learning Partnership 
+ 
+CVA 
+ 
+Cash and Voucher Assistance 
+ 
+DLT 
+ 
+Distributed Ledger Technology 
+ 
+FCA 
+ 
+Finn Church Aid 
+ 
+HSC 
+ 
+Humanitarian Supply Chain 
+ 
+ICRC  
+International Committee of International Red Cross 
+IFRC  
+International Federation of the Red Cross 
+ 
+WFP 
+ 
+World Food Programme 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+--- Page 4 ---
+iv 
+CONTENTS 
+1 
+Introduction .............................................................................................................. 1 
+1.1 
+Context and research problem .......................................................................... 1 
+1.2 
+Aim of the thesis ................................................................................................ 2 
+1.3 
+Methods ............................................................................................................. 2 
+1.4 
+Delimitations ...................................................................................................... 3 
+1.5 
+Thesis outline ..................................................................................................... 4 
+2 
+Digitalizing cash and voucher assistance with Blockchain technology .................... 5 
+2.1 
+Cash and voucher assistance ............................................................................. 5 
+2.1.1 
+Benefits of cash and voucher assistance .................................................... 9 
+2.1.2 
+Changes in the Humanitarian Supply Chain ............................................... 9 
+2.2 
+Digital harm ...................................................................................................... 11 
+2.3 
+Blockchain technology for cash and voucher assistance ................................. 13 
+2.3.1 
+Immutability ............................................................................................. 14 
+2.3.2 
+Distribution ............................................................................................... 16 
+2.3.3 
+Decentralization ....................................................................................... 18 
+2.4 
+Theoretical framework .................................................................................... 19 
+3 
+Research methods .................................................................................................. 22 
+3.1 
+Research philosophy ........................................................................................ 22 
+3.2 
+Research design ............................................................................................... 22 
+3.3 
+Sampling strategy ............................................................................................ 24 
+3.4 
+Data collection ................................................................................................. 24 
+3.4.1 
+Primary data sources ................................................................................ 26 
+3.4.2 
+Secondary data sources ............................................................................ 27 
+3.5 
+Data analysis .................................................................................................... 28 
+3.5.1 
+Interviews ................................................................................................. 28 
+3.5.2 
+Documents ................................................................................................ 29 
+3.5.3 
+Ethical considerations ............................................................................... 30 
+3.5.4 
+Quality of the study .................................................................................. 30 
+4 
+Doing no digital harm in blockchain-based CVA .................................................... 32 
+4.1 
+Case descriptions ............................................................................................. 32 
+4.1.1 
+Case A: the World Food Programme’s Building Blocks ............................ 32 
+4.1.2 
+Case B: Oxfam’s UnBlocked Cash ............................................................. 34 
+4.1.3 
+Case C: Finn Church Aid’s Feasibility Study .............................................. 35 
+
+--- Page 5 ---
+v 
+4.2 
+Achieving efficiency through cost and time savings ........................................ 36 
+4.3 
+Transparency as accountability to donors ....................................................... 38 
+4.3.1 
+Opacity for beneficiaries .......................................................................... 39 
+4.4 
+A privacy-enhancing or surveillance-enabling technology? ............................ 41 
+4.5 
+Designing CVA with and without biometrics ................................................... 42 
+4.6 
+Disintermediation from traditional financial actors ........................................ 44 
+4.7 
+Summary of case findings ................................................................................ 45 
+4.8 
+Updated theoretical framework ...................................................................... 47 
+5 
+Discussion ............................................................................................................... 49 
+5.1 
+Risks arising from immutability ....................................................................... 49 
+5.2 
+Risks arising from distribution ......................................................................... 50 
+5.3 
+Risks arising from decentralization .................................................................. 51 
+5.4 
+Risks arising from the use of biometrics .......................................................... 53 
+5.5 
+Risks arising from the use of digital technologies ........................................... 54 
+5.6 
+Guidelines for Humanitarian Organizations .................................................... 54 
+5.6.1 
+Consider whether a blockchain-based system is, in fact, needed ........... 55 
+5.6.2 
+Consider the context in which the program is to be implemented ......... 57 
+5.6.3 
+Consider the infrastructure and other technologies required to 
+implement a blockchain-based program................................................................ 58 
+5.6.4 
+Involve beneficiaries in the design process .............................................. 59 
+5.6.5 
+Consider whether particular groups of beneficiaries would be left behind
+ 
+60 
+5.6.6 
+Choose partners carefully ......................................................................... 61 
+5.6.7 
+Implement data protection by default and by design.............................. 62 
+6 
+Conclusion .............................................................................................................. 63 
+6.1 
+Contributions ................................................................................................... 65 
+6.2 
+Limitations and avenues of future research .................................................... 65 
+7 
+REFERENCES ............................................................................................................ 67 
+ 
+APPENDICES 
+Appendix 1 Interview questions .................................................................................. 74 
+ 
+TABLES 
+
+--- Page 6 ---
+vi 
+Table 1 
+The study’s units of analysis and sampling strategies ................................. 24 
+Table 2 
+Primary data sources .................................................................................... 27 
+Table 3 
+Secondary data sources ............................................................................... 28 
+Table 4 
+Quality of the study ...................................................................................... 31 
+Table 5 
+Summary of case findings ............................................................................ 47 
+Table 6 
+Answer to the first research question: risks identified, categories and 
+sources 
+64 
+ 
+FIGURES 
+Figure 1 
+Thesis focus area ............................................................................................ 5 
+Figure 2 
+Global funding for CVA programs – total programming costs in US$ 
+(adapted from Rieger, 2022) ............................................................................................ 7 
+Figure 3 
+CVA Project Cycle (adapted from Shrestha & Smart, 2022) .......................... 8 
+Figure 4 
+Traditional humanitarian supply chain (adapted from Heaslip et al., 2015) 10 
+Figure 5 
+CVA supply chain (adapted from Heaslip et al., 2015) ................................ 10 
+Figure 6 
+Thesis theoretical framework as a force field diagram................................ 21 
+Figure 7 
+The study’s abductive research process (based on Kovács & Spens, 2005). 23 
+Figure 8 
+The Building Blocks supply chain ................................................................. 33 
+Figure 9 
+The UnBlocked Cash supply chain (based on Document B1, p. 23) ............. 35 
+Figure 10 
+The Finn Church Aid-Solita supply chain .................................................. 36 
+Figure 11 
+Updated theoretical framework of this study .......................................... 48 
+Figure 12 
+Summary of recommendations and the risks addressed by them .......... 55 
+
+--- Page 7 ---
+1 
+1 
+INTRODUCTION 
+1.1 
+Context and research problem 
+In 2021, an estimated 235 million people were in need of humanitarian assistance and 
+protection (Global Humanitarian Overview, 2022) – a number that is expected to reach 
+339 million people in 2023 (The Guardian, 2022). As demand for humanitarian aid 
+increases, so does the need for the humanitarian sector to be able to respond better. In 
+this context, especially as events that lead to supply chain disruptions become more 
+common, trends such as digitalization and cash and voucher assistance (CVA) emerge in 
+humanitarian logistics (Kovács & Falagara Sigala, 2021).  
+With the former, “combinations of information, computing, communication, and 
+connectivity technologies” (Vial, 2019, p. 121) are used to promote substantial changes 
+and improve organizations. With the latter, the traditional distribution of aid in the form 
+of physical goods is replaced by the direct provision of money to beneficiaries, be it in the 
+form of cash or vouchers (Heaslip, Kovács & Haavisto, 2018). These trends, furthermore, 
+can be combined, enabling, for example, the use of digital payments – here defined as 
+end-to-end digital transactions, or those in which both the medium of transfer used by 
+payers and payees and the payment instrument are electronic (Burton, 2020).  
+These digital transactions have the potential to increase the speed of delivery and the 
+number of beneficiaries that can be reached by CVA programs, at a lower cost (Burton, 
+2020). Beyond gains in efficiency and speed, which lead to cost savings, they can 
+promote enhanced traceability and accountability, which, in their turn, increase 
+transparency and security and reduce corruption and theft, and promote financial 
+inclusion through access to financial services, among other benefits (Better than Cash 
+Alliance, n.d.). They can also be safer for beneficiaries and humanitarian staff, as the 
+risks of theft and looting that arise from carrying cash could be reduced (Burton, 2020). 
+These benefits can contribute to mainstreaming a techno-optimistic narrative (Lee, 
+2020), which emphasizes the increased levels of efficiency that digital technologies such 
+as blockchain, which will be the focal point of this study, can bring to the humanitarian 
+sector.   
+Nevertheless, adopting innovative approaches in humanitarian operations, especially 
+uncritically, can expose beneficiaries to new risks (Sandvik, Jacobsen & McDonald, 
+2017). Considering that the very reason for the existence of humanitarian supply chains 
+
+--- Page 8 ---
+2 
+is the meeting of beneficiaries’ needs (Thomas & Mizushima, 2005), these risks need to 
+be further investigated, and strategies for their mitigation should be created. In doing so, 
+the guiding principle of humanitarian action, do no harm, is updated to include the 
+notion of do no digital harm (Burton, 2020).  
+1.2 
+Aim of the thesis 
+Risk factors do not exist in abstraction; they are deeply contextual and must be 
+determined in a case-by-case analysis (Burton, 2020). Because of this, the primary aim 
+of this research is to determine the risk factors for beneficiaries that arise from the use 
+of blockchain technology for the delivery of cash and voucher assistance. The secondary 
+aim is to create a theoretical framework that can be used by humanitarian organizations 
+when deciding whether the potential benefits of that implementation are proportional to 
+the emerging risks posed to beneficiaries. 
+The following research questions (RQ) are posed to achieve these aims: 
+RQ 1: What are the main digital risks posed to beneficiaries when blockchain is 
+used for the delivery of cash and voucher assistance? 
+RQ 2: How can humanitarian organizations mitigate digital harm to 
+beneficiaries when using blockchain technology for the delivery of cash and 
+voucher assistance programs? 
+1.3 
+Methods 
+Not only is the topic of the compatibility between the use of blockchain and humanitarian 
+principles still underexplored in the literature, but most pilots that make use of that 
+technology in the humanitarian sector do not have much information published about 
+their implementations or results achieved (Coppi & Fast, 2019). Two cases stand out as 
+exceptions: the World Food Programme’s Building Blocks, and Oxfam’s UnBlocked 
+Cash. As that first program is so far the largest of its kind, it has attracted non-negligible 
+media attention and has been covered in technology-focused publications. The second, 
+while not often mentioned in the media, has published official reports after the project’s 
+conclusion.  
+Both of these implementations will be investigated in this study, in which a multiple-case 
+analysis will be undertaken. The third case is that of Finn Church Aid’s 2019 Kenya 
+Feasibility Study. Beyond two short articles on the websites of the organizations 
+
+--- Page 9 ---
+3 
+responsible for the program (Finn Church Aid and Solita Oy), there was no publicly 
+available information before this thesis – thus making the exploration and reporting of 
+that case particularly valuable for academic research. 
+In this study, abductive research methods are used. Secondary data sources from the 
+World Food Programme and Oxfam cases (Cases A and B, respectively), are considered 
+during the first phase of the research alongside the relevant literature. From that, a 
+theoretical framework of digital harm to beneficiaries is developed. That framework is 
+then applied to Finn Church Aid’s case (Case C), using primary and secondary data 
+sources, and fine-tuned so that concrete suggestions can be created to help humanitarian 
+organizations in mitigating the risks identified.  
+1.4 
+Delimitations 
+The three cases investigated in this study refer to projects developed by humanitarian 
+organizations in which blockchain technology is used for delivering cash and voucher 
+assistance. Case A – the World Food Programme’s Building Blocks – was launched in 
+2017 in Pakistan and is currently active in Bangladesh and Jordan, serving, respectively, 
+Rohingya and Syrian refugees (WFP, 2021). The sources used in this study are focused 
+on the implementation in the Syrian refugee camps in Jordan, particularly Azraq and 
+Za’atari. Oxfam’s UnBlocked Cash (Case B), was a pilot implemented in Vanuatu in 2019, 
+in which 187 households were selected as beneficiaries (Rust, 2019). Finally, the 
+Feasibility Study of Case C was conducted in November and December of 2019, and 
+included fieldwork in Lokichar, Kakuma, and Kalobeyei, in Kenya, with a focus on 
+refugee and internally displaced people. 
+In the present research, the focus is on the beneficiaries’ perspective, as they are 
+considered relevant actors in the humanitarian supply chain. This leads to two important 
+delimitations. The first is that risk is not the same as an adoption barrier. Although issues 
+such as the complexity of establishment and environmental sustainability (Coppi, 2020), 
+or lack of technical standardization affect the implementation of blockchain solutions 
+(Sahebi, Masoomi & Ghorbani, 2020), they are not a source of direct risk to beneficiaries 
+and therefore, do not belong in the scope of this thesis. The second is that the use of 
+blockchain technology in CVA programs can also pose risks to humanitarian 
+organizations – notably causing a loss of legitimacy when projects implemented fail or, 
+worse, harm to those they should be serving (Sandvik et al., 2017). Nevertheless, as 
+
+--- Page 10 ---
+4 
+stated before, since the central perspective of this research is that of beneficiaries, risks 
+to organizations will not be discussed either. 
+1.5 
+Thesis outline 
+In this Chapter 1, a brief overview of the context of the present study is given, and its 
+aims and research questions are stated. The methods used to achieve those aims and 
+provide answers to the research questions are presented, as well as the delimitations of 
+the cases under analysis. Chapter 2 follows with a descriptive and thematic literature 
+review, divided into three parts: cash and voucher assistance, digital harm, and 
+blockchain technology’s use in CVA programs. In Chapter 3, the methodological aspect 
+of the thesis is explored, including the research approach, the framework for the case 
+study design, and its execution. In Chapter 4, the results of the empirical study are 
+presented, and in Chapter 5, these findings are analyzed and compared to existing 
+literature; based on them, guidelines are suggested for humanitarian organizations 
+seeking to reduce the digital harms to beneficiaries that arise from the implementation 
+of blockchain-based solutions in CVA programs. Finally, Chapter 6 concludes with a 
+summary of the study and its theoretical and managerial contributions. An overall 
+evaluation of the study is made, with future research recommendations being provided.  
+ 
+
+--- Page 11 ---
+5 
+2 DIGITALIZING CASH AND VOUCHER ASSISTANCE WITH 
+BLOCKCHAIN TECHNOLOGY 
+In this Chapter, a descriptive and thematic literature review is presented, with a focus on 
+three main points: cash and voucher assistance, digital harm, and the use of blockchain 
+in CVA programs. That technology is considered an example of digitalization in the 
+humanitarian supply chain (Baharmand, Saeed, Comes & Lauras, 2021b). Figure 1 shows 
+how blockchain-based CVA, the focus area of this thesis, is situated at the intersection of 
+two emerging fields in HSC. 
+ 
+Figure 1 
+Thesis focus area 
+The literature on cash and voucher assistance covers the aspects of the definition of CVA, 
+its modalities, factors that influence its implementation, the benefits observed, and the 
+overall impact caused on humanitarian supply chains. The concept of digital harm is then 
+introduced as a basis for the analysis of the use of blockchain for the delivery of cash and 
+voucher assistance programs. After that, a short description of the technical aspects of 
+blockchain is provided, with the way the technology can be used in cash and voucher 
+assistance programs being explained. The potential benefits and digital risks brought by 
+blockchain are summarized based on the ledger’s key characteristics of immutability, 
+distribution, and decentralization. With that background established, tentative answers 
+to the two research questions posed in this thesis can start to be formed, being structured 
+in a framework of do no digital harm, thus addressing a critical gap in both literature 
+and practice.  
+2.1 
+Cash and voucher assistance 
+Humanitarian supply chains (HSCs) are defined as  
+
+--- Page 12 ---
+6 
+The process of planning, implementing, and controlling the efficient, cost-effective flow and 
+storage of goods and materials, as well as related information, from point of origin to point of 
+consumption for the purpose of meeting the end beneficiary’s requirements. (Thomas & 
+Mizushima, 2005, p. 60) 
+While this definition emphasizes the distribution of physical goods, in-kind assistance is 
+by no means the only option available in humanitarian assistance. Another option, which 
+has become increasingly popular since 2016 (Maghsoudi, Harpring, Piotrowicz & 
+Heaslip, 2021), is providing beneficiaries with cash and vouchers. In this case, a voucher 
+is defined as “a paper, token or electronic card that can be exchanged for a set quantity 
+or value of goods, denomination either as a cash value or as predetermined commodities 
+or services” (Heaslip, Haavisto & Kovács, 2015, p. 62). 
+A widely accepted definition of Cash and Voucher Assistance (CVA) is that brought by 
+the Cash Learning Partnership. According to it, CVA ‘‘refers to all programs where cash 
+transfers or vouchers for goods or services are directly provided to recipients” (CALP 
+Network, n.d.). In the literature, this type of programming has also been referred to as 
+Cash Based Assistance (CBA), Cash Transfer Programming (CTP), and Cash Based 
+Intervention (CBI) (Maghsoudi et al., 2021). In this thesis, following the CALP definition, 
+only the term Cash and Voucher Assistance (CVA) will be used. 
+Although not a new phenomenon – as cash has been part of HO’s toolkit at least since 
+1998, with IFRC’s response to Hurricane Mitch in Central America (Kovács, Matopoulos 
+& Hayes, 2010) – the use of CVA has become more prevalent since 2016, with the Grand 
+Bargain recommending the increased use and coordination of cash-based programming 
+(Heaslip et al., 2018). The Covid-19 pandemic has also contributed to an increase in the 
+use of CVA in both humanitarian and government social assistance (Lawson‐McDowall, 
+McCormack & Tholstrup, 2021). Figure 2 shows the increase in global funding for CVA 
+since 2016, which went from U$ 2.8 billion in that year to U$ 6.7 billion in 2021. The 
+numbers represent total programming costs, not the transfer value, and do not include 
+government-led social protection systems. While the numbers for 2022 are not yet 
+available, they are predicted to continue growing due to the large multi-purpose cash 
+response in Ukraine (Rieger, 2022). 
+
+--- Page 13 ---
+7 
+ 
+Figure 2 
+Global funding for CVA programs – total programming costs in US$ 
+(adapted from Rieger, 2022) 
+According to Heaslip et al. (2018), cash transfers can be either unconditional or 
+conditional. In the first case, beneficiaries can use the assistance as they wish; in the 
+latter, specific requirements are set by the humanitarian organization, such as resources 
+having to be directed to a certain finality. CVA includes a wide range of delivery 
+mechanisms, such as debit and smart cards, mobile money transfers, and direct cash, 
+with each mechanism bringing its own specific requirements and challenges (Maghsoudi 
+et al., 2021).  
+As explained by Maghsoudi et al. (2021), the choice to deliver assistance in one or more 
+of these ways depends on a myriad of factors, which can be external or internal to the 
+actors of a given HSC. External factors include the type of disaster (i.e. whether it is 
+sudden or slow-onset, and natural or man-made, following Van Wassenhove’s 2006 
+classification) and its phase, as well as aspects related to the local infrastructure (such as 
+whether the banking system is operational), and political and economic situation. Within 
+the political aspect are issues such as political support, and the economic aspect involves 
+matters such as local inflation and unemployment rates. Internal factors, in their turn, 
+can be divided into supply-side and demand-side (Maghsoudi et al., 2021). Supply-side 
+factors include aspects such as whether local markets are functional and accessible to 
+beneficiaries (Heaslip et al., 2018), while demand-side factors bring considerations such 
+as beneficiary preferences, and the level of familiarity and access recipients may have 
+with different payment instruments (Burton, 2020).  
+0
+1
+2
+3
+4
+5
+6
+7
+8
+2016
+2017
+2018
+2019
+2020
+2021
+Global Funding for CVA (in billions of USD)
+Global Funding for CVA (in billions of USD)
+
+--- Page 14 ---
+8 
+The analysis of such factors, as well as the definition of the delivery mechanisms or 
+modalities, is part of the CVA Project Cycle. In its basic form, that cycle is made up of 
+three main phases: preparedness, analysis and program design, and implementation 
+(Shrestha & Smart, 2022). Each of them can be further divided into subcategories, as 
+shown in Figure 3. 
+ 
+Figure 3 
+CVA Project Cycle (adapted from Shrestha & Smart, 2022) 
+During the preparedness phase, the focus lies on ensuring that both the responsible 
+organization and its partners have the internal capabilities for implementing a CVA 
+program, including human and financial resources. The evaluation of the general level 
+of programmatic preparedness is also done in that first phase through pre-disaster 
+assessments. In the analysis and program design phase, the question of whether CVA 
+would be an appropriate response for a specific given context is explored. Four critical 
+aspects are mapped during that step: needs and capacities of the local population, the 
+local market’s functionality and accessibility, potential service providers to partner with, 
+and the potential contextual, programmatic, and institutional risks that must be 
+addressed. (Shrestha & Smart, 2022) 
+This study is centered in an activity that takes place in the third phase of CVA Project 
+Cycle, namely, the actual delivery of cash and voucher assistance to beneficiaries. Other 
+activities in the implementation phase include contracting service providers, registering 
+eligible CVA beneficiaries, monitoring outputs and results, and evaluating how program 
+Preparedness
+•Organizational 
+preparedness
+•Programatic 
+preparedness
+Analysis and 
+program design
+•Situation 
+analysis
+•Response 
+analysis
+•Program design
+Implementation
+•Partnerships
+•Registration of 
+beneficiaries
+•Delivery
+•Monitoring
+•Evaluation
+•Exit strategy
+
+--- Page 15 ---
+9 
+is faring regarding relevance, effectiveness, efficiency, impact, and sustainability. 
+(Shrestha & Smart, 2022) 
+2.1.1 Benefits of cash and voucher assistance 
+For humanitarian organizations, one of the most compelling reasons for the use of cash 
+and voucher assistance is cost efficiency, especially given the reduced need for traditional 
+logistical activities, such as transportation or warehousing (Heaslip et al., 2018). These 
+activities account for a high proportion of the cost of a program, with the 2006 assertion 
+that “disaster relief is about 80% logistics” (Van Wassenhove, 2006, p. 475) being often 
+cited (Maghsoudi et al., 2021). 
+Heaslip et al. (2018) emphasize that another critical benefit of CVA is that it can lead to 
+recipients having their needs met more quickly and accurately. That becomes possible 
+since beneficiaries can choose from the start what goods and services to purchase, 
+enabling a pull strategy in the HSC. That strategy contrasts with the more traditional 
+push strategy, in which a humanitarian organization “pushes” items until it has enough 
+information to determine what is needed in a particular situation.  
+Cash and voucher assistance programs can provide greater operational flexibility for 
+humanitarian organizations, as well as enable increased speed in the distribution of aid 
+and in the number of people that can receive it – especially when digital technologies are 
+used (Burton, 2020). CVA can also bring benefits to the communities where the 
+programs are implemented, as the increased demand for goods and services can 
+stimulate the local economy (Heaslip et al., 2015), which contributes to improving the 
+coexistence with host communities (Burton, 2020). 
+Finally, allowing beneficiaries to make their own choices can be empowering and 
+dignifying (Heaslip et al., 2015). The increased participation of beneficiaries brought by 
+CVA (Maghsoudi et al., 2021), furthermore, can lead to changes in the power dynamics 
+between them, humanitarian agencies, and other stakeholders within the humanitarian 
+sector, such as governments and donors (Burton, 2020). These changes support a new 
+view of aid recipients, who go from a passive role in the HSC to an active one (Kovács et 
+al., 2010), and contribute to a more socially sustainable system (Kovács & Spens, 2011).   
+2.1.2 Changes in the Humanitarian Supply Chain 
+A final point regarding CVA programs is that they lead to the participation of new actors, 
+such as financial institutions and mobile phone companies, creating diagonal or cross-
+
+--- Page 16 ---
+10 
+sector partnerships, as explained by Heaslip et al. (2018). As a result, the very structure 
+of humanitarian supply chains is modified. A way to visualize this change is through the 
+different flows that make up the HSC: material (regarding physical goods), 
+informational, and financial (Van Wassenhove, 2006). In Figure 4, the basic structure of 
+a traditional HSC is represented. In it, humanitarian organizations use the financial 
+resources received from donors to purchase the goods that will be distributed to 
+beneficiaries. The figure’s orange arrows represent material flows, while the green 
+arrows symbolize the financial ones.  
+ 
+ 
+Figure 4 
+Traditional humanitarian supply chain (adapted from Heaslip et al., 2015) 
+In Figure 5, the structural change brought by the implementation of a CVA program is 
+shown. Humanitarian organizations no longer acquire goods from suppliers; instead, the 
+cash and voucher assistance provided to beneficiaries allows them to directly purchase 
+the goods and services they require. The orange and green arrows have the same meaning 
+as those in Figure 3. 
+ 
+Figure 5 
+CVA supply chain (adapted from Heaslip et al., 2015) 
+
+--- Page 17 ---
+11 
+The models above are simplified and do not include all the actors in the humanitarian 
+supply chain. As explained by Heaslip et al. (2018), the distribution of goods from 
+humanitarian organizations to beneficiaries shown in Figure 3, for example, is usually 
+done by third-party logistics service providers, local NGOs, and local authorities. 
+Financial flows, in both Figures 3 and 4, are normally intermediated by financial 
+institutions such as banks and payment service providers.  
+Crucially, technological innovations can lead to further changes in the cash and voucher 
+assistance supply chain. The way this happens will be explained in the following sections, 
+and its impacts on beneficiaries will be investigated. Before that, however, the notion of 
+digital harm must be presented. 
+2.2 Digital harm  
+According to the United Nations Office for the Coordination of Humanitarian Affairs 
+(2022), humanitarian action should be guided by the principles of humanity, neutrality, 
+impartiality, and independence, which are based in the Fundamental Principles of the 
+International Red Cross and Red Crescent Movement of 1965. Under the principle of 
+humanity, the purpose of humanitarian action is to address human suffering wherever it 
+is found, protecting the life and health of human beings. Neutrality prescribes that 
+humanitarian actors should not take sides, while impartiality means that need ought to 
+be the basis for providing assistance – any other factor, such as the beneficiaries’ beliefs, 
+nationality, or race, should not be taken into account. Finally, independence states that 
+humanitarian action should be autonomous, independent from any political, economic, 
+or military objectives. These principles, when combined, lead to the duty to do no harm. 
+By that imperative,  
+those involved in humanitarian responses must take steps to avoid or minimize any adverse effects 
+of their intervention, in particular the risk of exposing people to increased danger or abuse of their 
+rights. (Sandvik et al., 2017, p. 323).  
+Because of this, a critical evaluation of the risks that can potentially arise from an 
+intervention must be conducted. As argued by Sandvik et al. (2017), this evaluation is 
+especially needed when new technologies are used in the humanitarian context, 
+involving vulnerable populations and unstable environments, in which risks are 
+exacerbated. In these situations, the supposed exceptionality of emergency can be 
+exploited to legitimate the use of untested innovations. Once the logic that “something 
+must be done” is deployed, even non-consented interventions can be deemed justifiable, 
+
+--- Page 18 ---
+12 
+with as protection and safety considerations are “weighed against assumptions of 
+immediate health benefits or knowledge to be gained” (Sandvik et al., 2017, p. 328).  
+The consideration of the digital dimension of do no harm includes aspects such as data 
+management and the overall way humanitarian organizations and their partners interact 
+with beneficiaries in “the digital space” (Burton, 2020, p. 48). This dimension is related 
+to the concept of data responsibility, which can be defined as 
+a set of principles, processes and tools that support the safe, ethical and effective management of 
+data in humanitarian response. This includes data privacy, protection, and security, as well as 
+other practical measures to mitigate risk and prevent harm. (Burton, 2020, p. 57) 
+While there is no definition for digital harm, risk factors can be listed, and frameworks 
+can be created to highlight these risks relate to the potential benefits that a given 
+implementation can bring. The primary aim of this study, therefore, as stated in Chapter 
+1, is to identify what these risks would be when blockchain is used for the delivery of cash 
+and voucher assistance.  
+Every technology brings with it benefits and risks, and blockchain is no exception (Lee, 
+2020). As noted by Sandvik et al. (2014), techno-optimistic narratives, which are based 
+on the belief in the power of technology to promote positive change, tend to be 
+widespread. In the case of the use of blockchain in CVA programs, that optimism can be 
+seen especially in the emphasis on efficiency gains that is given by both media and 
+practitioners (Lee, 2020). While that narrative might not be as explicit in academic 
+publications, in which a degree of techno-skepticism can be observed (Lee, 2020), there 
+is still a significant gap that needs to be addressed. A considerable part of the literature 
+tries to transpose the benefits and challenges found in blockchain implementations from 
+the commercial sector to humanitarian supply chains (Baharmand, Maghsoudi & Coppi,, 
+2021a), failing to examine the aspects in which these sectors differ, notably with regard 
+to humanitarian principles.  These principles might be violated by the uncritical 
+implementation of new tools in the humanitarian sector (Sandvik et al., 2014), exposing 
+vulnerable communities to risk (Baharmand et al., 2021b).  
+The principle of humanity, for example, might be violated if people are put at risk or their 
+access to aid becomes compromised because of the misuse of their data. Furthermore, as 
+technologies are never neutral, they may be used in ways to escalate conflicts, violating 
+the principle of neutrality. Finally, if factors such as access to mobile phones or literacy 
+become requirements for accessing aid, the impartiality that should guide humanitarian 
+aid is lost, as people in need might not be reached. (Sandvik et al., 2014). 
+
+--- Page 19 ---
+13 
+2.3 Blockchain technology for cash and voucher assistance 
+The first application of blockchain – even though the word blockchain itself is not 
+mentioned in that text – dates back to Satoshi Nakamoto’s 2008 whitepaper. That 
+system, which formed the Bitcoin cryptocurrency network, was designed to replace 
+central trust with cryptographic proof to solve the double-spending problem. In it, 
+parties can make peer-to-peer transactions, meaning that no intermediaries or trusted 
+third parties are need. (Nakamoto, 2008).  
+Third parties can be bypassed in the system because transactions are compiled in blocks 
+and broadcasted to the entire network. Each new block is added to the network in a 
+linear, sequential order, being cryptographically linked to the previous block – creating 
+then a chain of blocks. Furthermore, each additional block has to be validated by every 
+computer that runs that blockchain. That makes changing past transactions impossible, 
+ensuring that the ledger is immutable and tamper-proof, and as data is visible to all 
+participant nodes, the system is completely transparent. (Coppi & Fast, 2019). 
+Blockchain can be defined as a type of Distributed Ledger Technology (Baharmand et al., 
+2021b): it is a consensus-based, distributed, immutable and append-only electronic 
+ledger, in which information is automatically updated and made visible to all participants 
+of the network (Rodríguez-Espíndola, Chowdhury, Beltagui & Albores, 2020). It 
+promises “a more transparent, accountable, efficient and secure way of exchanging 
+decentralized stores of information that are independently updated, automatically 
+replicated and immutable” (Coppi & Fast, 2019, viii), with the power to “reshape 
+information, communication and financing at the deepest level” (Coppi, 2018).  
+Blockchains can be public or private. In the first case, as explained by Coppi and Fast 
+(2019), they are open to all users to view transactions; in the latter, only an approved set 
+of users can do so. Another way to classify them is into permissionless and permissioned, 
+depending on whether users need previous authorization to add transactions to the 
+network. A blockchain can also be run by a consortium of organizations and agencies, 
+which can have different roles as nodes; as an example, all nodes could have permission 
+to view transactions, but only a restricted number could be able to validate new 
+transactions in the system (Hunt, Narayanan & Zhuan, 2022). Humanitarian 
+organizations tend to prefer private and permissioned blockchains (Seyedsayamdost & 
+Vanderwal, 2020; Madianou, 2019). 
+
+--- Page 20 ---
+14 
+The current research on blockchain is situated in the context of both its growing adoption 
+on the field (Madianou, 2019) and scholarly interest in the role of digital technologies in 
+humanitarian supply chains (Marić, Galera-Zarco & Opazo-Basáez, 2021). A number of 
+potential use cases has been highlighted in the literature: tracking donor financing 
+(ICRC, 2020), distribution and tracking of aid (Zwitter & Boisse-Despiaux, 2018) and 
+relief items (Baharmand et al., 2021a); ID management (Zwitter & Boisse-Despiaux, 
+2018); facilitation of collaboration between actors during disaster relief (Dubey et al., 
+2020), including between emergency responders and business organizations in order to 
+directly share resources (L'Hermitte & Nair, 2021). They can involve both back-end 
+processes and end-user experiences, although the former seems to be more relevant for 
+humanitarian supply chains (Coppi & Fast, 2019). Blockchain can allow, furthermore, 
+the automation of logistical processes with smart contracts, leading to cost reduction 
+(Zwitter & Boisse-Despiaux, 2018). Conditions could be programmed, for example, into 
+“qualified money”, such as what types of goods or services it can be used to buy, or by 
+who (Zwitter & Boisse-Despiaux, 2018), or to initiatives that are empowering to women 
+and girls (Thylin & Duarte, 2019). 
+In this work, the focus will be in the use of the technology in cash and voucher assistance, 
+with three key characteristics of blockchain being explored: immutability, distribution, 
+and decentralization. Emphasis is given to how each of them can lead to benefits in the 
+supply chain of cash and voucher assistance, as well as which potential risks they can 
+pose to beneficiaries. 
+2.3.1 Immutability 
+In a blockchain, all transactions are recorded and they cannot be deleted or modified; 
+information can only ever be added to the system (Rodríguez-Espíndola et al., 2020). As 
+data cannot be altered or removed after it has been registered, the information recorded 
+becomes tamper-proof. This immutability is considered one of the most distinctive and 
+transformative features of blockchain (Seyedsayamdost & Vanderwal, 2020), assuming 
+that the data registered in the system is correct in the first place – in what is known as 
+the “garbage in, garbage out” problem (Thylin & Duarte, 2019).  
+In humanitarian supply chains, lack of transparency is regarded as a major issue 
+(Baharmand et al., 2021a). A sequential, tamper-proof, and append-only record could 
+provide not only a trail for relief items, but for other transactions, such as financial flows, 
+improving traceability in the HSC. Such transparency, and subsequent accountability, 
+
+--- Page 21 ---
+15 
+could reduce the possibility of corruption or misallocation of funds (Zwitter & Boisse-
+Despiaux, 2018). It is important to note, however, that private blockchains do not 
+guarantee the same immutability as public ones. As such, blockchains controlled by a 
+reduced number of entities might not be able to ensure greater traceability, given that 
+these entities would be able to modify transactions if they so choose.  
+The same immutability that can be used to hold actors accountable, however, means that 
+inaccurate or incorrect data cannot be rectified and will remain in the system (Zwitter & 
+Boisse-Despiaux, 2018). This could lead to grave consequences for displaced people 
+(Madianou, 2019). Immutability also raises legal questions, as the implications of 
+blockchain for data protection are not yet fully known. As an example, under the 
+European General Data Protection Regulation, subjects have the right to have their 
+personal data rectified and erased, which stands in clear contradiction with an 
+immutable system (ICRC, 2020). It must be noted that it is not given that the GDPR will 
+be applicable to a given program, but that the uncertainty generated by the absence of a 
+clear regulatory framework can be regarded as a source of risk in itself (Coppi & Fast, 
+2019). 
+Workarounds, such as off-chain solutions with logical deletion, exist. In that case, the 
+organization does not register personal information on the blockchain, especially if they 
+are public (ICRC, 2020); rather, off-chain databases designed in ways that are compliant 
+with the relevant data protection regulation can be cryptographically linked to the 
+blockchain (Thylin & Duarte, 2019). If the data subject then requests the deletion of his 
+or her personal data, it can be removed from the off-chain database alongside the 
+decryption key associated with it. The information will still be on the blockchain, but 
+without the key, it will remain encrypted and impossible to access (ICRC, 2020). This 
+approach for not storing personal data on the blockchain is often the one chosen by 
+humanitarian organizations (Coppi & Fast, 2019). 
+Such workarounds are not, however, entirely satisfactory, especially considering the 
+present limitations of data protection in humanitarian operations (ICRC, 2020). The use 
+of consent as a basis for data collection and processing in those settings, for example, can 
+be considered problematic given the power asymmetry between organizations and 
+beneficiaries (Thylin & Duarte, 2019), and how the latter might not understand what that 
+consent would entail (Lee, 2020). Finally, opting out cannot be said to be a real option 
+when the refusal to consent leads to a vulnerable person not receiving the aid he or she 
+needs (Madianou, 2019; Burton, 2020). 
+
+--- Page 22 ---
+16 
+A final point to note is that it can also be argued that the immutability of blockchain can 
+pose a risk to beneficiaries not only from a data protection perspective, but also 
+considering their dignity. As Howson notes, beneficiaries are required to give up 
+sensitive personal information, such as biometrics, to an immutable archive, in order to 
+access basic and temporary benefits (Howson, 2020). Although proportionally and 
+fairness may seem like abstract notions, it is important to emphasize that the goals of 
+humanitarian assistance go beyond saving lives and alleviating suffering, as it is also 
+intended to maintain human dignity (Urquhart, Girling, Nelson-Pollard & Mason, 2022).  
+2.3.2 Distribution 
+As explained by Rodríguez-Espíndola et al. (2020), in a blockchain, all participants of 
+the network have an identical copy of the entire ledger. Whenever a new transaction is 
+added to the system, the copies are automatically updated in all nodes, ensuring that 
+participants always have access to the data in full. Because of that, blockchain is deemed 
+as a highly transparent system, allowing for each transaction to be monitored.  
+In humanitarian supply chains, information-sharing and visibility is often limited 
+(Baharmand et al., 2021a), with the shortage of critical information being a frequent 
+challenge for humanitarian operations when attempting to allocate resources efficiently 
+(Baharmand et al., 2021b). As blockchain enables network participants to see new 
+transactions in real-time (Thylin & Duarte, 2019), it can help to build swift trust and 
+enable cooperation (Dubey et al., 2020). The improved information sharing between 
+participating organizations, by their turn, could result in better decision-making 
+(Rodríguez-Espíndola et al., 2020) and more resilient humanitarian supply chains 
+(Dubey et al., 2020). 
+Furthermore, as copies of the entire database are stored in the computers participating 
+in the network, even if one or more of these participants become compromised, the 
+system will still continue to run without changes to the data stored (Coppi & Fast, 2019). 
+Because of this, blockchain is considered to have a high degree of security, meeting all 
+three key principles of data securiy (i.e. confidentiality, integrity, and availability) (ICRC, 
+2020). That security could contribute to an overall reduction of cyber risks (Zwitter & 
+Boisse-Despiaux, 2018), a relevant point since humanitarian organizations are 
+increasingly becoming targets of digital attacks (Burton, 2020).  
+It is important to note, however, that the increased transparency brought by that system 
+tends to be limited to organizations and does not reach individuals – who may not be 
+
+--- Page 23 ---
+17 
+aware that a blockchain-based system is being used (Coppi & Fast, 2019). That is 
+particularly relevant when private platforms are used – which is often the case in 
+humanitarian implementations. If the ways in which the system works are not made 
+public, accountability beyond that to donors might not exist, with the technology being 
+a “black box” (Lee, 2020).  
+Furthermore, humanitarian organizations tend to collect too much data (Sandvik et al., 
+2014), and in a transparent system, that data is shared with actors such as host 
+governments and commercial partners. Beneficiaries are often not informed about other 
+parties that could have access to their data, and how they would use it (Madianou, 2019), 
+raising issues about consent. Not only that, but once data is shared, humanitarian 
+organizations have no way to control how it will be used (Burton, 2020), especially if 
+clear policies and legal frameworks are not in place (Madianou, 2019).  
+That data might be used for purposes unrelated to the provision of humanitarian 
+assistance, which it was originally collected for. From a commercial perspective, the data 
+could be used for profiling potential customers and targeting ads (Burton, 2020). Even 
+more severely, especially when States are involved, humanitarian data can lead to harms 
+such as involuntary repatriation of refugees and further persecution (Lee, 2020). That 
+was the case with biometric data collected by the UNHCR from Rohingya refugees, which 
+was shared with the government of Myanmar – the very State responsible for the 
+persecution of that minority (Rahman, 2021). Finally, critical literature points out that 
+the level of transparency and control afforded by blockchain could lead to a form of 
+“surveillance philanthropy” (Howson, 2020, p. 3). In it, the interests and visions of 
+donors would be prioritized over the needs of beneficiaries and organizations’ abilities 
+to respond to changes in the environment they operate (Howson, 2020).  
+Those misuses of humanitarian data are especially critical when highly sensitive personal 
+information is used in the system. Although it might not be possible to say with certainty 
+whether a particular piece of information will be sensitive in a given context (Sandvik et 
+al., 2014), biometric data will likely always be considered as such due to its inherent 
+connection with individuals. Biometrics can be defined as “a technology for measuring, 
+analyzing, and processing a person’s physiological characteristics, such as fingerprints, 
+iris, facial patterns, voice, hand geometry, and DNA” (Madianou, 2019, p. 583). It can be 
+used for both identification – when a one-to-many comparison is made, with a record 
+being compared to a larger database – and verification processes – when the 
+authentication is one-to-one, with a record being checked against a specific entry in the 
+
+--- Page 24 ---
+18 
+database. In the context of blockchain-based programs, biometrics tend to be used for 
+such purposes (Madianou, 2019), despite the fact that the collection and use of biometric 
+data can lead to risks “even in the absence of ill intentions or negligence” (Sandvik et al., 
+2017, p. 340).  
+Because of this, humanitarian organizations are advised to conduct a Data Protection 
+Impact Assessment, which can help to map the privacy risks that arise from the 
+deployment of a blockchain-based system and indicate avenues for mitigating them 
+(ICRC, 2020). If there are less intrusive means, from a data protection perspective, that 
+can achieve the goals of a program while presenting fewer risks to beneficiaries, those 
+should be implemented instead. As Sandvik et al. (2014) note, however, privacy and 
+efficiency exist in tension. Resources are needed in order to mitigate risks to 
+beneficiaries: staff needs to be trained in data collection, security, and sharing, and 
+investments in technology and infrastructure in the organization might be required.   In 
+situations of emergency, nevertheless, these resources might not be available.  
+2.3.3 Decentralization 
+Decentralization, by its turn, is related to mechanisms of consensus and validation, 
+which require that network participants agree on each new transaction added to the 
+system (ICRC, 2020). As this process of validation is required, the chances of a single 
+organization or malicious party adding data to the system are very low, especially in 
+public blockchains with a high number of validating nodes (Coppi & Fast, 2019).  
+As transactions are automatically verified by this consensus mechanism and 
+participating nodes have real-time access to data, there is no need for a controlling 
+central intermediary (Rodríguez-Espíndola et al., 2020). Because of this, when 
+implemented in CVA programs, blockchain can reduce the resources spent by 
+intermediaries on administrative processes, with funds being directed to activities that 
+can impact beneficiaries (Baharmand et al., 2021b). Bypassing traditional banking 
+institutions, for example, could lead to savings in service fees, as well as reducing the 
+time required for the distribution of aid (Thylin & Duarte, 2019). 
+Nevertheless, two critical points must be considered regarding this potential 
+disintermediation. As noted by Seyedsayamdost and Vanderwal, although the role of 
+some third parties, such as financial institutions, can be reduced, the participation of 
+others, especially those with technical expertise, becomes more prominent. As such, 
+“decentralization and democratization of decision-making are not a given when using 
+
+--- Page 25 ---
+19 
+blockchain technology” (2020, p. 956). Furthermore, as humanitarian organizations 
+tend to outsource the technical aspect of a project development to these new actors 
+(Baharmand et al, 2021b), they may not develop a sufficient internal understanding of 
+the technology, which is considered highly complex (Lee, 2020). This knowledge gap can 
+create the perception of risk within the organization (Coppi & Fast, 2019) and, as the 
+humanitarian staff itself does not understand and trust the system they are working with, 
+it becomes harder for them to create risk mitigation and protection strategies. 
+The second critical point is that disintermediation tends to lead to a detrimental 
+reduction in the role of downstream actors. As noted by Coppi (2020), when blockchain 
+is used to transfer funds directly to beneficiaries, bypassing local financial institutions, 
+those native businesses are not activated, taxes are not collected, and that community 
+may become more dependent of foreign aid and institutions. This can, furthermore, lead 
+to local governments and central backs reacting negatively to humanitarian 
+organizations and donors (Martin et al., 2022).  
+As mentioned in the previous section, the current disintermediation that was supposed 
+to arise from the implementation of blockchain is more of a replacement of traditional 
+actors with new, more technically-oriented ones. These new actors entering the HSC, 
+such as technology companies and financial service providers, benefit from the 
+legitimacy (Jutel, 2022) and operational license given by humanitarian organizations 
+(Sandvik et al., 2017). Nevertheless, they are not bound by their principles of action, legal 
+frameworks and mandates (McDonald, 2021), and can alter the power dynamics in the 
+humanitarian supply in ways that may endanger beneficiaries (Coppi & Fast, 2019).  
+That point is especially sensitive as new actors might have different motivations for 
+wanting to participate in humanitarian operations. They may range from a legitimate 
+attempt of corporate social responsibility to a mere commercial desire to reach new 
+markets, and it is unclear how certain humanitarian organizations can ever be of a 
+potential partner’s motivation. The vulnerability of beneficiaries, however, and the fact 
+that they can become easy targets to companies and be led to accept terms that go against 
+their own interests, makes public-private partnerships a source of risk  that needs to be 
+considered. (Sandvik et al., 2014) 
+2.4 Theoretical framework 
+A theoretical framework is designed to explain the “key factors, constructs or variables” 
+of a study and how they related to each other (Miles & Huberman, 1994, p. 18). After this 
+
+--- Page 26 ---
+20 
+research has identified both the potential benefits and risks to beneficiaries that may 
+arise from the use of blockchain for delivery in CVA programs, its theoretical framework 
+can be presented. This framework is regarded as necessary due to its specificity to the 
+humanitarian context. As Baharmand et al. (2021b) note, the adoption of an existing 
+framework from the commercial sector could lead to violations of humanitarian 
+principles, as it would not have been designed with those principles in mind in the first 
+place. 
+Lewin’s Force Field analysis is “a method of analyzing causal relations and of building 
+scientific constructs” (Lewin, 1943, p. 294). In it, the forces that influence a situation, 
+either driving or restraining it, are mapped and represented in opposition (Fisher, 2010). 
+Although more widely used in the area of organization development (Thomas, 1985), it 
+was chosen for this study due to its ability to convey the dynamic nature of the balancing 
+act that is choosing whether or not to implement blockchain technology in the case under 
+discussion. Furthermore, it shows that the factors are part of a larger system (Thomas, 
+1985), which must be considered as a totality, not as mere components to be individually 
+dealt with.   
+In Figure 6, potential benefits are represented as enabling forces, while the possible risks 
+are constraining forces. The relative strength of each enabling or constraining force is 
+not shown, as it will depend on the specific context of a given CVA program.  
+ 
+
+--- Page 27 ---
+21 
+Figure 6 
+Thesis theoretical framework as a force field diagram  
+ 
+
+--- Page 28 ---
+22 
+3 RESEARCH METHODS 
+In this chapter, aspects related to the methodology of the present study are discussed. It 
+begins by explaining the philosophy underlining the research and why it is suitable for 
+achieving the study’s stated aims. After that, the choices that inform the design of this 
+research are presented, including the abductive approach and qualitative methods. The 
+sampling strategies and data sources are then considered, with the process of data 
+collection and analysis being explained for both primary and secondary sources. Finally, 
+the techniques used for evaluating the quality of this study are specified.  
+3.1 
+Research philosophy 
+In logistics studies, three main research paradigms can be identified: positivism, 
+scientific realism, and interpretivism (Kovács & Spens, 2007). Attempts in building 
+theory – defined as “any coherent description or explanation of observed or experienced 
+phenomena” (Gioia & Pitre, 1990, p. 587) – require from a researcher the appropriate 
+understanding of one’s chosen paradigm, as the assumptions it brings will influence that 
+process of creation. The positivist approach, for instance, with its belief in objectivity and 
+universality claims, has been criticized for not being conducive to the development of 
+new theories; when combined with deductive methods, it can often lead only to the 
+modification of existing frameworks (Gioia & Pitre, 1990). The interpretivism paradigm, 
+in its turn – in which the relationship between researcher and phenomenon under 
+investigation is emphasized and the existence of absolute truths is rejected – is better 
+suited for the building of theories focused on descriptions and explanations, but not on 
+predictions (Kovács & Spens, 2007).  
+In this thesis, the underlying research paradigm chosen is that of scientific realism, 
+which stands as a “middle ground” between the two above-mentioned approaches. 
+Under that approach, according to Kovács and Spens (2007), it is believed that, despite 
+the fact that there is an objective nature to the world, the ways to perceive, create 
+knowledge about, and interpret it are context-dependent. Scientific realism, 
+furthermore, is compatible with abductive research methods, which are used in this 
+study, as will be explained in the following section. 
+3.2 Research design 
+In the abductive research process, empirical observations are the starting point, even if 
+the researcher takes advantage of pre-existing theoretical knowledge – as that knowledge 
+should be used to find the spot in which the reality observed does not match the previous 
+
+--- Page 29 ---
+23 
+theories. As the goal in the abductive approach is the development of theory, the 
+suggestion of new hypotheses and propositions is made in the second step of the research 
+process. Those, in their turn, are applied to further empirical research in order to test the 
+conclusions reached. (Kovács & Spens, 2005) 
+Theory-building is one of the main purposes of this work, thus making the abductive 
+approach suitable for the study. Furthermore, as the framework about the risks of using 
+blockchain technology in the delivery of CVA programs is built, moving back and forth 
+between the theoretical and empirical realms contributes to its accurate representation 
+of the reality investigated.  
+In this thesis, the first step of the process is the analysis of two cases (the World Food 
+Programme’s Building Blocks and Oxfam’s UnBlocked Cash; respectively, Cases A and 
+B), which are compared to the techno-optimistic literature already known by the 
+researcher. A new element is introduced to the analysis – the consideration of risks to 
+beneficiaries – and a theoretical framework is suggested. After that, the framework is 
+tested on the case study about Finn Church Aid (Case C). Finally, the conclusions drawn 
+from the application of the framework to FCA’s case are compared to those reached in 
+the analysis of the two previously mentioned projects, and concrete guidelines are 
+suggested to humanitarian organizations. The process is shown in Figure 7. 
+ 
+Figure 7 
+The study’s abductive research process (based on Kovács & Spens, 2005). 
+This thesis also uses qualitative research methods, which allow for in-depth and detailed 
+analysis (Patton, 2002), especially when case studies are used to “explain, explore or 
+describe a topic of interest” (Vega, 2018, p. 180). Through that combination, insight can 
+be gained into little-known phenomena (Vega, 2018). Patton identifies seven types of 
+knowledge that can be generated through qualitative inquiry. Of those, two are 
+particularly relevant to the aim of this thesis: the identification of unanticipated 
+consequences and side effects, and the discovery of patterns across cases (Patton, 2002).   
+
+--- Page 30 ---
+24 
+3.3 Sampling strategy 
+As qualitative studies are often done with small sample sizes, sampling strategies must 
+be selected purposefully in order to promote an in-depth understanding of the 
+phenomenon under observation (Patton, 2002). Because of that, purposeful sampling 
+will be used in this study, with a focus on the selection of information-rich cases. 
+Nevertheless, still according to Patton (2002), before further sampling strategies can be 
+selected, the units of analysis to be studied must be defined. As they are not mutually 
+exclusive, being therefore possible for a study to contain multiple units of analysis, this 
+thesis will focus on two units. In Table 1, these units are presented alongside the sampling 
+strategies used for them.  
+Case 
+Unit of analysis 
+Sampling strategy 
+A, B, C 
+Documents 
+Emergent theory sampling: in the first stage of 
+the abductive research process, the documents 
+are selected according to the concepts that are 
+being 
+developed, 
+When 
+compared, 
+the 
+similarities and differences between them can 
+help to sharpen the analysis. 
+C 
+Individuals familiar with 
+FCA’s Feasibility Study 
+Key 
+informant 
+sampling: 
+the 
+selected 
+individuals can provide insight into the 
+project, given their first-hand experience with 
+it, or deep knowledge about it. 
+Snowball sampling: the first interviews will be 
+conducted with people that are already known 
+to have participated in the project; those 
+interviewees will then be asked to nominate 
+other project participants, who will be invited 
+to participate in the study. The process will be 
+repeated until no more participants can be 
+found. 
+Table 1 The study’s units of analysis and sampling strategies 
+3.4 Data collection  
+Yin (2015) describes three conditions for the use of case studies: the main research 
+questions have to do with how and why, no control of behavioral events is required, and 
+the focus of the research lies on contemporary events. All three of these conditions are 
+
+--- Page 31 ---
+25 
+fulfilled in the present research, especially as case studies can utilize multiple sources, 
+including interviews and written documents, to triangulate data, enabling an even 
+deeper understanding of the subject being investigated. 
+A multiple case study is conducted in this thesis. Cases A and B – respectively, the World 
+Food Programme’s current Building Blocks project, and the Oxfam’s UnBlocked Cash 
+pilot that took place in Vanuatu in 2019 – are considered, as explained above, in the first 
+phase of the abductive research process. After a thereotical framework is developed, Case 
+C, which refers to Finn Church Aid’s Feasibility Study conducted in Kenya in 2019, is 
+investigated. The first two cases were chosen for two major reasons: they are deemed 
+representative and have been widely documented. Publicly available information about 
+Case C, by its turn, was scant; nevertheless, the author had personal knowledge of and 
+access to the organization responsible for it.  
+According to Yin (2015), multiple case studies can offer more compelling and robust 
+evidence. It is expected that all three cases selected will show variation in their design 
+choices and implementations, but that these variations and their consequences to 
+beneficiaries can be justified in light of the theoretical framework developed in this study 
+– thus following a logic of theoretical replication (Yin, 2015).   
+Three main types of data can be used as sources for qualitative research: interviews, 
+direct observations, and written communications (Patton, 2002). In this study, two of 
+them will be used, with semi-structured interviews being the study’s primary data source, 
+while the secondary sources are written documents.  
+According to Roulston (2010), interviews, which can be of several types, such as 
+journalistic, motivational, and diagnostic, have question-answer sequences as the basic 
+units of interaction. These questions can be closed or open. In the first case, the answers 
+generated are either negative or affirmative; in the second, participants have more 
+freedom to elaborate answers using their own words – with the latter type of answers 
+being generally preferred on qualitative research, as they allow for more information to 
+be provided by respondents.  
+As explained by Patton, with interviews, the researcher can “enter into the other person’s 
+perspective” (2002, p. 341), thus enabling access to information that could not be 
+obtained by mere observation, such as a person’s previous behavior, or his or her 
+intentions, motivations, and feelings. Three main approaches can be used to collect 
+
+--- Page 32 ---
+26 
+qualitative data through interviews: the informal conversation interview (also known as 
+unstructured interviewing), the general interview guide, and the standardized open-
+ended interview. The second approach was chosen for this study. With a semi-structured 
+interview, conducted with the help of an interview guide, predetermined questions allow 
+the interaction to remain focused on the key aspects, while, at the same time, providing 
+enough flexibility to pursue interesting points that emerge from the conversation with 
+the participants (Patton, 2002).  
+The use of documents, by its turn, can serve multiple purposes in research, from bringing 
+background and contextual information to observing how a program or organization has 
+changed over time (Bowen, 2009). In this study, two purposes are emphasized. The first 
+is identifying new questions or relevant points to be added to the study. As previously 
+explained, this thesis has chosen to use the abductive research approach, so the analysis 
+of the documents from Cases A and B is done parallel to the Literature Review. The 
+second purpose is to allow for triangulation. By showing that findings are consistent 
+across different types of sources, such as documents and interviews, and highlighint the 
+patterns that arise from them, the study’s credibility can be enhanced (Patton, 2002).  
+3.4.1 Primary data sources 
+The primary data is refers to semi-structured interviews with people familiar with the 
+above-mentioned Feasibility Study. Interviwees 2 and 3 have worked in it from the 
+beginning, while Interviewees 1 and 4 became acquainted with it at a later stage. The 
+questions were inspired by the literature review conducted in Chapter 2, especially by 
+The Handbook on Data Protection in Humanitarian Action (Kuner & Marelli, 2020), as 
+well as Oxfam’s Unlocking Digital Cash and Voucher Assistance: A Guide to Digital 
+Options (Kayastha et al., 2022). The complete list of interview questions is found in 
+Appendix 1.  
+The interviews took place between November 2nd and 15th, involving four respondents. 
+Three of these interviews (with Interviewees 1, 2 and 4), were conducted online, via 
+Teams; the other was done in person (Interviewee 3). In Table 2, the Respondent Codes, 
+as well as the organizations they represent, are listed. The interview dates and the 
+duration of each are also informed.  
+Respondent 
+Code 
+Organization 
+Interview date 
+Duration 
+
+--- Page 33 ---
+27 
+1 
+Finn Church Aid 
+November 2nd, 2022 
+01:06:32 
+2 
+Solita Oy 
+November 8th, 2022 
+01:00:45 
+3 
+Finn Church Aid (formerly) 
+November 
+10th, 
+2022 
+00:44:34 
+4 
+Finn Church Aid (associated to) 
+November 15th, 2022 00:53:23 
+Table 2 Primary data sources 
+3.4.2 Secondary data sources 
+The secondary data, in its turn, encompasses written documents. These documents can 
+be in several forms, including organizational reports and case studies – the main types 
+used in this study. As a process, the use of written documents for research includes 
+multiple steps, as the appropriate and relevant documents must be found, selected, and 
+appraised, until the data contained in them can be synthesized (Bowen, 2009). In total, 
+11 such documents were analyzed in this study. Of those, four were official reports 
+created by the organizations implementing the programs; four others were non-
+academic case studies by experts; and three were pages on the websites of the responsible 
+organizations, in which their respective cases were presented. The documents are listed 
+in Table 3.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Case 
+Document Code 
+Description 
+A 
+A1 
+Fieldwork comments from the Azraq refugee camp 
+(Cheesman, 2022) 
+
+--- Page 34 ---
+28 
+A2 
+UN Women Jordan Case Study (2021) 
+A3 
+GovLab Case Study (2018) 
+A4 
+MIT Technology Review article (Juskalian, 2018) 
+A5 
+Building Blocks project page (WFP Innovation 
+Accelerator, n.d.) 
+A6 
+WFP Innovation Accelerator’s 2020 Year in Review 
+report 
+B 
+B1 
+Rust’s Oxfam Research Report (2019) 
+B2 
+Hallwright & Carnaby Case Study (2019) 
+C 
+C1 
+Article published by FCA about the program on the 
+organization’s website (2019) 
+C2 
+Article published by Solita about the program on the 
+organization’s website (2019) 
+C3 
+Final document of the Feasibility Study (2020) 
+ 
+Table 3 Secondary data sources 
+It is important to note that the Feasibility Study in Case C is considered a confidential 
+document. Because of that, it was agreed with Finn Church Aid that it could be used as a 
+source to inform the research design and could be referenced during the interviews, but 
+direct quotes or references would not be allowed. 
+3.5 Data analysis 
+Through the process of data analysis, the data collected can be transformed into findings 
+(Patton, 2002). In the present work, as a multiple case study is conducted, this process 
+of analysis is centered in trying to find recurring themes and patterns among cases A, B, 
+and C.  
+3.5.1 Interviews 
+The primary data, which was collected via in-depth, semi-structured interviews with key 
+informants, was analyzed using Spiggle’s (1994) qualitative data manipulation 
+operations. The first of these is categorization, by which units of data are classified. These 
+units can be of any length, as long as they contain meaning. Before the interviews were 
+conducted, four a priori categories were identified: background, program structure, 
+benefits, and risks. As advised by Miles & Huberman (1994), these codes were derived 
+from this study’s research questions and the theoretical framework proposed. As the 
+
+--- Page 35 ---
+29 
+interviews were conducted, transcribed, and color-coded, new themes emerged. These 
+emerging themes were background, context, regulation, design, transparency, 
+accessibility, privacy, coordination, security, implementation, partners, speed, 
+biometrics, beneficiary response, and power dynamics.  
+The emerging themes were further analyzed in order to identify potential patterns in the 
+data. In this operation, which Spiggle (1994) defines as abstraction, the categories 
+previously identified are revised and grouped into classes of a higher conceptual level. In 
+this study, the classes identified were program structure (which included the previous 
+categories of background and context), benefits (including transparency, accessibility, 
+privacy, coordination, security, and speed), implementation (with design, regulation, 
+and partners as subcategories), and risks (which considered the subcategories of 
+biometrics, beneficiary response, and power dynamics). At the same time that these 
+classes were being structured, the operation of comparison was being undertaken, as 
+analyzing the similarities and differences between the subcategories that were being 
+classified helped to ensure that they were included in the correct class. 
+The operations of integration and iteration, by which, respectively, the relationships 
+between the classes are highlighted to facilitate theory-building, and data collection and 
+analysis are considered in parallel (Spiggle, 1994), were used throughout the entire case 
+study. Finally, refutation was done as part of the process of iteration, as the emerging 
+findings were intentionally scrutinized during their development, to make them more 
+consistent and robust. 
+3.5.2 Documents 
+Document analysis is a “systematic procedure for reviewing or evaluating documents — 
+both printed and electronic” (Bowen, 2009, p. 27). It includes skimming, reading, and 
+interpreting the materials selected in an iterative process (Bowen, 2009). In this thesis, 
+the 11 documents selected were subjected to both content and thematic analysis. In the 
+first phase of the abductive research process, content analysis was used in the documents 
+referring to Cases A and B, with broad categories related to the research questions being 
+identified. After the development of the theoretical framework depicted in Figure 5, the 
+documents from those cases were re-read, and thematic analysis was performed. The 
+factors listed in the theoretical framework were used as predefined codes for the 
+documents for all cases, and the relevant arguments and quotes were selected based on 
+them.  
+
+--- Page 36 ---
+30 
+3.5.3 Ethical considerations 
+The four people interviewed for this study were properly informed of its purpose and 
+scope, and have agreed on their own accord to participate on it. Before the interview, 
+they gave consent for the collection and processing of their personal data, being informed 
+of how the data was going to be used, which types of data could be made public, and for 
+how long data would be kept. Their consent was also given for the video and audio 
+recording of the interviews.  
+3.5.4 Quality of the study 
+Finally, to ensure its quality, this study will be evaluated according to the five dimensions 
+of trustworthiness developed by Wallendorf and Belk (1989): credibility, transferability, 
+dependability, confirmability, and integrity. Credibility refers to whether the reality 
+studied was represented adequately, while transferability asks whether the study’s 
+hypotheses and findings can be applied in other contexts. Dependability, in its turn, 
+considers whether results would be replicated if the study was conducted again with 
+similar subjects and contexts. Confirmability seeks to show that a study’s findings derive 
+not from the researcher’s preferences or interests, but from the subjects and the field. 
+Finally, integrity aims to demonstrate that these findings were not misleading due to 
+informants’ misinformation or deception. In Table 3, the techniques used in this study 
+are explained. 
+Dimension 
+Technique 
+Credibility 
+Prolonged engagement and persistent observation are used as the 
+author has been working with blockchain technology since 2017, so 
+before the beginning of this study, the context and the phenomenon 
+were already understood. Triangulation is also used, as this study 
+makes use of different sources and methods, including interviews, 
+media articles, and organizational reports. 
+Transferability 
+The study involved the analysis of three different cases, which were 
+led by different, independent organizations, and took place in 
+diverse contexts. Despite that, the core findings are shared by all, 
+which 
+could 
+suggest 
+their 
+transferability 
+to 
+further 
+implementations of blockchain in CVA programs. 
+
+--- Page 37 ---
+31 
+Dependability 
+As the author has been following the cases analyzed for a number 
+of years, revisiting them in order to refine their understanding, 
+dependability is ensured with observation over time.  
+Confirmability 
+Confirmability was ensured with the careful documentation of the 
+research process, including recording the interviews conducted and 
+transcribing them. 
+Integrity 
+The people interviewed for the study have all worked with matters 
+related to Finn Church Aid’s Feasibility Study and are members of 
+reputable organizations. Interviewee 1 was still working at FCA and 
+suggested the names of Interviewees 2 and 4 as trusted partners. 
+Interviewee 2, by his turn, nominated Interviewee 3. The same 
+Interview Guide was used for all of them, and their responses were 
+consistent. At the beginning of the interviews, respondents were 
+informed about how their data would be used and how they would 
+not be identified in the study or any published material. Finally, the 
+interviews had an average of one hour in duration, which allowed 
+them to feel at ease to develop their arguments and responses. 
+Table 4 Quality of the study 
+ 
+
+--- Page 38 ---
+32 
+4 DOING NO DIGITAL HARM IN BLOCKCHAIN-BASED CVA 
+In this fourth chapter, the findings from Cases A, B, and C (respectively, the World Food 
+Programme’s Building Blocks, Oxfam’s UnBlocked Cash, and Finn Church Aid’s 
+Feasibility Study), are presented. The first section of the chapter is focused on 
+establishing the background of the programs under investigation. After that, each section 
+is dedicated to one of the major themes that emerged from the data collected, namely 
+efficiency, transparency, privacy, biometrics, and disintermediation. 
+4.1 
+Case descriptions 
+In this section, a brief description of each of the three cases investigated is given. Each 
+description includes information about the implementing organization, the location and 
+target population of each program, as well as its process of aid distribution and the basic 
+structure of their supply chains, following the model proposed by Heaslip et al. (2015).    
+4.1.1 Case A: the World Food Programme’s Building Blocks 
+The largest blockchain-based cash distribution system in the humanitarian sector is the 
+World Food Programme’s Building Blocks (Document A6), using a private, permissioned 
+system (Thylin & Duarte, 2019). Launched in 2017 in the Sindh province in Pakistan 
+(Seyedsayamdost & Vanderwal, 2020), it is currently active in Bangladesh and Jordan, 
+where it serves, respectively, Rohingya and Syrian refugees (Document A5). As of the end 
+of 2021, the program had served over 1,000,000 refugees and processed USD 309 
+million in cash transfers (Document A5).  
+In the first wide implementation of the program, in the Azraq refugee camp in Jordan, a 
+system for cash and voucher assistance already existed, and parts of it were modified to 
+incorporate blockchain technology (Document A3). Previously, bank accounts were 
+created for each beneficiary, who would be provided with debit cards or e-vouchers to be 
+used in authorized local shops. In the stores, beneficiaries would be identified with 
+optical biometric authentication or one-time passwords sent to their mobile devices 
+(Seyedsayamdost & Vanderwal, 2020), and vendors would receive the payment from the 
+bank. After blockchain was incorporated into the system, the bank accounts were 
+replaced with e-wallets; this shift from bank accounts to e-wallets did not change how 
+beneficiaries received assistance (Document A3). The new process of aid distribution can 
+be summarized as follows (Awan & Nunhuck, 2020): 
+
+--- Page 39 ---
+33 
+1. Virtual wallets are created for beneficiaries, based on their biometric information 
+from the UNHCR refugee database; the WFP sends the funds to these e-wallets. 
+2. Beneficiaries have their irises scanned to verify their identity when purchasing 
+goods at shops registered with the Building Blocks program. 
+3. After consulting the transactions recorded on the blockchain, the WFP 
+reimburses the due amount to the retailers. That reimbursement is made via 
+traditional financial institutions. 
+The Building Blocks supply chain is represented in Figure 8. Green arrows represent 
+financial flows, while blue and orange represent, respectively, informational and 
+material ones.  
+ 
+Figure 8 
+The Building Blocks supply chain 
+In 2019, the WFP established a partnership with UN Gender to expand the Building 
+Blocks to a cash-for-work program for Syrian refugee women in two camps in Jordan, 
+Azraq and Za’atari (Document A1). This implementation works in a similar manner to 
+that described above, in which the beneficiaries can use their biometrics to purchase 
+goods at the participating shops. It has, nevertheless, an additional feature, which is the 
+possibility of withdrawing cash from the market (Document A2). Between June 2019 and 
+April 2020, 467 women participated in the pilot version of that program (Document A2). 
+According to Coppi and Fast (2019), the new system is safer, removing the need for 
+women and UN staff to physically carry cash on predetermined distribution dates, as well 
+as being more transparent. It is also meant to be more empowering for women, as it 
+would allow them to manage their own accounts. 
+
+--- Page 40 ---
+34 
+4.1.2 Case B: Oxfam’s UnBlocked Cash 
+Another case using blockchain for cash transfers is Oxfam’s UnBlocked Cash Project, 
+which was implemented in Port Vila, Republic of Vanuatu in 2019, in partnership with 
+company ConsenSys and startup Sempo (Document B1). UnBlocked Cash is not the only 
+Oxfam initiative implementing blockchain technology. The organization has developed 
+concepts or pilots on at least five other occasions, with uses ranging from fundraising to 
+the tracking and certification of products such as rice and strawberries (Document B2).  
+The blockchain pilot was built upon an existing cash transfer project (Document B2). In 
+it, beneficiaries received physical cards with near-field communication (NFC) chips, 
+which were preloaded with DAI stablecoins, and vendors were provided with 
+smartphones (Document B2). The card system was designed as such in response to the 
+low internet connectivity on the island (Document B1). In the pilot, aid was delivered in 
+the following manner (Document B1): 
+1. Oxfam Australia purchased DAI stablecoins in the amount equivalent to the one 
+that would be distributed to beneficiaries. Nevertheless, as the use of 
+cryptocurrencies was not allowed by the government of Vanuatu, the DAI were 
+“wrapped” in a Crypto Collaterised Voucher (CCV) – meaning that they were sent 
+to an escrow smart contract. 
+2. The CVVs were assigned to beneficiaries, and the NFC cards were loaded with a 
+value equivalent, at the date of the beginning of the program, to 49,24 AUD.  
+3.  The NFC cards were distributed to beneficiaries, who could then redeem goods 
+or services from the partner vendors. To complete the purchases, vendors would 
+scan the QR codes printed on the cards. 
+4. Vendors exchanged the CVV tokens received from beneficiaries for cash, 
+receiving the money either by direct bank transfer from Oxfam or by cashing out 
+at designated Super Vendors – larger partner vendors, who would later be 
+reimbursed by the humanitarian organization. 
+These financial, material and informational flows are represented, respectively, by the 
+green, orange and blue lines in Figure 9. 
+
+--- Page 41 ---
+35 
+ 
+Figure 9 
+The UnBlocked Cash supply chain (based on Document B1, p. 23)  
+4.1.3 Case C: Finn Church Aid’s Feasibility Study 
+Case C refers to the Feasibility Study conducted by Finn Church Aid and Solita in 2019 
+in Kenya. The project was designed to test how blockchain could be used to distribute 
+cash-based assistance, with emphasis on the aspects of efficiency and donation tracking 
+(Document C2). The idea was to create an end-to-end digital system, which would start 
+with individuals making donations through an app or website (Interviewee 3). Virtual 
+wallets would be created for each beneficiary, who could go to verified retailers and buy 
+the products of their choice using either biometrics or a card as a means of identification. 
+As each transaction made by beneficiaries was monitored, donors would be able to 
+receive information on how the assistance was used (Document C1). In Figure 10, the 
+proposed flow of money, information, and goods is represented, respectively, by the 
+colors green, blue, and orange.  
+ 
+
+--- Page 42 ---
+36 
+Figure 10 
+The Finn Church Aid-Solita supply chain  
+Despite the intention to create an end-to-end digital system, the team in charge of the 
+project decided to start by testing only on the last-mile part of the relief chain in the 
+Kenya Feasibility Study. According to Interviewee 3:  
+Our vision at the end of the day, that was that “OK, like, let's do like, baby steps”. You know like, 
+we know that at the end of the day, what we want to have is like fully, digitalized kind of a delivery 
+system. But we also understood that, OK, there's going to be a lot, plenty of hurdles over here, so 
+let's just sort of like, and it's going to be also costing a bit so, let's just, like, let's put some of it into 
+blockchain. (Interviewee 3) 
+As explained by Interviewee 3, the Feasibility Study followed a small proof-of-concept 
+between the FCA Head Office and the Myanmar Office, in which FCA and Solita tested 
+whether it would be possible to deliver funds using blockchain. That experiment was 
+considered successful, thus creating the need for understanding how it could be turned 
+into an actual humanitarian program. According to Interviewee 2, several countries were 
+considered for the implementation, including Myanmar and South Sudan. Ultimately, it 
+was decided that Kenya would be a suitable location, due to reasons such as the 
+popularity of digital payments like M-Pesa in the country, as well as a more stable 
+political situation and easier access to the places where the Feasibility Study would be 
+conducted. More specifically, the feasibility study took place in the cities of Lodwar and 
+Lokichar, as well as the Kakuma refugee camp and Kalobeyei settlement (Document C2). 
+4.2 Achieving efficiency through cost and time savings 
+As previously noted, the aspect of efficiency is highly emphasized in the techno-
+optimistic discourse on the use of blockchain in cash and voucher assistance. In the 
+reporting of the cases investigated in this study – both those coming from the 
+humanitarian organizations themselves and those reported in the media –, that 
+emphasis was confirmed. 
+In Case A, the new mode of back-end data processing has led to substantial cost savings 
+for the WFP, with a reported 98% monthly reduction in bank-related fees (Document 
+A3). By the end of 2021, that amounted to up to USD 2.4 million in savings in bank fees, 
+with 14 million transactions made using the blockchain system (Document A5). 
+According to the Programme, the system makes cash transfers “faster, cheaper and more 
+secure” while “increasing transparency and accountability” (Document A6, p. 22). 
+In Case B, 187 households participated in the trial, as well as 29 twenty shops, in two 
+different communities in Vanuatu, with a total of 11,896.91 Australian Dollars being 
+
+--- Page 43 ---
+37 
+distributed to beneficiaries (Document B1). The project’s time savings related to 
+operational activities were considered significant, while cost savings were deemed 
+modest (Document B1). Notably, the time required to onboard an aid recipient was 
+reduced from over an hour per individual to an average of 3.6 minutes. Overall, the 
+quality of the solution was reported as “extremely high” (Document B1, p. 4). 
+The interviews conducted in this study have shown that the Feasibility Study of Case C 
+was undertaken due to a general desire for improvement and efficiency in the 
+humanitarian sector rather than the existence of a specific problem to be solved. 
+According to Interviewee 1: 
+We wanted to test improved ways to deliver our humanitarian cash assistance. (...) I cannot say 
+with certainty that we faced any issues, particularly not FCA on its own. I believe the humanitarian 
+community has been sort of identifying obstacles that somehow could all, or most, be resolved by 
+using blockchain technology. (Interviewee 1) 
+In Cases A and B, the term “efficiency” was not used with particular precision in the 
+documents analyzed. Nevertheless, the reports suggest that efficiency includes aspects 
+such as speed and cost – which were echoed by the interviewees in Case C. Reflecting on 
+the motivations for Finn Church to use the technology, Interviewee 2 stated that: 
+There was a promise that FCA had recognized and had thought about, this promise of using 
+blockchain to make things faster. So, in this sense, faster is more efficient, delivering, instead of 
+using lots of different middlemen in the process, and then that's slowing down the process of 
+delivering aid. So that was one promise, then another one was being more efficient in the sense 
+that more economic value is delivered to the recipient in the end, and not so much on these 
+different players in between. (Interviewee 2) 
+Interviewee 4, however, has noted that other systems, such as mobile payments, can 
+likely be as efficient as blockchain. As such, cost and time savings would not be enough, 
+by themselves, to justify the use of that technology: 
+These other money transfer systems, because nowadays other money transfer systems are also so 
+fast. I send money to [home country], like, and it goes so fast, within, you know, an hour or less, 
+and the cost is also so little. So, it makes sense that blockchain is used to avoid the banking, but 
+then I don't know if it can compete with these other money transfer systems nowadays we see in 
+the market. (Interviewee 4) 
+Regarding efficiency, Interviewee 3 shared the views of Interviewees 1 and 2 and 
+emphasized the aspect of speed and time savings. For him, blockchain could enable 
+humanitarian organizations to respond faster to disasters, especially when there are 
+limitations on the affected country’s banking system. 
+
+--- Page 44 ---
+38 
+4.3 Transparency as accountability to donors 
+When addressing the aspect of transparency, all the documents and interviews analyzed 
+referred to it as a major benefit not only in the abstract but with the specific purpose of 
+increasing donors’ trust in a program.  
+In Case A, the WFP has a record of every transaction that happens at each participating 
+shop, which is reported as a way to increase accountability to donors (Document A2), to 
+whom transactions can be made visible. In Case B, each transaction is recorded in the 
+Ethereum mainnet, which is a public blockchain, theoretically accessible to anyone 
+interested in the information (Document B1). In addition to that, Sempo, Oxfam’s 
+technology partner, developed a dashboard for the program, which allowed real-time 
+monitoring of transactions and facilitated compliance with donor requirements such as 
+Know Your Customer (KYC) and Anti-Money Laundering (AML) (Document B1).  
+Similarly, transparency was a benefit often emphasized by the respondents interviewed 
+in Case C. Interviewee 3 has explained that one of the main reasons for FCA’s interest in 
+testing blockchain was to see how it much more transparent it could make a cash and 
+voucher program:  
+Another thing was that there was a question of, like, “how do you actually, like, how transparent 
+can you actually make these?” (…) One of the things that the humanitarian field always gets 
+criticized about – even if in actual terms it's actually super transparent compared to many other 
+fields of work – but anyway, that's sort of a deal, the thing that you need to be dealing with. So, I 
+was thinking, like, is it possible that we would actually like put, start pushing the money, instead 
+of using the, like, traditional banking routes, and actually put it simply to blockchain? (Interviewee 
+3) 
+Interviewee 2 has also spoken about how transparency was one of the main drivers for 
+conducting the Feasibility Study: 
+And then one more was around the idea of transparency, so this kind of way of delivering maybe 
+could provide means of following better what money goes where and how is it used, and how much 
+of it goes where, so it could in this sense enable better control of how much the person donates 
+gets delivered in the end, and so in this, better control of what happens in the process. So those 
+were kind of the initial hypotheses of benefits that inspired them to move forward. (Interviewee 2) 
+For FCA, the transparency that could be brought with the implementation of blockchain 
+was intended to work on multiple levels, including that of being able to prove to donors 
+that beneficiaries were not misusing the aid received. Interviewee 1 has explained that: 
+A lot of people, or donors, let's say, are sort of skeptical about what the people do with the money. 
+And there is skepticism about if people are just spending the money on things that they shouldn't 
+be, or what it's not meant to be spent for. (…) Because of the traceability of the blockchain nature, 
+it is easy to track and see where the money is spent, and by this, I don't mean that we are just 
+watching and knowing who is doing what, but it is the way to visualize that the money is spent in 
+shops, where they're like, grocery shops (…). But at bottom line is that this transparency is 
+
+--- Page 45 ---
+39 
+definitely useful for sort of unveiling this sort of preconceived notions that people misuse the cash 
+when they're given it or the possibility to buy what they want. (Interviewee 1)  
+Nevertheless, Interviewee 4 has argued that blockchain is not the only system that can 
+provide such a level of transparency to donors. According to him, if donors trust FCA and 
+there are no other parties involved in adding data to the system, there are less costly and 
+easier ways to show how the resources received are being used:   
+If you have a, in a centralized system, everything, all data, like, to whom you provided the money, 
+or who bought what from the marketplace, if you have it in a centralized system of FCA, that could 
+be also used to show the donor. I mean, that's no difference between having a blockchain and a 
+centralized system. There is no difference there, in my opinion. (Interviewee 4) 
+Similarly to the aspect of efficiency previously mentioned, Interviewees 1, 2, and 3 share 
+a more optimistic view, while Interviewee 4 reiterated the possibility of using systems 
+other than blockchain to achieve the same goal. 
+4.3.1 Opacity for beneficiaries 
+Although general transparency and accountability to donors are reported as advantages 
+by the documents analyzed in all cases, the aspect of transparency for beneficiaries is 
+rarely addressed in these materials. In Case A, the documents present somewhat 
+contradictory information regarding the level of transparency provided to beneficiaries. 
+On the one hand, the official Jordan Case Study reports that all 114 respondents of its 
+December 2019 midline assessment “confirmed that they are regularly informed when 
+entitlements are added to their balances by UN Women Staff” (Document A2, p. 8). 
+Document A1 reports that, in the Azraq Camp, the participating women interviewed by 
+Cheesman have complained about how they did not have access to detailed information 
+about their earnings: 
+“We never know what each salary payment is for, we might think it’s for this month and it might 
+be for the previous one,” Aya, one of the senior seamstresses, said. Her colleague Fatima added, 
+“We wish there was clear information somewhere telling us how much we received based on how 
+many days of work, and when we received it, and how much we withdrew and if there’s anything 
+left.” (Document A1)      
+In that implementation, still according to Document A1, while the supermarket receipts 
+contained the amount that had been withdrawn and the remaining balance of the 
+account, they did not include key aspects for beneficiaries, such as payment dates, and 
+what the payments were for. Because of that, women participating in the program would 
+collect the receipts and create their own systems to document how many hours they had 
+worked and what they estimated that their payments should be: 
+
+--- Page 46 ---
+40 
+Women kept the receipts safely in their bras during the workday and brought them out when 
+discussing or contesting salary issues with GEN or the supermarket cashiers. Many times, women 
+workers took receipts out to show me, the thin paper folded to prevent the ink from rubbing off. 
+The information on the receipts was printed in Roman script and English numerals. Almost none 
+of the refugee women workers spoke English, but accounting practices were usually collective, 
+relying on those who could best interpret the information. (…) Rather than empowering refugee 
+workers with a new accounting tool, GEN’s implementation of blockchain introduced new 
+challenges for their financial management. Refugee workers incorporated receipts into their 
+arsenal of socio-technical resources where the blockchain ledger was nowhere to be seen. 
+(Document A1) 
+In Case B, beneficiaries only had access to the NFC card, but it was not possible for 
+participants to check their balances as they had no access to the Sempo information 
+dashboard (Document B1). Although it would still be possible for them to try to find the 
+relevant transactions in the public Ethereum network, that was likely not a realistic 
+option, given the high degree of technical knowledge required for it. 
+From the interviews conducted for Case C, it was not possible to determine whether 
+beneficiaries would have access to the information stored on the blockchain. As the 
+project was not implemented, the respondents could not say with certainty how it would 
+have worked. Nevertheless, Interviewee 1 expressed surprise when told that other cases 
+do not make account information visible to beneficiaries:   
+There has to be a tracking, and that's exactly what the best thing that blockchain has is that it's a 
+transparent, transparent tracker of any sort of actions that take place. So, I find it hard to believe 
+that it was an issue that, you know, it wasn't able to be verifiable. So, I suppose that if you request 
+it from the teller, from the person that has the reader, you should be able to. (Interviewee 1) 
+A potential reason for that lack of transparency is the general notion by humanitarian 
+organizations that beneficiaries would not be able to understand the information even if 
+it was made available to them. According to Document A1, in Case A: 
+But no one explained the blockchain to these women workers: as a concept, GEN staff treated 
+blockchain on a “need to know basis,” deeming the technical complexity inappropriate because of 
+workers’ mixed literacy and numeracy skills and technical capacities. (…) When their eyes were 
+scanned by the supermarket cashier using an EyePay machine (…), the biometric check 
+authenticated the transaction by triggering a cryptographic private key — which the women did 
+not know they had. Refugee women workers made new data points whenever they completed a 
+transaction, but the ledger was not made visible to them. The only transaction records they were 
+able to access were the paper receipts provided by supermarket cashiers. (Document A1)  
+In Case B, the project has acknowledged that “not everyone served by the Sempo 
+platform has access or the literacy to comprehend the information stored on the 
+network” (Document B1, p. 13), and the same idea was echoed in Case C. When asked 
+about how much beneficiaries needed to know about the program, Interviewee 1 replied: 
+You just have to explain the concepts and the mechanisms. So just that and understand why they're 
+getting the assistance. But beyond that, I don't think it is necessary to have a deep understanding 
+of the technology in itself. But they do have to understand, you know, how much money they have, 
+how they can use it, when they can use it and where, and for how long they will be getting that. So, 
+
+--- Page 47 ---
+41 
+these are the things that are sort of essential for the communities to understand. But the 
+technology at hand? Not really. (Interviewee 1) 
+While Interviewee 2 did not go into detail about this, the fact that many beneficiaries 
+were illiterate was mentioned. According to him, FCA has even experimented with using 
+symbols instead of numbers as pin codes in order to allow for more beneficiary 
+participation. In that context, it is thus unlikely that participants would be informed 
+about the use of blockchain in the system. Interviewees 3 and 4 did not discuss the 
+matter. 
+4.4 A privacy-enhancing or surveillance-enabling technology? 
+With regard to privacy, all cases considered have highlighted how blockchain technology 
+can be used to enhance beneficiary privacy. The exact manner in which that is done, 
+however, varies depending on the project. 
+In Case A, the use of blockchain is argued to lead to better protection of beneficiary data, 
+especially as it reduces third-party involvement (Document A2). The WFP only has 
+access to an anonymized, hashed version of the beneficiaries’ personal information, 
+which is used to validate transactions at the participating retailers; the database 
+containing personal data is managed by the UNHCR (Coppi & Fast, 2019). The payment 
+history is registered on the Ethereum blockchain, which is considered a quicker and more 
+efficient way to identify issues with payments and balances and resolve them (Document 
+A2).    
+In Case B, on the other hand, Oxfam has access to beneficiary data, but it has chosen to 
+not register it on the blockchain (Document B2), nor the details of transactions beyond 
+the general category of purchases (Baharmand et al., 2021b). Reducing the amount of 
+personal beneficiary data available to third parties could thus increase privacy.  
+Blockchain’s privacy-enhancing potential was brought up by interviewees in Case C. 
+According to Interviewee 1: 
+Another appealing aspect of blockchain technology is the ability that blockchain has, not only 
+because it's transparent and traceable, but because you're able to share information and you select 
+what information you want to share. It's not, it's unlike when you know you get stopped in the 
+streets and you show your ID that says your name, your age, where you were born, and a lot of 
+other information that perhaps might be sensitive. This is a way for people to sort of protect their 
+information and their identity. (Interviewee 1) 
+Nevertheless, the interviewees have also acknowledged that beneficiary privacy could 
+become a point of concern if the transparency of blockchain were to be misused as a 
+surveillance tool. For Interviewee 3: 
+
+--- Page 48 ---
+42 
+It is so easy to actually follow it up, like where it's going. Like, you could, theoretically speaking, 
+let's say you have, you have FCA head office over here, you have your country office here. Here you 
+have, say, let's say that you operate fully on crypto. So then what you have is like the merchants in 
+the field. And then you have the people who have the wallet, practically the beneficiaries, and they 
+go with that, like, you can follow up real time what they're buying from the store, and I think that 
+that will… There will actually be a pretty big issue like, like you need to be anonymizing, doing 
+those sort of protection issues. (Interviewee 3) 
+Interviewee 1, while recognizing this potential risk, has highlighted that the precise 
+extent of the availability of information depends on each particular implementation and 
+the design choices informing it: 
+It's a bit controversial because of course there are some grey areas there as to how much do we 
+really need to know. (…) There are donors or, I don't know, agencies that may not purposely want 
+to sort of go that deep into the transparency aspect, and not sort of provide too much information 
+just as a means to just sort of provide help without there being, some kind of fishbowl for the 
+beneficiaries that receive it. (Interviewee 1) 
+Interviewee 2 explained that the consideration of privacy risks and surveillance was part 
+of FCA’s risk assessment during the Feasibility Study. Interviewee 4, in his turn, 
+expanded on a point made by Interviewee 1, which was how the level of transparency in 
+the system can be chosen by humanitarian organizations and donors.  
+4.5 Designing CVA with and without biometrics 
+Within all major themes analyzed, the use of biometrics for identifying beneficiaries was 
+the aspect with the most variation between the cases under investigation – and, as will 
+be explained in Chapter 5, the one that diverges most from the relevant literature.  
+In Case A, biometrics are the main way used by beneficiaries to receive aid (Document 
+A3). Because of that, neither an active internet connection nor smartphones are required 
+from beneficiaries, which can be argued to make the program more inclusive. Beyond 
+inclusion, in the implementation by UN Women, a baseline survey with beneficiaries has 
+reported that they feel safer with the biometric process (Document A2). 
+Interestingly, the WFP had been using biometrics for payments in Jordan refugee camps 
+since 2016 (Document A2). The identity of beneficiaries was verified through iris 
+scanning, and after the confirmation that the beneficiary’s account had enough funds, 
+purchases were authorized at partner shops (Document 2). The basic structure in that 
+implementation was very similar to the one later used in the Building Blocks program; 
+in fact, the only difference between them is that in the first case, the account balance was 
+checked with the Jordan Ahli Bank and the payments were made via the Middle East 
+Payment Services, instead of using blockchain technology (WFP, 2016).    
+
+--- Page 49 ---
+43 
+In Case B, they are not used at all, and no biometric information was collected from 
+beneficiaries (Document B2). As NFC cards were distributed to them, neither an active 
+internet connection nor smartphones were required (Document B1).  
+Finally, in Case C, biometrics were pointed out as the method of access most likely to be 
+chosen if FCA decided to implement the plan discussed in the Feasibility Study 
+(Interviewee 3), with interviewees highlighting several advantages of the use of 
+biometrics. The first, along the same lines as Case A, is that they could be a way to make 
+programs more inclusive, making it possible for humanitarian organizations to reach, for 
+instance, undocumented people. According to Interviewee 1: 
+Another one is we often work with people who are on the move, people who have been suddenly 
+displaced, and we work with people who are undocumented, and it is in these situations where 
+using biometric means of payment for the cash that we provide could bypass a huge obstacle, huge 
+obstacle that in occasions when people do not have any ID, they might not even be included in any 
+assistance, so they are vulnerable in every single way because they're not in any system. They have 
+other difficulties opening a bank account or getting, I don't know, like, a phone connection or doing 
+any sort of transactions when they're undocumented. (Interviewee 1) 
+The interviewees have also argued that biometrics can be safer for beneficiaries. 
+Interviewee 3 has explained that: 
+But say, if we were, like, if we were planning to work on like, based on biometric. So, say that you 
+have a grocery store over here, you have your beneficiary over here, and in the middle you have a 
+hostile checkpoint. Then your person can actually just, because he or she has biometrics, like, you 
+don't need to have any kind of a card, any kind of cash, like, anything that sort of gives up the fact 
+that, OK, that you are carrying something of value on you, so... (Interviewee 3) 
+That safety is also extended to cases in which humanitarian organizations have to 
+cooperate with others in order to provide aid to beneficiaries. In those, blockchain could 
+enable cooperation without having to expose personal data. Interviewee 1 argued that: 
+That's the difficulty where I was getting at, blockchain could help resolve, because in this, because, 
+you know, usually people, or many NGOs, they store their data on databases. So you would sort of, 
+today, let's say somebody has to share, so they would just hide several columns and just leave the 
+names or just leave the phone numbers, or any sort of what we call single identifier. (…) Having a 
+platform like blockchain, where we could cross-check information without really exposing any 
+extra information in order to sort of, and maximize our resources and not duplicate, would be to 
+sort of have a shared platform. (Interviewee 1) 
+Nevertheless, respondents have also acknowledged that the use of biometrics brings a 
+degree of risk. For the interviewees, risk factors arose mostly from exceptional situations, 
+i.e. they do not consider biometrics a source of major systemic risk. The risk most often 
+cited was the possibility of the technology not working for certain groups of people. 
+According to Interviewee 1:   
+Perhaps people who are disabled or who are not, sometimes the, if we're doing, let's say 
+fingerprints and there's people that, because they work with their hands or for whatever reason, 
+
+--- Page 50 ---
+44 
+there could be some sort of exceptions where the technology may not sort of function. (Interviewee 
+1) 
+A similar situation was verified by Interviewee 2 during the fieldwork of the Feasibility 
+Study. He recalled that: 
+When we were there with a community of elderly people, they have many experiences of these 
+devices not working. So this, the biometric device is not working, when you go and you should now 
+get your, you’re entitled to go and collect the money, but you cannot because they're not working, 
+and they were really frustrated about them. And then, it was also interesting that they have 
+explanations why they thought that they weren't working. So, people were saying that they had 
+worked for all the life in manual labor, so their fingerprints are worn out. So that's why the devices 
+cannot recognize anything, because they're kind of blank. (Interviewee 2) 
+Another potential risk identified by respondents in Case C was that of family conflicts 
+arising from a change in power dynamics. Such a change in power dynamics, 
+interestingly, were the same ones considered positive in Case A when women were the 
+registered beneficiaries, and thus the ones in control of the aid received (Document A2). 
+According to Interviewee 1: 
+So, for example, if the man is the dominating head of household and then we want to have a gender 
+balance and different, other humanitarian principles applied, and we choose to deliver to women 
+alone. Then in that case, it could possibly, potentially create some tensions there. But again, I don't 
+think this is… But I think yeah, it is a bit related specifically to blockchain because many cases 
+when, you know the family, receives the money, we have one main person as the recipient, as the 
+head of the household. But then they can still sort of distribute some of the responsibility of the 
+shopping or the, whatever the amount. There's not so much of a “only I can get the cash with the 
+finger”. So, basically, maybe it could, yeah, maybe it could just put additional pressure in family 
+dynamics. (Interviewee 1) 
+Interviewee 2 has added another example to the issue of family dynamics, citing cases of 
+mobile payment systems in which funds were misused because the only literate family 
+members were children or young people. Interviewees 3 and 4 did not go into detail 
+about this point.  
+4.6 Disintermediation from traditional financial actors 
+In Case A, the intermediaries used before the implementation of blockchain in the 
+program, the banks, are not removed from the supply chain. Nevertheless, the 
+transactions in which they participate are processed in bulk in the new system 
+(Seyedsayamdost & Vanderwal, 2020) when the WFP sends the financial amount owed 
+to the participating shops (Thylin & Duarte, 2019). Still, the vision for Building Blocks is 
+that it would eventually become a “neutral” platform, owned by the participating 
+humanitarian organizations, in which payments could be coordinated without relying on 
+traditional financial institutions (Martin et al., 2022, p. 19).  
+
+--- Page 51 ---
+45 
+These intermediaries are also present in Case B. As Vanuatu’s Reserve Bank crypto 
+prohibition had outlawed the use of crypto wallets and currencies in the country (Jutel, 
+2021), vendors were still required to have bank accounts to receive reimbursements from 
+Oxfam. In one of the project’s research reports, it was concluded that the pilot “did not 
+disintermediate when compared to Oxfam’s standard process” (Document B1, p. 46). The 
+report has also suggested that vendors could be encouraged to exchange the DAI 
+stablecoin received for fiat currencies through third-party exchanges instead of cashing 
+out with banks to reduce the use of traditional financial institutions (Document B1).  
+In Case C, the fact that these institutions would still likely be needed in the program was 
+recognized. According to Interviewee 3, that point was considered by FCA:  
+It is fast if you operate on crypto. It's super fast. So you can sort of bypass all that thing. You have 
+the total ownership of the thing, you need don't need to be relying on the banks. (…) The worry 
+that we had at FCA was that, OK, you put it into blockchain, but then at some stage you actually 
+still need to be putting it into the regular banking system because we're not operating on crypto. 
+So, it's sort of, at the end of the day, if you don't go full crypto, I think you're not going to be able 
+to make it at the end of the day in a way that it will make, like, really make sense. (Interviewee 3) 
+Regarding disintermediation, the statements from Interviewee 1 were not clear. On the 
+one hand, she argued that blockchain could help to include unbanked beneficiaries, 
+suggesting that traditional financial institutions could be bypassed, at least to a certain 
+extent. On the other hand, a functioning banking system was considered an important 
+factor when determining whether a given context would be suitable for the 
+implementation of a blockchain-based CVA program. 
+Interviewee 2 did not discuss the matter, while Interviewee 4 had an opinion similar to 
+that of Interviewee 3, emphasizing how blockchain should allow for a reduction of the 
+participation of traditional financial institutions in the humanitarian supply chain.  
+4.7 
+Summary of case findings  
+The findings from the data collected from Cases A, B, and C are summarized in Table 5. 
+The aspects included in the table are the status and location of each project, as well as 
+what has been reported by documents and interviewees about the projects’ efficiency, 
+transparency, privacy, use of biometrics and level of disintermediation achieved. 
+ 
+Case A 
+Case B 
+Case C 
+Current status 
+Active (Document 
+A5) 
+Inactive; 
+pilot 
+concluded in 2019 
+(Document B1) 
+Inactive; 
+Feasibility 
+Study concluded in 
+2019 (Document C2) 
+
+--- Page 52 ---
+46 
+Location 
+Piloted 
+in 
+Pakistan; currently 
+active in Jordan 
+and 
+Bangladesh 
+(Document A5) 
+Piloted 
+in 
+the 
+Republic 
+of 
+Vanuatu 
+(Document B1) 
+Not 
+implemented; 
+Feasibility Study took 
+place 
+in 
+Kenya 
+(Document C2) 
+Efficiency 
+Time 
+and 
+cost 
+savings 
+were 
+reported 
+(Document A6) 
+Time savings were 
+reported, 
+while 
+cost savings were 
+only 
+“modest” 
+(Document B1) 
+Reported as a key goal 
+behind the Feasibility 
+Study (Interviewees 1, 
+2 and 3), although 
+alternative 
+systems 
+were 
+suggested 
+to 
+achieve it (Interviewee 
+4) 
+Transparency 
+Emphasized 
+for 
+donors (Document 
+A2), but restricted 
+for 
+beneficiaries 
+(Document A1) 
+Emphasized 
+for 
+donors, 
+but 
+restricted 
+for 
+beneficiaries 
+(Document B1) 
+Emphasized 
+for 
+donors and reported 
+as 
+a 
+key 
+goal 
+(Interviewees 1, 2 and 
+3), 
+although 
+alternative 
+systems 
+were 
+suggested 
+to 
+achieve it (Interviewee 
+4); likely restricted for 
+beneficiaries 
+Privacy 
+Reported 
+as 
+privacy-enhancing 
+(Document 
+A2); 
+no mention found 
+to 
+risk 
+of 
+surveillance 
+Reported 
+as 
+privacy-enhancing 
+(Document 
+B2); 
+no mention found 
+to 
+risk 
+of 
+surveillance 
+Reported as a key 
+reason 
+for 
+the 
+Feasibility 
+Study 
+(Interviewees 1 and 
+4); risk of surveillance 
+was 
+reported 
+as 
+considered 
+by 
+interviewees 
+(Interviewees 2 and 3) 
+Biometrics 
+Used as the main 
+way 
+for 
+beneficiaries 
+to 
+Not 
+used 
+(Documents 
+B1 
+and B2) 
+Likely would be used 
+(Interviewees 2 and 3) 
+
+--- Page 53 ---
+47 
+receive 
+aid 
+(Document A3) 
+Disintermediation Partially achieved 
+as 
+payments 
+through 
+the 
+banking 
+system 
+were made in bulk 
+to vendors, but not 
+to 
+individual 
+beneficiaries 
+(Seyedsayamdost 
+& 
+Vanderwal, 
+2020) 
+Partially achieved 
+as 
+payments 
+through 
+the 
+banking 
+system 
+were made in bulk 
+to vendors, but not 
+to 
+individual 
+beneficiaries 
+(Document B1) 
+Not 
+enough 
+data 
+available to reach a 
+conclusion 
+Table 5 Summary of case findings 
+4.8 Updated theoretical framework 
+In Chapter 2, Figure 5 displayed the theoretical framework developed for this study after 
+the analysis of Cases A and B and the review of the relevant academic literature – which 
+constituted the first two steps of the abductive research method used. Following the 
+analysis of both interview transcripts and documents from Case C, that framework was 
+updated, and its new version can be found in Figure 11. The main considerations 
+regarding the update are as follows: 
+• 
+With the exception of better decision-making and more resilient humanitarian 
+supply chains, which were factors only found in the literature, all previously 
+mentioned benefits were confirmed by documents and interviews. The point 
+regarding improved traceability and accountability was modified to reflect how 
+that benefit is accrued by donors, but not by beneficiaries. 
+• 
+As previously mentioned, neither documents nor interviewees have detailed the 
+risks that the implementation of blockchain technology for the delivery of CVA 
+programs can pose to beneficiaries. Still, the factors impossibility of modification 
+or exclusion of data, opacity for beneficiaries, lack of technical knowledge in 
+humanitarian organizations, surveillance and function creep, and dependency 
+on technical partners were confirmed. Most risks, such as loss of dignity, 
+increased volume of data collection, and violation of humanitarian principles 
+by new HSC actors were only present in the literature on the subject. 
+
+--- Page 54 ---
+48 
+Nevertheless, as these risks might still prove to be significant, they continue to be 
+part of the study’s theoretical framework. 
+• 
+Two core characteristics (digital technology and biometrics), as well as their 
+respective benefits and risks, were added. The benefits brought by the use of a 
+digital technology are the same as those that result from decentralization, albeit 
+from different reasons. Regarding the main risks from that characteristic, both 
+exclusion of already vulnerable groups and technology malfunction were factors 
+mentioned only in the interviews conducted. Finally, although it is recognized 
+that biometrics are not necessary for the implementation of blockchain in CVA 
+programs, that characteristic is viewed in such a different manner by the 
+literature and the practitioners from humanitarian organizations that it was 
+considered that it should be addressed in its own. 
+ 
+Figure 11 
+Updated theoretical framework of this study 
+ 
+
+--- Page 55 ---
+49 
+5 DISCUSSION 
+In this Chapter 5, the findings of the analysis of Cases A, B, and C, and described in 
+Chapter 4 are discussed using the literature reviewed in Chapter 2. The discussion is 
+based on the five key points shown in the updated theoretical framework of Figure 11, 
+namely immutability, distribution, decentralization, digital technology, and biometrics. 
+Following that, a set of seven measures is suggested for humanitarian organizations 
+working with blockchain-based CVA programs in order to minimize the potential digital 
+risks posed to beneficiaries.   
+5.1 
+Risks arising from immutability 
+The first risk related to the immutability of data registered on the blockchain is that of 
+the impossibility of modification or exclusion of data, even in when such data is 
+inaccurate or incorrect, as explained by Zwitter and Boisse-Despiaux (2018). Although 
+the literature raises it as a key point of concern, especially as this immutability can be 
+seen as a conflict between blockchain-based systems and data protection regulations 
+such as the European GDPR (ICRC, 2020), the three cases analyzed seem to have been 
+able to avoid major issues in this regard. As previously explained, neither Case A nor 
+Case B register beneficiary personal data on chain, and while it is not possible to say if 
+the same would occur in Case C, the respondents interviewed in this study seemed at 
+least aware of the fact that such registration should be avoided. The notion that 
+implementations that do not register identifiable personal information on the blockchain 
+could avoid data protection issues was confirmed by Interviewee 4:  
+It really depends how the system is designed. Like, if you cannot, if you are not identifying the 
+person with their identity, like, and somehow if you do not really show it to the donor, or if you do 
+not… If you maintain the privacy, in simple word, then I do not really see any problem on that. 
+(Interviewee 4) 
+It is clear, therefore, how much the design choices made by the humanitarian 
+organization implementing the program matter, as emphasized by Coppi and Fast 
+(2019). Immutability can be dangerous to beneficiaries if their data is registered on the 
+blockchain; however, that is not necessary for the functioning of a CVA program. The use 
+of workarounds such as off-chain solutions with logical deletion, explained in Chapter 2, 
+should suffice from a data protection perspective (ICRC, 2020; Thylin & Duarte, 2019).  
+Less clear, however, is the matter of the risk of loss of dignity, as reported by Howson 
+(2020). Cash and voucher assistance is seen as empowering to beneficiaries (Heaslip et 
+al., 2018), and the general tone of the documents analyzed echoes that. In Document A2, 
+
+--- Page 56 ---
+50 
+for instance, the UN Women implementation is described as giving participants more 
+control over their finances; the project has also included seminars on financial literacy. 
+Still, no direct mention of dignity, especially when considering the proportionality of 
+using an immutable system to provide temporary benefits, is made by either the 
+documents investigated or the respondents interviewed. The lack of mention is perhaps 
+due to the abstract nature of the concept, which may be considered to lie within the 
+domain of ethics, not operations. It must be noted, however, that this does not mean that 
+the matter is not relevant and should not be considered by a humanitarian organization 
+implementing a blockchain-based CVA program (Lee, 2020). 
+5.2 Risks arising from distribution 
+As explained in Chapter 2 and reiterated by all cases examined, transparency is regarded 
+as a key benefit of blockchain technology that arises from its distributed nature, 
+especially as the humanitarian sector suffers from a lack of it (Baharmand et al.,  2021a). 
+Although Coppi and Fast (2019) argue that transparency should not be regarded only as 
+a benefit brought by blockchain technology, but as a precondition for its implementation 
+in CVA programs, in practice, such transparency is seldom extended to beneficiaries.  
+The fact that neither Case A nor Case B have mechanisms that enable beneficiaries to 
+visualize their own data or transaction histories, exemplifies this. Although Case C was 
+not implemented, the fact that no respondent could explain how the program would 
+enable that, and one of the interviewees was in fact surprised to hear that it was 
+something that had to be intentionally implemented by the organization seem to suggest 
+that such a feature might not have been planned for by FCA and Solita. The risk related 
+to the opacity of the system to beneficiaries is, therefore, visible. 
+The second risk related to distribution is that of surveillance and function creep, as it 
+enables humanitarian organizations to easily share sensitive data with other actors. Once 
+that data is shared, it is no longer under the control of the organization and could be 
+misused (Burton, 2020), putting beneficiaries at risk (Lee, 2020). As previously 
+mentioned, beneficiary personal information is not registered on the blockchain in Cases 
+A and B, which greatly reduces this possibility of misuse. Nevertheless, in both cases, 
+transaction histories are still registered. Because of that, if a person were to be identified 
+– for instance, by combining data from different sources – it would be theoretically 
+possible to trace back his or her entire transaction history, which Seyedsayamdost and 
+Vanderwal (2020) consider a potential risk. In Case C, although respondents generally 
+
+--- Page 57 ---
+51 
+reported seeing blockchain as a privacy-enhancing technology, they seemed aware that 
+surveillance was a potential risk, and that it should be considered when designing a 
+program.  
+The possibility of surveillance can be worsened by humanitarian organizations’ tendency 
+to collect too much data, as explained by Sandvik et al. (2014). Nevertheless, in the cases 
+analyzed in this study, it was not clear whether additional data was collected from 
+beneficiaries once blockchain-based systems were deployed, as the projects were 
+reported to have been built on top of existing CVA programs. In Case A, in which 
+biometrics are used, the previous system already used that type of data (Document A2). 
+In Case B, no biometric information was used in the previous program, and that 
+remained so after blockchain was introduced (Document B1). It is not possible to say 
+what type of data would be collected in Case C if the program was implemented. 
+The aspect of distribution shows, yet again, how the levels and types of risks posed to 
+beneficiaries depend on program design. Transparency to beneficiaries is not a given, 
+but it could be implemented. Surveillance is a possibility, but it can be minimized if less 
+data is collected and strict controls over who can access it are implemented. The matter 
+of design choices is then reiterated as key, as with the considerations regarding 
+immutability made above. 
+5.3 Risks arising from decentralization 
+In this study, the aspect of decentralization was the one in relation to which the highest 
+number of potential risks were identified. These risks are interrelated: the 
+disintermediation enabled by decentralization exposes the lack of technical knowledge 
+in humanitarian organizations, which can lead to a dependency on technical partners;  
+these new actors in the supply chain, in their turn, may violate humanitarian principles. 
+At the same time, these same actors replace local players, reducing their role.  
+Although no data was found in the documents analyzed in Case A about this matter, it 
+was reported in Case B that internal stakeholders had a “large knowledge gap related to 
+the technology”; as a result, the project team had to spend “significant time educating 
+internal stakeholders about the basics of the technology, including clarifying that Oxfam 
+was not in any way going to be using, buying or selling cryptocurrencies” (Document B2, 
+p. 3-4). This is in line with the consideration found in the literature that humanitarian 
+organizations may lack the technical understanding of the complexity of blockchain 
+technology (Lee, 2020), outsourcing it to third parties (Baharmand et al., 2021b). In Case 
+
+--- Page 58 ---
+52 
+B, the startup Sempo was responsible for the technical parts of the Oxfam program; in 
+Case C, the company Solita developed the technology for Finn Church Aid’s Feasibility 
+Study. In the latter, Interviewee 1 acknowledged how that can lead to a dependency on 
+the partner, stating that: 
+Clearly, if we're working with a secondary sort of like, a partner, it also, I mean, you know there 
+are things that are going beyond our control. Like, if we were implementing and they for whatever 
+reason, bankruptcy, whatever, they sort of are unable to continue, to finish the project, then, of 
+course, there's a risk because we are not a technological sort of agency that can resolve that without 
+their assistance, so… Then clearly that would also become an issue, to work with a high-level sort 
+of technology that we, the primary implementers, are not able to sort of operate without external 
+assistance. It makes it, puts us in a dependency sort of position with them. (Interviewee 1) 
+Authors such as Jutel (2022), Sandvik et al. (2017), and McDonald (2021) argue how 
+problematic a dependency can be on partners that benefit from the humanitarian 
+operational license but are not bound by its rules. Commenting on Case B, Jutel states 
+that the project “operates alongside the most dubious elements of crypto and against 
+government attempts to regulate in the public interest” (2022, p. 2), in reference to the 
+participation of the controversial company Consensys. While not specifically relating to 
+Case A, the World Food Programme has been criticized for establishing a partnership 
+with the company Palantir Technologies, which has been involved in scandals with the 
+US Central Intelligence Agency, Immigration and Customs Enforcement, as well as 
+Cambridge Analytica (Burton, 2020; Madianou, 2019). As most documents analyzed in 
+this study, however, in all cases, were authored by humanitarian organizations and their 
+partners, no mentions of this potential risk of violations of humanitarian principles by 
+new HSC actors were found in them. The same was true for the interviews conducted 
+with respondents associated with Case C.  
+Another risk explored was the fact that, as new, technology-oriented partners emerge, 
+the role of downstream actors can be reduced (Coppi, 2020). In the literature review, the 
+efficiency gains that arise from blockchain’s decentralization and disintermediation are 
+considered alongside the potential risks of bypassing the traditional banking system and 
+reducing the role of local actors (Baharmand et al., 2021b; Thylin & Duarte, 2019; Coppi 
+& Fast, 2019). Mentions of potential downsides, however, were scant in the documents 
+analyzed and interviews conducted. In Case A only, the organization responsible for the 
+project has acknowledged that local financial sectors could be negatively affected using 
+blockchain (Document A3).  
+Nevertheless, it must be noted that, although the cases analyzed have achieved some 
+degree of decentralization, there are currently no cases in which the system is fully digital 
+
+--- Page 59 ---
+53 
+end-to-end (Coppi & Fast, 2019), or that do not require some level of interaction with 
+traditional financial institutions (Martin et al., 2022). In order to bypass these 
+institutions, cryptocurrencies would have to be used by donors, when transferring funds 
+to humanitarian organizations, by beneficiaries, when receiving aid, and in all processes 
+that happen between those two ends.  
+5.4 Risks arising from the use of biometrics 
+The most striking differences found in this study between the academic literature and 
+the cases investigated are those related to the use of biometrics. In a clear divergence, 
+the former is highly critical of its use (Madianou, 2019; Sandvik et al., 2014; Sandvik et 
+al., 2017), while biometrics are mostly seen as beneficial in the latter. In both Cases A 
+and C, as noted in Chapter 4, biometrics were regarded as a means of inclusion 
+(Document A3; Interviewee 1), and as safer for beneficiaries (Document A2; Interviewees 
+1 and 3). 
+In the literature, the fact that biometrics constitute sensitive personal data that can be 
+misused in emphasized (Sandvik et al., 2017). Madianou (2019) argues that biometric 
+identification is particularly dangerous as it tends to be outsourced to private partners – 
+thus including even more actors in the supply chain that are not bound by humanitarian 
+principles. That can be seen in Case A. While Building Blocks is linked to the UNHCR’s 
+biometric identity system (Thylin & Duarte, 2019), the entity responsible for the 
+technology part of that system is the private company IrisGuard; the iris scans of 2.7 
+million Syrian refugees are reported to be held by it (Martin et al, 2022).   
+Biometrics were not used in Case B (Documents B1 and B2), and although it would likely 
+be used in Case C (Interviewees 2 and 3), respondents in the latter have only identified 
+exceptional risks in implementing that method for identification and verification. 
+Interviewees 1 and 2 noted the possibility of technology malfunction, and changes in 
+family dynamics. The former will be will be commented on next section, which deals with 
+the matter of risks that arise from the use of digital technologies. 
+With regard to the latter, Cases A and C have diverging accounts of the effects of choosing 
+women as the beneficiaries of the assistance. While Case A has considered that it brings 
+positive changes in family dynamics (Document A2), Interviewee 1 has noted that it 
+could be a source of tension in households. The literature on cash and voucher assistance 
+and gender, nevertheless, points out that there is no straightforward answer to the 
+question of whether women are empowered when they are responsible for collecting 
+
+--- Page 60 ---
+54 
+benefits. An evaluation of a cash program in Raqqa, Syria, for example, has shown how 
+the results can vary greatly: in some households, women reported greater decision-
+making power, while in others, tensions were heightened, especially with in-laws 
+(Blackwell et al., 2019).  
+5.5 
+Risks arising from the use of digital technologies 
+Technology malfunction was one of the two risks identified by respondents in Case C 
+regarding the use of biometrics. As Sandvik et al. (2014) note, however, due to the 
+instability of the environments in which humanitarian operations take place, the risk of 
+technology failure is higher. Advanced technologies are seldom designed for that specific 
+type of context, so even if a vulnerability is exceptional and not systemic, it should be 
+carefully considered. 
+The second risk was that of exclusion of already vulnerable groups, such as elderly people 
+or manual laborers, whose fingerprints are often not recognized by biometric scanners 
+(Interviewees 1 and 2). In the literature review, it is noted that, although such a risk is 
+not specific to the blockchain, it must be considered because the analysis of a 
+technology’s implementation cannot be done without consideration of the social context 
+in which it occurs (Lee, 2020). Digital payments, and by extension, systems that make 
+use of blockchain wallets, are less accessible than cash since they must be directly linked 
+to the beneficiary’s identity, opening the possibility of exclusion and discrimination 
+(Martin & Taylor, 2021). This exclusion can lead to a digital divide (Baharmand et al., 
+2021b). 
+5.6 Guidelines for Humanitarian Organizations 
+The onus of proving that the implementation of a given technology will not cause harm 
+belongs to the humanitarian organization conducting it (Sandvik et al., 2017), and while 
+it is not possible to completely eliminate the possibility of digital harm, the risk factors 
+that constitute it can be mitigated (Burton, 2020). Because of this, the following seven 
+measures are suggested to humanitarian organizations working with the use of 
+blockchain for the delivery of cash and voucher assistance. Each measure is directly 
+related to the risks identified in this study, as shown in Figure 12. A more detailed 
+description of each measure is presented in the sections following it. 
+
+--- Page 61 ---
+55 
+ 
+Figure 12 
+Summary of recommendations and the risks addressed by them  
+5.6.1 Consider whether a blockchain-based system is, in fact, needed 
+Blockchains should not be seens as a “universal governance principle capable of solving 
+all manner of social issues” (Jutel, 2022, p. 3), or as applicable to every given situation. 
+In order for distributed systems to be used in ways that can provide the most benefits, 
+certain conditions should be present, including: (a) a set of transactions that must be 
+recorded and (b) involve multiple parties that (c) have to collaborate while (d) there is 
+no trusted central authority or third party in the system (ICRC, 2020). In cases where all 
+the parties involved trust each other, for example, there is no need for blockchain to be 
+implemented, and the use of a traditional database would be easier and cheaper to 
+
+--- Page 62 ---
+56 
+implement, more efficient and safer for beneficiaries. Both Cases A and B analyzed in 
+this study have been criticized for not meeting all of these criteria. 
+Although the Building Blocks program started in the public Ethereum network, it became 
+a private and permissioned implementation due to high fees and slow transactions; in 
+the private version, WFP controlled all the nodes in the network (Document A4). Later, 
+UN Women joined the network and started to run as an independent node  (Thylin & 
+Duarte, 2019). Nevertheless, as UN Women is a trusted partner, the benefits that 
+blockchain could bring to the program are not clear. This criticism was confirmed by 
+Houman Haddad, the creator of the Building Blocks program, who has stated that “of 
+course, we could do all of what we’re doing today without using blockchain” (Document 
+A4). Still, Robert Opp, an executive at WFP, has defended the program by explaining that 
+it is just the beginning of a process of experimentation with blockchain technology:  
+If our endpoint was to do exactly what we’re doing right now on 100,000 Syrian refugees on a 
+digital voucher system in Jordan, then doing it with a database may well be cheaper. But this is 
+not the end point for us. This is a beginning point. (Stanley, 2018)   
+In Case B, the fact that the system used was private and controlled by only one partner 
+(Sempo, the software company), was acknowledged as a single point of failure 
+(Baharmand et al, 2021b). When commenting on the case, Jutel argued that private 
+systems that do not require mining or consensus algorithms, are “the epitome of a 
+database masquerading as a blockchain” (Jutel, 2022, p. 3). For him, given the project’s 
+“highly-intermediated” blockchain (…)” (Jutel, 2022, p.7), “it is not self-evident what 
+virtues blockchain might have over mobile telephony payment systems (…) which can 
+operate under existing financial regulations and communications infrastructure” (Jutel, 
+2021, p. 7). 
+In Case C, the concern of whether blockchain would be the most adequate technology for 
+the project was only voiced by Interviewee 4. According to him: 
+In general, if there is only one entity, only one, then the whole concept of blockchain is gone, to be 
+honest. Like, blockchain is about, you know, multiple entities and then the trust is shared, or trust 
+is rebuilt in the network. But if there is only one entity who can change or write the blockchain 
+data whenever they want? That is almost like a centralized system. So, in that sense, you know, it's 
+only in a marketing way... You can say that that you are using blockchain and it's a great thing, but 
+deep down you are doing basically a centralized system, so… In my view, yeah, that's… I don't 
+know, I do not really see much benefit in a situation like this. (…) In that sense, the real value of 
+blockchain is almost gone. (Interviewee 4) 
+The implementation of a blockchain solution should be based on concrete evidence and 
+weighed against alternatives that make use of different systems (Coppi & Fast, 2019). If 
+a humanitarian organization fails to do so, a complex and expensive system might be put 
+
+--- Page 63 ---
+57 
+in place where a simpler database could work. When a blockchain-based system is 
+deployed unnecessarily, beneficiaries might be required to provide sensitive data about 
+themselves, such as biometrics, to an immutable register, in order to access temporary 
+aid, which this study has argued could lead to a loss of dignity. Furthermore, the 
+unnecessary deployment of such a system means that the humanitarian organization will 
+likely have to implement a technical solution over which it lacks the expertise, making it 
+dependent on third-party actors.  
+5.6.2 Consider the context in which the program is to be implemented 
+The implementation of any technology is influenced by the social context in which it 
+takes place (Lee, 2020), and the specificities of each context should be considered by 
+humanitarian organizations (Zwitter & Boisse-Despiaux, 2018). This aspect was not 
+often discussed in Cases A and B – likely because contextual considerations are made 
+during the design phase, and the secondary data sources reviewed tended to focus on 
+what occurred after the program had been implemented. Nevertheless, interviewees 
+from Case C have emphasized the idea that the use of blockchain may be more suitable 
+to certain environments than others. Interviewee 1 has stated that:  
+Because not only because it's a highly technological – or because it's highly technological? – it will 
+or will not work in a given context. There are many different factors and variables that would make 
+this an appropriate sort of means of, as a humanitarian assistance distribution. (Interviewee 1)  
+Context, in this case, refers to multiple aspects, including the country of implementation. 
+As explained by Interviewee 2, Kenya was deemed as a suitable place for the Feasibility 
+Study conducted in Case C due to various factors, including the country’s political 
+stability and the population’s habit of using mobile payment systems. Conditions such 
+as these will not be present in all countries, as explained by Interviewee 1: 
+Of course, it was decided that it was a feasible context on which to test, at least to pilot the program, 
+so it was in Kenya, given, you know, the context where people have the necessary tools, they also 
+have highly working markets, and also many displaced people or refugees. So, in this case, it was 
+a good, sort of it met all the requirements for it to be fertile for piloting a project. That would sort 
+of limit the number of obstacles. Because, I mean, if we try that in Syria, I can tell you that, you 
+know, day two and it wouldn't probably be very feasible. (Interviewee 1) 
+The analysis of the legislative landscape of the country in question is also part of a 
+contextual assessment. Case B, for example, has been criticized by Jutel as a “blithe 
+disregard of the [Vanuatu’s] Reserve Bank’s policy” and an attempt to bypass the host 
+country’s legal framework (2022, p. 6). Interviewee 1 has confirmed, in Case C, the need 
+to gain approval from local governments before implementing a program, stating that: 
+
+--- Page 64 ---
+58 
+You always need to have permission for running a sort of a program, especially when there is cash 
+or some technologies that might be, you know, in some in some regions, it might be controversial, 
+like in Colombia, there was, it was not allowed to take any biometrical data. That was a 
+governmental guideline. We could not do that. So in this case it wouldn't work. So anyway, in this 
+way you are understanding what the context is and what the challenges might be. (Interviewee 1)  
+As explained by Interviewee 2, In order to ensure that the Finnish team had a good 
+understanding of the Kenya context for the Feasibility Study of Case C, weekly meetings 
+with FCA’s Kenyan team were held for at least two months prior to a visit to the country 
+in question. Once there, the project’s Lead Designer and Ethnographer, alongside a local 
+guide, met with community leaders and ran focus groups with beneficiaries in order to 
+understand the particular opportunities and challenges present.  
+A humanitarian organization should make similar investigations regarding the context 
+where a program is to be implemented. That can be done as part of the analysis and 
+program design phase of the CVA Project Cycle, in which the appropriateness of a 
+potential response is measured against its surroundings (Shrestha & Smart, 2022). In it, 
+beyond the above-mentioned considerations, it can also investigate how the program 
+would affect local actors – i.e. whether their participation in the humanitarian supply 
+chain would be reduced in a detrimental way, as was defined as a potential risk in this 
+study.  
+5.6.3 Consider the infrastructure and other technologies required to 
+implement a blockchain-based program 
+Context also refers to being aware of other technologies that might be needed in order 
+for the system to work. As pointed out by Sahebi, Masoomi, and Ghorani (2020), 
+integrating blockchain with other systems requires time and resources, as well as high 
+energy consumption. Oftentimes, other technologies need to be implemented in order 
+for a blockchain-based program to work, such as the devices to scan beneficiaries’ 
+biometrics in Case A (Awan & Nunhuck, 2020), or the smartphones capable of reading 
+NFC cards in Case B (Document B2). Rodríguez-Espíndola et al. (2020) go even further, 
+showing how the combination of blockchain with other advanced technologies such as 
+artificial intelligence and 3D printing can be used to improve operations in humanitarian 
+supply chains. That point was emphasized in Case C by Interviewee 4: 
+Often it happens that blockchain is used not alone, really. Many times you use these IoT systems, 
+and then of course, in some cases you use some machine learning and AI related stuff, and then 
+together they give you the solution. It's not just one thing. It's not just blockchain. Blockchain is 
+just a database that ensures transparency and trust, nothing else. But then you’ll need the IoT 
+devices from where you get the data, and then those data will be stored. (…) That's why I'm telling 
+this, that, you know, don't, never, you know, jump to the solution of blockchain at the very 
+beginning. You really need to understand the context, you really need to understand the current 
+
+--- Page 65 ---
+59 
+situation. You also need to understand the investments because this is a whole new system. 
+(Interviewee 4) 
+After the required infrastructure and accompanying technologies are identified and their 
+availability is confirmed, beneficiaries and other partners have to be trained on how to 
+use the system. In the case of retailers, for example, Interviewee 1 has explained that: 
+(…) because of course, they have to have the right terminal or the right equipment to read the 
+biometrics or whatnot. So we would do a training course for them, we would troubleshoot 
+anything. We would sort of, you know, spend a good time for them to be able to receive the 
+payments and to feel comfortable as to how this system works. (Interviewee 1) 
+A similar need for training was reported in Cases A (Document A2) and B (Document 
+B2), and humanitarian organizations looking to implement blockchain-based systems 
+should be aware of the fact that it will likely represent a steep learning curve for most, if 
+not all, stakeholders involved in the project.  
+5.6.4 Involve beneficiaries in the design process 
+The power imbalance between humanitarian organizations and beneficiaries can be 
+exacerbated when the latter are not included in the design of a program (Coppi & Fast, 
+2019), which may revert CVA’s and blockchain’s general empowering potential discussed 
+in Chapter 2. Even worse, implementations that do not take into account the beneficiary 
+perspective could lead to vulnerable people and economies, particularly in the context of 
+refugee camps (Madianou, 2019), becoming “testing grounds for technologies” (Jutel, 
+2022, p. 2). Cases in which digital innovation contributes to the reproduction of existing 
+power asymmetries are referred to as technocolonialism (Madianou, 2021). As 
+summarized by Coppi and Fast: 
+The adoption of DLT therefore tends to reflect the needs and perspectives of those using the 
+technology rather than the needs of those affected by it. This mirrors a frequent critique of the use 
+of new technologies in the sector – that they are more often a technology in search of a problem 
+than a solution to a perceived problem. (Coppi & Fast, 2019, p. 15) 
+In order to avoid this, beneficiaries should be involved in the design process, with their 
+preferences being taken into account – both in terms of what they would and would not 
+be comfortable using. Document A1 brings an example of this, highlighting how some of 
+the women participating in Case A had health concerns associated with biometric 
+scanning devices: 
+Women workers expressed a range of fears and perceptions about the bodily effects of regular iris 
+scanning: from “We will go blind from the amount of eye scans we do,” to “I fear for my eyes and 
+my health,” to “It’s all the time for the salary and the food and every time we want to buy bread 
+too. My eyes burn after I scan them, it’s too much.” Some people worried about the effects of iris 
+scans on pregnant women, or on reproductive organs more generally. (Document A1) 
+
+--- Page 66 ---
+60 
+Beneficiaries’ concerns should not be underestimated, and the possibility to opt out of 
+the collection and processing of personal data should be given to them, without their 
+receiving of aid being affected (Burton, 2020). Any system that intends to help people 
+and reduce potential harm should involve the beneficiaries it is meant to serve and take 
+into account their preferences and limitations. If, for instance, a digital payment scheme 
+cannot be used, the humanitarian organization responsible should be able to offer 
+alternatives, including in-kind assistance or cash (Burton, 2020). Interviewee 3 has 
+shared some of his experience with these considerations: 
+There are, often times, people may prefer like having cash over card, but then there's also often 
+times situations where you have, say, the local culture isn't accustomed to using cash. So I 
+remember like, for example in South Sudan, we did, or our team did, I wasn't there, but our team 
+did a cash intervention and then they followed up a couple of weeks later. Unfortunately, there was 
+this one lady there that just like, dug a hole. Like, on the floor of her hut and just hid the money 
+over there because she didn't really, like sort of like, know what she was supposed to be doing with 
+this stuff, and she was waiting for her husband to come back so that they could sort of make a 
+decision on what to do with this. (Interviewee 3) 
+Involving beneficiaries in the design process is encouraged by Coppi and Fast (2019), 
+and can lead to positive results. Sheppard et al. (2013), for example, have argued that 
+involving local populations can contribute to preparedness and response in natural 
+disasters, making humanitarian supply chains more effective, while Kovács et al. (2010) 
+have shown how community involvement in the reconstruction phase can lead to more 
+transparency and cost efficiency, as well as positive effects to the local economy. A 
+humanitarian organization that encourages beneficiary participation can, furthermore, 
+address ethical concerns and risks that cannot otherwise be resolved, such as loss of 
+dignity. 
+5.6.5 Consider whether particular groups of beneficiaries would be left 
+behind 
+Even when the required infrastructure exists for the functioning of a blockchain-based 
+system, such as electricity, smartphones, and internet access are required, access to it is 
+not always a given, especially for segments of the population that are already 
+marginalized. Women and girls, for instance, tend to have less access to smartphones – 
+as well as less access to identification documents and financial systems (Thylin & Duarte, 
+2019). Their vulnerability could be further increased because of these restrictions in 
+access (Seyedsayamdost & Vanderwal, 2020), in direct violation of the humanitarian 
+principle of impartiality, according to which these people’s needs should be prioritized 
+(Baharmand et al., 2021b). 
+
+--- Page 67 ---
+61 
+All three cases analyzed in this study have taken these considerations into account and 
+can be seen as examples of best practices. In Case A, the implementation done by UN 
+Women in Jordan has explicitly attempted to address women’s generally lower level of 
+digital literacy and access to technology (Document A2). In Case B, Oxfam emphasized 
+the inclusion of a particularly vulnerable group of beneficiaries, which included “single 
+mothers, widows, people with a disability, and LGBTIQ+ members”, in the UnBlocked 
+Cash program, considering that they would be at a higher risk of marginalization after a 
+natural disaster (Document B1, p. 21). Finally, in Case C, Interviewee 1 has pointed out 
+the need to identify: 
+Who would benefit? Would there be some kind of group that wouldn't? Perhaps the elderly who 
+do not do well with technology, or the illiterate or whatnot. So this is, you know, standard 
+procedures when you implement anything basically. So we would cover the obstacles that we may 
+face, and then we can seek thereafter to find ways to mitigate it. So we create a risk matrix and 
+then we sort of assess how likely is it and if it is, how harmful is it? So maybe there's little chance 
+that it happens, but if it does happen, then it's a big problem. (Interviewee 1)  
+The involvement of beneficiaries in the design project, which was suggested in the 
+previous section, can facilitate the identification by organizations of how different groups 
+of participants would respond to a program, as well as how each of them would be 
+affected by particular risks (Burton, 2020).  
+5.6.6 Choose partners carefully  
+As explained in Chapters 2, 4 and in the first part of this Chapter 5, humanitarian 
+organizations that lack the technical knowledge required for the implementation of 
+blockchain-based solutions are at risk of dependency on partners who are not obligated 
+to follow humanitarian rules and principles. Because of that, organizations should seek 
+to establish partnerships with reputable and trustworthy partners.  
+Another key point is that humanitarian organizations should be aware of the extent to 
+which personal data from beneficiaries is shared with partners, as it could enable 
+surveillance and other types of misuse. That point was emphasized by Interviewee 1 in 
+Case C, who explained that: 
+It depends on a lot of things, factors, when throughout the planning and the agreement. For 
+example, if this company is going to be our partner to do all the blockchain projects, perhaps in 
+that case we are partners and therefore they're part of the project and then... But if they're like, an 
+outside contractor company that we sort of hire them for the service alone, we may have other 
+plans, we may protect or we may not disclose, or give the information, but again that varies. Also, 
+each organization has their own sort of policies on data protection, so it might be that you cannot 
+share it with an external partner. So, in that case, you might be forced. So there are different ways, 
+I think, to go about it, depending on existing policies and context such as hiring a company. 
+(Interviewee 1) 
+
+--- Page 68 ---
+62 
+As previously mentioned, both the organizations responsible for Cases A and B were 
+criticized for their choice of technical partners – the World Food Programme due to its 
+partnership with Palantir Technologies, and Oxfam for the participation of Consensys in 
+the Vanuatu pilot. That type of criticism can potentially be reduced by humanitarian 
+organizations that impose stricter ethical requirements for partnerships. 
+5.6.7 Implement data protection by default and by design 
+In the academic literature reviewed, privacy and data protection are key points of 
+concern, as the protection of beneficiaries’ personal data should be seen as “an essential 
+part of protecting their life, integrity and dignity” (Burton, 2020, p. 61). Because of that, 
+humanitarian organizations must have in place strong data protection principles and 
+practices – which, in the case of blockchain, is not a straightforward matter, as the 
+technology’s compatibility with data protection regulations such as the European GDPR 
+is still disputed (Martin et al., 2022). 
+A key way for humanitarian organizations to embed privacy considerations in a program 
+is by implementing data protection by default and by design. That means that privacy 
+risks should be anticipated and mitigated, and the most privacy-preserving alternative 
+should be set as the default option (ICRC, 2020). Organizations can also include a critical 
+assessment of the need to use biometrics in the system, as that constitutes sensitive 
+personal data, as previously explained.   
+
+--- Page 69 ---
+63 
+6 CONCLUSION 
+The present study was conducted with two major aims: determining the risk factors for 
+beneficiaries that arise from the use of blockchain technology for the delivery of cash and 
+voucher assistance, and creating a theoretical framework that can be used by 
+humanitarian organizations when deciding whether the potential benefits of that 
+implementation are proportional to the emerging risks posed to beneficiaries. To achieve 
+them, two research questions were posed:  
+RQ 1: What are the main digital risks posed to beneficiaries when blockchain is 
+used for the delivery of cash and voucher assistance? 
+RQ 2: How can humanitarian organizations mitigate digital harm to 
+beneficiaries when using blockchain technology for the delivery of cash and 
+voucher assistance programs? 
+Regarding the first question, this study has identified a mismatch between academia and 
+practitioners over the potential risks that can arise from blockchain-based CVA 
+programs. For the former, risks are considered as systemic and include more abstract 
+and ethical notions such as loss of dignity and violation of humanitarian principles. For 
+the latter, however, risks arise in exceptional situations, such as in cases of technology 
+malfunction.  
+In total, 12 risks to beneficiaries were identified in this thesis, being divided into five 
+major categories in the revised theoretical framework (shown in Figure 11) proposed at 
+the end of the abductive research process (described in Figure 7). Such a theoretical 
+framework presents tentative elements for the definition of digital harm when applied 
+to the use of blockchain in cash and voucher assistance programs. The risks and 
+categories they are classified into are reproduced in Table 6. The Table also informs 
+whether each risk was identified based on the literature review conducted, data collected 
+from case studies, or both. 
+Category 
+Risk 
+Source 
+Immutability 
+Impossibility of modification or 
+exclusion of data 
+Both literature and case 
+studies 
+Loss of dignity 
+Literature 
+
+--- Page 70 ---
+64 
+Distribution 
+Opacity for beneficiaries 
+Both literature and case 
+studies 
+Surveillance and function creep 
+Both literature and case 
+studies 
+Increased volume of data collection, 
+especially biometrics 
+Literature 
+Decentralization Lack of technical knowledge in 
+humanitarian organizations 
+Both literature and case 
+studies 
+Dependency on technical partners 
+Both literature and case 
+studies 
+Violation 
+of 
+humanitarian 
+principles by new actors in the 
+humanitarian supply chain 
+Literature 
+Reduced role of local actors 
+Both literature and case 
+studies 
+Digitalization 
+Exclusion of already vulnerable 
+groups 
+Case studies 
+Technology malfunction 
+Case studies 
+Biometrics 
+Privacy violations 
+Both literature and case 
+studies 
+Table 6 Answer to the first research question: risks identified, categories and sources 
+Interestingly, the analysis of Cases A, B, and C, has shown how the humanitarian 
+organizations responsible for these programs – respectively, the World Food Program, 
+Oxfam, and Finn Church Aid –, have taken measures to mitigate many of the risks 
+identified. These measures are in line with the answers found to this study’s second 
+research question. In this thesis, seven such measures are suggested for humanitarian 
+organizations to reduce the digital harm to beneficiaries that can be posed by blockchain-
+based CVA. The measures were described in Chapter 5 and summarized in Figure 12, 
+which also shows which specific risks each measure is meant to address. In brief, the 
+measures suggested were: 
+1. Considered whether a blockchain-based system is, in fact, needed; 
+2. Consider the context in which the program is to be implemented; 
+3. Consider the infrastructure and other technologies required to implement a 
+blockchain-based program; 
+4. Involve beneficiaries in the design process; 
+
+--- Page 71 ---
+65 
+5. Consider whether particular groups of beneficiaries would be left behind; 
+6. Choose partners carefully; 
+7. Implement data protection by default and by design. 
+6.1 
+Contributions 
+As currently there is no framework for the identification and mitigation of digital harm 
+to beneficiaries in the context of the application of blockchain technology to cash and 
+voucher assistance programs, the present study addresses a gap in both theory and 
+practice.  
+A theoretical contribution is made with the answer to the study’s first research question, 
+in which twelve risk factors of digital harm to beneficiaries in that context are analyzed 
+and classified, with a framework of factors being proposed.  
+The answer to the second question provides a managerial contribution by compiling a 
+list of seven actionable measures for humanitarian organizations trying to reduce the 
+potential digital harm to beneficiaries that can be posed by the use of blockchain in CVA 
+programs.   
+6.2 Limitations and avenues of future research 
+The process of collection of primary data had clear limitations, notably the small sample 
+size. The reduced number of interviewees was explained by the fact that most of the 
+people associated with the Feasibility Study, from the Finn Church Aid side, are no longer 
+working at that organization. In the case of Solita, there were only two people involved 
+in the project. Another limitation was the lack of respondents from Kenya, who could 
+have potentially provided more insight into that country’s context. All interviewees in 
+this study were Finland-based. 
+Limitations were also present in the collection of secondary data, as the availability of 
+materials varied among the cases. Case A had been extensively covered in both media 
+and research, while the main documents available in Case B were two final project 
+reports. In Case C, the only public information found were two mentions on Finn Church 
+Aid’s and Solita’s websites; access to the Feasibility Study was granted to the author, but 
+it was agreed that that document should remain confidential.  
+The risks identified and considered in this study are not part of an exhaustive list; as time 
+passes, new risks will continue to emerge, and it is simply not possible to predict them 
+
+--- Page 72 ---
+66 
+all (Burton, 2020). As such, the consideration of new risks as blockchain technology 
+continues to evolve, as well as how humanitarian organizations should react to these 
+changes, presents one possible avenue of future research.  
+Another possibility is to investigate how digitalization affects the role of beneficiaries in 
+humanitarian supply chains, and what the limits of technological experimentation on 
+vulnerable populations should be. Technology should not be the focus of humanitarian 
+action; instead, beneficiaries and their needs should be at the center of the discussion. 
+As summarized by Burton: 
+Expecting people in crisis situations to absorb new risk or trust unfamiliar systems is a big ask and 
+must not be undertaken unless it is in their best interest and with their agreement. (Burton, 2020) 
+Finally, as demonstrated in this study, many risks posed by technology to beneficiaries 
+can be mitigated through careful design. Because of that, the role of service design in the 
+last mile of humanitarian supply chains is also an interesting additional avenue for future 
+research.  
+  
+
+--- Page 73 ---
+67 
+7 
+REFERENCES 
+Awan, F., & Nunhuck, S. (2020). Governing Blocks: Building Interagency Consensus to 
+Coordinate Humanitarian Aid. Journal of Science Policy & Governance, 16(02). 
+https://doi.org/10.38126/jspg160201 
+Baharmand, H., Maghsoudi, A., & Coppi, G. (2021a). Exploring the application of 
+blockchain to humanitarian supply chains: Insights from Humanitarian Supply 
+Blockchain pilot project. International Journal of Operations & Production 
+Management, 41(9), 1522-1543. https://doi.org/10.1108/IJOPM-12-2020-0884 
+Baharmand, H., Saeed, N., Comes, T., & Lauras, M. (2021b). Developing a framework for 
+designing humanitarian blockchain projects. Computers in Industry, 131, 
+103487. https://doi.org/10.1016/j.compind.2021.103487 
+Better than Cash Alliance (n.d.). How to define digital payments? Available from: 
+https://www.betterthancash.org/define-digital-payments. 
+Accessed 
+on 
+21 
+August 2022. 
+Blackwell, A., Casey, J., Habeeb, R., Annan, J., & Falb, K. (2019). Women's status and 
+qualitative perceptions of a cash assistance programme in Raqqa Governorate, 
+Syria. 
+Gender 
+and 
+development, 
+27(2), 
+253-271. 
+https://doi.org/10.1080/13552074.2019.1624047 
+Burton, J. (2020). “Doing no harm” in the digital age: What the digitalization of cash 
+means for humanitarian action. International Review of the Red Cross, 102(913), 
+43-73. https://doi.org/10.1017/S1816383120000491 
+CALP 
+Network 
+(n.d.). 
+Glossary 
+of 
+Terms. 
+Available 
+from: 
+https://www.calpnetwork.org/resources/glossary-of-terms/. Accessed on 30 
+August 2022. 
+Cheesman, 
+M. 
+(2022). 
+Blockchain 
+for 
+Refugees. 
+Available 
+from: 
+https://points.datasociety.net/blockchain-for-refugees-a46b41594eee. Accessed 
+on 22 November 2022.  
+Coppi, G. (2020). Introduction to distributed ledger technologies for social, 
+development, and humanitarian impact. In: Cappiello, B. & Carullo, G. (Eds) 
+Blockchain, 
+Law 
+and 
+Governance, 
+Springer, 
+pp. 
+231-241. 
+https://doi.org/10.1007/978-3-030-52722-8_17 
+Coppi, G., & Fast, L. (2019). Blockchain and distributed ledger technologies in the 
+humanitarian sector, HPG Commissioned Report, Overseas Development 
+Institute (ODI), London. 
+Dubey, R., Gunasekaran, A., Bryde, D. J., Dwivedi, Y. K., & Papadopoulos, T. (2020). 
+Blockchain technology for enhancing swift-trust, collaboration and resilience 
+within a humanitarian supply chain setting. International Journal of Production 
+Research, 58(11), 3381-3398. https://doi.org/10.1080/00207543.2020.1722860 
+
+--- Page 74 ---
+68 
+Finn Church Aid (2021). Blockchain can increase the transparency and efficiency of 
+cash-based 
+assistance. 
+Available 
+from: 
+https://www.kirkonulkomaanapu.fi/en/latest-news/articles/blockchain-can-
+increase-the-transparency-and-efficiency-of-cash-based-assistance/. 
+Accessed 
+on 30 August 2022.  
+Global Humanitarian Overview (2022). Global Humanitarian Overview 2022. Available 
+from: https://gho.unocha.org/. Accessed on 30 August 2022. 
+Hallwright, J. & Carnaby, E. (2019). Complexities of Implementation: Oxfam Australia's 
+Experience 
+in 
+Piloting 
+Blockchain. 
+Frontiers 
+in 
+blockchain, 
+2(10). 
+https://doi.org/10.3389/fbloc.2019.00010 
+Heaslip, G., Haavisto, I. and Kovács, G. (2015). Cash as a form of relief. In: Zobel, C., 
+Altay, N. and Haselkorn, M. (Eds) Advances in Managing Humanitarian 
+Operations, International Series in Operations Research & Management 
+Science, Springer, Cham, pp. 59-78. https://doi.org/10.1007/978-3-319-24418-
+1_4 
+Heaslip, G., Kovács, G., & Haavisto, I. (2018). Cash-based response in relief: the impact 
+for humanitarian logistics. Journal of Humanitarian Logistics and Supply Chain 
+Management, 8(1), 87–106. https://doi.org/10.1108/JHLSCM-08-2017-0043  
+Howson, P. (2021). Crypto‐giving and surveillance philanthropy: Exploring the trade‐
+offs in blockchain innovation for nonprofits. Nonprofit Management and 
+Leadership, 31(4), 805-820. https://doi.org/10.1002/nml.21452 
+Hunt, K., Narayanan, A. & Zhuang, J. (2022). Blockchain in humanitarian operations 
+management: A review of research and practice. Socio-economic Planning 
+Sciences, 80, 101175. https://doi.org/10.1016/j.seps.2021.101175 
+ICRC (2020). Handbook on data protection in humanitarian action, 2nd edition. 
+Geneva: ICRC. 
+Juskalian, Russ (2018). Inside the Jordan refugee camp that runs on blockchain. 
+Available 
+from: 
+https://www.technologyreview.com/2018/04/12/143410/inside-the-jordan-
+refugee-camp-that-runs-on-blockchain/. Accessed on 10 October 2022. 
+Jutel, O. (2021). Blockchain imperialism in the Pacific. Big Data & Society, 8(1), 
+https://doi.org/10.1177/205395172098524 
+Jutel, O. (2022). Blockchain humanitarianism and crypto-colonialism. Patterns (New 
+York, N.Y.), 3(1), 100422. https://doi.org/10.1016/j.patter.2021.100422  
+Kovács, G., & Falagara Sigala, I. (2021). Lessons learned from humanitarian logistics to 
+manage supply chain disruptions. Journal of Supply Chain Management, 57(1), 
+41-49. https://doi.org/10.1111/jscm.12253 
+
+--- Page 75 ---
+69 
+Kovács, G., Matopoulos, A. & Hayes, O. (2010). A community-based approach to supply 
+chain 
+design. 
+International 
+Journal 
+of 
+Logistics, 
+13(5), 
+411-422. 
+https://doi.org/10.1080/13675567.2010.511609 
+Kovács, G., & Spens, K. M. (2005). Abductive reasoning in logistics research. 
+International Journal of Physical Distribution & Logistics Management. 35(2), 
+132-144. https://doi.org/10.1108/09600030510590318  
+Kovács, G. & Spens, K. M. (2007). Logistics theory building. Available from: 
+https://philpapers.org/rec/KOVLTB. Accessed on 04 November 2022.  
+Kovács, G. & Spens, K. M. (2011). Trends and developments in humanitarian logistics - 
+a gap analysis. International Journal of Physical Distribution & Logistics 
+Management, 41(1), 32-45. https://doi.org/10.1108/09600031111101411 
+Kuner, C. & Marelli, M. (2020). Handbook on Data Protection in Humanitarian Action. 
+2nd edition. 
+L'Hermitte, C. & Nair, N. C. (2021). A blockchain‐enabled framework for sharing logistics 
+resources 
+during 
+emergency 
+operations. 
+Disasters, 
+45(3), 
+527-554. 
+https://doi.org/10.1111/disa.12436 
+Lawson‐McDowall, J., McCormack, R. & Tholstrup, S. (2021). The use of cash assistance 
+in the Covid‐19 humanitarian response: Accelerating trends and missed 
+opportunities. Disasters, 45(1), S216-S239. https://doi.org/10.1111/disa.12524 
+Lewin, K. (1943). Defining the 'field at a given time.' Psychological Review, 50(3), 292–
+310. https://doi.org/10.1037/h0062738 
+Madianou, M. (2019). The Biometric Assemblage: Surveillance, Experimentation, Profit, 
+and the Measuring of Refugee Bodies. Television & New Media, 20(6), 581–599. 
+https://doi.org/10.1177/1527476419857682 
+Madianou, M. (2021). Technocolonialism: Digital innovation and data practices in the 
+humanitarian response to refugee crises. In: Routledge Handbook of 
+Humanitarian 
+Communication 
+(pp. 
+185-202). 
+Routledge. 
+https://doi.org/10.1177/2056305119863146 
+Maghsoudi, A., Harpring, R., Piotrowicz, W. D., & Heaslip, G. (2021). Cash and Voucher 
+Assistance along Humanitarian Supply Chains: A Literature Review and 
+Directions for Future Research. Disasters. https://doi.org/10.1111/disa.12520 
+Marić, J., Galera-Zarco, C. & Opazo-Basáez, M. (2021). The emergent role of digital 
+technologies in the context of humanitarian supply chains: a systematic literature 
+review. Annals of Operations Research. https://doi.org/10.1007/s10479-021-
+04079-z 
+
+--- Page 76 ---
+70 
+Martin, A., Sharma, G., Peter de Souza, S., Taylor, L., van Eerd, B., McDonald, S. M., 
+Marelli, M., Cheesman, M., Scheel, S. & Dijstelbloem, H. (2022). Digitisation and 
+Sovereignty in Humanitarian Space: Technologies, Territories and Tensions. 
+Geopolitics, 
+ahead-of-print, 
+1-36. 
+https://doi.org/10.1080/14650045.2022.2047468 
+Martin, A., & Taylor, L. (2021). Exclusion and inclusion in identification: Regulation, 
+displacement and data justice. Information Technology for Development, 27(1), 
+50-66. https://doi.org/10.1080/02681102.2020.1811943 
+McDonald, S. (2021). A humanitarian duty to integrity. Available from: 
+https://blogs.icrc.org/law-and-policy/2021/04/08/humanitarian-duty-to-
+integrity/. Accessed on 02 June 2022. 
+Miles, M. B. & Huberman, A. M. (1994). Qualitative Data Analysis: An Expanded 
+Sourcebook. 2. ed. Thousand Oaks: Sage. 
+Nakamoto, S. (2008) Bitcoin: A Peer-to-Peer Electronic Cash System. Available from: 
+https://bitcoin.org/bitcoin.pdf. Accessed on 12 October 2022. 
+Patton. M. Q. (2002). Qualitative Research & Evaluation Methods. 3rd ed. Thousand 
+Oaks, CA: Sage Publications. 
+Rahman, 
+Z. 
+(2021). 
+The 
+UN’s 
+refugee 
+data 
+shame. 
+Available 
+from: 
+https://www.thenewhumanitarian.org/opinion/2021/6/21/rohingya-data-
+protection-and-UN-betrayal. Accessed on 12 December 2022. 
+Rieger, N. (2022). Tracking cash and voucher assistance. Available from: 
+https://devinit.org/resources/tracking-cash-voucher-assistance/. Accessed on 3 
+October 2022.  
+Rodríguez-Espíndola, O., Chowdhury, S., Beltagui, A., & Albores, P. (2020). The 
+potential of emergent disruptive technologies for humanitarian supply chains: the 
+integration of blockchain, Artificial Intelligence and 3D printing. International 
+Journal 
+of 
+Production 
+Research, 
+58(15), 
+4610-4630. 
+https://doi.org/10.1080/00207543.2020.1761565 
+Roulston, K. (2010). Reflective  interviewing: A guide to theory & practice. Sage. 
+Rust, Björn (2019). Unblocked Cash: Piloting Accelerated Cash Transfer Delivery in 
+Vanuatu. 
+Available 
+from: 
+https://policy-
+practice.oxfam.org/resources/unblocked-cash-piloting-accelerated-cash-
+transfer-delivery-in-vanuatu-620926. Accessed on 16 November 2022. 
+Sahebi, I. G., Masoomi, B. & Ghorbani, S. (2020). Expert oriented approach for analyzing 
+the blockchain adoption barriers in humanitarian supply chain. Technology in 
+Society, 63, 101427. https://doi.org/10.1016/j.techsoc.2020.101427 
+
+--- Page 77 ---
+71 
+Sandvik, K. B., Gabrielsen Jumbert, M., Karlsrud, J., & Kaufmann, M. (2014). 
+Humanitarian technology: A critical research agenda. International review of the 
+Red 
+Cross 
+(2005), 
+96(893), 
+219-242. 
+https://doi.org/10.1017/S1816383114000344 
+Sandvik, K. B., Jacobsen, K., & McDonald, S. (2017). Do no harm: A taxonomy of the 
+challenges of humanitarian experimentation. International Review of the Red 
+Cross, 99(904), 319-344. https://doi.org/10.1017/S181638311700042X 
+Seyedsayamdost, E. & Vanderwal, P. (2020) From Good Governance to Governance for 
+Good: Blockchain for Social Impact. Journal of International Development, 32: 
+943– 960. https://doi.org/10.1002/jid.3485. 
+Sheppard, A., Tatham, P., Fisher, R., & Gapp, R. (2013). Humanitarian logistics: 
+Enhancing the engagement of local populations. Journal of Humanitarian 
+Logistics 
+and 
+Supply 
+Chain 
+Management, 
+3(1), 
+22-36. 
+https://doi.org/10.1108/20426741311328493 
+Shrestha, S. & Smart, K. (2022). Delivering better together. Available from: 
+https://www.calpnetwork.org/wp-content/uploads/2022/09/Delivering-
+Better-Together.pdf. Accessed on 24 January 2023. 
+Solita (n.d.). How blockchain can increase trust and transparency in humanitarian aid. 
+Available 
+from: 
+https://www.solita.fi/en/customers/how-blockchain-can-
+increase-trust-and-transparency-in-humanitarian-aid/. Accessed on 30 August 
+2022.  
+Spiggle S. (1994) Analysis and interpretation of qualitative data in consumer research. 
+Journal of Consumer Research, 21 (3), 491-503. https://doi.org/10.1086/209413 
+Stanley, A. (2018). U.N. Official Defends Refugee Voucher Program, Even Though It 
+Doesn't 
+Require 
+Blockchain. 
+Available 
+from: 
+https://www.forbes.com/sites/astanley/2018/06/09/u-n-official-defends-
+refugee-voucher-program-even-though-it-doesnt-require-
+blockchain/?sh=3abafa21f66a. Accessed on 11 October 2022.  
+The Guardian (2022). One in 23 people will require humanitarian relief in 2023, UN 
+warns. 
+Available 
+from: 
+https://www.theguardian.com/global-
+development/2022/dec/01/one-in-23-people-will-require-humanitarian-relief-
+in-2023-un-warns. Accessed on 02 December 2022.  
+Thylin, T., & Duarte, M. F. N. (2019). Leveraging blockchain technology in humanitarian 
+settings–opportunities and risks for women and girls. Gender & Development, 
+27(2), 317-336. https://doi.org/10.1080/13552074.2019.1627778 
+Thomas, A. and Mizushima, M. (2005). Logistics training: necessity or luxury? Forced 
+Migration Review, 22, 60-1. 
+
+--- Page 78 ---
+72 
+Thomas, J. (1985). Force field analysis: A new way to evaluate your strategy. Long Range 
+Planning, 18(6), 54-59. https://doi.org/10.1016/0024-6301(85)90064-0 
+UNOCHA 
+(2022). 
+What 
+are 
+Humanitarian 
+Principles? 
+Available 
+from: 
+https://www.unocha.org/sites/unocha/files/OOM_Humanitarian%20Principle
+s_Eng.pdf. Accessed on 13 December 2022. 
+Urquhart, A., Girling, F., Nelson-Pollard, S. & Mason, E. (2022). Global Humanitarian 
+Assistance Report 2022. Available from: https://devinit.org/resources/global-
+humanitarian-assistance-report-2022/#downloads. Accessed on 12 October 
+2022. 
+Van Wassenhove, L. (2006). Blackett memorial lecture humanitarian aid logistics: 
+Supply chain management in high gear. The Journal of the Operational Research 
+Society, 57(5), 475-489. https://doi.org/10.1057/palgrave.jors.2602125 
+Vega, D. (2018). Conducting in-depth case studies in humanitarian logistics: The case of 
+MSF. In The Palgrave Handbook of Humanitarian Logistics and Supply Chain 
+Management 
+(pp. 
+179-202). 
+Palgrave 
+Macmillan, 
+London. 
+https://doi.org/10.1057/978-1-137-59099-2_6 
+Vial, G. (2019). Understanding digital transformation: A review and a research agenda. 
+The 
+Journal 
+of 
+Strategic 
+Information 
+Systems, 
+28(2), 
+118–144. 
+https://doi.org/10.1016/j.jsis.2019.01.003 
+WFP (2016). WFP Introduces Iris Scan Technology To Provide Food Assistance To 
+Syrian Refugees In Zaatari. Available from: https://www.wfp.org/news/wfp-
+introduces-innovative-iris-scan-technology-provide-food-assistance-syrian-refu. 
+Accessed on 13 December 2022.  
+WFP (2021). 2021: A year of impact and growth. Available from: 
+https://docs.wfp.org/api/documents/66a13f43813843a4ad8d558aaf6afba3/do
+wnload/. Access on 05 August 2022.  
+WFP Innovation Accelerator (n.d.). Building Blocks. Available from: 
+https://innovation.wfp.org/project/building-blocks. Accessed on 14 December 
+2022.  
+WFP Innovation Accelerator (2021). 2020 Year in Review. Available from: 
+https://innovation.wfp.org/year-in-review-
+2020/docs/WFP_InnovationAccelerator_AnnualReport2020.pdf. Accessed on 
+05 August 2022. 
+Yin, R. K. (2014). Case study research: Design and methods (Fifth edition.). Los 
+Angeles: SAGE. 
+Zambrano, R; Young, A. & Verhulst, S. (2018). Connecting Refugees to Aid through 
+Blockchain-Enabled ID Management: World Food Programme’s Building 
+
+--- Page 79 ---
+73 
+Blocks. GovLab. Available from: https://blockchan.ge/blockchange-resource-
+provision.pdf. Accessed on 09 October 2022.  
+Zwitter, A., & Boisse-Despiaux, M. (2018). Blockchain for humanitarian action and 
+development aid. Journal of International Humanitarian Action, 3(1), 1-7. 
+https://doi.org/10.1186/s41018-018-0044-5 
+
+--- Page 80 ---
+74 
+APPENDIX 1 
+INTERVIEW QUESTIONS  
+Topic 
+Questions 
+Background 
+Can you tell me about this program and your role in it?  
+Problem 
+What specific problem is blockchain meant to address? 
+Why was blockchain technology chosen to address this specific 
+problem? 
+- 
+Are there other tools that could be used for addressing this 
+issue? 
+ 
+How does the program work? 
+Technical aspects 
+What kind of data is stored in the blockchain? 
+- 
+Does it include the personal data of beneficiaries? 
+- 
+Which organizations or actors have permission to input 
+data into the system? 
+- 
+Which organizations or actors have permission to view the 
+data? 
+Which type of blockchain is used? 
+- 
+Why was this structure chosen? 
+Pros and cons 
+What advantages would blockchain bring? 
+What potential risks would it bring? 
+- 
+What measures were put in place to mitigate these risks? 
+What has FCA done to identify possible risks to beneficiaries? 
+- 
+How are these risks supposed to be mitigated?  
+- 
+Do you also consider risks posed by partners? 
+Was there any special consideration given to privacy and data 
+protection? 
+ 
+What were the requirements for people to participate? IDs, 
+mobile phones, literacy, bank account… 
+ 
+
+--- Page 81 ---
+75 
+What were the main challenges in using blockchain technology in 
+the program? 
+Did the personnel working on the project have the necessary 
+skills? 
+Results 
+Has the program achieved its goals with the use of blockchain 
+technology? 
+- 
+Which expectations were fulfilled? 
+- 
+Which expectations were not fulfilled? 
+Have there been any unanticipated consequences? 
+How have the beneficiaries reacted to the program?  
+Is there anything you would like to add? 
+ 

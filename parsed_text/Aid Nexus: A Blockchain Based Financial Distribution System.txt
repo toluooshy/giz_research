@@ -1,0 +1,595 @@
+
+--- Page 1 ---
+Aid Nexus : A Blockchain Based Financial
+Distribution System
+Md. Raisul Hasan Shahrukh1, Md. Tabassinur Rahman2, and Nafees Mansoor3
+Department of Computer Science & Engineering,
+University of Liberal Arts Bangladesh, Dhaka-1207, Bangladesh
+raisul.hasan.cse@ulab.edu.bd1, tabassenur.rahman.cse@ulab.edu.bd2,
+nafees@ieee.org3
+Abstract. Blockchain technology has emerged as a disruptive force with
+transformative potential across numerous industries, promising efficient
+and automated solutions that can revolutionize traditional systems. By
+leveraging decentralized ledger systems, blockchain offers enhanced secu-
+rity, transparency, and transaction verification without the need for in-
+termediaries. The finance sector is exploring blockchain-based solutions
+for payments, remittances, lending, and investments, while healthcare
+adopts the technology for medical record keeping, supply chain tracking,
+and data management. Similarly, supply chain management benefits from
+blockchain’s ability to enhance transparency, traceability, and account-
+ability from raw materials to finished products. Other sectors, including
+real estate, energy, and government, are also investigating blockchain-
+based solutions to improve efficiency, security, and transparency. Fur-
+thermore, smart contracts within the blockchain enable process automa-
+tion, reducing manual intervention in distribution workflows. AidNeux, a
+consortium-based blockchain DApp, reimagines the distribution of finan-
+cial assistance by addressing inefficiencies and opaqueness. Using smart
+contracts ensures the security and directness of money transfers. Its ro-
+bust digital identity verification and real-time auditability reduce fraud
+risks and strengthen accountability, thereby presenting a scalable, trans-
+parent solution to problems inherent to conventional financial aid sys-
+tems.
+Keywords: Blockchain· Smart Contracts · FinTech · Process Automa-
+tion · Decentralized Ledger
+1
+Introduction
+At the advent of the 21st century, unprecedented technological advancements
+reshaped the traditional landscape in numerous industries. Blockchain is a dis-
+ruptive, revolutionary technology that is widely recognized for its disruptive
+potential. In 2008, the pseudonymous entity Satoshi Nakamoto introduced the
+digital currency Bitcoin using Blockchain technology. Since then, the evolution
+of Blockchain technology has expanded beyond cryptocurrencies and is poised
+to revolutionize a vast array of industries, with a particular impact anticipated
+arXiv:2311.08372v1  [cs.SE]  14 Nov 2023
+
+--- Page 2 ---
+2
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+in the financial sector. This eliminates the need for centralized authorities or
+intermediaries [1]. The decentralized, immutable, and transparent nature of
+blockchain technology promises to streamline processes, improve efficiency and
+security, and cultivate confidence in the financial sector. Moreover, the trans-
+formative potential of blockchain also reveals the development of an innovative
+on-demand, lightweight commodity delivery system designed to bring unprece-
+dented levels of efficiency and transparency to the logistics industry [2].
+The fundamental components of blockchain technology are the data struc-
+ture, peer-to-peer network, and consensus mechanisms [3]. Data structures or-
+ganize transactions into blocks, each with a unique identifier and a hash of
+the previous block, thereby ensuring the integrity and security of the data [4].
+Peer-to-peer networks enable direct communication between nodes, thereby aug-
+menting robustness and efficiency [5,6]. Proof-of-Work (PoW), Proof-of-Stake
+(PoS), and Practical Byzantine Fault Tolerance (PBFT) are consensus mecha-
+nisms that validate transactions and determine the blockchain’s state [7]. There
+are three types of blockchain technologies: public, private, and consortium. Pub-
+lic blockchains, such as Bitcoin and Ethereum, allow for universal participation
+but confront scalability, speed, and privacy issues [8]. Private blockchains, which
+are under the control of a specific group, offer enhanced efficiency and privacy
+at the expense of decentralization [9]. Consortium blockchains provide a bal-
+ance by enabling a predefined group of nodes to maintain decentralization while
+improving privacy and control [10].Due to its security, transparency, and effi-
+ciency, blockchain technology possesses immense transformative potential in the
+financial sector. As demonstrated in the paper [11], it can improve cross-border
+transactions by reducing complexity and costs while increasing efficiency and
+security.
+The paper [12] explored how blockchain can expedite trading and stock ex-
+change platforms by eliminating intermediaries. Smart contracts, facilitated by
+blockchain technology, automate the execution of agreements, reducing enforce-
+ment costs and boosting productivity [13]. The immutability and transparency
+of blockchain can enhance the auditability of financial transactions by providing
+a secure audit trail and streamlining regulatory compliance [14]. The decen-
+tralized nature of blockchain offers the financial sector optimistic data security
+and fraud detection prospects [15]. As demonstrated by Purohit et al. [16], con-
+sortium blockchains that offer a balance between complete transparency and
+restricted access have the potential to satisfy the privacy requirements of the
+financial industry.
+AidNeux is an innovative decentralized application (DApp) utilizing con-
+sortium blockchain technology to revolutionize traditional pension systems by
+addressing prevalent issues such as inefficiency, lack of transparency, and admin-
+istrative complexities. AidNeux’s implementation of automated smart contracts
+that dictate the pension amount and delivery schedule for eligible beneficiaries,
+thereby eliminating the need for intermediaries and enhancing transparency and
+efficiency, is a defining characteristic. In addition, AidNeux includes a trustwor-
+thy digital identity verification system that validates pension recipients’ eligibil-
+
+--- Page 3 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+3
+ity, utilizing the immutability of blockchain for secure storage and authentication
+of identities. This DApp guarantees the direct transfer of pension funds from au-
+thorities to beneficiaries, thereby reducing administrative costs and corruption
+risks. Its transparency enables real-time auditability of fund distribution, thereby
+enhancing accountability and decreasing the likelihood of fraud. AidNeux exem-
+plifies a revamped pension fund distribution strategy with its superior scala-
+bility and interoperability, effectively leveraging consortium blockchain’s unique
+advantages to surmount traditional system challenges.
+The purpose of this paper is to provide an overview of the potential transfor-
+mative effects of blockchain technology in the financial sector. Section 2 examines
+the issue of financial distribution in humanitarian sectors. The purpose of Sec-
+tion 3 is to elucidate the fundamental principles of the proposed system, while
+Section 4 demonstrates the design and implementation of this system. The paper
+concludes with a summary of the blockchain revolution and its future in Section
+5.
+2
+Related Works
+Blockchain technology is highly transformative, especially in the financial sec-
+tor, as it offers increased efficiency, decreased costs, and enhanced security [7].
+This technology provides a more efficient, secure, and cost-effective method for
+financial transactions by eliminating the need for intermediaries and enhancing
+auditability by virtue of its inherent immutability and transparency [8]. The
+financial industry increasingly recognizes the value of consortium blockchain, a
+partially private variant managed by a predetermined group of nodes, for its
+balance of transparency and privacy. [12,17] This variant has numerous appli-
+cations. The authors [11] propose an intelligent cross-border transaction system
+based on consortium blockchain, demonstrating the technology’s applicability
+outside of the financial sector.
+The paper [12] suggests consortium blockchain-based decentralized stock ex-
+change platforms can mitigate traditional stock market problems like high op-
+erational costs, lack of transparency, and susceptibility to fraud. However, con-
+sortium blockchains’ limitations, such as scalability and interoperability with
+conventional stock exchanges, may present obstacles. Future research should con-
+centrate on these issues and investigate possible innovative implementations in
+industry [12]. The researchers [16] advocate for the blockchain consortium system
+HonestChain for secure data sharing in health information systems. The system
+incorporates the benefits of both public and private blockchains to circumvent
+their respective limitations, thereby providing enhanced security, privacy, and
+regulatory compliance for the data sharing of health information systems. The
+method, which includes attribute-based encryption, access control mechanisms,
+and decentralized authorization, enables precise regulation of access to confiden-
+tial health information [16].
+The Authors [16] indicate the potential of consortium blockchain for im-
+proved data privacy and security in health information systems, highlighting
+
+--- Page 4 ---
+4
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+its utility for financial institutions requiring secure data sharing. Despite its
+infancy, research into blockchain implementations in various industries, includ-
+ing pension services [18], is promising. Regulatory constraints, interoperability
+concerns, and user adoption are obstacles, but the potential benefits merit fur-
+ther investigation [11,19]. This study investigates Vehicular Ad Hoc Networks
+(VANETs) - networks of interconnected vehicles that self-organize. These net-
+works enable substantial improvements in vehicular communication, transporta-
+tion security, and overall traffic management effectiveness [20,21]. Moreover, con-
+sortium blockchain enables substantial advances in data sharing and storage in
+vehicular ad hoc networks (VANETs) [15]. Currently, security risks, trust issues,
+and storage constraints impede VANET data sharing. Consortium blockchain
+addresses these obstacles by providing a secure and transparent platform [15].
+However, the ephemeral character of VANETs and their limited computa-
+tional resources pose challenges for consortium blockchain implementation. Re-
+searchers propose the use of lightweight consensus algorithms, privacy-preserving
+mechanisms, and efficient data storage techniques to mitigate these issues [15]. To
+thoroughly comprehend the potential and limitations of consortium blockchain
+in this context, additional research is required. Despite its limitations, consor-
+tium blockchain technology is emerging as a significant instrument in indus-
+tries including VANETs, cross-border transactions, and logistics. For example,
+a research paper [17] highlights the advantages of consortium blockchain for
+secure data interchange and the provision of customized services in intelligent
+transportation systems. The introduction of blockchain technology has catalyzed
+remarkable transformations in numerous industries, resulting in increased effi-
+ciency, security, and cost-effectiveness. The financial sector has shown particular
+interest in consortium blockchain technology due to its combination of trans-
+parency and anonymity [12].
+Consortium blockchain combines features of both public blockchain and pri-
+vate blockchain, providing a secure, efficient, and dependable platform for data
+exchange and service delivery. In intelligent transportation systems, for instance,
+the research [12] argue that a consortium blockchain-based system outperforms
+conventional centralized systems, which are more prone to data manipulation
+and privacy violations. Smart household systems also have promising implica-
+tions for consortium blockchain. The authors, in the research paper [22] proposes
+a consortium blockchain system for data privacy protection utilizing homomor-
+phic encryption, which enables the processing of encrypted data without de-
+cryption. Contextually, consortium blockchain is proposed as a decentralized,
+transparent, and secure solution for mobile malware detection [23]. The system
+enables collaborative detection and prevention of malware infections across a
+network of mobile devices. The consortium blockchain has the potential to im-
+prove smart city governance [8]. Proposed is a public participation consortium
+blockchain framework to enhance smart city decision-making and citizen partic-
+ipation.
+The paper [24] demonstrates that the healthcare industry, which is plagued
+by data security and access concerns, can benefit substantially from consortium
+
+--- Page 5 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+5
+blockchain. The proposed system satisfies the disparate data access requirements
+of various stakeholders and enhances the efficacy and security of medical data
+management. Additionally, consortium blockchain can improve safety and effec-
+tiveness in high-risk industries, such as coal extraction [25]. The proposed so-
+lution encourages data sharing, collaboration, and accountability among stake-
+holders, resulting in a reduction in safety incidents. In addition, consortium
+blockchain systems can improve data accountability and provenance monitoring
+[14], which has significant implications for data management in the healthcare,
+finance, and government sectors. In data management for smart grids, consor-
+tium blockchain can surmount obstacles such as a lack of transparency and trust
+[14]. In the pension system, consortium blockchain technology proposes solutions
+to increase effectiveness and transparency, enabling secure pension access and
+administration [26]. In addition, the combination of consortium blockchain tech-
+nology and attribute-based signatures can enhance the privacy protection of
+Vehicle-to-Grid (V2G) networks [18]. Similar methods, such as multi-party com-
+putation and homomorphic encryption, can be utilized to secure smart contracts
+[13]. A consortium blockchain can also safeguard peer-to-peer file storage and
+sharing [27], whereas a trust-based hierarchical consensus mechanism cannot.
+In conclusion, consortium blockchain technology has enormous potential in
+a variety of industries. It offers solutions to problems with which conventional
+centralized systems have labored and indicates promising future developments
+in these fields.
+3
+Proposed System: Aid Nexus
+This section describes the Aid Nexus platform, which aims to improve the trans-
+parency and efficacy of humanitarian aid distribution. The design, which is rep-
+resented by a block diagram and Unified Modeling Language (UML) models,
+illustrates the system’s essential components, their interactions, and object-
+oriented characteristics. These provide a clear comprehension of the structure
+and functionality of the system, laying the groundwork for future development
+and implementation.
+3.1
+System Overview
+The AidNeux system, shown in Fig. 1, operates within a consortium blockchain
+framework that includes multiple entities, including a fund-distributing entity,
+eligible pension recipients, and potential financial service providers. The princi-
+pal node, which is administered by the organizing entity, oversees the system,
+including the upkeep of smart contracts, beneficiary registration, fund additions,
+and distribution. Pension-eligible recipients represent recipient nodes, which are
+authorized by the organization node to interact with the smart contract in order
+to verify their account balance or acquire funds. On the Consortium Blockchain
+Network, transactions initiated by the organization node, such as fund additions
+or distributions, are recorded. Banks and other financial service providers could
+
+--- Page 6 ---
+6
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+interact with the smart contract to enable off-chain transactions. When the smart
+contract is deployed, the recipient’s banking information is embedded. During
+pension distribution, an authorized organization node verifies the status and bal-
+ance of the recipient and records the transaction. Recipient nodes can validate
+Fig. 1. Aid Nexus Block Diagram
+their balances, and financial service providers facilitate off-chain transactions by
+retrieving data from the blockchain. All transactions are recorded openly, ensur-
+ing security, auditability, and traceability, and the consortium-based structure
+improves efficiency and control.
+3.2
+System Illustrations
+The use case diagram for AidNeux’s system, shown in Fig. 2, vividly depicts
+the interaction between the various entities and the system itself, providing a
+concise illustration of the overall functionality and flow. The ’Organization’ is
+depicted as the primary protagonist who carries out the essential duties. These
+responsibilities consist of adding and removing recipients, adding funds, sending
+allowances, and registering bank accounts. It is evident from this interaction
+that the organization possesses the controlling power and serves as the system’s
+backbone. The ’Recipient’ is an additional important participant in this system.
+Although the recipient does not directly interact with the system, their interac-
+tion is implied because they are the recipients of the organization’s payments. In
+addition, the diagram clearly delineates responsibilities and interactions, indicat-
+ing that the system is well-designed to prevent confusion. With its emphasis on
+illustrating how various entities interact with the system, the use case diagram
+
+--- Page 7 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+7
+Fig. 2. Aid Nexus Use Case Diagram
+[Fig. 2] concisely captures the essence of AidNeux’s operation. It provides an ex-
+cellent method for visually communicating complex processes and interactions
+in a way that is easily understood. The interaction between these actors and
+the system exposes a robust and well-structured approach to aid distribution,
+which lays the groundwork for an effective, transparent, and secure distribution
+of resources.
+The activity diagram of the AidNeux system, shown in Fig. 3, illustrates
+the sequential sequence of actions that occur within the system. The ’Orga-
+nization’, which has the authority to add funds to the system, is the starting
+point. Once the funds have been effectively added, the organization will man-
+age recipients by adding or removing them based on specific criteria. Evidently,
+recipient administration is essential for maintaining the integrity and equity of
+the aid distribution process. After properly managing the beneficiaries, the or-
+ganization can then register the bank accounts of the authorized recipients. This
+phase is essential for ensuring that funds are transferred to the correct accounts,
+highlighting the system’s emphasis on security and precision. Finally, the organi-
+zation is able to provide recipients with allowances. This action is dependent on
+the successful completion of the preceding stages, indicating a well-coordinated
+and efficient procedure. Therefore, the activity diagram [Fig. 3] highlights the
+sequence of operations within the AidNeux system, illustrating how each action
+is a prerequisite for the next and contributing to the system’s overall effective-
+
+--- Page 8 ---
+8
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+ness and dependability.
+Fig. 3. Aid Nexus Activity Diagram
+The class diagram of the AidNeux system, shown in Fig. 4, depicts the struc-
+tural relationships and dependencies between the system’s various entities. The
+central component of the system is the ’aNp’ class, which represents the smart
+contract. This class incorporates several crucial properties, including ’organiza-
+tion’, ’recipients’, ’balances’, and ’bankAccounts’. Each attribute serves a dis-
+tinct purpose, delineating the smart contract’s properties and its interaction with
+the system. The ’organization’ attribute is in charge of administering the entire
+system, as it has exclusive permission to invoke vital methods within the class.
+The ’Recipients’ attribute denotes the addresses of individuals or organizations
+that are eligible to receive the funds. The ’organization’ tightly controls their
+administration, including additions and removals. The ’balances’ attribute mon-
+itors and maintains the amounts designated to each address. It ensures transpar-
+ent monitoring of funds, thereby enhancing the system’s integrity. In contrast,
+’BankAccounts’ stores the recipient’s bank account information, which is es-
+sential for facilitating transactions. The methods defined within the class, such
+as ’addRecipient’, ’removeRecipient’, ’sendAllowance’, ’addFunds’, ’getBalance’,
+and ’registerBankAccount’, serve distinct purposes to administer the overall sys-
+tem operations. Essentially, the class diagram [Fig. 4] offers valuable insight into
+
+--- Page 9 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+9
+Fig. 4. Aid Nexus Class Diagram
+the inner workings of the AidNeux system by providing a distinct perspective
+on the system’s structure and the interaction between its various components.
+4
+Development & Implementation of the Proposed
+System
+The AidNeux architecture, constructed on a consortium blockchain, is centered
+on a Solidity-based smart contract, ’aNp’, which administers transactions and
+node interactions. The ’organization’, the contract holder, supervises the distri-
+bution of funds. It is responsible for deploying the contract, managing recipient
+information with the ’addRecipient’, ’removeRecipient’, and ’registerBankAc-
+count’ functions, and distributing funds with the ’sendAllowance’ function. Ben-
+eficiaries of the fund (’recipients’) can interact with the contract via the ’getBal-
+ance’ function, but control over the funds is restricted until disbursement.
+Compared to public blockchains, the consortium blockchain network provides
+a decentralized, transparent platform for transaction records, thereby enhanc-
+ing security and auditability. Potential external parties, such as institutions,
+could interact with the system to conduct off-chain fund transfers. These en-
+tities would extract transaction information from the blockchain contract and
+implement transactions through the conventional banking system. This architec-
+ture combines the functionality of smart contracts to provide a secure, efficient,
+and transparent platform for pension fund distribution.
+4.1
+Smart Contract
+The aNp (aidnexus) contract, crafted in Solidity, is an adept system for reg-
+ulated financial distribution within a consortium blockchain. It’s designed to
+manage, secure, and efficiently distribute financial allowances under an authori-
+tative organization. The contract facilitates flexible recipient management, allow-
+ing additions or removals solely by the organization. The core function permits
+the organization to distribute allowances, employing strict rules to verify recip-
+ient authorization and check sufficient funds, ensuring secure transactions. The
+
+--- Page 10 ---
+10
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+contract further allows the organization to add funds, promoting operational
+continuity.
+It also links recipient addresses with bank accounts using secure keccak256
+encryption, protecting sensitive data while enabling efficient financial transfers.
+In essence, the aNp contract leverages blockchain technology for secure, trans-
+parent, and efficient financial distribution.
+Algorithm 1: Constructor
+Data: msg.sender as the current function caller.
+Result: Initialize the contract with msg.sender as the organization.
+organization = msg.sender;
+The constructor function [Algorithm 1] initializes the contract when it’s de-
+ployed on the blockchain. In the context of the aNp contract, the constructor
+function assigns the contract deployer’s address (represented as msg.sender in
+Solidity) as the "organization". The organization is a key actor in this contract,
+authorized to execute critical functions such as adding or removing recipients,
+sending allowances, adding funds, and registering bank accounts.
+Algorithm 2: AddRecipient
+Data: msg.sender as the current function caller, _recipient as the
+address of the new recipient.
+Result: Add a new recipient.
+if msg.sender == organization then
+recipients[_recipient] = true;
+end
+The AddRecipient function [Algorithm 2] is essential for expanding the scope
+of the organization’s financial distribution. It allows the organization to autho-
+rize new recipients, who can then receive allowances. This function ensures that
+only the organization can add recipients, enforcing a layer of access control and
+preventing unauthorized entities from manipulating the list of recipients.
+Algorithm 3: RemoveRecipient
+Data: msg.sender as the current function caller, _recipient as the
+address of the recipient to be removed.
+Result: Remove a recipient.
+if msg.sender == organization then
+recipients[_recipient] = false;
+end
+The RemoveRecipient function [Algorithm 3] provides the organization with
+the ability to revoke the recipient status of an address. This feature is necessary
+for managing changes in the system, such as when a recipient is no longer eligible
+or when there’s a need to prevent misuse. Like the AddRecipient function, this
+function can only be called by the organization, ensuring a secure and controlled
+system.
+
+--- Page 11 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+11
+Algorithm 4: SendAllowance
+Data: msg.sender as the current function caller, _recipient as the
+address of the recipient, _amount as the amount to be sent.
+Result: Send allowance to a recipient.
+if msg.sender == organization AND recipients[_recipient] == true
+AND balances[organization] >= _amount then
+balances[organization] -= _amount;
+emit AllowanceSent(_recipient, _amount);
+end
+The SendAllowance function [Algorithm 4] enables the transfer of funds from
+the organization to an authorized recipient. Before transferring, the function ver-
+ifies that the recipient is authorized and that the organization has enough funds
+to cover the transfer. This robust verification procedure ensures the system’s
+financial integrity and enforces the rules set by the organization.
+Algorithm 5: AddFunds
+Data: msg.sender as the current function caller, _amt as the amount to
+be added.
+Result: Add funds to the organization’s balance.
+if msg.sender == organization then
+balances[organization] += _amt;
+emit FundsAdded(msg.value);
+end
+The AddFunds function [Algorithm 5] allows the organization to increase its
+balance. The added amount can be further utilized to distribute allowances to
+the recipients. This function underpins the contract’s operational continuity by
+ensuring that the organization can add funds whenever necessary. Moreover, it
+records the transaction on the blockchain, providing a traceable financial record.
+Algorithm 6: GetBalance
+Data: msg.sender as the current function caller.
+Result: Return the balance of the function caller.
+return balances[msg.sender];
+The GetBalance function [Algorithm 6] is a simple yet essential feature of
+the contract that allows any address to check its current balance. This feature
+promotes transparency and allows the organization and recipients to monitor
+their fund levels.
+
+--- Page 12 ---
+12
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+Algorithm 7: RegisterBankAccount
+Data: msg.sender: Current function caller
+Data: _recipient: Recipient address
+Data: _account: Account to be registered
+Result: A registered bank account for a recipient.
+if msg.sender == organization AND recipients[_recipient] == true AND
+bytes(_account).length > 0 then
+bankAccounts[_recipient] = keccak256(abi.encodePacked(_account));
+emit BankAccountRegistered(_recipient, bankAccounts[_recipient]);
+end
+The RegisterBankAccount function [Algorithm 7] facilitates the association
+of bank account details with recipient addresses. It incorporates Keccak256 en-
+cryption for storing bank account details, ensuring the privacy and security of
+this sensitive information. The organization is responsible for registering bank
+accounts, further enhancing system security by centralizing this process.
+4.2
+Aid Nexus User Interface(UI)
+This section introduces the Aid Nexus implementation phase, with an emphasis
+on the user interface (UI) of the application. It depicts how the designed com-
+ponents interact with one another in a functional context. The AidNeux system
+interface, shown in Fig. 5, will likely be an intuitive, user-friendly graphical user
+interface (GUI), facilitating access and operation for both organizations and re-
+cipients. Through input fields corresponding to smart contract functions such as
+addRecipient, removeRecipient, registerBankAccount, and sendAllowance, the
+organization can manage recipients, register bank accounts, and distribute funds.
+A secure authentication system is likely to be implemented for access to sensi-
+Fig. 5. Aid Nexus System Interface
+tive, organization-only functions such as getBalance. Although recipients would
+not have direct access to getBalance, they would receive transaction updates
+
+--- Page 13 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+13
+to ensure system security and transparency. Through the interface, users inter-
+act indirectly with the smart contract’s functions, with actions executed on the
+backend. The interface may also include alerts for disbursements and data vi-
+sualization tools for analyzing transaction trends. Therefore, the interface is a
+crucial link between users and the blockchain, facilitating accessibility for non-
+technical users.
+4.3
+System Functionality
+The "aNp" smart contract, written in Ethereum’s Solidity programming lan-
+guage, provides the system’s fundamental functionality. The contract stipulates
+the organization’s address and mappings that maintain a list of recipients, their
+balances, and hashed bank account information for confidentiality. A constructor
+function assigns the contract-deploying address to the organization, thereby iden-
+tifying the system administrator. Certain functions, restricted by the ’onlyOrga-
+nization’ modifier, can be conducted only by this address, granting control over
+crucial tasks such as recipient management and fund distribution. ’addRecip-
+ient’ and’removeRecipient’ allow the organization to modify the recipient list,
+whereas’sendAllowance’ enables the distribution of specified funds to authorized
+recipients, pending sufficient balance.
+The ’addFunds’ function permits the organization to augment the Ether-
+based contract funds. The ’getBalance’ function allows any entity to check its
+balance, which is beneficial for recipients. The’registerBankAccount’ function
+provides a secure method for storing the hashed bank information of the recipi-
+ent, which is essential for off-chain fund transfers. Key operations generate event
+logs (’AllowanceSent,’ ’FundsAdded,’ and ’BankAccountRegistered’), facilitating
+auditing and providing transparency. The contract encapsulates AidNeux’s pri-
+mary functionalities while emphasizing security, transparency, and effectiveness.
+5
+Conclusion and Future Works
+In conclusion, blockchain technology, and consortium blockchain in particular,
+has immense transformative potential across numerous industries. It provides a
+unique combination of transparency and privacy, addressing a number of extant
+issues. However, this emerging technology has limitations, notably scalability
+and interoperability problems. Future research should concentrate on address-
+ing these obstacles while investigating innovative applications across industries.
+Moreover, as this technology permeates various industries, it may be necessary to
+develop new regulatory frameworks. This technological evolution and the regula-
+tory environment will influence the future of consortium blockchain applications
+in an undeniable manner.
+
+--- Page 14 ---
+14
+Md. Raisul Hasan Shahrukh, Md. Tabassinur Rahman, and Nafees Mansoor
+References
+1. Al Sunaidi, S. J., & Alhaidari, F. A. (2019). A survey of consensus algorithms for
+blockchain technology. In 2019 international conference on computer and informa-
+tion sciences (iccis) (pp. 1–6).
+2. Onee, B. A. H., & Antora, K. F., & Rajme, O. S., & Mansoor, N. (2023). De-
+velopment of a Blockchain-Based On-Demand Lightweight Commodity Delivery
+System. arXiv, cs.DC, 2307.08050.
+3. Lashkari, B., & Musilek, P. (2021). A comprehensive review of blockchain consensus
+mechanisms. IEEE Access, 9, 43620–43652.
+4. Kim, S.-K., Kim, U.-M., & Huh, J.-H. (2019). A study on improvement of
+blockchain application to overcome vulnerability of iot multiplatform security. En-
+ergies, 12(3), 402.
+5. Yang, G., Lee, K., Lee, K., Yoo, Y., Lee, H., & Yoo, C. (2022). Resource analysis
+of blockchain consensus algorithms in hyperledger fabric. IEEE Access, 10, 74902–
+74920.
+6. Rahman, T., & Mouno, S. I., & Raatul, A. M., & Azad, A. K. A., & Mansoor,
+N. (2023). Verifi-Chain: A Credentials Verifier using Blockchain and IPFS. arXiv
+preprint arXiv: 2307.05797.
+7. Bach, L. M., Mihaljevic, B., & Zagar, M. (2018). Comparative analysis of
+blockchain consensus algorithms. In 2018 41st international convention on infor-
+mation and communication technology, electronics and microelectronics (mipro)
+(pp. 1545–1550).
+8. Bai, Y., Hu, Q., Seo, S.-H., Kang, K., & Lee, J. J. (2021). Public participation
+consortium blockchain for smart city governance. IEEE Internet of Things Journal,
+9(3), 2094–2108.
+9. Hao, Y., Li, Y., Dong, X., Fang, L., & Chen, P. (2018). Performance analysis of con-
+sensus algorithm in private blockchain. In 2018 ieee intelligent vehicles symposium
+(iv) (pp. 280–285).
+10. Baliga, A. (2016). The blockchain landscape. Persistent Systems, 3(5). Fan, M., &
+Zhang, X. (2019). Consortium blockchain based data aggregation and regulation
+mechanism for smart grid. IEEE Access, 7, 35929–35940
+11. Fu, Z., Dong, P., Li, S., & Ju, Y. (2021). An intelligent cross-border transaction
+system based on consortium blockchain: A case study in shenzhen, china. Plos one,
+16(6),E0252489.
+12. Al-Shaibani, H., Lasla, N., & Abdallah, M. (2020). “Consortium blockchain-based
+decentralized stock exchange platform” IEEE Access, 8, 123711–123725
+13. Kosba, A., Miller, A., Shi, E., Wen, Z., & Papamanthou, C. (2016). Hawk: The
+blockchain model of cryptography and privacy-preserving smart contracts. In 2016
+ieee symposium on security and privacy (sp) (pp. 839–858).
+14. Neisse, R., Steri, G., & Nai-Fovino, I. (2017). A blockchain-based approach for data
+accountability and provenance tracking. In Proceedings of the 12th international
+conference on availability, reliability and security (pp. 1–10).
+15. Zhang, X., & Chen, X. (2019), Data security sharing and storage based on a con-
+sortium blockchain in a vehicular ad-hoc network. IEEE Access, 7, 58241– 58254.
+16. Purohit, S., Calyam, P., Alarcon, M. L., Bhamidipati, N. R., Mosa, A., & Salah, K.
+(2021). Honestchain: Consortium blockchain for protected data sharing in health
+information systems. Peer-to-peer Networking and Applications, 14(5), 3012–3028.
+17. Wang, D., & Zhang, X. (2020). Secure data sharing and customized services
+for intelligent transportation based on a consortium blockchain. IEEE Access, 8,
+56045–56059.
+
+--- Page 15 ---
+Aid Nexus : A Blockchain Based Financial Distribution System
+15
+18. Wei, G., & Ma, Y. (2021). Privacy protection strategy of vehicle-to-grid network
+based on consortium blockchain and attribute-based signature. In Iop conference
+series: Earth and environmental science (Vol. 661, p. 012027).
+19. Srivastav, R. K., Agrawal, D., Shrivastava, A., et al. (2020). A survey on
+vulnerabili- ties and performance evaluation criteria in blockchain technology.
+20. Akter, S., & Mansoor, N. (2020). A spectrum aware mobility pattern based routing
+protocol for CR-VANETs. 2020 IEEE Wireless Communications and Networking
+Conference (WCNC), 1–6.
+21. Mansoor, N., & Hossain, M. I., & Rozario, A., & Zareei, M., & Arreola, A. R.
+(2023). A Fresh Look at Routing Protocols in Unmanned Aerial Vehicular Net-
+works: A Survey.IEEE Access.
+22. She, W., Gu, Z.-H., Lyu, X.-K., Liu, Q., Tian, Z., & Liu, W. (2019). Homomorphic
+consortium blockchain for smart home system sensitive data privacy preserving.
+IEEE Access, 7, 62058–62070.
+23. Gu, J., Sun, B., Du, X., Wang, J., Zhuang, Y., & Wang, Z. (2018). Consor-
+tium blockchain-based malware detection in mobile devices. IEEE Access, 6,
+12118–12128.
+24. Xu, B., Xu, L. D., Wang, Y., & Cai, H. (2022). A distributed dynamic authorisa-
+tion method for internet+ medical & healthcare data access based on consortium
+blockchain. Enterprise Information Systems, 16(12), 1922757.
+25. Qiang, Z., Wang, Y., Song, K., & Zhao, Z. (2021). Mine consortium blockchain: the
+application research of coal mine safety production based on blockchain. Security
+and Communication Networks, 2021.
+26. Andrianova, A., & Hauner, P., & Mcdoland, D. K., & Manning, D. A., & Zerouali,
+M. (2022). Akropolis: A global blockchain pensions infrastructure.
+27. Peng, S., Bao, W., Liu, H., Xiao, X., Shang, J., Han, L., Xu, Y. (2023). A peer-
+to-peer file storage and sharing system based on consortium blockchain. Future
+Generation Computer Systems, 141, 197–204.

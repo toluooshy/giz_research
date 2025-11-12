@@ -1,0 +1,3787 @@
+
+--- Page 1 ---
+Individuals’ attitudes and their adoption intentions of central bank digital 
+currency: Combining theories and analytics for deeper insights
+Christian Nedu Osakwe a,e,*, Oluwatobi A. Ogunmokun b, Islam Elgammal c,f,  
+Michael Adu Kwarteng d,g
+a Rabat Business School, International University of Rabat, Parc Technopolis, Rocade de Rabat – Sal´e, 11100 Rabat, Morocco
+b Chester Business School, University of Chester, UK
+c University of Jeddah, Alfayslayia, King Fahd Road, Jeddah, Saudi Arabia
+d Faculty of Management and Economics, Tomas Bata University, Zlin, Czech Republic
+e University of Pretoria’s Gordon Institute of Business Science, Johannesburg, South Africa
+f Tourism Studies Department, Suez Canal University, EL SALAM DISTRICT, Al Ismailia, Ismailia Governorate, Egypt
+g School of Business, University of Technology and Chemistry, Czech Republic
+A R T I C L E  I N F O
+Keywords:
+Digital currency
+Fintech
+fsQCA
+PLS-SEM
+Social cognitive theory
+Theory of reasoned action
+Valence theory
+Complexity theory
+A B S T R A C T
+Leveraging a multi-theoretical and multi-method approach, this study investigated the factors influencing in­
+dividuals’ attitudes and intentions towards adopting central bank digital currency (CBDC). Data from Nigeria, a 
+pioneering CBDC nation, were analysed using partial least squares structural equation modelling, which revealed 
+that affordance-based positive valences, including seamless transactions, time convenience, and the societal 
+positive valence of financial inclusion, are the strongest predictors of positive attitudes and, subsequently, usage 
+intentions. Perceived financial cost emerged as the most significant barrier. Lifestyle compatibility demonstrated 
+a moderate positive association with attitude. Further, fuzzy-set qualitative comparative analysis identified four 
+necessary conditions for high usage intentions: seamless transactions, trust in the central bank, positive attitude, 
+and the societal positive valence of financial inclusion. Additionally, six alternative configurations sufficient for 
+high usage intentions were also revealed. These findings offer valuable insights for both theoretical research and 
+policymakers, informing strategies to facilitate early CBDC adoption.
+1. Introduction
+‘Adoption of CBDCs is nowhere close. But about 60 percent of 
+countries are exploring them in some form today…Country author­
+ities wishing to introduce CBDCs may need to think a little more like 
+entrepreneurs. Communication strategies, and incentives for distri­
+bution, integration, and adoption, are as important as design con­
+siderations.’ Keynote address by Kristalina Georgeiva (Managing 
+Director, IMF) in the Singapore Fintech Festival, November 2023.
+The potential of blockchain technology to democratise financial 
+services, enhance payment system efficiency, and streamline cross- 
+border transfers by reducing costs and burdens has prompted central 
+banks to consider central bank digital currencies (CBDCs) as a viable 
+solution (Agur et al., 2022; Auer and Bӧhme, 2020; Central Bank of 
+Nigeria [CBN], 2021; Ozili, 2023b). CBDC is an electronic form of 
+payment issued by a central bank. It represents a digital equivalent of 
+physical cash, where the central bank holds the liability (Ozili, 2024; 
+Williamson, 2022). As Barrdear and Kumhof (2022) highlighted, CBDCs 
+offer universal, electronic, and round-the-clock access to a nation’s 
+currency. It is widely acknowledged that numerous countries are 
+considering the launch of their CBDCs, thus drawing significant global 
+attention (Claessens et al., 2024).
+However, the critical question remains: are individuals prepared to 
+embrace this digital fiat currency? This inquiry is particularly relevant in 
+developing nations such as Nigeria, which launched its own CBDC, the 
+eNaira, in late 2021, thus establishing itself as a pioneer in the field 
+(Ozili, 2023a). Addressing this question is vital within the emerging 
+domain of CBDC research, which has predominantly focused on their 
+potential macroeconomic implications and the challenges of policy 
+implementation (Agur et al., 2022; Andolfatto, 2021; Auer, 2019; Auer 
+and Bӧhme, 2020; Bordo and Levin, 2017; Wang et al., 2022b). Un­
+derstanding the readiness of individuals to adopt CBDCs can provide 
+* Corresponding author at: Rabat Business School, International University of Rabat, Parc Technopolis, Rocade de Rabat – Sal´e, 11100 Rabat, Morocco.
+E-mail addresses: chris.osakwe12@outlook.com (C.N. Osakwe), imelgammal@uj.edu.sa (I. Elgammal), kwarteng@utb.cz (M.A. Kwarteng). 
+Contents lists available at ScienceDirect
+Technological Forecasting & Social Change
+journal homepage: www.elsevier.com/locate/techfore
+https://doi.org/10.1016/j.techfore.2024.123857
+Received 4 March 2023; Received in revised form 9 October 2024; Accepted 25 October 2024  
+Technological Forecasting & Social Change 210 (2025) 123857 
+Available online 5 November 2024 
+0040-1625/© 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies. 
+
+--- Page 2 ---
+researchers valuable insights into their broader societal acceptance and 
+practical viability. This understanding is crucial to ensure an effective 
+transition to CBDCs.
+Tronnier et al. (2023) acknowledged the scarcity of research focusing 
+on the future users of CBDCs, noting, “Research that focuses on the 
+future user of a CBDC is scarce, which is surprising as the success or 
+failure of the implementation of a CBDC will ultimately depend on users’ 
+attitudes towards a CBDC and their usage of it” (p. 13). This statement 
+underscores the need for more research in this area to ensure the suc­
+cessful implementation of CBDCs (see Wang et al., 2023). Indeed, a 
+similar call for more comprehensive investigations into the factors 
+influencing CBDC adoption can be found in the works of Bhaskar et al. 
+(2022), Gupta et al. (2023), Kim et al. (2023), and Ogunmola and Das 
+(2024).
+Notably, an early investigation by S¨oilen and Benhayoun (2022)
+identified performance expectations, social influence, facilitating con­
+ditions, and trust in the digital currency system as the primary predictors 
+of CBDC usage intentions. However, this research largely neglected the 
+potential impediments to CBDC adoption, such as perceived risks and 
+cognitive effort. However, Gupta et al. (2023) examined both the 
+perceived benefits and risks concerning the adoption of India’s digital 
+Rupee, determining that the perceived risks may outweigh the perceived 
+benefits in adoption decisions (see also Ma et al., 2022). Further, Kim 
+et al. (2023) underscored the importance of perceived risks to find that 
+performance, financial, and time concerns negatively impacted tourists’ 
+willingness to use CBDC for tourism payments.
+Despite these insights, a considerable research gap persists due to the 
+insufficient exploration of both the drivers promoting and the con­
+straints hindering early CBDC adoption. Moreover, most existing studies 
+are based on data from countries yet to formally launch CBDCs, which is 
+in sharp contrast to the present study’s focus on early CBDC pioneers, 
+particularly Nigeria.
+Interestingly, Nigeria, despite being a CBDC pioneer with over two 
+years of implementation, has seen <2 % of its population actively using 
+its eNaira (RegTech Africa, 2023; Ree, 2023), highlighting a significant 
+research gap in understanding individual attitudes and intentions to­
+wards CBDC within the Nigerian context. Given this discrepancy be­
+tween the eNaira’s early adoption and low usage, it is essential to 
+investigate the specific factors influencing CBDC uptake in Nigeria. To 
+date, no research has directly explored individuals’ attitudes and 
+intentions to use CBDC in Nigeria, making this study crucial for under­
+standing the specific factors influencing CBDC adoption in Nigeria.
+Another limitation of the available literature on CBDC adoption is its 
+overreliance on single theoretical frameworks, which may limit our 
+comprehension of the intricate decision-making processes that in­
+dividuals undergo when considering CBDC adoption. Therefore, this 
+study addresses this gap by developing an integrative research model 
+that combines the valence framework (Peter and Tarpey Sr, 1975), so­
+cial cognitive theory (SCT) (Bandura, 1989, 2005), and the theory of 
+reasoned action (TRA) (Ajzen and Fishbein, 1980; Fishbein, 1980). By 
+combining these theories (see Fig. 1), this study aimed to provide a 
+comprehensive picture of the factors influencing CBDC attitudes and 
+usage intentions, considering both affordance-based positive valences 
+and constraint-based negative valences (valence framework), lifestyle 
+compatibility and trust in the central bank (SCT), and subjective norms/ 
+attitudes (TRA). The insight gained from this approach would enable 
+central banks and media partners to create effective advertising cam­
+paigns that encourage initial CBDC acceptance.
+Furthermore, recent research has called for integrating traditional 
+statistical methods with newer analytical approaches to better under­
+stand complex topics such as CBDC adoption (Loh et al., 2023; McLeay 
+et al., 2022; Yee et al., 2021). Responding to this call, we adopted a 
+multi-method approach that utilised both partial least squares structural 
+equation modelling (PLS-SEM) and fuzzy-set qualitative comparative 
+analysis (fsQCA), which allowed us to probe further into the decision- 
+making process behind CBDC adoption and, in turn, provide valuable 
+insights that can guide policymakers, such as central banks, in pro­
+moting early CBDC adoption.
+Our study, therefore, represents a novel contribution not only to 
+CBDC research but also to the fields of financial technology (fintech) and 
+consumer adoption, reflecting a significant methodological advance­
+ment in these fields. By combining multiple theories and methods, our 
+study unpacks the factors influencing individuals’ attitudes and in­
+tentions towards CBDC adoption. Further, conducted in one of the pio­
+neering countries of CBDC, i.e., Nigeria, our study is both relevant and 
+timely.
+The remainder of this paper is organised as follows: Section 2 pre­
+sents a detailed literature review, the theoretical foundations of the 
+study, and hypothesis development. Section 3 outlines our research 
+methodology. Section 4 presents the study’s findings based on PLS-SEM 
+Fig. 1. Proposed research model.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+2 
+
+--- Page 3 ---
+and fsQCA. Finally, Section 5 discusses the implications of these findings 
+for research and policy, future research directions, and study 
+limitations.
+2. Literature review
+2.1. Financial technology (FinTech)
+The rapid innovation of fintech has garnered significant attention 
+from scholars, industry practitioners, and policymakers due to its role in 
+empowering individuals and society (Chorzempa and Huang, 2022). 
+Fintech, as defined by Lagna and Ravishankar (2022), refers to the 
+application of technological innovations to support or enable financial 
+services. The advantages of fintech include increased transparency, 
+improved accessibility to information, reduced costs, and the elimina­
+tion of intermediaries (Zavolokina et al., 2016).
+For fintech companies to succeed, they must balance the potential 
+benefits with perceived costs and risks. This balance is essential, as 
+greater perceived benefits and reduced risks can foster positive user 
+attitudes and drive fintech adoption (Chan, 2015; Gupta et al., 2023; Pal 
+et al., 2021; Ryu, 2018), whereas neglecting risks or failing to deliver 
+promised benefits can undermine trust and hinder adoption. In Korea, 
+Ryu’s (2018) study on fintech, involving 243 users, found that conve­
+nience had the most significant positive impact on the intention to 
+continue using fintech, while legal risk had the most detrimental impact. 
+Additionally, supply-side factors such as policy reforms and regulatory 
+mechanisms play a significant role in mitigating risks associated with 
+financial innovation (Auer, 2019; Chorzempa and Huang, 2022).
+Meanwhile, the evolution of fintech has also intensified competition 
+among banks and fostered collaboration between traditional financial 
+service providers and fintech startups (Harasim, 2021). A study by 
+Murinde et al. (2022), which spanned 16 years and involved data from 
+115 countries, found that fintech lenders are unlikely to replace banks as 
+banks are increasingly developing their fintech platforms and collabo­
+rating with fintech startups.
+Ultimately, the long-term success of fintech depends not only on 
+financial institutions or regulators but also on individuals and busi­
+nesses. This study, therefore, focused on understanding potential 
+adopters by examining their perceptions of CBDC to form a compre­
+hensive view of their attitudes and acceptance intentions towards CBDC.
+2.2. Central bank digital currency (CBDC)
+A CBDC refers to any type of fiat electronic central bank liability used 
+as a store of value or for settling payments (Agur et al., 2022; S¨oilen and 
+Benhayoun, 2022; Wang et al., 2022b). It falls within the category of 
+electronic narrow money (Meaning et al., 2018). While CBDC wallets are 
+similar to established fintech platforms such as PayPal, they are also 
+fundamentally distinct. Unlike PayPal, which predominantly facilitates 
+online payment transactions and lacks legal tender status, CBDC serves 
+as a digital representation of fiat currency and possesses legal tender 
+recognition.
+Previous studies on CBDC have discussed the experiences of “early 
+adopters” and how they can benefit the financial sectors (Bordo and 
+Levin, 2017). In this respect, Boar and Wehrli (2021) revealed that just 
+10 % of surveyed central banks anticipate issuing CBDCs for individuals, 
+such as the eNaira in the context of this study.
+Researchers have argued that using CBDC provides several potential 
+benefits: eliminating expenses associated with physical cash handling, 
+such as high storage fees (Gnan and Masciandaro, 2018); promoting 
+economic and price stability (Barrdear and Kumhof, 2016); increasing 
+public welfare (Williamson, 2022); and reducing reliance on private 
+bank funding while facilitating narrow banking (Auer, 2019). Never­
+theless, costs associated with using CBDCs remain a contested topic. For 
+example, in some countries, the financial sector and banks’ political 
+opposition can be attributed to their concerns about the uncertainty of 
+the costs and time needed for CBDC adoption, which could be poten­
+tially disruptive and slow (Constˆancio, 2017; S¨oilen and Benhayoun, 
+2022). Such concerns can be mitigated if the interest rate paid for digital 
+currency is appropriately chosen by central banks (Keister and Sanches, 
+2019) while CBDCs continue to promote lending (Andolfatto, 2021). 
+Simultaneously, some scholars have also argued that CBDC utilisation 
+could have unintended consequences on financial markets, including the 
+volatility of the banking sector and stock markets (cf. Wang et al., 
+2022b).
+Notably, research on CBDC so far has typically focused on CBDC 
+design choices and the potential macroeconomic implications of the 
+technology (Agur et al., 2022; Andolfatto, 2021; Auer, 2019; Auer and 
+Bӧhme, 2020; Barrdear and Kumhof, 2016; Bordo and Levin, 2017), 
+with limited consideration of individuals’ needs and/or perceptions 
+concerning the use of CBDCs (see also related commentary by Bhaskar 
+et al., 2022; S¨oilen and Benhayoun, 2022; Tronnier et al., 2023).
+It is well known that individual adoption of technology is central to 
+the success of the technology itself; hence, research needs to be geared 
+towards understanding the factors influencing voluntary technology 
+adoption (Venkatesh et al., 2003), such as in the case of CBDC. As pre­
+viously mentioned, previous CBDC studies were more oriented towards 
+investigating technological challenges and the currency system archi­
+tecture, giving less consideration to factors affecting individual accep­
+tance (e.g., Auer and Bӧhme, 2020). As such, there is currently very 
+scant understanding of the factors that will either facilitate or under­
+mine individuals’ attitudes and their acceptance intentions of CBDCs 
+(Bhaskar et al., 2022; Ogunmola and Das, 2024; Tronnier et al., 2023). 
+The few existing studies in this area include the research conducted by 
+S¨oilen and Benhayoun (2022), who demonstrated that performance 
+expectancy, social influence, and facilitating conditions are key for the 
+successful individual adoption of CBDCs.
+Since CBDCs are still in their nascent stage and only available in a 
+few countries to date (S¨oilen and Benhayoun, 2022), individuals may 
+base their acceptance of this fintech on a variety of factors, including 
+affordance-based positive and constraint-based negative valences 
+(Gupta et al., 2023; Kim et al., 2023; Lu et al., 2011; Pal et al., 2021; 
+Palash et al., 2022; Tronnier et al., 2023), as well as factors such as 
+lifestyle compatibility (Boateng et al., 2016; Joshi and Chawla, 2023), 
+subjective norms (also known as social influence), and trust (Gim´enez 
+and Tamaj´on, 2019; Osakwe et al., 2022a; S¨oilen and Benhayoun, 
+2022). Additionally, recent studies have identified that a major advan­
+tage of CBDCs is their potential to expand financial inclusion by offering 
+wider access to affordable services for underserved consumers (Bordo 
+and Levin, 2017; Ozili, 2023a; Tronnier et al., 2023). Accordingly, CBDC 
+has a welfare effect considering that it helps facilitate safe and conve­
+nient peer-to-peer payments (Auer and Bӧhme, 2020), which, this study 
+posited, will be one of the affordance-based positive valences driving 
+initial adoption of CBDC through the development of favourable atti­
+tudes (also cf. Tronnier et al., 2023).
+Relatedly, a Canadian study by Davoodalhosseini (2021) revealed 
+that economic agents prefer to use CBDC over cash when the cost of its 
+usage is not perceived as high. This implies that the perceived cost of 
+CBDC might also be a constraint-based negative valence that could un­
+dermine CBDC adoption through the development of an unfavourable 
+attitude towards CBDC use. Similarly, perceived risk as a constraint- 
+based negative valence (Pal et al., 2021) has also been argued to un­
+dermine individuals’ attitudinal and behavioural predispositions to­
+wards CBDC adoption (Gupta et al., 2023; Kim et al., 2023; Ma et al., 
+2022).
+Moreover, beyond positive and negative valences, scholars such as 
+S¨oilen and Benhayoun (2022) noted that social recommendations can 
+steer CBDC adoption, especially at this early rollout stage, thus high­
+lighting the importance of studying the specific role of socio-cognitive 
+phenomena such as trust and subjective norms in the early adoption 
+of CBDC. All these provide the impetus for these authors to develop an 
+integrative research perspective that could assist us in unpacking the 
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+3 
+
+--- Page 4 ---
+numerous perceptions that individuals currently hold about CBDC and, 
+subsequently, their use intentions of CBDC.
+2.3. Theoretical foundation and hypotheses development
+As previously stated, this research drew upon three distinct theo­
+retical frameworks and their associated constructs: the valence frame­
+work (Peter and Tarpey Sr, 1975), SCT (Bandura, 1989), and TRA (Ajzen 
+and Fishbein, 1980; Fishbein, 1980). The utilisation of the valence 
+framework within the CBDC context elucidates how individuals assess­
+ing a new technology weigh its positive and negative aspects. Thus, 
+theories that encompass both positive and negative dimensions in ana­
+lysing consumer decision-making align with the objectives of this 
+research. Consequently, we employ the valence framework, which is 
+rooted in economics and psychology, to explore how consumer decision- 
+making in the CBDC context is shaped by potential benefits (or 
+affordance-based positive valences) and perceived constraints. Peter and 
+Tarpey Sr (1975) explored three consumer decision-making models 
+based on the valence framework: the expected net utility model (e.g., 
+perceived net return), the expected positive utility model (e.g., 
+perceived return/benefit), and the expected negative utility model (e.g., 
+perceived risk). They theorised that consumers perceive both positive 
+and negative consequences of transactions, aiming to minimise negative 
+utility, maximise positive utility, and optimise their overall net utility. 
+Thus, the valence framework, which considers both uncertainties and 
+perceived benefits as fundamental factors influencing consumer 
+behaviour, is superior to models that only examine the positive or 
+negative consequences of transactions. By accounting for a wide range of 
+benefits and uncertainties, the valence framework offers a more 
+comprehensive understanding of how perceptions of positive and 
+negative outcomes influence consumer decision-making (Peter and 
+Tarpey Sr, 1975). Hence, recognising the need to broaden the scope of 
+CBDC adoption research, this study drew upon valence theory to explore 
+the understudied role of positive and negative valences in individual 
+decision-making towards CBDC. This approach aligns with previous 
+research in fintech (Lu et al., 2011; Pal et al., 2021; Palash et al., 2022).
+The second theoretical framework utilised in this work is SCT, pro­
+posed by Bandura (1989). SCT is highly relevant for studying human 
+behaviour as it emphasises the interplay among individual behaviour, 
+cognition, and the environment. It highlights the effects of socio- 
+environmental and personal cognitive factors such as social influence, 
+trust in the central banks, and lifestyle compatibility on behaviour. The 
+social cognitive aspect is particularly concerned with how individuals 
+perceive themselves and their social world, which, in turn, shapes their 
+judgments and decisions (Bandura, 2005).
+Specifically, this study adopted SCT due to its relevance in studying 
+attitudes towards technology use (Boateng et al., 2016; Kimiagari and 
+Baei, 2024; Osakwe et al., 2022b). Besides, SCT has garnered empirical 
+support in the wider literature (Demirel, 2022; Lin and Hsu, 2015; Ng 
+and Lucianetti, 2016; Tang et al., 2016; Wu et al., 2022).
+The third theoretical perspective employed in this study is TRA 
+(Ajzen and Fishbein, 1980). TRA posits that behaviour is driven by in­
+tentions, which are influenced by attitudes and shaped by subjective 
+norms. This theory has demonstrated significant predictive power in 
+various studies (Ng, 2023; Park, 2000; Sheppard et al., 1988) and is 
+particularly relevant in the context of technology adoption research 
+(Choi et al., 2014; Featherman et al., 2021; Wang et al., 2022a).
+Thus, by integrating the valence theory, SCT, and TRA to explore 
+individuals’ attitudes and usage intentions towards CBDC, this study 
+aimed to identify potential affordance-based positive valences of CBDC 
+(e.g., seamless transactions) and constraint-based negative valences 
+(perceived risk, financial cost, cognitive effort). Further, it also consid­
+ered SCT-related concepts (i.e., trust in the central bank, lifestyle 
+compatibility, and subjective norms) in shaping CBDC adoption. This 
+study pioneers the integration of these influential theoretical perspec­
+tives within fintech research and CBDC investigation, offering a 
+comprehensive framework for understanding the factors influencing 
+CBDC adoption.
+2.3.1. Affordance-based positive valences related to CBDC use
+Given that fintech users are primarily seeking positive valences, 
+particularly in the form of utilitarian benefits rather than hedonic ad­
+vantages (Jain and Raman, 2022; Lu et al., 2011; Ryu, 2018), we 
+identified four affordance-based positive valences of CBDC: societal- 
+related benefits (i.e., financial inclusion) and individual-related bene­
+fits of seamless transactions, perceived superiority, and time conve­
+nience, as discussed below.
+2.3.1.1. Financial inclusion. Financial inclusion is a societal benefit 
+related to the overall availability, accessibility, and ease of use of the 
+formal financial system for individuals and households (Lagna and 
+Ravishankar, 2022; Sahay et al., 2015). Building on evidence that mo­
+bile money enhances financial inclusion by increasing accessibility, 
+usage, and affordability of financial services (Bongomin et al., 2018; 
+Jahan et al., 2019), we proposed that the potential for CBDC to drive 
+similar inclusion might motivate user adoption. Existing research sug­
+gests that financial inclusion benefits, such as improved livelihoods, 
+economic opportunities, and societal prosperity, can positively influence 
+mobile money adoption (Teutio et al., 2023). Similarly, in the Chinese 
+context, perceptions of the societal benefits of CBDCs have been found to 
+stimulate individuals’ willingness to use the currency (Wang et al., 
+2023). Against this backdrop, we hypothesised that in low- and middle- 
+income countries such as Nigeria, where financial exclusion is prevalent 
+(Sahay et al., 2015), individuals may develop positive attitudes towards 
+CBDC adoption due to its potential to expand financial access and reduce 
+reliance on high-cost alternatives (Foster et al., 2021; Ozili, 2023a). 
+Hence, the following hypothesis can be articulated: 
+H1.
+The potential societal benefit of CBDC, as encapsulated by finan­
+cial inclusion, will be positively associated with individual attitudes 
+towards CBDC.
+2.3.1.2. Seamless transaction. Seamless transactions, defined as “the 
+transaction-related benefit of using Fintech (e.g., buying, money trans­
+ferring, lending, and investing)” (Ryu, 2018, p. 547), are increasingly 
+prioritised by financial institutions to meet user expectations. In other 
+words, seamless transactions connote speedy transactions, such that it is 
+expected that the use of CBDC will lead to secure and rapid transactions, 
+without the need for a middleman such as a bank agent. While studies 
+have suggested that seamlessness alone may not be the strongest moti­
+vator for initial adoption, as users often expect such features (Jain and 
+Raman, 2022), Ryu (2018) highlighted a strong association between 
+seamless transactions and perceived benefits, which, in turn, drive 
+adoption intention. Furthering this point, Huang et al. (2023) argued 
+that, in the context of virtual currencies, seamless transactions “are 
+likely to enhance the user’s positive attitude toward the use of the 
+cryptocurrency” (p. 576). This aligned with our focus on exploring the 
+link between seamless CBDC transactions and individual attitudes. 
+Accordingly, we postulated that individuals perceiving CBDC as offering 
+such smooth and effortless experiences would be more likely to develop 
+favourable attitudes towards its use. Hence, the following hypothesis 
+can be articulated: 
+H2.
+Seamless CBDC transactions will be positively associated with 
+individual attitudes towards CBDC.
+2.3.1.3. Perceived Superiority. Perceived superiority has been defined 
+by Xu et al. (2017) as “the degree to which a consumer believes novel 
+and superior contents are embodied in the new technology generation 
+when compared with previous technology generations” (p. 111). This 
+suggests that the perceived superiority of a technology can be charac­
+terised by improvements in technological features, capabilities, and 
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+4 
+
+--- Page 5 ---
+other relative advantages (Rogers, 1995; Xu et al., 2017). Given its 
+foundation in blockchain technology, CBDC might be perceived as su­
+perior to other alternatives such as paper money, mobile money, PayPal, 
+and SMS banking by individuals who may be relatively knowledgeable 
+in both established and emerging technologies. This perception could be 
+influenced by the central bank’s direct control over CBDC, a stark 
+contrast to the volatility of conventional digital currencies like Bitcoin. 
+Consequently, these individuals might anticipate greater relative ad­
+vantages from CBDC use, leading to positive attitudes towards its 
+adoption. Thus, the following hypothesis can be articulated: 
+H3.
+Perceived superiority of CBDC will be positively associated with 
+individual attitudes towards CBDC.
+2.3.1.4. Time convenience. Time convenience, which reflects minimal 
+user effort and time spent on financial transactions, has been shown to 
+influence the utilitarian value associated with new technology use 
+(Kleijnen et al., 2007). Time, a valuable resource for both individuals 
+and businesses, cannot be replicated; therefore, services offering time 
+savings gain an edge over others in the marketplace (Newell and Newell- 
+Lemon, 2001). Efficient service delivery – particularly in the form of 
+time convenience – has long been recognised to foster user perceptions 
+of utilitarian value and, consequently, positive attitudes (Childers et al., 
+2001). Unlike traditional banking systems that rely on intermediaries, 
+CBDCs facilitate instant transactions, enhancing the efficiency of both 
+domestic and international payments (He, 2021). This immediacy ben­
+efits all stakeholders, accelerates economic activities, improves cash 
+flow, and reduces the waiting times inherent in traditional banking 
+(Martino, 2021). As a result, CBDC adoption can create a more dynamic 
+and responsive financial ecosystem that meets the demands of the 
+modern digital economy. Therefore, we postulated that the time-saving 
+convenience associated with CBDC transactions would positively influ­
+ence individuals’ attitudes towards its adoption. Thus, the following 
+hypothesis can be articulated: 
+H4.
+Time convenience of CBDC will be positively associated with in­
+dividual attitudes towards CBDC.
+2.3.2. Constraint-based negative valences related to CBDC use
+2.3.2.1. Cognitive effort. More broadly, cognitive effort encompasses 
+information search (Kleijnen et al., 2007). High cognitive demands, as 
+faced when understanding complex features or navigating unfamiliar 
+technology (Suoranta et al., 2005), act as barriers to technology adop­
+tion (Kleijnen et al., 2007). For example, mobile financial services often 
+require significant effort to learn and use (Suoranta et al., 2005). 
+Conversely, studies on mobile services and online shopping demonstrate 
+that reduced cognitive effort leads to positive perceptions of the tech­
+nology, encouraging adoption decisions (Kleijnen et al., 2007). Thus, we 
+hypothesised that the effort spent acquiring CBDC information would be 
+perceived as a psychological cost, negatively impacting individuals’ 
+attitudes towards adoption. Moreover, increased effort spent under­
+standing complex CBDC processes is likely to further undermine their 
+attitudes. Hence, the following hypothesis can be articulated: 
+H5.
+Cognitive effort will be negatively associated with individual at­
+titudes towards CBDC.
+2.3.2.2. Perceived financial cost. The perceived financial cost, which 
+encompasses transaction fees, service charges, and internet/phone ex­
+penses, can hinder technology adoption (Arfi et al., 2021; Teutio et al., 
+2023). This implies that when potential adopters of CBDC perceive the 
+cost implications as relatively high, they are more likely to develop an 
+unfavourable attitude towards the currency’s use. Notably, CBDC’s 
+initial implementation and infrastructure costs are higher than those of 
+traditional systems and other means of online payment such as PayPal 
+(Anthony and Michel, 2023). Therefore, consistent with previous studies 
+(Teutio et al., 2023; Zhang et al., 2012), we proposed that high 
+perceived financial costs for CBDC enrolment and usage, especially 
+when its benefits are unclear, would act as a cost burden, thus negatively 
+impacting individuals’ attitudes and, ultimately, their intention to adopt 
+CBDC. In sum, the following hypothesis can be articulated: 
+H6.
+Perceived financial cost will be negatively associated with indi­
+vidual attitudes towards CBDC.
+2.3.2.3. Perceived risk. Perceived risk refers to the individual’s uncer­
+tainty regarding potential consequences and outcomes involved in using 
+or purchasing a product (Bauer, 1967; Yoo et al., 2020). Risk concerns 
+have been viewed as a factor for CBDC acceptance (Kim et al., 2023) 
+and, consequently, a barrier to the early adoption of CBDC (Gupta et al., 
+2023). In practice and research, it is understood that perceived risk in­
+hibits individuals from trialling new technologies. Moreover, perceived 
+risk can also explain why rational individuals might choose to evaluate 
+the costs and benefits associated with a technology (Featherman and 
+Pavlou, 2003). Significantly, concerns about personal financial infor­
+mation loss linked to CBDC use, as highlighted by Gupta et al. (2023), 
+constitute a significant risk perception among potential users. Accord­
+ingly, Kim et al. (2023) and Ozili (2023a) argued that effective risk 
+mitigation by central banks is necessary for fostering positive percep­
+tions and attitudes towards CBDC adoption. This suggests a strong 
+negative relationship between perceived risk and attitudes towards 
+CBDC use, supported by studies such as that of Kim et al. (2023), as 
+individuals seek to avoid potential financial losses or identity theft 
+associated with security breaches. Against this backdrop, the following 
+hypothesis can be articulated: 
+H7.
+Perceived risk will be negatively associated with individual atti­
+tudes towards CBDC.
+2.3.3. Social cognitive factors associated with CBDC use
+2.3.3.1. Lifestyle compatibility. In this study, lifestyle compatibility re­
+fers to the extent to which the use of CBDC mirrors the lifestyle and 
+experiences of the individual, ultimately fostering a positive attitude 
+towards CBDC use. More broadly, lifestyle compatibility, akin to the 
+alignment of lifestyle choices and values (Boateng et al., 2016), holds 
+significance in addressing potential uncertainties associated with the 
+integration of technology, specifically concerning a user’s values, ex­
+periences, lifestyle, and preferences (see also Kimiagari and Baei, 2024; 
+Osakwe et al., 2022b). It has long been recognised that lifestyle 
+compatibility plays a vital role in influencing individual behaviour and 
+confers substantial advantages in predicting consumers’ attitudinal and 
+behavioural predispositions. Rogers (1995), for example, acknowledged 
+that the acceptance of an innovation hinges on its compatibility with the 
+user’s lifestyle. Furthermore, Armstrong et al. (2014) asserted that in­
+dividual consumers do not merely decide to purchase a product; they 
+consider the values and lifestyles embodied by the product in question. 
+Following SCT, researchers such as Kimiagari and Baei (2024) and 
+Osakwe et al. (2022b) highlighted lifestyle compatibility as key to 
+shaping technology adoption attitudes (also see Joshi and Chawla, 
+2023). Moreover, a study by Yoo et al. (2020) validated the positive link 
+between compatibility and attitudes towards Bitcoin use. Based on the 
+preceding discussion, we proposed that attitude towards CBDC in the 
+context of our study would also hinge on how potential adopters of this 
+digital currency perceive it aligns well with their lifestyles, preferences, 
+and values. Hence, the following hypothesis was articulated: 
+H8.
+Lifestyle compatibility will be positively associated with individ­
+ual attitudes towards CBDC.
+2.3.3.2. Trust in the central bank. Trust can be broadly defined as a 
+psychological state marked by the belief that a third party (trustee) 
+possesses desirable attributes and will act competently, consistently, and 
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+5 
+
+--- Page 6 ---
+honestly per agreed-upon expectations (Kim and Peterson, 2017; S¨oilen 
+and Benhayoun, 2022; Yu et al., 2015). In the context of the present 
+study, the central bank, being the regulator of CBDC and banking- 
+related matters, is the trustee that the public believes will act in their 
+best interest by securing CBDC-enabled transactions. In behavioural 
+research, the role that trust plays in the facilitation of both economic and 
+non-economic transactions has been well documented. For instance, in 
+their meta-analytic study, Kim and Peterson (2017) found that trust is 
+one of the most powerful predictors of attitude. Indeed, scholars 
+(Boateng et al., 2016; Wu et al., 2022) who leveraged SCT as their 
+guiding framework argued that trust acts as a social cognition motiva­
+tion for individuals’ desirable attitudinal and behavioural outcomes, 
+thus implying that increases in trust are associated with favourable 
+outcomes (see also Aziz et al., 2019; Ng and Lucianetti, 2016). More­
+over, in the realm of fintech, researchers who investigated the rela­
+tionship between trust and attitude in emerging markets (such as Ghana, 
+India, Kenya, and Indonesia) have demonstrated that attitude is posi­
+tively influenced by trust (Laksamana et al., 2023; Ogunmola and Das, 
+2024; Osakwe et al., 2022a). Further, a substantial portion of these trust 
+issues could stem from a broader scepticism surrounding the central 
+bank’s capabilities to allay the fears and mistrust associated with 
+blockchain technology, which often underpins CBDCs (Mazambani, 
+2024). Despite blockchain’s reputation for security, high-profile 
+breaches and vulnerabilities have raised concerns. For instance, aside 
+from security concerns, regulatory uncertainty shrouding the blockchain 
+landscape may contribute to distrust, as the public fears future regula­
+tions that could impact the legality of their transactions. Similarly, 
+blockchain technology is not easily understood by the public, which can 
+lead to scepticism, as people tend to mistrust what they do not fully 
+comprehend. Against this backdrop, we conjectured that positive atti­
+tudes towards CBDC usage hinge on individuals perceiving the central 
+bank as both trustworthy and aligned with public interests. Conversely, 
+when individuals do not perceive the regulator as a credible and 
+competent institution, their enthusiasm for CBDC adoption diminishes. 
+Consequently, we hypothesised that higher levels of trust in the central 
+bank correlate with more favourable attitudes towards CBDC use. Our 
+proposed hypothesis can be articulated as follows: 
+H9.
+Trust in the central bank will be positively associated with indi­
+vidual attitudes towards CBDC.
+2.3.3.3. Subjective norms. Subjective norms refer to perceptions of other 
+people’s beliefs that stimulate interest in eitherperforming or abstaining 
+from a contemplated behaviour (Ajzen, 1991; Ajzen and Fishbein, 
+1980). Since individuals are typically embedded within close-knit social 
+networks, they will probably exhibit heightened susceptibility to the 
+opinions of key figures and reference groups such as family and peers 
+(see also Husin et al., 2016; Osakwe et al., 2022a). Drawing from both 
+TRA and SCT, the study anticipated that subjective norms, rooted in the 
+influence of conformity pressure and social endorsement, play an 
+important role in shaping attitudes towards novel technologies, 
+including CBDCs. In other words, evidence from prior research suggests 
+that individuals may exhibit greater receptivity to CBDC adoption when 
+encouraged by their social circles to explore this technology. However, it 
+is essential to note that studies such as that by Gim´enez and Tamaj´on 
+(2019) reported a nonsignificant relationship between subjective norms 
+and attitudes towards digital currency use. Consequently, further 
+investigation is warranted, particularly within the specific context of 
+CBDCs. Nevertheless, by aligning with several previous empirical 
+studies that found a positive association between subjective norms and 
+attitude (e.g., Choi et al., 2014; Osakwe et al., 2022a), we proposed the 
+following hypothesis: 
+H10.
+Subjective norms will be positively associated with individual 
+attitudes towards CBDC.
+2.3.3.4. Attitude and use intentions. Attitude, which encompasses feel­
+ings, beliefs, and behavioural tendencies towards an entity, influences 
+individuals’ intentions to engage with it (Ajzen and Fishbein, 1980; 
+Osakwe et al., 2022a, 2022b). Recognising this link, researchers have 
+explored (new) product/service adoption through attitudinal studies (e. 
+g., Huang and Chueh, 2022; Ogunmola and Das, 2024; Osakwe et al., 
+2022b). Importantly, within the financial services context, positive at­
+titudes towards innovations such as mobile payments and virtual cur­
+rencies have been demonstrated to promote their adoption (de Luna 
+et al., 2019; Kim et al., 2023; Ogunmola and Das, 2024; Osakwe et al., 
+2022a; Roh et al., 2022). Therefore, we hypothesised that a stronger 
+positive attitude towards CBDC would correspond to a stronger inten­
+tion to use it. However, inconsistent findings exist, such as Omar’s 
+(2007) study on life insurance in Nigeria, which highlighted the need to 
+further examine the relationship between attitude and CBDC adoption. 
+Hence, the present study investigated whether individuals’ attitudes 
+towards CBDC positively influence their usage intentions. Thus, the 
+following hypothesis can be articulated: 
+H11.
+Individual attitudes will be positively associated with CBDC use 
+intentions.
+As Fig. 1 shows, all the hypotheses mentioned above are summarised 
+in the form of a theoretical model.
+3. Methodology
+3.1. Study context
+Lagos, Nigeria’s commercial and financial hub, was selected as the 
+research setting for this study due to its significant economic promi­
+nence and cultural diversity. As Africa’s seventh largest economy (The 
+Africa Report, 2020; Quartz Africa, 2016) with a population exceeding 
+20 million (Lagos State Government Ministry of Economic Planning and 
+Budget, 2019), Lagos drives technological innovation in the region. This 
+city’s diverse cultural landscape reflects a microcosm of Nigerian soci­
+ety, suggesting that findings from Lagos are likely to be highly gen­
+eralisable across Nigeria. Therefore, it is an ideal location to investigate 
+individual attitudes and intentions towards adopting CBDC, given its 
+influential role in the national economy and societal structure.
+3.2. Data collection and procedure
+In this study, a three-pronged approach was utilised for data 
+collection. First, after operationalising constructs based on the literature 
+review, we invited seven experts (comprising two financial service 
+practitioners and five academics) to review the questionnaire. Feedback 
+from these experts improved the questionnaire’s clarity.
+Second, a pre-test of the questionnaire was conducted at the research 
+site using convenience sampling, involving 40 participants aged 18–55 
+years. The pre-test yielded reliability scores ranging from 0.5 to 0.8, 
+indicating modest-to-high internal consistency. These initial responses 
+were discarded before the main data collection began. Using an a priori 
+sample size calculator, the minimum required sample size for our model 
+structure was estimated to be 166 (Soper, 2021).
+For the main survey, conducted between November 2021 and March 
+2022, we employed a mixed sampling approach of snowball and con­
+venience sampling, similar to those employed in related studies (e.g., 
+Fakfare et al., 2023). We distributed a total of 350 questionnaires, with 
+an average response time of five days. Notably, for the questionnaires 
+collected on the same day, the completion time averaged approximately 
+15 min. In total, we received 310 completed questionnaires, resulting in 
+a response rate of 88.5 %. Table 1 presents the demographic profile of 
+the participants.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+6 
+
+--- Page 7 ---
+3.3. Measures
+As previously mentioned, the measurement variables utilised in this 
+study were derived from prior research, although they were modified to 
+fit the context of the current investigation. Specifically, financial in­
+clusion was assessed using a three-item scale adapted from the work of 
+Teutio et al. (2023). A sample item for financial inclusion is “I believe 
+that the access to basic financial services provided by central bank 
+digital currency can enhance individuals’ access to financial services in 
+society”. We measured seamless transactions with a three-item scale 
+derived from the research of Ryu (2018). A sample items for seamless 
+transactions is “I can use various financial services simultaneously (e.g., 
+one-stop processing) when I use central bank digital currency”. A four- 
+item scale from Xu et al. (2017) was employed to measure perceived 
+superiority. A sample item of perceived superiority is “A central bank- 
+backed digital currency is a breakthrough innovation compared to 
+other forms of currency, including banknotes and coins”. We measured 
+time convenience using a three-item scale adapted from Kleijnen et al. 
+(2007). A sample items of time convenience is “Using central bank 
+digital currency would allow me to save time”.
+Cognitive effort was also measured using a three-item scale adapted 
+from Kleijnen et al. (2007), with items such as “It will take considerable 
+effort to understand how to use central bank digital currency”. We 
+assessed perceived financial cost using a four-item scale derived from 
+Arfi et al. (2021) and Teutio et al. (2023), with items such as “Signing up 
+for and using central bank digital currency could be relatively expen­
+sive”. Perceived risk was measured using a four-item scale adapted from 
+Featherman and Pavlou (2003), with items such as “Compared to con­
+ventional currencies (e.g., banknotes and coins), I believe that using 
+central bank digital currency is riskier”.
+Lifestyle compatibility was measured using a three-item scale 
+adapted from two earlier studies (Boateng et al., 2016; Kleijnen et al., 
+2007), with items such as “The use of central bank digital currency 
+aligns with my financial service preferences”. We measured trust in the 
+central bank using a four-item scale adapted from Osakwe et al. (2020), 
+with a sample item being “Overall, the Central Bank of Nigeria will do 
+everything to secure digital currency transactions for users”. We 
+assessed subjective norms based on a three-item scale adapted from the 
+work of Husin et al. (2016) and Osakwe et al. (2022a), with items such 
+as “People close to me may influence my decision to use central bank 
+digital currency”.
+For the dependent variables in our PLS-SEM analysis, we utilised a 
+three-item scale to measure attitudes towards CBDC, adapted from Aziz 
+et al. (2019). A sample items for attitude is “In general, I highly regard 
+the idea of using central bank digital currency”. Finally, we employed a 
+three-item scale to measure use intentions, adapted from Venkatesh 
+et al. (2003). A sample item for use intentions is “Overall, I am likely to 
+use central bank digital currency in the future”.
+All measurement variables in this study were based on a five-point 
+scale using different anchors such as “strongly disagree” to “strongly 
+agree”, “totally disagree” to “totally agree”, and “most unlikely” to 
+“most likely”. The use of varied scale anchors was also intended to 
+mitigate the incidence of common method bias, which is consistent with 
+the recommendations put forward by Podsakoff et al. (2003).
+3.4. Common method bias assessment
+Since both dependent and independent variables stemmed from the 
+same questionnaire, common method bias (CMB) posed a potential 
+threat to the validity of our results. We proactively addressed this 
+concern through several measures. First, we assured participant ano­
+nymity by emphasising the confidentiality of their responses and 
+informing them that we would only process their aggregate responses. 
+Besides, we did not collect any personally sensitive information from 
+them. Second, the questionnaire clarified that there were no “right” or 
+“wrong” answers to encourage honest responses. Third, we informed 
+participants that participation was voluntary, offered no incentives, 
+obtained consent from all participants. Fourth, we aimed to minimise 
+survey fatigue by keeping questionnaire items concise. Lastly, following 
+established practices (Kock and Lynn, 2012; Pal et al., 2021; Osakwe 
+et al., 2022c, 2020; Roh et al., 2022), we employed two statistical tests 
+to assess CMB: Harman’s one-factor test and the full-collinearity lateral 
+(FLA) approach. Harman’s one-factor unrotated test indicated a low risk 
+of CMB, as the first factor explained <36.5 % of the variance, which is 
+well below the 50 % threshold. Supporting the absence of CMB further, 
+the FLA approach yielded an average full collinearity variance inflation 
+factor (AFVIF) of 2.045, which is well below the conservative threshold 
+of 3.3 (Kock and Lynn, 2012). This finding suggests that CMB has a 
+negligible impact on the analysis (Pal et al., 2021; Osakwe et al., 2022c, 
+2020).
+3.5. Analytical approaches
+Multiple analytical approaches were employed in this study. First, 
+we relied on the factor-based PLS-SEM to test the hypotheses. According 
+to Kock (2019), factor-based PLS-SEM provides relatively more efficient 
+parameters than earlier PLS methods. Most importantly, the use of PLS- 
+SEM has been informed by the exploratory and predictive nature of this 
+investigation and is, therefore, consistent with the work of Hair et al. 
+(2019, 2020). Additionally, given that PLS-SEM is generally more robust 
+at handling data with non-normal distribution, as was the case with our 
+dataset, it was appropriate to apply this statistical method. The software 
+that facilitated our statistical analysis was WarpPLS 8 (Kock, 2022). To 
+complement the PLS-SEM analysis and gain deeper insights into CBDC 
+adoption, we also employed fsQCA. Similar approaches can be found in 
+recent studies such as those by Loh et al. (2023), McLeay et al. (2022), 
+and Yee et al. (2021).
+Notably, fsQCA leverages principles of complexity theory to uncover 
+configurations of factors influencing adoption that may remain hidden 
+by regression-based techniques such as PLS-SEM (Fiss, 2011; Pappas and 
+Woodside, 2021; Woodside, 2014; Ragin, 2009). While PLS-SEM excels 
+at analysing the net effects of individual factors, it faces limitations in 
+revealing complex relationships and conditionalities. The results from 
+the two complementary approaches should provide more valuable 
+Table 1 
+Sample descriptive statistics.
+Measure
+Item
+Frequency
+Percent (%)
+Gender
+Female
+126
+40.6
+Male
+181
+58.4
+Not specified
+3
+1.0
+Age (years)
+18–24
+30
+9.7
+25–34
+145
+46.8
+35–44
+115
+37.1
+45–54
+16
+5.2
+55+
+4
+1.3
+Highest education attainment
+Secondary school
+3
+1.0
+Diploma
+42
+13.5
+Bachelor
+226
+72.9
+Postgraduate
+39
+12.6
+Job status
+Self-employed
+30
+9.7
+Fulltime employed
+238
+76.8
+Part-time employed
+14
+4.5
+Currently unemployed
+2
+0.6
+Retiree
+2
+0.6
+Student
+22
+7.1
+Not specified
+2
+0.6
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+7 
+
+--- Page 8 ---
+insights into the complex decision-making characterising the uptake of 
+CBDC.
+4. Results
+4.1. Results of hypothesis testing using PLS-SEM
+4.1.1. Measurement model
+Following Hair et al. (2020), we confirmed that our measurement 
+model meets accepted standards. Specifically, all convergent validity 
+and reliability coefficients surpass the recommended thresholds (see 
+Hair et al., 2020). Detailed information on loadings, reliability scores, 
+and convergent validity scores can be found in Table 2.
+Table 3 presents discriminant validity scores calculated using Fornell 
+and Larcker’s (1981) approach, and all scores support the distinctness of 
+our measurement variables. Moreover, the heterotrait-monotrait ratio 
+(HTMT) approach (Roemer et al., 2021) provided additional confirma­
+tion for discriminant validity (see Appendix Table 1).
+4.1.2. Structural model
+Different evaluative criteria, including the predictive power of the 
+hypothesised model using Stone–Geisser’s Q2 coefficients and R2 sta­
+tistic, were employed to test the structural model parameters.
+Both the Stone–Geisser Q2 values of 0.658 for attitude and 0.497 for 
+use intention, as reported in Table 4, substantially surpass the threshold 
+of zero, signifying a strong predictive relevance of the hypothesised 
+model. Furthermore, the hypothesised model explained 65.1 % of the 
+variance in attitude towards CBDC and 49.25 % of the variance in CBDC 
+use intentions.
+Notably, PLS-SEM partially or fully supported eight of the eleven 
+hypothesised relationships (Table 4). H7, H9, and H10 did not reach 
+statistical significance. Time convenience, financial inclusion, and 
+seamless transactions emerged as the strongest predictors of a positive 
+attitude towards CBDC, followed by perceived financial cost. This sug­
+gests that individuals’ considerations regarding CBDC use are primarily 
+driven by affordance-based positive valences. All four identified positive 
+valences significantly and positively related to attitude, indicating a 
+greater salience of both individual and societal benefits than constraint- 
+based negative valences such as perceived risk or social cognitions such 
+as subjective norms in predicting attitudes towards CBDC use.
+4.1.3. Robustness check
+To ensure the robustness of our hypothesised model, we employed a 
+comprehensive set of model fit metrics, drawing from recent research 
+(Kock, 2022; Osakwe et al., 2020; Shibin et al., 2020). These metrics 
+included the standardized root mean squared residual (SRMR), Symp­
+son’s paradox ratio (SPR), average block variance inflation factor 
+(AVIF), R-squared contribution ratio (RSCR), statistical suppression 
+ratio (SSR), and nonlinear bivariate causality direction ratio (NLBCDR).
+As Table 5 shows, the SRMR value of 0.052 was well below the 
+acceptable threshold of 0.1, indicating a good model fit (Kock, 2022). 
+Additionally, the NLBCDR of 0.773 exceeded the acceptable threshold of 
+0.7, indicating that our structural model is less susceptible to reverse 
+causality (Kock, 2022). Collectively, these findings support the 
+Table 2 
+Measurement variables’ convergent validity and reliability test.
+Measurement variables
+Items
+Loadings
+Cronbach’s alpha
+Composite reliability (CR)
+Average variance extracted (AVE)
+Financial inclusion (FCN)
+FCN1
+0.933
+0.956
+0.958
+0.884
+x‾ = 3.720
+FCN2
+0.940
+SD = 0.797
+FCN3
+0.948
+Perceived superiority (PST)
+PST1
+0.913
+0.936
+0.940
+0.838
+x‾ = 3.700
+PST2
+0.920
+SD = 0.886
+PST3
+0.914
+Time convenience (TMC)
+TMC1
+0.950
+0.962
+0.963
+0.897
+x‾ = 3.840
+TMC2
+0.952
+SD = 0.847
+TMC3
+0.940
+Seamless transactions (SMT)
+SMT1
+0.894
+0.924
+0.924
+0.801
+x‾ = 3.840
+SMT2
+0.889
+SD = 0.711
+SMT3
+0.903
+Cognitive effort (CET)
+CET1
+0.983
+0.965
+0.983
+0.967
+x‾ = 2.350
+CET2
+0.983
+SD = 0.951
+CET3a
+Perceived financial cost (PFC)
+PFC1
+0.884
+0.950
+0.953
+0.834
+x‾ = 2.510
+PFC2
+0.922
+SD = 0.715
+PFC3
+0.923
+PFC4
+0.923
+Perceived risk (PSK)
+PSK1
+0.903
+0.948
+0.949
+0.824
+x‾ = 2.710
+PSK2
+0.926
+SD = 0.973
+PSK3
+0.927
+PRK4
+0.873
+Lifestyle compatibility (LCT)
+LCT1
+0.925
+0.957
+0.958
+0.884
+x‾ = 3.820
+LCT2
+0.952
+SD = 0.789
+LCT3
+0.944
+Subjective norms (SNM)
+SNM1
+0.908
+0.891
+0.897
+0.813
+x‾ = 2.800
+SNM2
+0.895
+SD = 1.020
+SNM3a
+Trust in central bank (TCB)
+TCB1
+0.961
+0.983
+0.984
+0.937
+x‾ = 3.640
+TCB2
+0.977
+SD = 0.948
+TCB3
+0.976
+TCB4
+0.959
+Attitude (ATT)
+ATT1
+0.954
+0.969
+0.971
+0.919
+x‾ = 3.730
+ATT2
+0.966
+SD = 0.805
+ATT3
+0.955
+Use intention (USE)
+USE1
+0.933
+0.954
+0.955
+0.875
+x‾ = 3.910
+USE2
+0.941
+SD = 0.814
+USE3
+0.933
+Note: x‾ and SD represent mean and standard deviation of measurement variables.
+a CET3 and SNM3 dropped due to low statistical loadings.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+8 
+
+--- Page 9 ---
+robustness and validity of our structural model.
+4.2. Results from fsQCA
+Following the initial model estimation, and as mentioned previously, 
+this study extended its analysis by conducting fsQCA to examine the 
+specific configurations of antecedent conditions that would yield use 
+intention. In particular, it is crucial to recognise that use intention is a 
+multifaceted outcome influenced by numerous factors. No singular 
+factor possesses the ability to entirely dictate use intention. To address 
+this complexity, we utilised asymmetric fsQCA to explore the nuanced 
+configurations of conditions necessary and sufficient for high CBDC use 
+intention. First, we performed contrarian case analysis and data cali­
+bration. Then, we examined the necessary and sufficient conditions for 
+high use intentions. Details of these analyses are provided below.
+4.2.1. Contrarian case analysis and data calibration
+First, a contrarian case analysis was conducted to investigate the 
+existence of contrarian cases within the group of antecedent conditions 
+of the intention to use CBDC. Following Woodside (2014), the variables 
+were transformed into quintiles. The outcomes of the contingency table 
+analysis conducted using SPSS software are presented in Appendix 
+Table 2. The next step in our analysis was data calibration, which 
+transformed raw data by assigning membership scores ranging from 0.0 
+to 1.0 (Ragin, 2009), where a score of 0.0 signified complete non- 
+membership in the set, a score of 0.5 marked the crossover point, and 
+a score of 1.0 indicated full-set membership (Rihoux, 2006). Accord­
+ingly, as the study utilised a five-point Likert scale, the calibration an­
+chor for full membership was set at a value of 5, full non-membership at 
+1, and the crossover point at 3.
+4.2.2. Results of the analysis of the necessary conditions
+After successfully calibrating the data into fuzzy sets, the subsequent 
+step involved a necessary condition analysis (NCA). Focusing on use 
+intention as the outcome condition, this analysis aimed to ascertain 
+whether any of the antecedent conditions were necessary for the pres­
+ence or absence of use intention. A consistency range was measured 
+between 0 and 1 (Rihoux, 2006), and a condition was deemed “neces­
+sary” when its consistency exceeded 0.9 (Ragin, 2009).
+Table 6 illustrates that the affordance-based positive valences of 
+financial inclusion, seamless transactions, and perceived superiority, 
+along with the social and personal cognition factors of trust in the 
+Table 3 
+Correlation matrix and discriminant validity.
+Items
+FCN
+PSK
+TMC
+LCT
+CET
+USE
+ATT
+SNM
+PFC
+SMT
+PST
+TCB
+FCN
+0.940
+PSK
+−0.085
+0.908
+TMC
+0.527
+−0.093
+0.947
+LCT
+0.574
+−0.023
+0.735
+0.940
+CET
+−0.041
+0.207
+−0.090
+−0.032
+0.983
+USE
+0.550
+−0.032
+0.723
+0.698
+−0.119
+0.936
+ATT
+0.645
+−0.100
+0.674
+0.639
+0.003
+0.692
+0.958
+SNM
+0.234
+0.078
+0.122
+0.100
+0.163
+0.164
+0.183
+0.901
+COST
+0.028
+0.343
+−0.116
+−0.068
+0.234
+−0.084
+−0.082
+0.130
+0.913
+SMT
+0.618
+−0.020
+0.569
+0.666
+−0.049
+0.636
+0.645
+0.170
+−0.031
+0.895
+PST
+0.547
+0.060
+0.458
+0.405
+0.012
+0.565
+0.506
+0.236
+0.106
+0.405
+0.916
+TCB
+0.433
+−0.127
+0.378
+0.370
+−0.088
+0.401
+0.449
+0.082
+−0.044
+0.403
+0.406
+0.968
+Note: Square roots of average variances extracted (AVEs) shown on diagonal and in bold figures.
+Note: FCN = financial inclusion; PSK = perceived risk; TMC = time convenience; LCT = lifestyle compatibility; CET = cognitive effort; USE = use intention; ATT =
+attitude; SNM = subjective norms; COST = perceived financial cost; SMT = seamless transactions; PST = perceived superiority; TCB = trust in central bank.
+Table 4 
+Results of PLS-SEM hypotheses testing.
+Hypothesised paths
+Standardized 
+estimate
+f2
+R2
+Q2
+Remark
+H1: Financial 
+inclusion → Attitude
+0.201 (p < 
+0.001)
+0.131
+0.651
+0.658
+S
+H2: Seamless 
+transactions → 
+Attitude
+0.192 (p < 
+0.001)
+0.131
+S
+H3: Perceived 
+superiority → 
+Attitude
+0.125 (p =
+0.013)
+0.065
+S
+H4: Time convenience 
+→ Attitude
+0.331 (p < 
+0.001)
+0.232
+S
+H5: Cognitive effort → 
+Attitude
+−0.077 (p =
+0.086)
+0.009
+MS
+H6: Perceived financial 
+cost → Attitude
+−0.146 (p =
+0.004)
+0.031
+S
+H7: Perceived risk → 
+Attitude
+0.013 (p =
+0.411)
+0.003
+NS
+H8: Lifestyle 
+compatibility → 
+Attitude
+0.083 (p =
+0.069)
+0.055
+MS
+H9: Trust in central 
+bank → Attitude
+0.052 (p =
+0.179)
+0.024
+NS
+H10: Subjective norms 
+→ Attitude
+−0.029 (p =
+0.304)
+0.006
+NS
+H11: Attitude → Use 
+intention
+0.701 (p < 
+0.001)
+0.492
+0.492
+0.497
+S
+Note: S = statistically significant; MS = moderately statistically significant; NS 
+= statistically insignificant.
+Note: f2 = effect size; R2 = coefficient of determination; Q2 = Stone-Geisser’s Q- 
+squared coefficient.
+Note: One-tailed tests were employed in accordance with the one-directional 
+hypotheses, yielding the reported p values.
+Table 5 
+Test for the robustness of the hypothesised model using different quality criteria.
+Index
+Research 
+reported value
+Benchmark
+Statistical suppression ratio (SSR)
+SSR = 1.000
+acceptable if ≥0.7
+Sympson’s paradox ratio (SPR)
+SPR = 0.857
+acceptable if ≥0.7, 
+ideally = 1
+Standardized root mean squared 
+residual (SRMR)
+SRMR = 0.052
+acceptable if ≤0.1
+Standardized mean absolute 
+residual (SMAR)
+SMAR = 0.041
+acceptable if ≤0.1
+Average block variance inflation 
+factors (AVIF)
+AVIF = 1.897
+acceptable if ≤5, ideally 
+≤3.3
+Average path coefficient (APC)
+APC = 0.177 (p 
+< 0.001)
+Average R-squared (ARS)
+ARS = 0.571(p 
+< 0.001)
+R-squared contribution ratio 
+(RSCR)
+RSCR = 0.985
+acceptable if ≥0.9, 
+ideally = 1
+Nonlinear bivariate causality 
+direction ratio (NLBCDR)
+NLBCDR = 0.773
+acceptable if ≥0.7
+Tenenhaus GoF
+GoF = 0.706
+small ≥0.1, medium ≥
+0.25, large ≥0.36
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+9 
+
+--- Page 10 ---
+central bank and lifestyle compatibility, as well as a positive attitude 
+towards CBDCs, are all identified as necessary conditions for use 
+intention. Time convenience stands out as the only positive valence 
+condition not considered necessary for high use intention; however, 
+with a consistency >0.8, it is regarded as “almost always necessary” 
+(Ragin, 2000). Interestingly, none of the constraint-based negative 
+valence conditions emerged as necessary for high use intention.
+4.2.3. Results of the analysis of sufficient conditions
+The analysis of sufficient conditions began with constructing a truth 
+table following Ragin’s (2009) methodology. A truth table consisting of 
+2k rows (where k represents the number of conditions, and each row 
+corresponds to a potential combination) was generated using a fuzzy-set 
+algorithm. Subsequently, the truth table was refined by eliminating rows 
+with a frequency <3, considering that the study’s sample exceeded 150 
+(Fiss, 2011), and the consistency threshold was set at 0.9. The resultant 
+fsQCA outcomes present three solutions: complex, parsimonious, and 
+intermediate. In this study, the intermediate solution is selected as it is 
+preferred in terms of its interpretability and completeness (Ragin, 2009). 
+The specific results can be found in Table 7.
+The findings presented in Table 7 reveal a “do not care” scenario for 
+perceived superiority in C5, creating a discrepancy with the outcomes of 
+the necessary condition analysis as depicted in Table 6. Adopting the 
+perspective of Mattke et al. (2021), perceived superiority was not 
+considered a necessary condition for high use intention. A similar 
+argument applies to lifestyle compatibility in C6.
+Table 7 presents six configurations associated with high CBDC use 
+intention. The total solution coverage stood at 0.757, while the overall 
+solution consistency reached an impressive 0.995, signifying that 
+approximately 76 % of the outcome was covered by the six solutions. 
+Configurations one to four (C1–C4) established financial inclusion, 
+seamless transactions, perceived superiority, time convenience, lifestyle 
+compatibility, trust in the central bank, and attitude as foundational 
+elements generating high use intention. Within C1, the absence of 
+perceived financial cost was introduced as perceived risk, cognitive ef­
+forts, and subjective norms prove inconsequential. In C2, cognitive 
+effort was excluded, given the inconsequential role of perceived finan­
+cial cost, perceived risk, and subjective norms. C3 introduced the pres­
+ence of perceived risk to the baseline as perceived financial cost, 
+cognitive effort, and subjective norms proved inconsequential. In C4, the 
+inclusion of subjective norms complements the baseline, with perceived 
+financial cost, cognitive effort, and perceived risk proving inconse­
+quential. Configurations five to six (C5–C6) established financial inclu­
+sion, seamless transactions, time convenience, trust in the central bank, 
+and attitude as the fundamental components for solutions yielding high 
+use intention. In C5, the exclusion of perceived financial cost, cognitive 
+effort, perceived risk, and subjective norms was introduced as perceived 
+superiority proved inconsequential. Finally, C6 incorporated perceived 
+superiority alongside perceived financial cost, perceived risk, and sub­
+jective norms as lifestyle compatibility proved inconsequential.
+4.2.4. Predictive validity
+Furthermore, the predictive validity of the outcome configuration 
+was assessed as recommended by Woodside (2014). Thus, in line with 
+previous studies (e.g., Olya and Al-Ansi, 2018), the original dataset was 
+divided into two subsamples. As Table 8 illustrates, the causal config­
+urations influencing use intention in Subsample 1 were examined using 
+an XY plot of data from Subsample 2. The configurations, coverage, and 
+consistency observed in subsample 2 closely mirrored those from the 
+original sample, particularly C2 and C4. This confirmed the predictive 
+validity of the proposed model, affirming the study’s robustness 
+(Skaaning, 2011).
+4.2.5. Evaluation of complexity theory
+The preceding findings were assessed following Woodside’s (2014)
+five tenets of complexity theory. The first tenet posits that a condition 
+may be necessary but is rarely sufficient for yielding a high or low 
+outcome condition. Supporting this tenet, the study’s NCA and suffi­
+ciency analysis revealed that the necessary conditions were solely 
+insufficient for predicting high use intention. The second tenet states 
+that a complex condition of two or more conditions is sufficient for a 
+consistently high score in an outcome condition. Table 7 illustrates in­
+stances supporting this, where a complex combination of antecedents 
+was sufficient for consistently high scores in the outcome condition, as 
+observed in C6. The third tenet asserts that a sufficient model is un­
+necessary for an outcome with a high score. Table 7 demonstrates sup­
+port for this principle, indicating that the six alternative models for high 
+use intention were sufficient but not necessary. The fourth tenet states 
+that a condition in a recipe can contribute positively or negatively to a 
+specific outcome depending on the presence or absence of the other 
+ingredients in the recipe. For instance, perceived financial cost, 
+perceived risk, and subjective norms played both positive and negative 
+roles (C4, C5, and C6) in predicting use intention as depicted in Table 7, 
+thus supporting Tenet 4.
+Lastly, the fifth tenet posits that for high Y scores, a given recipe is 
+relevant for some but not all cases (i.e., coverage is <1.00 for any one 
+recipe). The findings presented in Table 7 demonstrate that the coverage 
+of each solution was below 1, providing support for Tenet 5. In 
+conclusion, the five tenets of complexity theory, as discussed, found 
+support in the study’s analysis, affirming the complex relationship 
+among various factors related to CBDC use intentions.
+Table 6 
+Necessary conditions.
+Conditions
+High use intention
+Consistency
+Coverage
+Financial Inclusion
+0.925389
+0.964165
+Seamless Transactions
+0.955034
+0.959513
+Perceived Superiority
+0.910267
+0.963592
+Time Convenience
+0.887324
+0.957545
+Perceived Financial Cost
+0.561425
+0.958319
+Cognitive Effort
+0.467183
+0.94086
+Perceived Risk
+0.596776
+0.938037
+Subjective Norms
+0.640467
+0.964779
+Lifestyle Compatibility
+0.950804
+0.967952
+Trust in Central Bank
+0.949807
+0.968471
+Attitude
+0.937319
+0.971788
+Necessary conditions are italicized.
+Table 7 
+Sufficiency analysis.
+Conditions/configurations
+High Use Intention
+C1
+C2
+C3
+C4
+C5
+C6
+Financial Inclusion
+●
+●
+●
+●
+●
+●
+Seamless Transactions
+●
+●
+●
+●
+●
+●
+Perceived Superiority
+●
+●
+●
+●
+●
+Time Convenience
+●
+●
+●
+●
+●
+●
+Perceived Financial Cost
+⊗
+⊗
+●
+Cognitive Effort
+⊗
+⊗
+⊗
+Perceived Risk
+●
+⊗
+●
+Subjective Norms
+●
+⊗
+●
+Lifestyle Compatibility
+●
+●
+●
+●
+●
+Trust in Central Bank
+●
+●
+●
+●
+●
+●
+Attitude
+●
+●
+●
+●
+●
+●
+Raw coverage
+0.531
+0.576
+0.497
+0.556
+0.295
+0.285
+Unique coverage
+0.018
+0.033
+0.015
+0.027
+0.012
+0.003
+Consistency
+0.998
+0.999
+0.997
+1
+0.992
+0.997
+Solution coverage
+0.757
+Solution consistency
+0.995
+Note: ● indicates the presence of a condition, ⊗indicates its absence, and blank 
+indicates “do not care”.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+10 
+
+--- Page 11 ---
+5. Discussion, implications, and recommendations for future 
+research
+5.1. Discussion
+Results from the PLS-SEM analysis revealed that all the positive 
+valence factors explored are significantly associated with individual 
+attitudes towards CBDC. These findings corroborate numerous studies 
+(e.g., Ryu, 2018; Xu et al., 2017; Kleijnen et al., 2007) that have 
+demonstrated the role of seamless transactions, perceived superiority, 
+and time convenience in shaping user attitudes and intentions, partic­
+ularly regarding the adoption of emerging technologies.
+Although the finding that the societal benefit of financial inclusion 
+positively correlates with attitudes towards CBDC constitutes a novel 
+contribution to CBDC research, it is consistent with the findings of 
+Teutio et al. (2023), who found that mobile money usage exhibited a 
+positive correlation with financial inclusion. Our study also indicates 
+that a favourable attitude towards CBDC usage is strongly associated 
+with its potential to enhance financial inclusion, which resonates with 
+the findings of Wang et al. (2023), who established that consumer per­
+ceptions of the societal benefits of CBDCs in China can stimulate their 
+willingness to utilise CBDCs.
+While perceived financial cost significantly influences attitudes to­
+wards CBDC (see Ogunmola and Das, 2024 for similar findings), the 
+cognitive effort is only marginally significant, while the perceived risk is 
+nonsignificant. However, other studies (Gupta et al., 2023; Kim et al., 
+Table 8 
+Predictive validity.
+Model for high use intention
+Raw 
+coverage
+Unique 
+coverage
+Consistency
+Use intention= f (Financial Inclusion, Seamless Transactions, Time Convenience, Trust in Central Bank, Attitude, Perceived Financial 
+Cost, Cognitive Effort, Perceived Risk, Subjective Norms, Perceived Superiority, Lifestyle Compatibility)
+C4: Financial Inclusion*Seamless Transactions*Perceived Superiority*Time Convenience 
+*Lifestyle Compatibility*Trust in Central Bank*Attitude*Subjective Norms
+0.556
+0.027
+1
+C2: Financial Inclusion*Seamless Transactions*Perceived Superiority*Time 
+Convenience*~ Cognitive Effort*Lifestyle Compatibility*Trust in Central Bank*Attitude 
+0.576
+0.033
+0.999
+C4 (original data)
+X >=Y: 0.55568
+X <=Y: 1
+C4 (subsample 2)
+X >=Y: 0.598573
+X <=Y: 1
+C2 (original data)
+X >=Y: 0.576029
+X <=Y: 0.998686
+C2 (subsample 2)
+X >=Y: 0.589560
+X <=Y: 1
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+11 
+
+--- Page 12 ---
+2023) indicate that perceived risk in CBDC significantly deters user 
+adoption. This study’s nonsignificant claim could stem from the missed 
+reaction that trails the underlying technology of CBDCs: blockchain. 
+Meanwhile, the lack of support for a negative relationship between 
+perceived risk and attitudes in the present study aligns with the findings 
+of Ma et al.’s (2022) study conducted in the Chinese context, which 
+similarly observed that perceived risk alone might not be a sufficient 
+deterrent for individuals’ adoption of CBDC.
+In our analysis of social cognitive factors, we found that lifestyle 
+compatibility exhibits marginal significance, while trust in the central 
+bank and subjective norms do not yield significant effects. Notably, 
+existing studies (Laksamana et al., 2023; Ma et al., 2022; Osakwe et al., 
+2022a; S¨oilen and Benhayoun, 2022) consistently emphasised the 
+importance of trust and subjective norms as predictors of individuals’ 
+attitudes and fintech adoption. However, a marked distinction lies in our 
+study’s specific focus on trust levels in the regulator, specifically the 
+central bank. This specificity may account for the variance between our 
+findings and those of prior research. Meanwhile, our nonsignificant re­
+sults align with a related study by Gim´enez and Tamaj´on (2019), which 
+also failed to support the positive impact of both trust and subjective 
+norms on attitudes towards digital currency use. Interestingly, our study 
+diverges from a CBDC investigation in India, which found that perceived 
+trust significantly diminishes attitudes towards the digital Rupee 
+(Ogunmola and Das, 2024).
+From the asymmetrical analysis, it is evident that all positive valence 
+factors (except for perceived superiority) were present in the six re­
+ported configurations. This finding corroborates the significant re­
+lationships of these factors observed in the SEM analysis. Further, the 
+absence of perceived superiority in C5 could be explained by the 
+necessary absence of negative valence, which then makes it perceived as 
+superior compared to traditional alternatives fraught with these nega­
+tive valences. More specifically, the first four configurations (i.e., C1–C4 
+in Table 7) signify that affordance-based positive valence, com­
+plemented by trust in the central bank, lifestyle compatibility, and 
+positive attitudes towards CBDC, are crucial for CBDC use intentions. In 
+essence, the early adoption of CBDC hinges on the complementarity of 
+positive valences, trust in the central bank, lifestyle compatibility, and a 
+favourable attitude towards CBDC. While these findings represent a 
+novel contribution within the CBDC adoption context, they also support 
+the broader claims in fintech research, specifically, the significance of 
+perceived benefits (analogous to positive valences in our study), trust, 
+compatibility, and overall attitude in shaping the adoption and use of 
+fintech (e.g., Joshi and Chawla, 2023; Pal et al., 2021; Ryu, 2018; S¨oilen 
+and Benhayoun, 2022).
+As C5 (Table 7) reveals, central to CBDC adoption is trust in the 
+central bank and compatibility with individuals’ lifestyles, both com­
+plemented by positive perceptions of the technology’s benefits and 
+limited downsides (i.e., mitigated valences). Moreover, C6 (Table 7) 
+presents the most intricate scenario for CBDC adoption. High positive 
+perceptions of benefits (i.e., affordance-based positive valences), sub­
+jective norms, and positive attitudes can still drive high use intentions, 
+even in the face of potential drawbacks like perceived cost and risk and 
+regardless of lifestyle compatibility. However, this requires a lower 
+perception of cognitive effort associated with using CBDC.
+Collectively, these findings provide deeper insights into the decision- 
+making process for CBDC adoption, extending beyond the initial SEM- 
+based results. Thus, they complement and expand upon previous 
+CBDC adoption studies (such as Gupta et al., 2023; Kim et al., 2023; 
+Ogunmola and Das, 2024; Wang et al., 2023).
+5.2. Implications for theory
+This study has significant implications for theory development in the 
+field of CBDC research and, more broadly, fintech literature. Drawing 
+upon the PLS-SEM findings, this study demonstrates that affordance- 
+based positive valences (such as time convenience and seamless 
+transactions) outweigh constraint-based negative valences and socio- 
+environmental and personal cognition factors in predicting positive at­
+titudes towards CBDC. Therefore, maximising these positive valences 
+becomes crucial for fostering favourable attitudes towards CBDCs.
+To the best of our knowledge, this study is the first of its kind within 
+the CBDC context. Thus, it should motivate future research to explore 
+additional positive valences associated with CBDC use, extending 
+beyond the scope of our study. Furthermore, our research aligns with the 
+empirical support found in Yoo et al.’s (2020) research on Bitcoin and 
+Jain and Raman’s (2022) study on digital finance, where similar results 
+were observed in their respective research contexts.
+Additionally, this study highlights that the societal benefit of finan­
+cial inclusion plays a pivotal role in shaping individuals’ favourable 
+attitudes towards CBDC. This resonates with Wang et al.’s (2023) find­
+ings, which emphasised the social advantages linked to CBDC, including 
+its potential for promoting anti-fraud measures, a cashless society, and 
+improved monetary policy performance. Moreover, our findings align 
+with the fintech literature of African countries (such as Ekong and 
+Ekong, 2022; Ozili, 2018, 2023a, 2023b), which has arguments that 
+individuals in underserved markets, such as Nigeria, may exhibit greater 
+receptivity to fintech innovations, including CBDC.
+Furthermore, to the best of our knowledge, this research represents 
+the first exploration within the CBDC domain to identify the core pre­
+requisites for early CBDC adoption, particularly at the individual- 
+consumer level and in a CBDC pioneer nation such as Nigeria. Our 
+necessary condition analysis reveals five main prerequisite factors for 
+high CBDC use intentions, including consumer perceptions of CBDC’s 
+societal benefits (measured by financial inclusion), seamless trans­
+actions, lifestyle compatibility, trust in the central bank, and a positive 
+attitude towards CBDC. Future research can build upon these findings to 
+develop deeper insights into the prerequisites for facilitating CBDC 
+adoption, thereby enriching scholarly understanding of this important 
+topic. Overall, our study illuminates the necessary conditions for CBDC 
+uptake and, by extension, government-enabled financial tools.
+Additionally, this research contributes significantly to the existing 
+knowledge based on its sufficiency analysis related to CBDC adoption. 
+Notably, it represents one of the earliest scientific endeavours to reveal 
+the multiple pathways leading to high use intentions of CBDC, which 
+serves as a proxy for early CBDC adoption. Specifically, we identified six 
+distinct paths that converge towards the same outcome: (high) use in­
+tentions for CBDC. Previously, research in this domain primarily focused 
+on exploring individual antecedent factors influencing CBDC use 
+intention (see Gupta et al., 2023; Kim et al., 2023; Ogunmola and Das, 
+2024; S¨oilen and Benhayoun, 2022; Wang et al., 2023); however, this 
+narrow approach has limited both empirical investigations and scholarly 
+progress. In contrast, the present study light on how positive and 
+negative valences, along with social and personal cognitions, collec­
+tively shape CBDC adoption. Moreover, it responds to recent calls within 
+technology-based research by integrating SEM with complementary 
+methods such as fsQCA (Loh et al., 2023; McLeay et al., 2022; Yee et al., 
+2021).
+This methodological contribution not only sets a precedent for 
+investigating complex phenomena like adoption intentions in the 
+emerging CBDC domain but also provides a roadmap for future studies 
+seeking to understand CBDC adoption decisions.
+Finally, combining valence theory (Peter and Tarpey Sr, 1975), SCT 
+(Bandura, 1989), and TRA (Ajzen and Fishbein, 1980), our analysis il­
+luminates how individuals decide to adopt CBDCs. This integrative 
+approach not only improves understanding of the topic but also 
+strengthens the external validity, and ultimately the predictive power, of 
+these theories.
+5.3. Implications for policy and SDGs
+This study provides actionable insights for both central bank au­
+thorities and their media partners. First, the PLS-SEM analysis revealed a 
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+12 
+
+--- Page 13 ---
+more dominant role for affordance-based positive valences like financial 
+inclusion and time convenience in shaping CBDC user attitudes 
+compared to (constraint-based) negative valences like cost and risk. This 
+suggests that maximising perceived benefits through targeted in­
+terventions and awareness campaigns could be an effective strategy for 
+promoting CBDC uptake. Policymakers could prioritise initiatives that 
+highlight the societal benefits of financial inclusion associated with 
+CBDC use, alongside its advantages in terms of seamless transactions, 
+time convenience, and perceived superiority over existing payment 
+methods.
+Second, and relatedly, this study demonstrated that improving the 
+initial adoption of CBDC hinges on four significant factors: the societal 
+benefit of financial inclusion, seamless transactions, central bank trust, 
+and positive individual attitudes. Therefore, policymakers must priori­
+tise strategies in these areas to unlock the full potential of CBDCs for 
+both individuals and society. One such strategy includes employing 
+transparent communication campaigns to build trust and investing 
+heavily in user-centric technology to improve transaction speed and 
+transparency.
+Third, the fsQCA analysis revealed six actionable configurations 
+driving high CBDC use intentions, transcending prior single-factor ap­
+proaches (Gupta et al., 2023; Kim et al., 2023; S¨oilen and Benhayoun, 
+2022). This unveils the intricate interplay of adoption conditions, of­
+fering valuable insights for central bank management to tailor strategies 
+for promoting widespread CBDC use. Notably, the analysis underscores 
+the absence of a singular “best” solution; instead, suggesting that mul­
+tiple pathways can lead to high CBDC adoption (as proxied by use in­
+tentions). This implies that central banks can choose from a variety of 
+effective strategies (see Table 7) to facilitate CBDC uptake. Consider 
+solution four (C4, Table 7) as one example among the six solutions. Here, 
+the central bank could prioritise campaigns and educational content 
+focused on the four identified affordance-based positive valences 
+alongside the factors of subjective norms, trust in the regulator, and 
+individual attitude. This holistic approach can effectively stimulate in­
+dividuals’ use of CBDC.
+Finally, beyond the practical implications of our study for central 
+bank authorities and their media partners, the study’s findings – 
+particularly, the role of the societal positive valence of financial inclu­
+sion as an important factor for CBDC adoption (measured by use in­
+tentions here) – contribute to the current debate (e.g., Better Than Cash 
+Alliance, 2023; Michael et al., 2022; Ozili, 2023b) on the nexus between 
+fintech and the realisation of some of the laudable United Nations Sus­
+tainable Development Goals (SDGs), especially SDG 9 (industry, inno­
+vation and infrastructure) and SDG 10 (reduced socioeconomic 
+inequalities). The research participants also highlighted a broader social 
+motivation for using CBDCs, as they believe it can benefit the commu­
+nity, particularly by promoting financial inclusion, which contributes to 
+sustainable and inclusive development. Interestingly, their willingness 
+to use CBDCs in light of our findings also suggests it could promote 
+sustainable consumption and production (SDG 12). This is partly due to 
+the potential cost reduction in printing paper currency if CBDCs are 
+widely adopted.
+5.4. Limitations and recommendations for future studies
+We must acknowledge the limitations of the present study. In 
+particular, despite employing a multi-theoretical and multi-method 
+approach, we recognise the possibility of overlooking relevant factors 
+influencing individuals’ CBDC attitudes and intentions. Therefore, we 
+encourage future researchers to explore alternative theoretical frame­
+works to expand our understanding of this topic. Cross-country studies 
+on CBDC adoption can further broaden the research base and provide 
+valuable insights into the interplay of adoption factors across diverse 
+contexts. This is important as previous studies highlight the role of na­
+tional culture in CBDC adoption (Luu et al., 2023). By applying Hof­
+stede’s national culture dimensions in this study’s context, we found 
+that the public may readily adopt CBDCs if they are endorsed by 
+respected authorities, promoted through community-based initiatives, 
+positioned as competitive and experimental, and capable of offering 
+immediate rewards. We also acknowledge that this may significantly 
+differ in other study contexts due to varying cultural influences. For 
+instance, the applicability of our tested model to other CBDC pioneers, 
+such as the Bahamas and Jamaica, warrants further exploration. In this 
+regard, scholars could explore the role of cultural values, particularly at 
+the individual level, in shaping CBDC adoption decisions. We believe 
+that such an exploration would further enrich scholarly and policy­
+makers’ understanding of the CBDC adoption decision-making process.
+Moreover, given the nascent stage of CBDC development globally, 
+qualitative research offers unique insights that quantitative methods 
+alone may not fully uncover. While the present study, as well as previous 
+ones (Kim et al., 2023; Ogunmola and Das, 2024; Wang et al., 2023), 
+have made significant contributions, qualitative approaches can provide 
+a deeper understanding of contextual nuances. Academics are, there­
+fore, encouraged to explore CBDC adoption decision-making qualita­
+tively, especially in countries currently contemplating CBDC 
+introduction or where it has already been rolled out, such as the 
+Bahamas and Nigeria.
+Author statement
+The authors declare no competing interests. Previously, the authors 
+used ChatGPT to enhance the fluency of the article’s writing, followed 
+by professional language editing. This research was self-funded, 
+including data collection and proofreading.
+CRediT authorship contribution statement
+Christian Nedu Osakwe: Writing – review & editing, Writing – 
+original draft, Validation, Supervision, Software, Resources, Project 
+administration, Methodology, Investigation, Formal analysis, Concep­
+tualization. Oluwatobi A. Ogunmokun: Writing – review & editing, 
+Writing – original draft, Validation, Supervision, Software, Methodol­
+ogy, Investigation, Formal analysis, Data curation. Islam Elgammal: 
+Writing – review & editing, Writing – original draft, Visualization, 
+Validation, Resources. Michael Adu Kwarteng: Writing – review & 
+editing, Writing – original draft, Visualization, Resources.
+Acknowledgement
+The authors express sincere gratitude to the Editor-in-Chief of this 
+journal and the reviewers for their insightful feedback and guidance, 
+which significantly enhanced the quality of this work.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+13 
+
+--- Page 14 ---
+Appendix A
+Appendix Table 1 
+Discriminant validity test based on HTMT ratios (good if <0.90, best if <0.85).
+Variables
+PSK
+TMC
+LCT
+CET
+USE
+PST
+TCB
+SNM
+ATT
+PFC
+SMT
+FCN
+PSK
+TMC
+0.173
+LCT
+0.142
+0.782
+CET
+0.238
+0.117
+0.087
+USE
+0.095
+0.764
+0.734
+0.161
+PST
+0.070
+0.447
+0.397
+0.042
+0.523
+TCB
+0.199
+0.448
+0.428
+0.109
+0.467
+0.412
+SNM
+0.059
+0.156
+0.130
+0.167
+0.185
+0.212
+0.111
+ATT
+0.197
+0.698
+0.664
+0.048
+0.716
+0.497
+0.508
+0.203
+PFC
+0.348
+0.178
+0.148
+0.276
+0.113
+0.072
+0.109
+0.090
+0.116
+SMT
+0.119
+0.628
+0.706
+0.077
+0.686
+0.397
+0.469
+0.202
+0.672
+0.115
+FCN
+0.161
+0.613
+0.638
+0.100
+0.624
+0.526
+0.506
+0.252
+0.683
+0.062
+0.708
+Appendix Table 2 
+Contrarian cases.
+Use intention
+Total
+Use intention
+Total
+1
+3
+4
+5
+1
+3
+4
+5
+Perceived risk phi =
+0.318 p < 0.000
+1
+Count
+13
+19
+14
+15
+61
+Trust in central 
+bank Phi = 0.836 p 
+≤0.000
+1
+Count
+47
+12
+1
+3
+63
+% 
+within
+21.3 
+%
+31.1 
+%
+23.0 
+%
+24.6 
+%
+100.0 
+%
+% 
+within
+74.6 
+%
+19.0 
+%
+1.6 
+%
+4.8 
+%
+100.0 
+%
+% of 
+Total
+4.2 %
+6.1 %
+4.5 
+%
+4.8 
+%
+19.7 
+%
+% of 
+Total
+15.2 
+%
+3.9 %
+0.3 
+%
+1.0 
+%
+20.3 %
+2
+Count
+8
+34
+7
+14
+63
+2
+Count
+2
+6
+1
+0
+9
+% 
+within
+12.7 
+%
+54.0 
+%
+11.1 
+%
+22.2 
+%
+100.0 
+%
+% 
+within
+22.2 
+%
+66.7 
+%
+11.1 
+%
+0.0 
+%
+100.0 
+%
+% of 
+Total
+2.6 %
+11.0 
+%
+2.3 
+%
+4.5 
+%
+20.3 
+%
+% of 
+Total
+0.6 %
+1.9 %
+0.3 
+%
+0.0 
+%
+2.9 %
+3
+Count
+3
+14
+3
+3
+23
+3
+Count
+9
+114
+16
+19
+158
+% 
+within
+13.0 
+%
+60.9 
+%
+13.0 
+%
+13.0 
+%
+100.0 
+%
+% 
+within
+5.7 %
+72.2 
+%
+10.1 
+%
+12.0 
+%
+100.0 
+%
+% of 
+Total
+1.0 %
+4.5 %
+1.0 %
+1.0 %
+7.4 %
+% of 
+Total
+2.9 %
+36.8 
+%
+5.2 %
+6.1 %
+51.0 %
+4
+Count
+18
+62
+8
+11
+99
+4
+Count
+3
+7
+11
+6
+27
+% 
+within
+18.2 
+%
+62.6 
+%
+8.1 %
+11.1 
+%
+100.0 
+%
+% 
+within
+11.1 
+%
+25.9 
+%
+40.7 
+%
+22.2 
+%
+100.0 
+%
+% of 
+Total
+5.8 
+%
+20.0 
+%
+2.6 %
+3.5 %
+31.9 
+%
+% of 
+Total
+1.0 
+%
+2.3 
+%
+3.5 %
+1.9 %
+8.7 %
+5
+Count
+22
+24
+7
+11
+64
+5
+Count
+3
+14
+10
+26
+53
+% 
+within
+34.4 
+%
+37.5 
+%
+10.9 
+%
+17.2 
+%
+100.0 
+%
+% 
+within
+5.7 
+%
+26.4 
+%
+18.9 
+%
+49.1 
+%
+100.0 
+%
+% of 
+Total
+7.1 
+%
+7.7 
+%
+2.3 %
+3.5 %
+20.6 
+%
+% of 
+Total
+1.0 
+%
+4.5 
+%
+3.2 %
+8.4 %
+17.1 %
+Lifestyle 
+compatibility phi 
+= 0.876 p < 0.000
+1
+Count
+49
+10
+1
+1
+61
+Cognitive effort phi 
+= 0.291 p < 0.01
+1
+Count
+12
+19
+11
+17
+59
+% 
+within
+80.3 
+%
+16.4 
+%
+1.6 
+%
+1.6 
+%
+100.0 
+%
+% 
+within
+20.3 
+%
+32.2 
+%
+18.6 
+%
+28.8 
+%
+100.0 
+%
+% of 
+Total
+15.8 
+%
+3.2 %
+0.3 
+%
+0.3 
+%
+19.7 
+%
+% of 
+Total
+3.9 %
+6.1 %
+3.5 
+%
+5.5 
+%
+19.0 %
+2
+Count
+2
+5
+1
+1
+9
+3
+Count
+26
+69
+16
+23
+134
+% 
+within
+22.2 
+%
+55.6 
+%
+11.1 
+%
+11.1 
+%
+100.0 
+%
+% 
+within
+19.4 
+%
+51.5 
+%
+11.9 
+%
+17.2 
+%
+100.0 
+%
+% of 
+Total
+0.6 %
+1.6 %
+0.3 
+%
+0.3 
+%
+2.9 %
+% of 
+Total
+8.4 %
+22.3 
+%
+5.2 
+%
+7.4 
+%
+43.2 %
+3
+Count
+7
+126
+17
+23
+173
+4
+Count
+10
+45
+10
+12
+77
+% 
+within
+4.0 
+%
+72.8 
+%
+9.8 %
+13.3 
+%
+100.0 
+%
+% 
+within
+13.0 
+%
+58.4 
+%
+13.0 
+%
+15.6 
+%
+100.0 
+%
+% of 
+Total
+2.3 
+%
+40.6 
+%
+5.5 %
+7.4 %
+55.8 
+%
+% of 
+Total
+3.2 
+%
+14.5 
+%
+3.2 %
+3.9 %
+24.8 %
+5
+Count
+6
+12
+20
+29
+67
+5
+Count
+16
+20
+2
+2
+40
+% 
+within
+9.0 
+%
+17.9 
+%
+29.9 
+%
+43.3 
+%
+100.0 
+%
+% 
+within
+40.0 
+%
+50.0 
+%
+5.0 %
+5.0 %
+100.0 
+%
+% of 
+Total
+1.9 
+%
+3.9 
+%
+6.5 %
+9.4 %
+21.6 
+%
+% of 
+Total
+5.2 
+%
+6.5 
+%
+0.6 %
+0.6 %
+12.9 %
+Perceived superiority 
+phi = 0.548 p <
+0.000
+1
+Count
+43
+35
+5
+5
+88
+Time convenience 
+phi = 0.546 p <
+0.000
+1
+Count
+20
+6
+5
+6
+37
+% 
+within
+48.9 
+%
+39.8 
+%
+5.7 
+%
+5.7 
+%
+100.0 
+%
+% 
+within
+54.1 
+%
+16.2 
+%
+13.5 
+%
+16.2 
+%
+100.0 
+%
+(continued on next page)
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+14 
+
+--- Page 15 ---
+Appendix Table 2 (continued)
+Use intention 
+Total 
+Use intention 
+Total
+1 
+3 
+4 
+5 
+1 
+3 
+4 
+5
+% of 
+Total
+13.9 
+%
+11.3 
+%
+1.6 
+%
+1.6 
+%
+28.4 
+%
+% of 
+Total
+6.5 %
+1.9 %
+1.6 
+%
+1.9 
+%
+11.9 %
+2
+Count
+6
+13
+4
+8
+31
+2
+Count
+23
+35
+8
+7
+73
+% 
+within
+19.4 
+%
+41.9 
+%
+12.9 
+%
+25.8 
+%
+100.0 
+%
+% 
+within
+31.5 
+%
+47.9 
+%
+11.0 
+%
+9.6 
+%
+100.0 
+%
+% of 
+Total
+1.9 %
+4.2 %
+1.3 
+%
+2.6 
+%
+10.0 
+%
+% of 
+Total
+7.4 %
+11.3 
+%
+2.6 
+%
+2.3 
+%
+23.5 %
+3
+Count
+12
+81
+12
+19
+124
+3
+Count
+12
+98
+11
+18
+139
+% 
+within
+9.7 
+%
+65.3 
+%
+9.7 %
+15.3 
+%
+100.0 
+%
+% 
+within
+8.6 
+%
+70.5 
+%
+7.9 %
+12.9 
+%
+100.0 
+%
+% of 
+Total
+3.9 
+%
+26.1 
+%
+3.9 %
+6.1 %
+40.0 
+%
+% of 
+Total
+3.9 
+%
+31.6 
+%
+3.5 %
+5.8 %
+44.8 %
+5
+Count
+3
+24
+18
+22
+67
+5
+Count
+9
+14
+15
+23
+61
+% 
+within
+4.5 
+%
+35.8 
+%
+26.9 
+%
+32.8 
+%
+100.0 
+%
+% 
+within
+14.8 
+%
+23.0 
+%
+24.6 
+%
+37.7 
+%
+100.0 
+%
+% of 
+Total
+1.0 
+%
+7.7 
+%
+5.8 %
+7.1 %
+21.6 
+%
+% of 
+Total
+2.9 
+%
+4.5 
+%
+4.8 %
+7.4 %
+19.7 %
+Subjective norm phi 
+= 0.227 p > 0.1
+1
+Count
+15
+10
+4
+9
+38
+Perceived financial 
+cost phi = 0.227 p 
+> 0.1
+1
+Count
+9
+14
+5
+10
+38
+% 
+within
+39.5 
+%
+26.3 
+%
+10.5 
+%
+23.7 
+%
+100.0 
+%
+% 
+within
+23.7 
+%
+36.8 
+%
+13.2 
+%
+26.3 
+%
+100.0 
+%
+% of 
+Total
+4.8 %
+3.2 %
+1.3 
+%
+2.9 
+%
+12.3 
+%
+% of 
+Total
+2.9 %
+4.5 %
+1.6 %
+3.2 
+%
+12.3 
+%
+2
+Count
+18
+45
+13
+17
+93
+2
+Count
+12
+39
+14
+16
+81
+% 
+within
+19.4 
+%
+48.4 
+%
+14.0 
+%
+18.3 
+%
+100.0 
+%
+% 
+within
+14.8 
+%
+48.1 
+%
+17.3 
+%
+19.8 
+%
+100.0 
+%
+% of 
+Total
+5.8 %
+14.5 
+%
+4.2 
+%
+5.5 
+%
+30.0 
+%
+% of 
+Total
+3.9 %
+12.6 
+%
+4.5 %
+5.2 
+%
+26.1 
+%
+3
+Count
+16
+48
+10
+17
+91
+3
+Count
+5
+17
+6
+7
+35
+% 
+within
+17.6 
+%
+52.7 
+%
+11.0 
+%
+18.7 
+%
+100.0 
+%
+% 
+within
+14.3 
+%
+48.6 
+%
+17.1 
+%
+20.0 
+%
+100.0 
+%
+% of 
+Total
+5.2 
+%
+15.5 
+%
+3.2 %
+5.5 %
+29.4 
+%
+% of 
+Total
+1.6 
+%
+5.5 
+%
+1.9 %
+2.3 %
+11.3 %
+4
+Count
+2
+7
+1
+1
+11
+4
+Count
+29
+71
+11
+20
+131
+% 
+within
+18.2 
+%
+63.6 
+%
+9.1 %
+9.1 %
+100.0 
+%
+% 
+within
+22.1 
+%
+54.2 
+%
+8.4 %
+15.3 
+%
+100.0 
+%
+% of 
+Total
+0.6 
+%
+2.3 
+%
+0.3 %
+0.3 %
+3.5 %
+% of 
+Total
+9.4 
+%
+22.9 
+%
+3.5 %
+6.5 %
+42.3 %
+5
+Count
+13
+43
+11
+10
+77
+5
+Count
+9
+12
+3
+1
+25
+% 
+within
+16.9 
+%
+55.8 
+%
+14.3 
+%
+13.0 
+%
+100.0 
+%
+% 
+within
+36.0 
+%
+48.0 
+%
+12.0 
+%
+4.0 %
+100.0 
+%
+% of 
+Total
+4.2 
+%
+13.9 
+%
+3.5 %
+3.2 %
+24.8 
+%
+% of 
+Total
+2.9 
+%
+3.9 
+%
+1.0 %
+0.3 %
+8.1 %
+Attitude phi = 0.727 
+p < 0.000
+1
+Count
+47
+23
+7
+3
+80
+Seamless 
+transactions phi =
+0.663 p < 0.000
+1
+Count
+38
+17
+5
+4
+64
+% 
+within
+58.8 
+%
+28.8 
+%
+8.8 
+%
+3.8 
+%
+100.0 
+%
+% 
+within
+59.4 
+%
+26.6 
+%
+7.8 
+%
+6.3 
+%
+100.0 
+%
+% of 
+Total
+15.2 
+%
+7.4 %
+2.3 
+%
+1.0 
+%
+25.8 
+%
+% of 
+Total
+12.3 
+%
+5.5 %
+1.6 
+%
+1.3 
+%
+20.6 %
+2
+Count
+2
+8
+2
+1
+13
+2
+Count
+5
+4
+0
+4
+13
+% 
+within
+15.4 
+%
+61.5 
+%
+15.4 
+%
+7.7 
+%
+100.0 
+%
+% 
+within
+38.5 
+%
+30.8 
+%
+0.0 
+%
+30.8 
+%
+100.0 
+%
+% of 
+Total
+0.6 %
+2.6 %
+0.6 
+%
+0.3 
+%
+4.2 %
+% of 
+Total
+1.6 %
+1.3 %
+0.0 
+%
+1.3 
+%
+4.2 %
+3
+Count
+14
+114
+13
+27
+168
+3
+Count
+17
+115
+11
+29
+172
+% 
+within
+8.3 
+%
+67.9 
+%
+7.7 %
+16.1 
+%
+100.0 
+%
+% 
+within
+9.9 
+%
+66.9 
+%
+6.4 %
+16.9 
+%
+100.0 
+%
+% of 
+Total
+4.5 
+%
+36.8 
+%
+4.2 %
+8.7 %
+54.2 
+%
+% of 
+Total
+5.5 
+%
+37.1 
+%
+3.5 %
+9.4 %
+55.5 %
+5
+Count
+1
+8
+17
+23
+49
+5
+Count
+4
+17
+23
+17
+61
+% 
+within
+2.0 
+%
+16.3 
+%
+34.7 
+%
+46.9 
+%
+100.0 
+%
+% 
+within
+6.6 
+%
+27.9 
+%
+37.7 
+%
+27.9 
+%
+100.0 
+%
+% of 
+Total
+0.3 
+%
+2.6 
+%
+5.5 %
+7.4 %
+15.8 
+%
+% of 
+Total
+1.3 
+%
+5.5 
+%
+7.4 %
+5.5 %
+19.7 %
+Financial inclusion 
+phi = 0.556 p <
+0.000
+1
+Count
+40
+26
+3
+7
+76
+% 
+within
+52.6 
+%
+34.2 
+%
+3.9 
+%
+9.2 
+%
+100.0 
+%
+% of 
+Total
+12.9 
+%
+8.4 %
+1.0 
+%
+2.3 
+%
+24.5 
+%
+2
+Count
+8
+8
+3
+5
+24
+% 
+within
+33.3 
+%
+33.3 
+%
+12.5 
+%
+20.8 
+%
+100.0 
+%
+% of 
+Total
+2.6 %
+2.6 %
+1.0 
+%
+1.6 
+%
+7.7 %
+Contrarian cases in bold
+3
+Count
+14
+105
+20
+27
+166
+(continued on next page)
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+15 
+
+--- Page 16 ---
+Appendix Table 2 (continued)
+Use intention 
+Total 
+Use intention 
+Total
+1 
+3 
+4 
+5 
+1 
+3 
+4 
+5
+% 
+within
+8.4 
+%
+63.3 
+%
+12.0 
+%
+16.3 
+%
+100.0 
+%
+% of 
+Total
+4.5 
+%
+33.9 
+%
+6.5 %
+8.7 %
+53.5 
+%
+5
+Count
+2
+14
+13
+15
+44
+% 
+within
+4.5 
+%
+31.8 
+%
+29.5 
+%
+34.1 
+%
+100.0 
+%
+% of 
+Total
+0.6 
+%
+4.5 
+%
+4.2 %
+4.8 %
+14.2 
+%
+Data availability
+The data that has been used is confidential. 
+References
+Agur, I., Ari, A., Dell’Ariccia, G., 2022. Designing central bank digital currencies. 
+J. Monet. Econ. 125, 62–79.
+Ajzen, I., 1991. The theory of planned behavior. Organ. Behav. Hum. Decis. Process. 50, 
+179–211.
+Ajzen, I., Fishbein, M., 1980. Understanding Attitudes and Predicting Social Behavior. 
+Prentice-Hall, Englewood Cliffs, NJ. 
+Andolfatto, D., 2021. Assessing the impact of central bank digital currency on private 
+banks. Econ. J. 131 (634), 525–540.
+Anthony, N., Michel, N., 2023. Central bank digital currency: assessing the risks and 
+dispelling the myths. Policy Anal. 941.
+Arfi, W.B., Nasr, I.B., Khvatova, T., Zaied, Y.B., 2021. Understanding acceptance of 
+eHealthcare by IoT natives and IoT immigrants: an integrated model of UTAUT, 
+perceived risk, and financial cost. Technol. Forecast. Soc. Chang. 163, 120437.
+Armstrong, G., Adam, S., Denize, S., Kotler, P., 2014. Principles of Marketing. Pearson 
+Australia.
+Auer, R., 2019. Embedded supervision: how to build regulation into blockchain finance. 
+In: BIS Working Papers No. 811.
+Auer, R., Bӧhme, R., 2020. The technology of retail central bank digital currency. BIS Q. 
+Rev. 85–100.
+Aziz, S., Md Husin, M., Hussin, N., Afaq, Z., 2019. Factors that influence individuals’ 
+intentions to purchase family takaful mediating role of perceived trust. Asia Pac. J. 
+Mark. Logist. 31 (1), 81–104.
+Bandura, A., 1989. Human agency in social cognitive theory. Am. Psychol. 44 (9), 1175.
+Bandura, A., 2005. The evolution of social cognitive theory. In: Smith, K.G., Hitt, M.A. 
+(Eds.), Great Minds in Management. Oxford University Press, Oxford, pp. 9–35.
+Barrdear, J., Kumhof, M., 2016. The macroeconomics of central bank-issued digital 
+currencies. In: Staff Working Paper No. 605.
+Barrdear, J., Kumhof, M., 2022. The macroeconomics of central bank digital currencies. 
+J. Econ. Dyn. Control. 142, 104148.
+Bauer, R., 1967. Consumer behavior as risk taking. In: Cox, D. (Ed.), Risk Taking and 
+Information Handling in Consumer Behavior. Harvard University Press, Cambridge, 
+MA. 
+Better Than Cash Alliance, 2023. Igniting SDG Progress Through Digital Financial 
+Inclusion (2023 edition). Retrieved: https://www.betterthancash.org/alliance-re 
+ports/igniting-sdg-progress-through-digital-financial-inclusion-2023-edition.
+Bhaskar, R., Hunjra, A.I., Bansal, S., Pandey, D.K., 2022. Central bank digital currencies: 
+agendas for future research. Res. Int. Bus. Financ. 62, 101737.
+Boar, C., Wehrli, A., 2021. Ready, steady, go? – results of the third BIS survey on central 
+bank digital currency. In: BIS Papers No 114. Monetary and Economic Department. 
+https://www.bis.org/publ/bppdf/bispap114.pdf.
+Boateng, H., Adam, D.R., Okoe, A.F., Anning-Dorson, T., 2016. Assessing the 
+determinants of internet banking adoption intentions: a social cognitive theory 
+perspective. Comput. Hum. Behav. 65, 468–478.
+Bongomin, G.O.C., Ntayi, J.M., Munene, J.C., Malinga, C.A., 2018. Mobile money and 
+financial inclusion in sub-Saharan Africa: the moderating role of social networks. 
+J. Afr. Bus. 19 (3), 361–384.
+Bordo, M.D., Levin, A.T., 2017. Central Bank Digital Currency and the Future of 
+Monetary Policy (No. w23711). National Bureau of Economic Research.
+Central Bank of Nigeria (CBN), 2021. Design paper for the eNaira. Retrieved from: htt 
+ps://enaira.gov.ng//wp-content/uploads/2023/06/Design-Paper-for-Nigerias-C 
+BDC-02_Oct-2021.pdf.
+Chan, R., 2015. Asian Regulator Seek Fintech Balance. Finance Asia. Retrieved from: 
+www.financeasia.com/News/401588,asian-regulators-seek-fintech-balance.aspx.
+Childers, T.L., Carr, C.L., Peck, J., Carson, S., 2001. Hedonic and utilitarian motivations 
+for online retail shopping behavior. J. Retail. 77, 511–535.
+Choi, J., Lee, H.J., Sajjad, F., Lee, H., 2014. The influence of national culture on the 
+attitude towards mobile recommender systems. Technol. Forecast. Soc. Chang. 86, 
+65–79.
+Chorzempa, M., Huang, Y., 2022. Chinese fintech innovation and regulation. Asian Econ. 
+Policy Rev. 17 (2), 274–292.
+Claessens, S., Cong, L.W., Moshirian, F., Park, C.Y., 2024. Opportunities and challenges 
+associated with the development of FinTech and Central Bank Digital Currency. 
+J. Financ. Stab. 101280.
+Constˆancio, V., 2017. The future of finance and the outlook for regulation. In: In remarks 
+at the Financial Regulatory Outlook Conference, Rome (Vol. 9).
+Davoodalhosseini, S.M., 2021. Central bank digital currency and monetary policy. 
+J. Econ. Dyn. Control. 104150.
+de Luna, I.R., Li´ebana-Cabanillas, F., S´anchez-Fern´andez, J., Mu˜noz-Leiva, F., 2019. 
+Mobile payment is not all the same: the adoption of mobile payment systems 
+depending on the technology applied. Technol. Forecast. Soc. Chang. 146, 931–944.
+Demirel, A., 2022. Voluntary simplicity: an exploration through text analysis. Int. J. 
+Consum. Stud. 46 (1), 75–87.
+Ekong, U.M., Ekong, C.N., 2022. Digital currency and financial inclusion in Nigeria: 
+lessons for development. J. Internet Digit. Econ. 2 (1), 46–67.
+Fakfare, P., Promsivapallop, P., Manosuthi, N., 2023. Applying integrated generalized 
+structured component analysis to explore tourists’ benefit consideration and choice 
+confidence toward travel appscape. Technol. Forecast. Soc. Chang. 188, 122321.
+Featherman, M., Jia, S.J., Califf, C.B., Hajli, N., 2021. The impact of new technologies on 
+consumers beliefs: reducing the perceived risks of electric vehicle adoption. Technol. 
+Forecast. Soc. Chang. 169, 120847.
+Featherman, M.S., Pavlou, P.A., 2003. Predicting e-services adoption: a perceived risk 
+facets perspective. Int. J. Hum. Comput. Stud. 59, 451–474.
+Fishbein, M., 1980. A theory of reasoned action: some applications and implications. In: 
+Howe, H., Page, M. (Eds.), Nebraska Symposium on Motivation. University of 
+Nebraska Press, Lincoln, pp. 65–116.
+Fiss, P.C., 2011. Building better causal theories: a fuzzy set approach to typologies in 
+organization research. Acad. Manag. J. 54 (2), 393–420.
+Fornell, C., Larcker, D.F., 1981. Evaluating structural equation models with unobservable 
+variables and measurement error. J. Mark. Res. 18 (1), 39–50.
+Foster, K., Blakstad, S., Gazi, S., Bos, M., 2021. Digital Currencies and CBDC Impacts on 
+Least Developed Countries (LDCs). Dialogue on Global Digital Finance Governance. 
+Technical Paper 1.2. United Nations Development Programme, New York, NY. 
+Gim´enez, C.A.F., Tamaj´on, G.L., 2019. An analysis of the process of adopting local digital 
+currencies in support of sustainable development. Sustainability 11 (3), 849.
+Gnan, E., Masciandaro, D., 2018. Do We Need Central Bank Digital Currency?. In: 
+Economics, Technology and Institutions, SUERF-The European Money and Finance 
+Forum, Vienna.
+Gupta, S., Pandey, D.K., El Ammari, A., Sahu, G.P., 2023. Do perceived risks and benefits 
+impact trust and willingness to adopt CBDCs? Res. Int. Bus. Financ. 66, 101993.
+Hair, J.F., Sarstedt, M., Ringle, C.M., 2019. Rethinking some of the rethinking of partial 
+least squares. Eur. J. Mark. 53 (4), 566–584.
+Hair, J.F., Howard, M.C., Nitzl, C., 2020. Assessing measurement model quality in PLS- 
+SEM using confirmatory composite analysis. J. Bus. Res. 109, 101–110.
+Harasim, J., 2021. FinTechs, bigTechs and banks—when cooperation and when 
+competition? J. Risk Financial Manag. 14 (12), 614.
+He, D., 2021. Digitalization of cross-border payments. China Econ. J. 14 (1), 26–38.
+Huang, C.K., Lee, N.C.A., Chen, W.C., 2023. Dilemmatic dual-factor determinants of 
+discontinuous intention in cryptocurrency usage. Inf. Technol. People 36 (2), 
+564–594.
+Huang, D.H., Chueh, H.E., 2022. Usage intention model of mobile apps in membership 
+application. J. Bus. Res. 139, 1255–1260.
+Husin, M.M., Ismail, N., Ab Rahman, A., 2016. The roles of mass media, word of mouth 
+and subjective norm in family takaful purchase intention. J. Islam. Mark. 7 (1), 
+59–73.
+Jahan, M.S., De, J., Jamaludin, M.F., Sodsriwiboon, P., Sullivan, C., 2019. The financial 
+inclusion landscape in the Asia-Pacific region: a dozen key findings. In: IMF Working 
+Papers, No 19/79.
+Jain, N., Raman, T.V., 2022. A partial least squares approach to digital finance adoption. 
+J. Financ. Serv. Mark. 27 (4), 308.
+Joshi, H., Chawla, D., 2023. Identifying unobserved heterogeneity in mobile wallet 
+adoption–a FIMIX-PLS approach for user segmentation. Int. J. Bank Mark. 41 (1), 
+210–236.
+Keister, T., Sanches, D.R., 2019. Should Central Banks Issue Digital Currency?, 19-26 
+Federal Reserve Bank of Philadelphia, pp. 1–32.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+16 
+
+--- Page 17 ---
+Kim, J.J., Kim, S., Hailu, T.B., Ryu, H.B., Han, H., 2023. Does central bank digital 
+currency (CBDC) payment create the opportunity for the tourism industry? J. Hosp. 
+Tour. Res. 10963480231158773.
+Kim, Y., Peterson, R.A., 2017. A meta-analysis of online trust relationships in e- 
+commerce. J. Interact. Mark. 38 (1), 44–54.
+Kimiagari, S., Baei, F., 2024. Extending intention to use electronic services based on the 
+human–technology interaction approach and social cognition theory: emerging 
+market case. IEEE Trans. Eng. Manag. 71, 1470–1489.
+Kleijnen, M., De Ruyter, K., Wetzels, M., 2007. An assessment of value creation in mobile 
+service delivery and the moderating role of time consciousness. J. Retail. 83 (1), 
+33–46.
+Kock, N., 2019. Factor-based structural equation modeling with WarpPLS. Australas. 
+Mark. J. 27 (1), 57–63.
+Kock, N., 2022. WarpPLS User Manual: Version 8.0. ScriptWarp Systems, Laredo, TX. 
+Kock, N., Lynn, G.S., 2012. Lateral collinearity and misleading results in variance-based 
+SEM: an illustration and recommendations. J. Assoc. Inf. Syst. 13 (7), 546–580.
+Lagna, A., Ravishankar, M.N., 2022. Making the world a better place with fintech 
+research. Inf. Syst. J. 32 (1), 61–102.
+Lagos State Government Ministry of Economic Planning and Budget, 2019. Lagos Socio- 
+economic Profile. Retrieved from. http://mepb.lagosstate.gov.ng/wp-content/uploa 
+ds/sites/29/2019/11/11.0-lagos-socio-economic-profile.pdf.
+Laksamana, P., Suharyanto, S., Cahaya, Y.F., 2023. Determining factors of continuance 
+intention in mobile payment: Fintech industry perspective. Asia Pac. J. Mark. Logist. 
+35 (7), 1699–1718.
+Lin, H.Y., Hsu, M.H., 2015. Using social cognitive theory to investigate green consumer 
+behavior. Bus. Strateg. Environ. 24 (5), 326–343.
+Loh, X.M., Lee, V.H., Leong, L.Y., Aw, E.C.X., Cham, T.H., Tang, Y.C., Hew, J.J., 2023. 
+Understanding consumers’ resistance to pay with cryptocurrency in the sharing 
+economy: a hybrid SEM-fsQCA approach. J. Bus. Res. 159, 113726.
+Lu, Y., Yang, S., Chau, P.Y., Cao, Y., 2011. Dynamics between the trust transfer process 
+and intention to use mobile payment services: a cross-environment perspective. Inf. 
+Manag. 48 (8), 393–403.
+Luu, H.N., Do, D.D., Pham, T., Ho, V.X., Dinh, Q.A., 2023. Cultural values and the 
+adoption of central bank digital currency. Appl. Econ. Lett. 30 (15), 2024–2029.
+Ma, C., Jin, Z., Mei, Z., Zhou, F., She, X., Huang, J., Liu, D., 2022. Internet of things 
+background: an empirical study on the payment intention of central bank digital 
+currency design. Mob. Inf. Syst. 2022 (1), 4846372.
+Martino, P., 2021. Blockchain and Banking: How Technological Innovations Are Shaping 
+the Banking Industry. Springer Nature.
+Mattke, J., Maier, C., Weitzel, T., Thatcher, J.B., 2021. Qualitative comparative analysis 
+in the information systems discipline: a literature review and methodological 
+recommendations. Internet Res. 31 (5), 1493–1517.
+Mazambani, L., 2024. Determinants of Public Trust in Digital Money: The Case of Central 
+Bank Digital Currency (CBDC). Available at SSRN. 
+McLeay, F., Olya, H., Liu, H., Jayawardhena, C., Dennis, C., 2022. A multi-analytical 
+approach to studying customers motivations to use innovative totally autonomous 
+vehicles. Technol. Forecast. Soc. Chang. 174, 121252.
+Meaning, J., Dyson, B., Barker, J., Clayton, E., 2018. Broadening narrow money: 
+monetary policy with a central bank digital currency. In: Bank of England Working 
+Paper No. 724.
+Michael, B., Koroleska, N., Tai, A., Wong, D.W.H., 2022. A critical look at using financial 
+technology policy to promote the sustainable development goals. Sustain. Dev. 30 
+(6), 1911–1920.
+Murinde, V., Rizopoulos, E., Zachariadis, M., 2022. The impact of the fintech revolution 
+on the future of banking: opportunities and risks. Int. Rev. Financ. Anal. 102103.
+Newell, F., Newell-Lemon, K., 2001. Wireless Rules. McGraw-Hill, New York. 
+Ng, S.L., 2023. From supporting to practising leave no trace: an explanation from the 
+theory of reasoned action and the social exchange theory. Curr. Issue Tour. 1–17.
+Ng, T.W., Lucianetti, L., 2016. Within-individual increases in innovative behavior and 
+creative, persuasion, and change self-efficacy over time: a social–cognitive theory 
+perspective. J. Appl. Psychol. 101 (1), 14–34.
+Ogunmola, G.A., Das, U., 2024. Analyzing consumer perceptions and adoption intentions 
+of central bank digital currency: a case of the digital rupee. Digit. Policy Regul. Gov. 
+26 (4), 450–471.
+Olya, H.G., Al-Ansi, A., 2018. Risk assessment of halal products and services: implication 
+for tourism industry. Tour. Manag. 65, 279–291.
+Omar, O.E., 2007. The retailing of life insurance in Nigeria: an assessment of consumers’ 
+attitudes. J. Retail Mark. Manag. Res. 1 (1), 41–47.
+Osakwe, C.N., Ruiz, B., Amegbe, H., Chinje, N.B., Cheah, J.H., Ramayah, T., 2020. 
+A multi-country study of bank reputation among customers in Africa: key 
+antecedents and consequences. J. Retail. Consum. Serv. 56, 102182.
+Osakwe, C.N., Dzandu, M.D., Amegbe, H., Warsame, M.H., Ramayah, T., 2022a. A two- 
+country study on the psychological antecedents to cryptocurrency investment 
+decision-making. J. Glob. Inf. Technol. Manag. 25 (4), 302–323.
+Osakwe, C.N., Hudik, M., ˇRíha, D., Stros, M., Ramayah, T., 2022b. Critical factors 
+characterizing consumers’ intentions to use drones for last-mile delivery: does 
+delivery risk matter? J. Retail. Consum. Serv. 65, 102865.
+Osakwe, C.N., Okeke, T.C., Kwarteng, M.A., 2022c. Trust building in mobile money and 
+its outcomes. Eur. Bus. Rev. 34 (2), 244–262.
+Ozili, P.K., 2018. Impact of digital finance on financial inclusion and stability. Borsa 
+Istanbul Rev. 18 (4), 329–340.
+Ozili, P.K., 2023a. Central bank digital currency research around the world: a review of 
+literature. J. Money Laund. Control 26 (2), 215–226.
+Ozili, P.K., 2023b. Central bank digital currency, poverty reduction and the United 
+Nations sustainable development goals. In: Embracing Business Sustainability 
+Through Innovation and Creativity in the Service Sector. IGI Global, pp. 175–183.
+Ozili, P.K., 2024. Central bank digital currency, economic growth and inflation. J. Money 
+Bus. https://doi.org/10.1108/JMB-08-2023-0038 ahead-of-print. 
+Pal, A., Herath, T., Rao, H.R., 2021. Why do people use mobile payment technologies and 
+why would they continue? An examination and implications from India. Res. Policy 
+50 (6), 104228.
+Palash, M.A.S., Talukder, M.S., Islam, A.N., Bao, Y., 2022. Positive and negative valences, 
+personal innovativeness and intention to use facial recognition for payments. Ind. 
+Manag. Data Syst. 122 (4), 1081–1108.
+Pappas, I.O., Woodside, A.G., 2021. Fuzzy-set qualitative comparative analysis (fsQCA): 
+guidelines for research practice in information systems and marketing. Int. J. Inf. 
+Manag. 58, 102310.
+Park, H.S., 2000. Relationships among attitudes and subjective norms: testing the theory 
+of reasoned action across cultures. Commun. Stud. 51 (2), 162–175.
+Peter, J.P., Tarpey Sr., L.X., 1975. A comparative analysis of three consumer decision 
+strategies. J. Consum. Res. 2 (1), 29–37.
+Podsakoff, P.M., MacKenzie, S.B., Lee, J.Y., Podsakoff, N.P., 2003. Common method 
+biases in behavioral research: a critical review of the literature and recommended 
+remedies. J. Appl. Psychol. 88 (5), 879–903.
+Quartz Africa, 2016. Lagos is Africa’s 7th largest economy and is about to get bigger with 
+its first oil finds. https://qz.com/africa/676819/lagos-is-africas-7th-largest-econo 
+my-and-is-about-to-get-bigger-with-its-first-oil-finds/.
+Ragin, C.C., 2000. Fuzzy-set Social Science. University of Chicago Press.
+Ragin, C.C., 2009. Redesigning Social Inquiry: Fuzzy Sets and Beyond. University of 
+Chicago Press.
+Ree, J., 2023. Nigeria’s eNaira, One Year After. IMF Working Paper WP/23/104. 
+International Monetary Fund, Washington, DC. 
+RegTech Africa, 2023. Nigeria’s eNaira struggles with adoption despite blockchain 
+foundation. https://regtechafrica.com/nigerias-enaira-struggles-with-adoption-d 
+espite-blockchain-foundation/.
+Rihoux, B., 2006. Qualitative comparative analysis (QCA) and related systematic 
+comparative methods: recent advances and remaining challenges for social science 
+research. Int. Sociol. 21 (5), 679–706.
+Roemer, E., Schuberth, F., Henseler, J., 2021. HTMT2–an improved criterion for 
+assessing discriminant validity in structural equation modelling. Ind. Manag. Data 
+Syst. 121 (12), 2637–2650.
+Rogers, E.M., 1995. Diffusion of Innovations. Free Press, New York, NY. 
+Roh, T., Yang, Y.S., Xiao, S., Park, B.I., 2022. What makes consumers trust and adopt 
+fintech? An empirical investigation in China. Electron. Commer. Res. 1–33.
+Ryu, H.S., 2018. What makes users willing or hesitant to use Fintech?: the moderating 
+effect of user type. Ind. Manag. Data Syst. 118 (3), 541–569.
+Sahay, R., ˇCih´ak, M., N’Diaye, P., Barajas, A., Mitra, S., Kyobe, A.J., Mooi, Y.N., 
+Yousefim, R., 2015. Financial inclusion: can it meet multiple macroeconomic goals?. 
+In: IMF Staff Discussion Notes no 15/17, September. 
+Sheppard, B.H., Hartwick, J., Warshaw, P.R., 1988. The theory of reasoned action: a 
+meta-analysis of past research with recommendations for modifications and future 
+research. J. Consum. Res. 15 (3), 325–343.
+Shibin, K.T., Dubey, R., Gunasekaran, A., Hazen, B., Roubaud, D., Gupta, S., Foropon, C., 
+2020. Examining sustainable supply chain management of SMEs using resource 
+based view and institutional theory. Ann. Oper. Res. 290 (1), 301–326.
+Skaaning, S.E., 2011. Assessing the robustness of crisp-set and fuzzy-set QCA results. 
+Sociol. Methods Res. 40 (2), 391–408.
+S¨oilen, K.S., Benhayoun, L., 2022. Household acceptance of central bank digital 
+currency: the role of institutional trust. Int. J. Bank Mark. 40 (1), 172–196.
+Soper, D., 2021. A-priori sample size calculator for structural equation models. https: 
+//www.danielsoper.com/statcalc/calculator.aspx?id=89.
+Suoranta, M., Mattila, M., Munnukka, J., 2005. Technology-based services: a study on 
+the drivers and inhibitors of mobile banking. Int. J. Manag. Decis. Mak. 6 (1), 33–46.
+Tang, C., Guo, L., Gopinath, M., 2016. A social-cognitive model of consumer well-being: 
+a longitudinal exploration of the role of the service organization. J. Serv. Res. 19 (3), 
+307–321.
+Teutio, A.O.N., Kamdjoug, J.R.K., Gueyie, J., 2023. Mobile money, bank deposit and 
+perceived financial inclusion in Cameroon. J. Small Bus. Entrep. 35 (1), 14–32.
+The Africa Report, 2020. Lagos is a country. https://www.theafricareport.com/28089/la 
+gos-is-a-country/ (170422). 
+Tronnier, F., Harborth, D., Biker, P., 2023. Applying the extended attitude formation 
+theory to central bank digital currencies. Electron. Mark. 33 (1), 1–21.
+Venkatesh, V., Morris, M.G., Davis, G.B., Davis, F.D., 2003. User acceptance of 
+information technology: toward a unified view. MIS Q. 27 (3), 425–478.
+Wang, X., Zuo, Z., Tong, X., Zhu, Y., 2022a. Talk more about yourself: a data-driven 
+extended theory of reasoned action for online health communities. Inf. Technol. 
+Manag. 1–14.
+Wang, Y., Lucey, B.M., Vigne, S.A., Yarovaya, L., 2022b. The effects of central bank 
+digital currencies news on financial markets. Technol. Forecast. Soc. Chang. 180, 
+121715.
+Wang, Z.A., Samuel, R.N., Chen, X.Q., Xu, B., Huang, W.L., 2023. Central bank digital 
+currencies: consumer data-driven sustainable operation management policy. 
+Technol. Forecast. Soc. Chang. 196, 122867.
+Williamson, S., 2022. Central bank digital currency: welfare and policy implications. 
+J. Polit. Econ. 130 (11), 2829–2861.
+Woodside, A.G., 2014. Embrace• perform• model: complexity theory, contrarian case 
+analysis, and multiple realities. J. Bus. Res. 67 (12), 2495–2503.
+Wu, J.J., Khan, H.A., Chien, S.H., Wen, C.H., 2022. Effect of customization, core self- 
+evaluation, and information richness on trust in online insurance service: intelligent 
+agent as a moderating variable. Asia Pac. Manag. Rev. 27 (1), 18–27.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+17 
+
+--- Page 18 ---
+Xu, X., Thong, J.Y., Tam, K.Y., 2017. Winning back technology disadopters: testing a 
+technology readoption model in the context of mobile internet services. J. Manag. 
+Inf. Syst. 34 (1), 102–140.
+Yee, R.W., Miquel-Romero, M.J., Cruz-Ros, S., 2021. Why and how to use enterprise 
+social media platforms: the employee’s perspective. J. Bus. Res. 137, 517–526.
+Yoo, K., Bae, K., Park, E., Yang, T., 2020. Understanding the diffusion and adoption of 
+Bitcoin transaction services: the integrated approach. Telematics Inform. 53, 
+101302.
+Yu, P.L., Balaji, M.S., Khong, K.W., 2015. Building trust in internet banking: a 
+trustworthiness perspective. Ind. Manag. Data Syst. 115 (2), 235–252.
+Zavolokina, L., Dolata, M., Schwabe, G., 2016. FinTech transformation: how IT-enabled 
+innovations shape the financial sector. In: Proceedings in International Workshop on 
+Enterprise Applications and Services in the Finance Industry, pp. 75–88.
+Zhang, L., Zhu, J., Qihua, L., 2012. A meta-analysis of mobile commerce adoption and 
+the moderating effect of culture. Comput. Hum. Behav. 28 (5), 1902–1911.
+Christian Nedu Osakwe has a PhD in Management and Economics with a focus in Mar-
+keting Management. His research interests cover three main areas: marketing capabilities 
+development of the firm in relation to firm performance, digital adoption at both the firm- 
+and individual-level, and consumer behaviour with a focus on services marketing. His 
+publications appear in well-known outlets such as the Journal of Business Research, 
+Journal of Finance & Economics, Information Technology & People, Industrial Marketing 
+Management, Journal of Retailing & Consumer Services, International Journal of Con-
+sumer Studies, Journal of Services Marketing, Journal of Strategic Marketing, Marketing 
+Intelligence & Planning, Technology Analysis & Strategic Management, Total Quality 
+Management & Business Excellence, and European Business Review. He’s also very active 
+in the scientific community by participating in manuscripts’ review for numerous journals 
+in the marketing and information systems field and even sometimes in the field of 
+economics.
+Oluwatobi A. Ogunmokun is a Senior Lecturer at Chester Business School, University of 
+Chester, UK. His research interests include Consumer psychology, Sustainability and 
+Business Ethics. He has published in high ranked journals such as Psychology and Mar-
+keting, Journal of Sustainable Tourism, International Journal of Finance & Economics, 
+International Journal of Consumer Studies, Technology Analysis & Strategic Management, 
+and International Journal of Bank Marketing.
+Islam Elgammal is currently a Professor in the Business Administration Department at the 
+University of Jeddah, Saudi Arabia. She previously worked as the Vice Dean for post- 
+graduates and scientific research in the faculty of Tourism and hotel Management at 
+Suez Canal University, Egypt. She earned her PhD from the Cardiff Metropolitan Univer-
+sity in the UK in 2008. Since 2008, she has been a Fellow of the Higher Education Academy 
+in the UK. Prof. Elgammal is a guest speaker in various research and postgraduates’ aca-
+demic events and an external examiner for academic programs and postgraduates’ thesis 
+and contributed to several internationally funded research projects. Her research interests 
+include tourism management, sustainable tourism, sustainable heritage management, and 
+green events. She has several publications in leading academic journals and has contrib-
+uted to several academic conferences.
+Michael Adu Kwarteng is an Associate Professor in the Department of Management and 
+Marketing, Tomas Bata University in Zlin, Czech Republic. His research focuses on internet 
+marketing applications, social media analytics, enterprise competitive analyses and pref-
+erence modelling. He is particularly interested in deploying data mining techniques in 
+extracting and generating new information to improve business decision making, espe-
+cially for marketers. The results of his research have been published in peer-reviewed 
+scientific journals and presented at international conferences.
+C.N. Osakwe et al.                                                                                                                                                                                                                              
+Technological Forecasting & Social Change 210 (2025) 123857 
+18 

@@ -1,0 +1,1721 @@
+
+--- Page 1 ---
+ifrc.org
+GLOBAL PAYMENT 
+SOLUTIONS FOR 
+HUMANITARIAN 
+CASH ASSISTANCE
+December 2022
+
+--- Page 2 ---
+© International Federation of Red Cross and Red Crescent Societies, Geneva, 2022
+Copies of all or part of this report may be made for non-commercial use, providing the source is acknowledged. The 
+IFRC would appreciate receiving details of its use. Requests for commercial reproduction should be directed 
+to the IFRC at secretariat@ifrc.org.
+Cover photo: Afghanistan 2022,  Families in Patika province who have been severely impacted by the 
+earthquake and who have lost their livelihoods are being provided with assistance through unconditional 
+cash grants from the Afghan Red Crescent Society. Cash assistance has proven to be a quick, safe, reliable 
+and efficient way to support vulnerable communities in the wake of disasters. It allows people to determine 
+for themselves what their most urgent needs are. © Meer Abdullah/IFRC
+Address: Chemin des Crêts 17, Petit-Saconnex, 1209 Geneva, Switzerland   
+Postal address: P.O. Box 303, 1211 Geneva 19, Switzerland 
+T  +41 (0)22 730 42 22  |  F  +41 (0)22 730 42 00  |  E  secretariat@ifrc.org  |  W  ifrc.org
+
+--- Page 3 ---
+TABLE OF CONTENTS
+Acknowledgements
+4
+Introduction
+5
+Needs for a global payment solution
+7
+Defining a global payment solution
+9
+Models for a global payment solution
+13
+1. Aggregator model
+13
+2. A suite of payment solutions 
+14
+3. Partnerships with multinational companies
+15
+Engagement with the private sector solution providers
+16
+Considerations for implementing a global payment solution
+18
+Costs 
+18
+Duration of use
+18
+Preference of end users
+19
+Differences in local implementation
+19
+Integration with data management
+20
+Challenging contexts
+20
+Case studies
+24
+COVID-19 pandemic
+24
+Ukraine and impacted countries crisis
+25
+Lebanon complex humanitarian crisis 
+26
+Recommendations
+27
+Conclusion
+29
+Annexes
+31
+Annex 1: Methodology and approach
+31
+Annex 2: Shortlisted countries and sample payment providers
+32
+
+--- Page 4 ---
+ACKNOWLEDGEMENTS
+This report was made possible by funding from European Civil Protection and Humanitarian 
+Aid Operations (ECHO).
+Thanks are also due to the authors Joseph Oliveros and Talha Leghari, and to all the 
+interviewees and reviewers for their generous contributions.
+Kenya 2020.  A community member in Isiolo receives a text 
+message confirming successful registration for the Kenya 
+Red Cross Society’s cash programme where two payments 
+will be sent via M-PESA mobile money. 
+© Kenya Red Cross Society and Netherlands Red Cross
+
+--- Page 5 ---
+Introduction   |   5
+INTRODUCTION
+The International Federation of Red Cross and Red Crescent Societies (IFRC) commissioned 
+a study to validate the need for a global payment solution and the feasibility of implementing 
+such a solution to enable scalable and faster distribution of humanitarian cash assistance 
+during emergencies. This report outlines the findings and observations based on 
+consultations with over 30 representatives from the Red Cross Red Crescent Movement, 
+other humanitarian organizations and the private sector1. The insights from this report 
+aim at informing the IFRC and other humanitarian actors on the opportunities for a global 
+payment solution, models for such solutions, and key risks and considerations for 
+implementation. Additionally, this report aims at providing insights and encouraging 
+financial service providers (FSP), fintech2 in general, and other private sector actors to use 
+their expertise, innovative solutions and services to help address the challenges of 
+humanitarian actors such as the IFRC when scaling up cash assistance. 
+The IFRC has an ambitious goal of reaching 50 per cent of its humanitarian assistance using 
+cash and vouchers by 2025 and has identified the lengthy process of procuring FSPs during 
+emergencies as one of the barriers to reaching this goal. Cash preparedness is crucial in this 
+scale-up strategy, where an important activity involves National Societies establishing 
+framework agreements with FSPs. Efforts have increased to support more National Societies 
+over the years; however, cash preparedness activities take time while, at the same time, 
+disasters and crisis events are growing and their impacts getting more severe. 
+The IFRC has a payment solution for the Americas region using prepaid cards that may be 
+topped up with monetary value remotely once the cards are shipped to the country 
+affected by the disaster or crisis. This has been in use since 2014 and has proven effective 
+and quick in disbursing cash during emergencies supported by the IFRC. The concept of a 
+global payment solution was inspired by this regional prepaid card option. But expanding 
+this regional solution to address global needs is not so simple given the varying contexts, 
+cultures, infrastructure, compliance and regulations, as well as the geographical coverage 
+required to cater beyond one region. 
+1. Consultations with the private sector were focused on financial service providers that are able to provide multi-country or multi-region 
+services and not meant to be exhaustive in terms of the types of payment solutions offered.
+2. Fintech, or “financial technology” is a fast-growing area with companies using new technologies to deliver financial services.
+
+--- Page 6 ---
+6     |    IFRC  Global payment solutions for humanitarian cash assistance
+Nigeria 2022. Affected persons in Lafia,  
+Benue State, count their money after cash 
+distribution following the Nigeria Hunger  
+Crisis appeal.
+© Aduratomi Bolade/IFRC
+
+--- Page 7 ---
+Needs for a global payment solution   |   7
+NEEDS FOR A GLOBAL  
+PAYMENT SOLUTION
+When COVID-19 infections surged in early 2020, the IFRC launched a global emergency 
+appeal to support National Societies in their response to this pandemic. About 60 of the 
+192 member National Societies included Cash and Voucher Assistance (CVA) in their 
+response plans and another 10 were evaluating the feasibility of using CVA in their specific 
+contexts3. But only 41 National Societies were able to distribute cash within the first six 
+months of the emergency. National Societies that were prepared and have established 
+agreements with FSPs and experience using CVA were able to quickly provide cash 
+assistance to address basic needs and socio-economic impacts. 
+According to the IFRC’s COVID-19 12-month emergency operational update report4, “one 
+of the challenges in delivering cash with many National Societies was the lack of pre-
+agreements in place with FSPs and the need to ensure that they were flexible for this 
+emergency and compatible with IFRC procurement standards. It typically takes up to six 
+months to establish an agreement with any FSP, including a formal tender process and 
+due diligence exercise”. 
+The COVID-19 pandemic was one example of an emergency that has global or multi-
+country impacts. The current hunger crisis in Africa is affecting 23 countries with over 120 
+million people in need of immediate support. There, the IFRC and its members are focusing 
+on 12 priority countries with emergency assistance. Indeed, according to the IFRC’s World 
+Disasters Report 20205, the rise of extreme weather and climate-related events is expected 
+to continue unless more action towards climate adaptation and mitigation are done. Rise 
+in conflicts and civil unrest such as in Afghanistan and recently in Ukraine are also causing 
+forced displacements, where neighbouring National Societies must prepare to support 
+the influx of people moving in or through their countries for safety. IFRC’s response to the 
+Ukraine crisis is focusing on seven neighbouring countries plus Ukraine and looking to 
+expand support with CVA to seven more countries where displaced people have increased 
+the population.  
+The opportunity therefore for the IFRC to have a global solution that could be activated 
+simultaneously in the countries where disasters and crises have affected people is highly 
+beneficial to demonstrate scale, speed and quality service using CVA. This will also help the 
+IFRC reach its ambitious goal for scale. 
+3. IFRC COVID-19 6-month operational update, August 2020.
+4. IFRC COVID-19 12-month operational update, January 2021.
+5. https://www.ifrc.org/document/world-disasters-report-2020
+
+--- Page 8 ---
+8     |    IFRC  Global payment solutions for humanitarian cash assistance
+For the National Societies, a global solution could be an opportunity to help them gain 
+more experience in dealing with FSPs, particularly when they have not yet conducted cash 
+preparedness. In addition, having an alternative payment solution that could be used 
+during an emergency would be helpful in cases where the current contract is no longer 
+valid or if the services provided by existing FSPs are not feasible to use given the context 
+of the emergency. Having an alternative solution may also be helpful in case the country 
+faces market shocks or unexpected disruptions in FSPs such as sanctions, currency 
+devaluation or liquidity issues.
+In addition to addressing the procurement issue, the global payment solution could also 
+shorten the time for money to be routed through the financial pipeline to reach 
+affected people. Typically, funds flow from IFRC headquarters in Geneva to the regional 
+office then to the country office or the National Society’s bank account to the local FSP. For 
+example, an internal analysis in 2019 of the IFRC financial pipeline in one country in Asia 
+Pacific showed that funds transfer could take about 17—21 days because of the time it 
+takes for the intermediary banks to process and move the funds. The days vary based on 
+the banks and the number of intermediaries. A global solution could help reduce the 
+number of intermediaries (e.g. IFRC Geneva to the global FSP to the local FSP) and therefore 
+the overall time to get money to the affected population.
+The expectations are high if indeed a global payment solution is feasible to implement for 
+the needs of the IFRC and its ambition to scale up CVA. It is also worth noting, however, 
+that there are bottlenecks and challenges in implementing CVA that the global payment 
+solution will not be able to address, and therefore there is a need to be realistic on what 
+the solution will help address. For example, the flow of funding could be optimized but the 
+process involved to request for funding, the internal approvals and the review process on 
+the side of the FSP will not be addressed by the solution itself.
+BOX 1: OPPORTUNITIES FOR A GLOBAL PAYMENT SOLUTION
+For IFRC Secretariat:
+	
+¤
+Ability to provide timely and scalable cash that 
+could be deployed immediately in emergencies
+	
+¤
+Be agile to respond to rising global and multi-
+country impacting disasters and crises
+	
+¤
+Complement cash preparedness activities 
+which typically take time, and are carried on 
+outside of emergency situations
+For National Societies:
+	
+¤
+Gain experience with using FSPs especially 
+when they have not yet done this through cash 
+preparedness activities or have no experience 
+in using CVA before
+	
+¤
+Have an alternative payment solution in cases 
+where the contract with current FSP is no 
+longer valid or the services of the FSP are not 
+feasible for the context of the emergency
+	
+¤
+Have an alternative in case of market shocks 
+or unforeseen disruptions with current FSPs, 
+including sanctions and currency devaluation
+
+--- Page 9 ---
+Defining a global payment solution   |   9
+DEFINING A GLOBAL PAYMENT SOLUTION
+A global payment solution in the context of this study was thought of as a service that 
+would provide cash in different contexts and that could be activated in different locations 
+when emergencies arise. The concept draws inspiration from the IFRC’s regional payment 
+solution for the Americas region that used a financial provider to issue prepaid cards that 
+could be shipped to an area affected by an emergency and topped up with cash value 
+remotely. See Box 2 for more details about the Americas regional payment solution.
+The key properties IFRC expects from a global payment solution include:
+	
+¤
+Ability to be activated from global, regional or country level 
+	
+¤
+Ability to offer different payment mechanisms (e.g. bank cards, mobile money, 
+remittance, etc.) providing flexibility to address different contexts and programme needs
+	
+¤
+Ability to scale in terms of volume of cash and number of people to assist
+	
+¤
+Ability to address risks and challenges in providing cash to vulnerable populations
+	
+¤
+Ability to increase accountability and transparency to donors, partners and affected 
+populations
+Indonesia 2016. The women in Rido Manah, Indonesia, received 
+about 60 US dollars each using mobile money as part of a pilot 
+project run in a partnership between Palang Merah Indonesia 
+(Indonesian Red Cross), American Red Cross and Mastercard to 
+distribute funds digitally to families via their mobile phones for  
+the purchase of water and other items during the drought season.  
+© American Red Cross
+
+--- Page 10 ---
+BOX 2: PREPAID CARDS IN THE AMERICAS REGION
+In 2014, the IFRC established a regional framework agreement with a company that provided prepaid cards 
+that could be shipped to emergency locations and distributed to affected people in the Americas region. The 
+cards did not have monetary value when shipped. When they arrived in the country of operation, the cards 
+were assigned to individuals and topped up remotely with monetary value (USD currency) using a web 
+portal. The individuals then used an ATM to withdraw their cash assistance or purchased from shops and 
+vendors that accepted Visa prepaid cards. It took nine months to do the initial procurement and establish a 
+regional framework agreement. 
+Between November 2019 and May 
+2022, the prepaid cards have been 
+used in 14 countries in the Americas 
+region including a scale-up of cash 
+assistance in the Bahamas. Over 
+16,700 cards were activated and 
+transferred over 13.6 million USD to 
+affected people. The cards were used 
+in 
+response 
+to 
+the 
+population 
+movement in the Americas, floods, 
+response to hurricanes Eta and Iota, 
+response 
+to 
+hurricane 
+Dorian 
+(Bahamas), and response to the 
+volcano eruption in St. Vincent.
+The prepaid cards were seen as a 
+quick way to distribute cash particularly 
+when an agreement with a local 
+financial 
+service 
+provider 
+is 
+not 
+available or usable for the emergency 
+context. For instance, in the Bahamas, 
+the National Society had prior experience in using locally procured prepaid cards from a local bank. However, 
+when Hurricane Dorian affected the country in September 2019, the contract with the FSP was not valid. 
+There were also some questions on whether the FSP would be able to handle the scale in terms of volume 
+of cash to distribute and number of people to assist. After the analysis and comparison between the IFRC’s 
+regional payment solution and the local option, it was decided to use the IFRC’s payment solution, although 
+the service costs were higher than the local option. Timeliness and scale were prioritized which allowed the 
+IFRC and the Bahamas Red Cross Society to start distributing cash in less than one month (which coincided 
+with when markets started functioning again) and scale up in subsequent months. Over 3,000 vulnerable 
+households were assisted by February 2020 and about 11 million USD loaded in the cards6.
+6. https://adore.ifrc.org/Download.aspx?FileId=307860 – IFRC The Bahamas Hurricane Dorian Emergency Appeal six months update, May 2020.
+Grand Bahama, Bahamas 2019. Geniece was one of the first people to receive financial assistance 
+from the Bahamas Red Cross Society using a prepaid card after the devastating impact of Hurricane 
+Dorian. © American Red Cross
+10     |    IFRC  Global payment solutions for humanitarian cash assistance
+
+--- Page 11 ---
+Defining a global payment solution   |   11
+During the consultations with other humanitarian actors, it seemed that not many have 
+invested in a global payment solution. One agency mentioned they contracted a 
+global remittance company, but it was not widely used in response; one reason being the 
+geographical coverage of the provider was not sufficient in areas where most needs are. 
+Many other organizations were focusing on local procurement of FSPs or relying on 
+partners that have existing agreements with FSPs. 
+The concept of a global payment solution was investigated by the IFRC back in 2015. In 
+2016, the American Red Cross, which was supportive of exploring global payment solutions, 
+partnered with Mastercard, a global payment company to pilot a new technology that 
+“enables humanitarian organizations to deliver funds through different channels – 
+payment cards, mobile money, bank accounts and cash-out agents – from anywhere in the 
+world”7. It was however only tested with mobile money and was not used for international 
+emergencies after the pilot. Some of the challenges faced earlier by the IFRC in pursuing a 
+global payment solution were:
+1.	 Difficulties in coming up with a set of requirements that are realistic for vendors to 
+implement, given the many contexts and scenarios to plan for with a global solution. 
+The scope becomes too broad, and services of financial companies might focus on 
+some specific services only (e.g. mobile money for a certain geographical area or 
+agents being available primarily in urban areas).
+2.	 Financial products and services evolve quickly, and humanitarian actors may not be 
+aware of what exists and is feasible to use for humanitarian cash assistance.
+3.	 Too time consuming to procure and set up global framework agreements. The 
+regional agreement for the Americas took nine months to complete the initial 
+procurement. 
+The needs, ambitions and commitments of the IFRC have changed since its first attempt 
+at finding a global payment solution. At the same time, the nature of disasters and crises 
+affecting multi-countries warrants new solutions. But the approach of the IFRC to find 
+such a global payment solution will also need to change. Learning from the challenges 
+faced before, the IFRC will need to better engage the private sector (FSPs, fintech) to 
+discover available solutions, rely on their expertise to map options and risks of which 
+humanitarian actors may not be aware, and build meaningful shared-value relationships 
+to establish trust and focus on what is most important, which is to address the needs of 
+affected people.
+7. https://newsroom.mastercard.com/asia-pacific/press-releases/mastercard-and-palang-merah-indonesia-launch-mobile-disbursements-
+program-for-humanitarian-aid/
+
+--- Page 12 ---
+12     |    IFRC  Global payment solutions for humanitarian cash assistance
+Eswatini 2020. A beneficiary in front of the 
+MTN merchant where he will cash out his 
+assistance received through mobile money. 
+© Ville Palonen/Finnish Red Cross
+
+--- Page 13 ---
+Models for a global payment solution   |   13
+MODELS FOR A GLOBAL PAYMENT SOLUTION
+During the consultations, participants asked whether the IFRC envisions a single provider 
+or FSP offering a global payment solution. The basic analysis done on the sample of 
+financial institutions with multi-country coverage (see Annex 2) showed that there is a 
+diverse set of offerings available in the market and traditional procurement based on a 
+single list of requirements covering a very broad list of contexts is quite unrealistic. 
+Therefore, it became clear that different models for implementation will be necessary. The 
+following are three models that attempt to address the properties expected from a global 
+payment solution:
+1. Aggregator model
+There are companies that are investing in direct contracting with local banks and different 
+payment solutions and therefore aggregating means to distribute cash. They would 
+receive the funds from their clients and distribute through their locally contracted FSPs on 
+behalf of the clients. Examples are: Segovia (acquired by Crown Agents Bank) offering 
+integrations with banks and mobile money providers, RedRose Ltd offering an e-voucher 
+solution as well as direct integration with MoneyGram, some local banks, and mobile 
+money providers, and MFS Africa providing mobile money solutions to over 35 countries 
+in Africa.
+Pros: 
+	
+¤
+Having a company with pre-agreements helps save time in conducting several local 
+procurements (including due diligence checks, negotiations on rates as well as terms 
+and conditions) and therefore faster activation of services during emergencies.
+	
+¤
+The risk of non-delivery by local FSPs is taken on by the aggregator. 
+	
+¤
+One centralized place to do reconciliation and reporting.
+	
+¤
+Aggregator may be able to help with training.
+Cons: 
+	
+¤
+Relying on one company risks a single point of failure that could impact many other 
+programmes and initiatives utilizing that company.
+	
+¤
+Detailed contract negotiation with a local FSP is not possible; will rely on the 
+negotiated terms and conditions by the aggregator. For example, provisions around 
+data protection might not be as robust, or there may be inability to adhere to 
+privileges and immunities of an international organization.
+	
+¤
+The aggregator may not be fully aware of how the local FSP will operate depending 
+on conditions and contexts. For example, some remittance companies may allow 
+different types of identities (e.g. driver’s licence, birth certificate, tax registration), 
+and in other countries the remittance company might take only a specific type (e.g. 
+international passport or national ID card).
+	
+¤
+Following up on issues (e.g. person unable to withdraw cash), may take time as the 
+aggregator will need to work with the local FSPs to investigate.
+
+--- Page 14 ---
+14     |    IFRC  Global payment solutions for humanitarian cash assistance
+2. A suite of payment solutions 
+This model envisions having different payment mechanisms available to be deployed, 
+where the region and country operation teams can decide on the most appropriate 
+solution(s) to use. Many National Societies tend to use payment mechanisms popular in 
+their regions (e.g. mobile money services in Africa, prepaid cards in the Americas, 
+remittance in Asia Pacific). But having more options for them would help increase flexibility 
+particularly if other payment mechanisms would be best utilized in harder to reach areas.
+Companies that offer such specialized payment mechanisms for the region or a cluster of 
+countries, such as the prepaid card provider for the Americas, would be helpful to provide 
+choice and flexibility. Although this model entails procurement of separate payment 
+mechanisms, managing the requirements and tailoring them to what is expected of such 
+payment mechanisms would be more realistic and attract service providers that do offer 
+such services rather than spreading out too broadly.
+Pros:
+	
+¤
+Flexibility and choice depending on what will be the most appropriate payment 
+mechanism for the emergency.
+	
+¤
+IFRC negotiates terms and conditions directly with each provider.
+	
+¤
+Competition created between companies offering similar payment solutions to help 
+drive competitive pricing.
+	
+¤
+Once agreements are in place they are available to be activated for different 
+emergencies and save time in the long run.
+Cons:
+	
+¤
+Procurement of multiple FSPs could take a long time.
+	
+¤
+More dedicated resources are needed for vendor management of multiple FSPs.
+Bangladesh 2020 
+© Ibrahim Mollik/IFRC
+
+--- Page 15 ---
+Models for a global payment solution   |   15
+3. Partnerships with multinational companies
+This model focuses on partnerships with global financial companies (or those with multi-
+country reach) to leverage their expertise and their networks to find solutions. In contrast 
+to the previous two models where procurement with service providers is necessary, this 
+model focuses on strategic engagements, which could lead to commercial relationships 
+and therefore procurement later. Examples of companies with global or multi-country 
+reach include Visa, Mastercard, Western Union, MoneyGram, Vodacom and Airtel.
+Because of the fast evolution of technology and financial solutions as well as regulations 
+and laws, it is important to have diverse partners that can inform humanitarian 
+organizations of trends, companies working on relevant products, challenges and risks 
+with which humanitarian actors may not be familiar, and that also have access to an 
+extended network to better understand what is available in the market. Through 
+partnerships, the hope is to be able to entice the private sector to build more financial 
+solutions that cater to humanitarian needs. 
+Pros:
+	
+¤
+Allows for open dialogue that is not constrained by the formal and traditional 
+procurement process.
+	
+¤
+Opportunity to pilot new solutions and learn about them before procurement and 
+full implementation.
+	
+¤
+Opportunity to engage and incentivize the private sector to build financial solutions 
+that cater to humanitarian organizations.
+Cons:
+	
+¤
+Does not provide readily deployable solutions but could provide support for piloting 
+new products and services.
+	
+¤
+Commercial relationships will typically require a procurement process as a service 
+contract is needed if vendors are to be paid for services.
+	
+¤
+Identifying who to partner with and creating a meaningful basis for partnership could 
+take time. Some private sector companies might be willing to engage but also have 
+limited resources.
+
+--- Page 16 ---
+16     |    IFRC  Global payment solutions for humanitarian cash assistance
+Engagement with the private sector solution providers
+The three models are not mutually exclusive. A solution for the IFRC and other humanitarian 
+actors may involve a combination of the three models. The first step is to have better 
+engagement with the private sector that is not constrained by the traditional procurement 
+process and therefore looking at the third model on partnerships and conducting market 
+dialogues8 would be helpful. For instance, the CashHub, which is a global CVA resource 
+platform for the Red Cross Red Crescent Movement hosted by the British Red Cross, 
+started a Private Sector Reference Group aimed at bringing together representatives from 
+fintech, digital service providers and others to informally discuss the challenges faced by 
+the Movement with CVA and how the private sector might help address some of these 
+challenges. Such dialogues or engagements are meant to educate each other’s sector on 
+how they work as well as their specific needs, constraints, incentives or motivations. 
+Discussions should lead to insights on solutions and their feasibility to be deployed. 
+Another reason for meaningful engagement is to help build trust. During the consultations 
+with humanitarian actors and with private sector companies, it was observed that each 
+party perceives different goals or outcomes: humanitarian action versus profit. Building a 
+global solution that is deployed in the difficult contexts in which humanitarians work 
+requires commitment and trust that is beyond contractual agreements as it means 
+learning, adapting and solving problems along the way in a different way from the typical 
+clients of private sector providers.
+8. “A market dialogue can give you valuable information about possible solutions, market dynamics and tender specifications.” See. https://www.
+innovasjonnorge.no/globalassets/0-innovasjonnorge.no/subsites/hipnorway/innovation-friendly-procurement-tools_02062020.pdf
+Turkey 2021. A migrant at an ATM withdrawing money which she receives as part of a cash assistance programme in Turkey.  
+© Turkish Red Crescent
+
+--- Page 17 ---
+Models for a global payment solution   |   17
+One key informant commented about difficulties in convincing some financial service 
+providers to offer solutions to humanitarian organizations, and therefore the procurement 
+process resulted in less than adequate proposals. In this scenario, it was noted that the 
+providers have never worked with humanitarian organizations before and no discussion 
+about the opportunity of reaching a new market (or potential for financial inclusion) took 
+place. Another key informant whose organization had framework agreements with multiple 
+FSPs commented that they tend to use just one of the partners because they seemed to 
+be more committed to the humanitarian cause than the other companies, adding that 
+“their agents were willing to cross rivers and mountains with our volunteers to reach 
+people in need”. 
+CALP’s report on the Future of Financial Assistance: An Outlook to 2030 offers a good 
+summary of the role of the private sector and why engagement is important, noting, 
+“Private sector actors argue that failure to engage them earlier in the programme design 
+process and treat them as strategic partners means that humanitarian actors miss 
+opportunities to ensure that financial products and services are better tailored to crisis-
+affected people”9.
+9. https://www.calpnetwork.org/publication/the-future-of-financial-assistance/
+Poland 2022. Mariia is one of the first 
+Ukrainian refugees to receive cash relief 
+using a prepaid card. Mariia left her 
+hometown to seek safety in Poland.  
+© Carina Wint/IFRC
+
+--- Page 18 ---
+18     |    IFRC  Global payment solutions for humanitarian cash assistance
+CONSIDERATIONS FOR IMPLEMENTING  
+A GLOBAL PAYMENT SOLUTION
+Learning from the regional payment solution for the Americas and in discussion with key 
+informants, the following are some of the key factors to consider when sourcing and 
+implementing a global payment solution:
+Costs 
+Compared to locally procured and directly negotiated services, a global payment solution 
+will be more expensive. The premium service costs might be justified since the provider 
+takes on the risks for the performance, delivery and management of its local providers, in 
+addition to the convenience of not having to go through multiple local procurements10. In 
+the example of the use of the IFRC’s regional prepaid card mentioned in Box 2, the cost 
+analysis showed that the local card previously used by the Bahamas Red Cross was 
+considerably cheaper than the regional card. There were flat fees for ordering the plastic 
+cards and there were variable fees for different transactions such as ATM balance inquiry, 
+international ATM fees, point of sale fees, etc. Having the funds transferred in USD versus 
+the local currencies could also make a big difference depending on the country. For 
+remittance services, there could be foreign exchange rate fees controlled by the FSP. For 
+mobile money, additional fees could be added to the standard transaction fees.
+It is possible to negotiate the different costs, but it will be important to do some analysis 
+on cost factors and model costing scenarios to understand the ranges that will be 
+acceptable for the organization. One factor to negotiate is the potential for large volumes, 
+particularly if National Societies are allowed to join the framework agreements for their 
+own specific programme use in addition to IFRC’s programmes and operations.
+Duration of use
+Given the likely higher costs of global solutions than local solutions, it is important to 
+consider the duration for which global solutions are used. Having the global solution used 
+for emergencies where it is difficult to procure local solutions would ensure timely cash 
+assistance is provided. It would, however, be ideal to have local solutions to transition to 
+quickly, not only to save on the premium costs but also to ensure National Societies or 
+local branches of the organization are able to rely on solutions that they themselves 
+procure and negotiate, which is more sustainable. The use of global solutions could 
+certainly help local actors learn more about and get experience with different financial 
+solutions, which will be useful when they procure their own local solutions as well as have 
+an alternative in case the local solutions are not feasible in certain contexts.
+10. See the pros and cons for the different models for the global payment solution.
+
+--- Page 19 ---
+Considerations for implementing a global payment solution   |   19
+Preference of end users
+The aggregator and the suite of solutions models aim to provide flexibility for the 
+humanitarian organization to deploy the most appropriate payment mechanism(s) 
+available. Equally important is to ensure the solution option is appropriate, desired and 
+preferred by the cash recipients. Providing options to affected people on how they would 
+like to receive their cash assistance promotes respect and dignity just as much as how 
+they are to use cash to address their needs. Certain payment mechanisms require 
+sensitization and training for cash recipients. For example, for the population movement 
+in 2016 in Greece, the IFRC and Hellenic Red Cross provided support to the migrants on 
+how to use ATM cards as some of them were not familiar with their use11. Giving options, 
+when possible, helps increase the quality of humanitarian service. 
+Differences in local implementation
+One assumption with global solutions is that once the solution is activated for one country, 
+the implementation would be exactly the same in another country or location. Because of 
+varying contexts in addition to different laws and regulations in different countries, it is 
+expected that there will be variations on how services might be activated in different 
+locations. For example, the “know your customer” (KYC) requirements might be different 
+and therefore it is important to analyse which are the valid identity documents accepted. 
+Another example is that certain banks or financial providers in-country might be blocked 
+by the government.
+The nuances of the local activation of services will also need to be analysed, for instance, 
+geographical coverage of the provider, liquidity of the agents or financial institutions, 
+delays in sending payment instructions, availability of local customer services, what types 
+of reports are available and timeliness of reconciliation. Depending on how well the global 
+provider has tested transactions with their local providers, it might be that they are 
+learning about the nuances and issues at the same time as their clients. It is therefore 
+recommended to conduct a test first with the local providers before planning to scale up. 
+It is also necessary to be prepared to adjust each organization’s standard operating 
+procedures (SOPs) if they are to be developed from a global perspective. Particularly when 
+a suite of payment solutions is being provided, each payment mechanism will require its 
+own specific SOPs (e.g. payment cards versus remittance). Having focal points that know 
+the intricacies of the various solutions from activation to distribution, reconciliation and 
+reporting will be important.
+11. https://cash-hub.org/wp-content/uploads/sites/3/2020/10/Key-Learning-and-Recommendations-North-Greece-CBA-IFRC-042017.pdf
+
+--- Page 20 ---
+20     |    IFRC  Global payment solutions for humanitarian cash assistance
+Integration with data management
+Humanitarian organizations have been investing in data management solutions to support 
+scale-up of their CVA interventions (e.g. IFRC’s use of RedRose, World Food Programme’s 
+[WFP] SCOPE, United Nations High Commissioner for Refugees’ [UNHCR] ProGres). 
+Ensuring that these data management solutions can integrate with the global payment 
+solution is essential to facilitate secure transactions, promote privacy and data protection, 
+enable tracking and monitoring of payments (ideally in real-time), link transactions with 
+data of recipients to help triangulate issues regarding cash disbursements, and permit 
+reconciliation, audit and reporting.
+Challenging contexts
+Market, financial and general economic volatility could impact the financial institutions that 
+are responsible for distributing humanitarian cash assistance. This study does not go into 
+detail on impacts of such challenging contexts but did ask how a global payment solution 
+might be helpful particularly in dealing with sanctions, devaluation of currencies and heavy 
+restrictions on financial institutions.
+Eswatini 2020. Eswatini Red Cross Society  
+cash transfer operation.Beneficiary Alice Gina  
+received her assistance through mobile money.  
+Here, the MTN agent is processing her cash  
+out request.
+© Ville Palonen/Finnish Red Cross
+
+--- Page 21 ---
+Considerations for implementing a global payment solution   |   21
+Sanctions is a broad and complex topic that applies to companies or individuals and differs 
+due to situation or context. This study focused on sanctions against banks that could affect the 
+management of payments for CVA. For example, donors from the USA or EU might restrict 
+how funds are channelled to financial institutions that have been sanctioned by their 
+governments. There are certain exemptions for humanitarian action to which specific licences 
+or approval to use sanctioned companies could be obtained. But according to a global financial 
+institution consulted for this study, the time it takes to get the necessary approvals might not 
+be conducive for emergency situations, and there could be wider impacts to networks that 
+could affect acceptability and availability of services and therefore such licence or approval 
+might result in very limited activities and capacities. 
+Heavily restricted financial institutions due to liquidity issues, disruption in infrastructure 
+and national financial systems is another important context to analyse to discover whether 
+global payment solutions might be helpful. Situations in Afghanistan after the Taliban took 
+control in 2021, the economic crisis in Lebanon that started worsening in 2019, and the 
+impacts of a long conflict in Yemen that weakened its banking sector and confidence in 
+formal financial institutions12, have all shown difficulties in distributing cash aid due to 
+such restrictions. A global payment solution typically relies on the availability of functioning 
+financial institutions in the country and therefore could be difficult to deploy in these 
+complex situations.
+High inflation and devaluation of currencies could also impact the effectiveness of having 
+a global payment solution. Funds channelled from an international FSP to a local FSP might 
+be subject to highly volatile exchange rate fluctuations. The CALP Network produced some 
+documentation on good practices and case studies in contexts of high inflation and 
+depreciation13. There are several recommendations including the use of hard currency14 
+that could be looked at with global payment solutions.
+With these challenging contexts, some key informants have raised the possibility of having 
+global providers work with local providers that might include informal payment systems 
+such as “hawala”15, which allows for transfer of money without formal banking relationships. 
+These informal payment solutions come with risks since they are typically not regulated 
+by government and financial bodies, but in many cases, they are effective, efficient, 
+and accepted by local communities. Where there is detachment from a formal 
+banking relationship is further emphasized by blockchain16-based solutions such as 
+cryptocurrencies17. Also currently unregulated, the emerging technology is being sought 
+after to solve cross-border money transfer issues where there are significant challenges 
+due to sanctions, restrictions in formal financial institutions such as banks, and currency 
+devaluations. See Box 3 for more details and examples of how blockchain-based solutions 
+have been used in humanitarian cash assistance.
+These topics on challenging economic contexts are complex and warrant more research 
+including how global payment solutions may be helpful in such contexts.
+12. Impact of conflict on the financial sector in Yemen: implications for food security (ODI, December 2021) https://cdn.odi.org/media/
+documents/Impact_of_conflict_on_the_financial_sector_in_Yemen_Jg6sNMp.pdf
+13. https://www.calpnetwork.org/publication/good-practice-review-on-cash-assistance-in-contextsof-high-inflation-and-depreciation/
+14. CALP – Hard currency refers to money issued by a nation seen as politically and economically stable. Hard currencies can sometimes be 
+accepted as a form of payment for goods and services and even preferred over domestic currency. The typical example is US dollars (USD).
+15. https://www.fatf-gafi.org/media/fatf/documents/reports/Role-of-hawala-and-similar-in-ml-tf.pdf
+16. Blockchain technology: A blockchain is a decentralized distributed database or ledger that stores information electronically in digital 
+format. A blockchain guarantees the fidelity and security of data and generates trust without the need for a trusted third party. Any data 
+stored on blockchain is unable to be modified, making the technology trusted for transactions such as payments and for information on 
+cybersecurity and healthcare. Read more at https://builtin.com/blockchain  
+17. https://consensys.net/blockchain-use-cases/finance/
+
+--- Page 22 ---
+22     |    IFRC  Global payment solutions for humanitarian cash assistance
+BOX 3: BLOCKCHAIN-BASED SOLUTIONS AND CRYPTOCURRENCIES
+The interest of humanitarian actors to explore blockchain-based solutions and cryptocurrencies to deliver 
+CVA has been increasing particularly for cross-border aid. The benefits sought include better traceability of 
+donor funding, automated impact assessment, increased access to fund people in need, and increased 
+efficiency in funds transfer18. CALP’s report on The Future of Financial Assistance indicated the opportunities 
+of using blockchain and cryptocurrencies in two scenarios they foresee by 2030 to address interoperability 
+of data for people moving across international borders, improve identity management and need to address 
+KYC, anti-money laundering (AML) and combating the financing of terrorism (CFT) requirements, having a 
+more resilient payment option for people on the move and when shocks affect markets, and for faster and 
+cheaper remittance options19. There are concerns and limitations of such solutions, including weak 
+regulations and volatility of monetary value, leading therefore to low trust and perception of high risks.
+Nevertheless, humanitarian organizations are piloting and seeking evidence of such benefits and analysing 
+the perceived risks. A few notable examples:
+	
+¤
+Oxfam’s Project Unblocked Cash20 was launched in May 2019 and piloted an e-voucher system in 
+Vanuatu where 200 participants received near-field communication (NFC21) cards linked to a digital 
+wallet with DAI22 cryptocurrency tokens that have an established monetary value. The platform 
+leveraged the public blockchain solution of Ethereum. The cards were used in participating stores 
+and vendors cashed out the funds in local currency. Oxfam scaled their solution when Cyclone Harold 
+and COVID-19 hit Vanuatu in 2020, reaching over 35,000 beneficiaries with two million USD in cash 
+assistance23.
+	
+¤
+In 2021, Hope for Haiti launched a pilot targeting women and children and providing them with 
+assistance using e-vouchers for a nutrition programme. A digital wallet was provided to the 
+participants who received stablecoin tokens managed on the Celo blockchain. Merchants had an 
+app that read the wallets and tokens and cashed out using a mobile money provider. Realtime 
+analytics were provided allowing the programme teams to monitor the programme and trace 
+funds24. The process eliminated financial intermediaries, reducing operational costs due to cross-
+border transactions. Hope for Haiti also allowed cryptocurrencies to be received to raise funds for 
+emergencies such as the 7.1 magnitude earthquake in August 2021.
+	
+¤
+In 2019, Mercy Corps conducted a pilot of a blockchain-based voucher system that used “Humanity 
+First Token” for refugees from South Sudan that fled to Uganda. The tokens were pegged to Uganda 
+Shillings. The refugees received a digital wallet that could be used within their stay in Uganda or in 
+their country of origin if they chose to return. The tokens could be used with local vendors to receive 
+food and solar panels, for instance. The vendors can then redeem the tokens received at Binance 
+Uganda exchange25. Binance is a global cryptocurrency exchange.
+	
+¤
+In August 2021, after the Taliban took control of Afghanistan, a humanitarian crisis ensued where 
+borders were closed, costs increased significantly, cash and food supplies were reduced, currency 
+plummeted, and many lost their jobs and needed essential services. Banks closed for a long period 
+of time and money transfers were discontinued, making it very difficult to get access to cash. Code to 
+Inspire, an NGO providing education to young Afghan women, started using cryptocurrency stablecoin 
+BUSD, which they sent to students (value of 200 USD per month), which were exchanged for local 
+currency at money exchanges. Due to the collapse of the financial system, there has been a rise in the 
+use of cryptocurrencies in Afghanistan26.
+18. https://www.coindesk.com/podcasts/coindesks-money-reimagined/the-complexities-of-blockchain-in-global-aid-efforts/
+19. https://www.calpnetwork.org/publication/the-future-of-financial-assistance/
+20. https://consensys.net/blockchain-use-cases/social-impact/project-unblocked-cash-case-study/
+21. Near-field communication (NFC) is a set of short-range wireless technologies. NFC allows the sharing of small amounts of data between 
+two Android devices, such as smartphones, for example. 
+22. Dai is a cryptocurrency where the value is kept as close to one US dollar (1:1 ratio) as possible.
+23. https://www.oxfam.org/en/unblocked-cash-project-using-blockchain-technology-revolutionize-humanitarian-aid
+24. Hope for Haiti Chooses Celo and Emerging Impact as First Blockchain Partners to Deliver Digital Humanitarian Aid | by Celo Foundation | 
+The Celo Blog | Medium
+25. Binance Charity Joins Forces with Mercy Corps to Launch Impact Token to Aid the Displaced | Binance Blog
+26. Afghans turn to cryptocurrencies amid US sanctions - BBC News
+
+--- Page 23 ---
+Considerations for implementing a global payment solution   |   23
+Jordan 2021. Ahmad Theeb Abu Shefeh 
+takes money from an ATM that he received 
+through the Red Cross cash assistance 
+programme in Amman, Jordan. The money 
+is essential for Ahmad and his family to 
+survive in Jordan.  
+© Andrew McConnell/British Red Cross
+
+--- Page 24 ---
+24     |    IFRC  Global payment solutions for humanitarian cash assistance
+CASE STUDIES
+COVID-19 pandemic
+The IFRC’s COVID-19 response operation was a global effort of individual domestic 
+responses by its member National Societies. In January 2020, the IFRC launched the first 
+global emergency appeal in response to the rise of infections due to the COVID-19 virus, 
+which was eventually declared as a pandemic. In the first six months of the pandemic 
+response, 60 National Societies worldwide have included CVA in their response plan 
+and another 10 National Societies were considering including CVA. The appetite to use 
+CVA as a response tool was very positive even for the National Societies that have never 
+used it before due to the speed it takes to deliver cash, the choice and dignity it provides 
+recipients, and the ability to minimize face-to-face interactions when delivering cash 
+using digital means. It was clear that the National Societies that already have valid 
+contracts with FSPs and experience with delivering cash assistance were able to 
+implement their CVA interventions quickly. However, those that did not have FSPs and 
+prior experience delivering CVA faced considerable challenges. The procurement of 
+FSPs during an emergency was seen as one of the critical bottlenecks in CVA, and this 
+issue was magnified during the COVID-19 response given the number of National 
+Societies trying to implement CVA. The procurement process could take up to six 
+months including due diligence and contract negotiations with FSPs.
+The use of the regional prepaid cards in the Americas was helpful for National Societies 
+that were able to use it for their COVID-19 response. The cards were easy to top up with 
+monetary value remotely, reducing physical contact. 
+In this scenario and in future pandemic responses, a global 
+payment solution could be an option for National Societies 
+that may not have their own local FSP contacts yet (or have 
+expired or unusable agreements). It could at minimum be 
+used for the immediate response ensuring cash is 
+delivered to vulnerable families as quickly and as early as 
+possible, while the local procurement process is 
+conducted in parallel.
+Bangladesh 2020. Abdul Rashid who lost his job following the 
+COVID-19 lockdown was one of 1,200 families in Cox’s Bazar that 
+received cash grants from the Bangladesh Red Crescent Society 
+to help recover from the impact of the COVID-19 pandemic on 
+their livelihoods. © Ibrahim Malik/IFRC
+
+--- Page 25 ---
+Ukraine and impacted countries crisis
+Since February 2022, the conflict escalation in Ukraine has displaced millions of people to 
+neighbouring countries. National Societies in Ukraine and the neighbouring countries, 
+with the support of the IFRC, are assisting affected people with cash assistance for 
+immediate basic needs. The rate of movement of people to find safe accommodation has 
+been unpredictable, and people continue to move in the months since the beginning of 
+the crisis. The IFRC is supporting Ukraine and seven neighbouring countries, many of 
+which have not used cash assistance before and therefore do not have established 
+contracts with local FSPs. The IFRC tried to engage a global financial company that provided 
+prepaid cards across Europe, but unfortunately costs were too high and there was no time 
+to engage meaningfully during the peak of the emergency. The IFRC then tried to extend 
+the scope of the regional prepaid card solution used in the Americas region since a 
+commercial relationship has already been established with the FSP. There were some 
+limitations including geographical coverage in certain countries, but it allowed the prepaid 
+cards to be deployed in at least two countries. Further challenges were faced because of 
+the low limits of money that could be topped up in the cards and since it required a 
+significant amount of effort to manage the prepaid cards manually, deliver and train 
+recipients on how to use them, provide assistance to those who lost their cards or forgot 
+their PIN codes,  deliver reports and undertake reconciliation. The IFRC already have a 
+framework agreement with RedRose for data management, and RedRose just integrated 
+with MoneyGram remittance services prior to the conflict. The MoneyGram service was 
+available in all the countries being supported by the IFRC, although some specific areas did 
+not have very good coverage. Since there were adequate MoneyGram agents in the 
+priority areas for the operation, it enabled the IFRC and the National Societies to scale up.
+Having two options for payment solutions that 
+could be deployed to all countries covered by the 
+operation provided flexibility especially since the 
+prepaid cards did not require individuals to 
+present official IDs (since some of them have lost 
+or left their IDs or never had them in the first 
+place) while the MoneyGram option required 
+official identity documents. There were still some 
+limitations faced with the MoneyGram option and 
+varying issues in different countries. However, 
+according to the IFRC’s three-month operational 
+report, 646 households received prepaid cards in 
+Poland and 1,685 households received cash using 
+the MoneyGram service. In Romania, just one 
+month 
+after 
+starting 
+the 
+cash 
+assistance 
+programme, over 26,000 individuals received 
+cash assistance worth EUR 2.76 million using the 
+MoneyGram service27.
+In this scenario and where people are displaced and moving to different countries or 
+areas, a global payment solution that allows for different payment mechanisms (e.g. 
+prepaid cards, remittance, bank transfers, etc.) that are readily activated could help the 
+country programme teams to design the most appropriate CVA intervention for the 
+affected population where hopefully their preferences and choices on how to best receive 
+cash assistance can also be taken into consideration.
+27. IFRC Operations Update 3 for the Ukraine and impacted countries crisis. https://adore.ifrc.org/Download.aspx?FileId=546775
+Romania 2022 © Angela Hill/IFRC
+Case studies   |   25
+
+--- Page 26 ---
+Lebanon complex humanitarian crisis 
+In August 2020, Beirut’s port was affected by double explosions on top of the impact of the 
+COVID-19 pandemic and the deteriorating economy since 2019. The fluctuations in the 
+local currency (the Lebanese pound [LBP] when it lost nearly 90 per cent of its value 
+against the US dollar by May 202128) led to price increases of basic goods and hyperinflation. 
+The banking systems were also affected where cash withdrawals were restricted to only 
+the local currency LBP instead of having options to withdraw USD29; liquidity became an 
+issue. Organizations that issued ATM cards found it difficult for recipients to use the cards 
+in certain banks and had issues withdrawing their cash assistance.
+In this situation where the financial markets are disrupted and the economy has collapsed, 
+it is difficult for a global payment solution with standard payment offerings to provide an 
+added value, unless it was able to disburse in USD or euros in country, but this could also 
+create protection issues for those receiving such currencies with high value. In other 
+countries facing serious economic crisis such as Afghanistan and Ukraine, the use of 
+cryptocurrencies and blockchain-based financial solutions has been explored. It would 
+therefore be important for a global payment solution to include highly innovative solution 
+options that could provide additional flexibility when traditional banking and financial 
+services are not available.
+28. https://www.calpnetwork.org/wp-content/uploads/2021/10/Lebanon-final.pdf
+29. https://www.calpnetwork.org/wp-content/uploads/ninja-forms/2/DSP-CAMEALEON-Research-Report-Jan-2021.pdf
+Lebanon 2020. Since September 2020, the Lebanese Red Cross shifted the focus of its response to direct financial assistance of 300 USD per month for seven months for 9,800 of 
+the most vulnerable affected families. Their vulnerability was exacerbated by the massive explosion in the port area of Beirut, the economic crisis with the devaluation of the local 
+currency, and the surge in the number of COVID-19 cases. © Lebanese Red Cross
+26     |    IFRC  Global payment solutions for humanitarian cash assistance
+
+--- Page 27 ---
+Recommendations   |   27
+RECOMMENDATIONS
+30
+For the IFRC, the following are recommended:
+Utilize the models presented in the report to analyse the best fit for the IFRC in 
+developing a global payment solution based on the pros and cons. The opportunity 
+to have a solution in place that could be activated during emergencies particularly at 
+large scale with multi-country impacts will be beneficial, at minimum to address the 
+short-term needs to distribute cash quickly or as an alternative if current providers 
+are not able to deliver. 
+There is a need for more engagement with the private sector as part of the 
+procurement process. Given the example of the Innovation-friendly procurement 
+process promoted by Innovation Norway, an open market dialogue could be a way 
+towards this engagement, since it removes constraints in better understanding the 
+solution offerings of providers before a traditional tender process is launched.
+Link the global payment solution to cash preparedness. National Societies will be 
+able to gain experience and learn by piloting with a global solution so they can 
+determine on what would work for their local context. This will also test the global 
+solution in that context and be an alternative solution in case the local option is 
+unavailable or not feasible for a period of time.
+30. At the time of the publication of this report, the IFRC has started testing how an aggregator model could work with RedRose who integrated 
+with MoneyGram (global remittance), with mobile money providers in Africa, and directly with local banks. The IFRC also started strategic 
+discussions with multinational/global payment institutions to see how partnerships could be used to gain access to experts in the finance 
+sector, share insights on how the humanitarian sector works and challenges in providing cash to vulnerable people in very difficult situations 
+and environments, and look for ways to co-develop solutions for humanitarian cash assistance globally. Furthermore, the IFRC is having 
+informal discussions with fintech providers and will look to organize sessions and events for more systematic, meaningful engagements with 
+the private sector.
+
+--- Page 28 ---
+28     |    IFRC  Global payment solutions for humanitarian cash assistance
+Afghanistan 2022 Afghan Red Crescent 
+Society teams provide cash assistance to 
+households that were affected by flash floods 
+in Laghman province  
+© Meer Abdullah Rasikh/IFRC Afghanistan
+
+--- Page 29 ---
+Conclusion   |   29
+CONCLUSION
+The trends indicate that there will be more global or multi-country impacted disasters and 
+crises or emergencies. Getting more National Societies cash-ready and with established 
+contracts with financial service providers will take time. In order to reach the flagship goal 
+of having 50 per cent of humanitarian assistance using CVA, readily available payment 
+mechanisms are essential. There is a big opportunity with a global payment solution to 
+address the gaps, given the lengthy procurement processes or situation in which currently 
+contracted financial service providers might not be able to provide cash at the onset of an 
+emergency. A few options to model a global payment solution have been provided with 
+different pros and cons. It is also important to acknowledge that these solutions are not 
+meant to replace current approaches of procuring locally, but rather to complement when 
+such local options are not available or feasible at the time of the emergency. It is also 
+important to build more meaningful engagements with private sector partners, who have 
+skills, expertise and competencies to grow and enhance the global payment solution(s), 
+given the rapid evolution in the finance sector and the potential to entice them to develop 
+more products and services that cater to the needs of humanitarian organizations.
+A global payment solution addresses only specific areas of bottleneck in humanitarian 
+cash assistance delivery, and procurement of local solutions is generally more cost-
+effective and more sustainable. A global solution will not cover or be appropriate for all 
+contexts, and will not cover all locations, so prioritization of risks to address contexts and 
+geographical locations based on likelihood of repeat disasters will be important. The 
+solution should complement and not be expected to replace local solutions.
+
+--- Page 30 ---
+30     |    IFRC  Global payment solutions for humanitarian cash assistance
+Chile 2022.  Jesús, better known as @jesuskitchen on social 
+media, is Venezuelan and currently lives in the Bio-Bio region. 
+During the COVID-19 pandemic and without stable work, he began 
+posting Instagram messages about different dishes of his own 
+creation in efforts to get sponsors to help him set up his own 
+restaurant. He received cash assistance thanks to the the Chilean 
+Red Cross and IFRC with their Livelihoods Cash Transfer 
+Programme which supports entrepreneurs to prioritize and 
+address the specific needs of their businesses.   
+© Cruz Roja Chilena
+
+--- Page 31 ---
+Annexes   |   31
+ANNEXES
+ANNEX 1: METHODOLOGY AND APPROACH
+The following methodology was applied to achieve the objectives of the study:
+	y
+Mix of qualitative and 
+quantitative research 
+tools to address the 
+study objectives. 
+	y
+Triangulate primary 
+and secondary data 
+to arrive at robust 
+and conclusive 
+results. 
+	y
+Desk review using 
+secondary literature 
+available on the 
+humanitarian 
+payments, fintech 
+and global payment 
+solutions with the 
+perspective of 
+cash and voucher 
+assistance at a 
+global level that has 
+been sorted into an 
+analytical framework.
+	y
+Desk review of 
+IFRC, CALP and 
+other similar 
+actors’ programme 
+literature 
+implemented at a 
+global level.
+	y
+Primary data to be 
+collected through 
+key informant 
+interviews, focus 
+group discussions 
+and online surveys 
+as required.
+	y
+Countries, payments 
+and remittance 
+companies and 
+stakeholder 
+identification at 
+inception stage to 
+identify and map 
+their divergent 
+interests and 
+priorities.
+	y
+Inclusive and 
+transparent 
+approach to gain 
+insights that are 
+meaningful for the 
+study objectives.
+	y
+Structured 
+engagement with 
+stakeholders through 
+key informant 
+interviews, focus 
+group discussions 
+and online survey as 
+required to ensure 
+that there are no 
+information leakages.
+	y
+Data sources for the 
+desk research are 
+carefully scanned 
+to only include 
+credible and reliable 
+publications that 
+are relevant for the 
+study.
+	y
+Sources for primary 
+data collection will 
+be carefully selected 
+from the stakeholder 
+map and as per need 
+with consent and 
+approval from IFRC.
+	y
+Process for sampling 
+such as country and 
+payment providers’ 
+shortlisting will 
+be discussed and 
+validated with IFRC 
+as required.
+	y
+Multiple review 
+stages for deliverables 
+with IFRC  and key 
+stakeholders before 
+finalization.
+MIXED 
+METHODOLOGY
+DATA  
+COLLECTION
+CONSULTATIVE 
+APPROACH
+QUALITY 
+ASSURANCE
+
+--- Page 32 ---
+32     |    IFRC  Global payment solutions for humanitarian cash assistance
+ANNEX 2: SHORTLISTED COUNTRIES AND SAMPLE 
+PAYMENT PROVIDERS
+Countries were shortlisted based on the World Bank economic indicators, country economy groups, mobile 
+money adoption, payment providers, and internet and mobile phone penetration. Fifteen countries were 
+selected across various economy groups and payment providers to compare
+	y World Bank list 
+of countries by 
+economy type used 
+as the universe 
+for the distillation 
+process.
+	y IFRC member 
+countries selected
+	y Source: World 
+Bank Country and 
+Lending Groups
+	y IFRC
+FILTER TO SELECT 
+IFRC MEMBER 
+COUNTRIES
+LEVEL 1
+LEVEL 2
+LEVEL 3
+LEVEL 4
+CLASSIFICATION 
+OF IFRC MEMBER 
+COUNTRIES
+FOR “EACH” 
+ECONOMY GROUP, 
+FILTER BY MOBILE 
+MONEY ADOPTION, 
+PAYMENTS, 
+INTERNET AND 
+MOBILE PHONE 
+PENETRATION
+QUALITATIVE  
+INPUTS FROM  
+THE CONSULTANT
+	y Economy groups 
+considered: High 
+income, Low 
+income, Lower 
+middle income, 
+Upper middle 
+income
+	y High income 
+countries filtered 
+out
+	y Source: World 
+Bank Country and 
+Lending Groups
+	y A draft list of 15 countries spread across various economy groups
+	y 13 payment providers
+	y Indicators for 
+mobile money: 
+GSMA Mobile 
+Money Prevalence 
+Index
+	y Indicators 
+for payment 
+innovation: covered 
+through desk 
+country research 
+	y Internet coverage 
+and mobile phone 
+penetration: 
+covered through 
+DataReportal reports
+	y Source: Various, 
+most notably: GSMA 
+Mobile Prevalence 
+Index, https://
+datareportal.com
+	y Screening questions 
+(qualitative and 
+quantitative) by 
+consultant to 
+ensure regional 
+representation and 
+alignment with IFRC 
+interests
+	y Indicators: desk 
+research on 
+payment providers 
+based on scalability, 
+speed, ease of 
+use, flexibility, 
+integration, 
+accountability, 
+data protection, 
+localization, cost, 
+cash preparedness 
+and risk 
+management 
+
+--- Page 33 ---
+Annexes   |   33
+S No
+Region
+Economy 
+type
+Economy
+Mobile 
+money 
+adoption31 
+E-payment 
+solutions32 
+Internet 
+coverage 
+[2G-4G]33 
+Mobile 
+phone 
+penetration34
+1
+Americas
+Lower 
+middle 
+income
+Bolivia
+Low  
+(0.39-0.20)
+O
+65%
+99%
+2
+Americas
+Upper 
+middle 
+income
+Chile
+ND
+O
+82.3%
+132.1%
+3
+Americas
+Middle 
+income 
+country 
+Paraguay
+High  
+(0.79-0.60)
+O
+68.5%
+100.3%
+4
+Americas
+Upper 
+middle 
+income
+Panama
+ND
+O
+64.8%
+107.9%
+5
+Americas
+Lower 
+income
+Haiti
+Medium 
+(0.59-0.40)
+O
+37.3%
+64.3%
+6
+Americas
+Lower 
+middle 
+income 
+country
+Honduras
+Medium 
+(0.59-0.40)
+D
+38.2%
+71.1%
+7
+Africa
+Low  
+income
+Ethiopia
+Low  
+(0.39-0.20)
+D
+20.6%
+38.5%
+8
+Africa
+Lower 
+middle 
+income
+Benin
+Very high 
+(0.80)
+O
+28.4%
+83.6%
+9
+Africa
+Mixed 
+economic 
+system
+Congo
+Very high 
+(0.80)
+D
+32.1%
+88.7%
+10
+Asia Pacific
+Middle 
+income 
+Bangladesh
+High  
+(0.79-0.60)
+O
+28.8%
+100.2%
+11
+Asia Pacific
+Lower 
+middle 
+income
+Nepal
+Low  
+(0.39-0.20)
+O
+36.7%
+131.3%
+12
+Europe and 
+Central Asia
+Upper 
+middle 
+income
+Azerbaijan
+ND
+D
+81.1%
+111.0%
+13
+Asia Pacific
+Low  
+income
+Afghanistan
+Very low  
+(19)
+D
+22.0%
+68.7%
+14
+Asia Pacific
+Middle 
+income 
+country
+Fiji
+Medium 
+(0.59-0.40)
+D
+70.5%
+138.6%
+15
+Asia Pacific 
+Lower to 
+middle 
+income
+Papua New 
+Guinea
+Low  
+(0.39-0.20)
+D
+15.2%
+34.4%
+Notes: Very high: > 0.80; High: 0.79-0.60; Medium: 0.59-0.40; Low: 0.39-0.20; Very low: <19; Payments innovation: 
+“O” denotes countries that are offering e-payment solutions. “D” denotes countries where such services are under 
+development; ND: No data
+31. https://www.gsma.com/mobilefordevelopment/wpcontent/uploads/2021/09/MMPI_The_Mobile_Money_Prevalence_Index.pdf
+32. World Bank - Payments Innovation: “O” denotes countries that are offering e-payment solutions. “D” denotes countries where such services 
+are under development.
+33. https://datareportal.com/
+34. https://datareportal.com/
+
+--- Page 34 ---
+34     |    IFRC  Global payment solutions for humanitarian cash assistance
+A select number of payment solution providers were shortlisted based on recommendations from 
+consultation participants and desk research on service offerings that could be activated in different countries 
+or areas. This list is not meant to be exhaustive and the attempt to rate them according to the criteria 
+envisioned for the global payment solution was not meant to be conclusive or definitive. This analysis aimed 
+at comparing aspects of the selected solutions based on key informant interviews and desk research. It is 
+therefore important to engage actively with these providers and the private sector in general to gain better 
+understanding of their capabilities.
+S No
+Economy
+Payment provider
+Scalability
+Speed
+Ease of use
+Flexibility
+Integration
+Accountability
+Data protection
+Localization
+Cost
+Cash preparedness and 
+operational readiness
+Risk management
+1
+Global
+Celo
+G
+G
+G
+L
+G
+E
+L
+L
+ND
+Y
+G
+2
+Global
+Vital Wave
+G
+G
+E
+G
+G
+E
+G
+G
+ND
+L
+E
+3
+Global 
+BPC 
+Technologies
+G
+G
+G
+E
+E
+G
+G
+G
+ND
+L
+E
+4
+Global
+Red Rose
+E
+E
+E
+G
+G
+G
+G
+G
+ND
+Y
+G
+5
+Sub-Saharan 
+Africa
+Leaf Global
+G
+G
+G
+G
+G
+G
+G
+G
+ND
+L
+G
+6
+Sub-Saharan 
+Africa
+Eversend
+E
+G
+G
+G
+G
+G
+G
+G
+ND
+L
+G
+7
+Europe
+Papara
+G
+G
+G
+G
+G
+G
+G
+G
+ND
+L
+G
+8
+Global
+Zwipe
+E
+E
+E
+E
+E
+G
+E
+E
+ND
+Y
+E
+9
+Sub-Saharan 
+Africa, UK,  
+and Myanmar
+Squid
+E
+E
+E
+E
+E
+E
+G
+G
+ND
+Y
+E
+10
+Sub-Saharan 
+Africa
+Grassroot 
+Economics
+G
+G
+G
+E
+G
+G
+G
+G
+ND
+Y
+E
+11
+Several 
+Google Pay
+E
+E
+E
+E
+E
+G
+G
+E
+ND
+L
+E
+Notes: G means “Good”, L means “Low”, E means “Excellent”, “ND” means No data and Y means “Yes”
+
+--- Page 35 ---
+Annexes   |   35
+Provider
+Solution Type
+Regions
+Celo
+Cryptocurrency
+Global 
+Vital Wave
+Payments
+Global
+BPC Technologies
+Payments
+Global
+RedRose
+Humanitarian payments
+Global 
+World Line
+Payments
+Global 
+Leaf Global
+Fintech/payments
+Kenya, Rwanda and Uganda
+Eversend
+Send/receive money, 
+virtual debit cards and 
+cryptocurrencies
+Ghana, Kenya, Nigeria, 
+Rwanda, Tanzania and 
+Uganda
+Nagad
+DFS
+Bangladesh
+Papara
+Money transfer, payments
+Turkey
+Zwipe
+Biometric cards
+Global
+Squid
+Fintech, humanitarian 
+payments, remittances
+Kenya, with operational bases 
+in Greater London, South 
+West England, Nairobi, Abuja 
+and Yangon
+Grassroots Economics
+Blockchain-based CVA 
+system/community currency
+Africa
+Google Pay
+Mobile wallet
+Australia,  Canada, India, 
+Japan, Russia, Singapore, 
+Ukraine, United Kingdom and 
+United States
+Mastercard
+Payment network
+Global 
+Crown Agents Banks 
+(acquired  Segovia) 
+Mobile wallet and bank 
+integrations
+Global
+Avalanche (Ava Labs)
+Blockchain
+Global
+
+--- Page 36 ---
+36     |    IFRC  Global payment solutions for humanitarian cash assistance
+Romania 2022.  Inna Ponoza accesses the money she received from 
+the Romanian Red Cross through MoneyGram. She was the second 
+person to receive assistance from this programme. An IFRC delegate 
+travelled with her to ensure the process ran smoothly.The Romanian 
+Red Cross continues to work to give crucial aid to people impacted by 
+the ongoing conflict in Ukraine. At the same time as providing comfort, 
+information and emergency kits, including food, water and hygiene kits, 
+they are distributing financial assistance to help people who have lost 
+so much.
+© Angela Hill/IFRC
+
+--- Page 37 ---
+
+--- Page 38 ---
+
+--- Page 39 ---
+THE FUNDAMENTAL PRINCIPLES  
+OF THE INTERNATIONAL RED CROSS  
+AND RED CRESCENT MOVEMENT
+Humanity 
+The International Red Cross and Red Crescent 
+Movement, born of a desire to bring assistance 
+without discrimination to the wounded on the 
+battlefield, endeavours, in its international and 
+national capacity, to prevent and alleviate human 
+suffering wherever it may be found. Its purpose is to 
+protect life and health and to ensure respect for the 
+human being. It promotes mutual understanding, 
+friendship, cooperation and lasting peace amongst 
+all peoples.
+Impartiality 
+It makes no discrimination as to nationality, race, 
+religious beliefs, class or political opinions. It 
+endeavours to relieve the suffering of individuals, 
+being guided solely by their needs, and to give 
+priority to the most urgent cases of distress.
+Neutrality
+In order to enjoy the confidence of all, the Movement 
+may not take sides in hostilities or engage at any 
+time in controversies of a political, racial, religious or 
+ideological nature.
+Independence
+The Movement is independent. The National 
+Societies, while auxiliaries in the humanitarian 
+services of their governments and subject to the 
+laws of their respective countries, must always 
+maintain their autonomy so that they may be able at 
+all times to act in accordance with the principles of 
+the Movement.
+Voluntary service 
+It is a voluntary relief movement not prompted in 
+any manner by desire for gain.
+Unity 
+There can be only one Red Cross or Red Crescent 
+Society in any one country. It must be open to all. It 
+must carry on its humanitarian work throughout its 
+territory.
+Universality 
+The International Red Cross and Red Crescent 
+Movement, in which all societies have equal status 
+and share equal responsibilities and duties in helping 
+each other, is worldwide.
+
+--- Page 40 ---
+The International Federation of Red Cross and Red Crescent 
+Societies (IFRC) is the world’s largest humanitarian network, with 
+192 National Red Cross and Red Crescent Societies and around 
+14 million volunteers. Our volunteers are present in communities 
+before, during and after a crisis or disaster. We work in the most 
+hard to reach and complex settings in the world, saving lives and 
+promoting human dignity. We support communities to become 
+stronger and more resilient places where people can live safe and 
+healthy lives, and have opportunities to thrive.
+For more information on this IFRC publication, please contact:
+International Federation of Red Cross and Red Crescent Societies 
+twitter.com/ifrc 
+| 
+facebook.com/ifrc 
+| 
+instagram.com/ifrc 
+| 
+youtube.com/ifrc

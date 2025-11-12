@@ -54,27 +54,29 @@ def parse_pdf(pdf_file_path):
 
 def analyze_paper(pdf_text, paper_name):
     """
-    Extract rich analytical summary in JSON with full-sentence fields.
+    Extracts a rich analytical summary tailored to blockchain-related research.
     """
     prompt = f"""
-You are an expert academic research analyst. Summarize the following paper in JSON.
-Use full sentences and provide clear, complete explanations. Return JSON strictly as:
+You are an expert academic analyst specializing in blockchain research. 
+Read the following paper carefully and summarize it in structured JSON form. 
+Use complete sentences in each field, and infer values where possible based on the text. 
+If information is not available, write "Not specified."
+
+⚠️ Important formatting rule:
+- Output must be **only raw JSON**.
+- Do NOT include any explanations, markdown formatting, or code fences (no ```json or ```).
+- Begin your response immediately with the JSON object: {{
+
+Return JSON in exactly the following format:
 
 {{
-    "empirical": "...",
-    "authors": "...",
-    "year": "...",
-    "topics": "...",
-    "keywords": "...",
-    "sector": "...",
+    "pilot": "...",
+    "period_of_study": "...",
     "methods": "...",
-    "sample_size": "...",
-    "data_type": "...",
-    "novelty": "...",
-    "main_findings": "...",
-    "strengths": "...",
-    "limitations": "...",
-    "practical_relevance": "..."
+    "themes": "...",
+    "blockchain_failures": "...",
+    "blockchain_successes": "...",
+    "sentiment": "..."
 }}
 
 Paper text:
@@ -82,7 +84,6 @@ Paper text:
 {pdf_text}
 \"\"\"
 """
-
     try:
         response = openai.chat.completions.create(
             model=MODEL_NAME,

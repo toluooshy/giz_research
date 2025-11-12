@@ -1,0 +1,1027 @@
+
+--- Page 1 ---
+arXiv:2409.06179v1  [cs.MA]  10 Sep 2024
+RESPONSIBLE BLOCKCHAIN: STEADI PRINCIPLES AND THE
+ACTOR-NETWORK THEORY-BASED DEVELOPMENT
+METHODOLOGY (ANT-RDM)
+Yibai Li
+University of Scranton
+yibai.li@scranton.edu
+Ahmed Gomaa
+University of Scranton
+ahmed.gomaa@scranton.edu
+Xiaobing Li
+University of Scranton
+xiaobing.li@scranton.edu
+Publication Date: July 10, 2024
+Suggested Citation: Yibai Li, Ahmed Gomaa and Xiaobing Li (2024), "Responsible Blockchain: STEADI
+Principles and the Actor-Network Theory-based Development Methodology (ANT-RDM)", Foundations and
+Trends® in Information Systems: Vol. 7: No. 4, pp 310-356. http://dx.doi.org/10.1561/2900000038
+ABSTRACT
+This paper provides a comprehensive analysis of the challenges and controversies associated with
+blockchain technology. It identiﬁes technical challenges such as scalability, security, privacy, and
+interoperability, as well as business and adoption challenges, and the social, economic, ethical,
+and environmental controversies present in current blockchain systems. We argue that responsible
+blockchain development is key to overcoming these challenges and achieving mass adoption. This
+paper deﬁnes Responsible Blockchain and introduces the STEADI principles (sustainable, transpar-
+ent, ethical, adaptive, decentralized, and inclusive) for responsible blockchain development. Addi-
+tionally, it presents the Actor-Network Theory-based Responsible Development Methodology (ANT-
+RDM) for blockchains, which includes the steps of problematization, interessement, enrollment, and
+mobilization.
+1
+Introduction
+Bitcoin, introduced by Satoshi Nakamoto in 2008, marked the inception of the ﬁrst peer-to-peer currency [1]. Since
+its inception, many other cryptocurrencies have been introduced and have gained signiﬁcant traction. As of the end
+of 2022, it is estimated that the number of cryptocurrency owners grew to 425 million worldwide [2]. Although
+Nakamoto’s original paper mentioned a "chain of blocks," the term "blockchain" itself did not appear in the 2008 white
+paper. Instead, "blockchain" evolved as a loose umbrella term [3] within the cryptocurrency community to describe
+a suite of technologies—including decentralized ledgers, linked timestamping, Merkle trees, consensus mechanisms,
+and public keys as identities—that underpin Bitcoin. These technologies have been recognized for their potential
+to revolutionize various sectors such as manufacturing, construction, healthcare, ﬁnance, insurance, supply chain,
+agriculture, academic publishing, energy, resource management, and legal systems [4], overcoming challenges related
+to information sharing, traceability, and operational efﬁciency.
+Despite the signiﬁcant interest and hype about cryptocurrencies and blockchains, more than 10 years since their incep-
+tion, they have still not become everyday technologies for consumers [5]. This technology still faces many technical
+challenges, such as scalability, security, privacy, interoperability, and energy consumption, as well as business adop-
+
+--- Page 2 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+tion challenges, social, ethical, environmental, and regulatory controversies. We argue that responsible blockchain
+development is the key to overcoming these challenges and achieving mass adoption.
+Responsible Blockchain Deﬁnition
+In this paper, we deﬁne responsible blockchain as a socio-technical system that
+fosters sustainable, transparent, ethical, adaptive, decentralized, and inclusive practices among diverse participants to
+promote a dynamic equilibrium of interests for its long-term viability. The participants include human actors such as
+developers, users, regulatory entities, and non-human actors such as computer hardware, software, protocols, policies,
+and the environment.
+This paper will provide a comprehensive analysis of the challenges and controversies of blockchain technology, iden-
+tify the technical challenges such as scalability, security, privacy, and interoperability, and also the business and adop-
+tion challenges, and social, economic, ethical, and environmental controversies within current blockchain systems.
+The paper will then introduce the STEADI principles (sustainable, transparent, ethical, adaptive, decentralized, and
+inclusive) aimed at fostering responsible blockchain development, grounded in Actor-Network Theory. Addition-
+ally, this paper presents the Actor-Network Theory-based Responsible Development Methodology (ANT-RDM) for
+blockchain technology, incorporating the stages of problematization, interessement, enrollment, and mobilization.
+2
+Challenges of Blockchain Technology
+This section explores the multifaceted challenges associated with blockchain technology, emphasizing technical barri-
+ers such as scalability, security, privacy, interoperability, and energy consumption. In addition to technical challenges,
+this section delves into business and adoption hurdles, including high setup and maintenance costs, slow transaction
+speeds, regulatory uncertainties, and environmental concerns.
+2.1
+Technical Challenges
+This section outlines the signiﬁcant technical challenges that hinder the widespread adoption of blockchain technology,
+including scalability, security, privacy, interoperability, and energy consumption.
+2.1.1
+Scalability
+Scalability poses a signiﬁcant obstacle to the widespread adoption of blockchain technology [6]. As the number of
+users and transactions on a blockchain network increases, its capacity to process these transactions efﬁciently without
+compromising security begins to diminish. This challenge is difﬁcult to overcome due to the inherent conﬂict among
+three key pillars of blockchain technology: decentralization, security, and scalability. This conﬂict is often referred to
+as the "scalability trilemma" [7].
+Efforts to increase blockchain throughput often result in compromises in decentralization through mechanisms such as
+increasing block size [8], implementing sharding [9] or consolidating validation power as seen in the Proof-of-Stake
+(PoS) consensus mechanism [10]. These approaches can pose security risks by potentially creating powerful nodes
+capable of controlling or manipulating the blockchain.
+2.1.2
+Security
+Blockchain, known for its features like immutability and decentralization, plays a crucial role in enhancing the security
+of various applications and services. However, the security of blockchain itself often gets overlooked. Blockchain can
+be considered a ﬁve-layer architecture, which includes the Hardware/Infrastructure Layer, Data Layer, Network Layer,
+Protocol (Consensus) Layer, and Application Layer [11, 12]. Each layer of the blockchain architecture has its own set
+of security issues.
+Hardware-Level Attacks
+focus on the physical devices and components within the blockchain network. These
+attacks include Backdoor Trojan attacks, where malicious software is installed on hardware to gain unauthorized
+access or control [13]. Additionally, Side-Channel attacks exploit indirect information from a cryptographic system’s
+physical implementation. Attackers gather secret information by analyzing operational side effects, such as power
+consumption or timing [14].
+Data Layer Attacks
+speciﬁcally target the data component of blockchain transactions. One example is double
+spending, which refers to the situation where the same digital currency (or digital asset) is spent more than once [15].
+Another example, the Malleability attack [16], is a variant of the double spending attack, derived from the malleability
+2
+
+--- Page 3 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+of signatures [16]. A Hash collision attack involves ﬁnding two different inputs that generate the same hash output. If
+successful, it could allow attackers to manipulate transactions or create counterfeit data [17].
+Network Attacks
+encompass various strategies to disrupt blockchain operations. Denial-of-Service (DoS) attacks
+ﬂood the network with excessive data, overwhelming resources and blocking legitimate access [18]. In a Sybil attack,
+an attacker uses multiple fake identities (Sybil nodes) to inﬂuence the network and disrupt consensus mechanisms,
+potentially manipulating transaction validation or launching a 51% attack [19]. Eclipse attacks isolate a node from the
+network, hindering its ability to receive updates and inﬂuencing its consensus decisions [20]. Lastly, routing attacks
+manipulate network protocols to redirect trafﬁc through malicious nodes, enabling data interception or injection [21].
+Consensus Attacks
+Among various attacks, the 51% attack is particularly critical. In Proof of Work blockchains,
+an individual or group gains control of more than 50% of the network’s mining power. This dominance allows them to
+manipulate the consensus process, enabling actions such as reversing transactions, double-spending coins, or blocking
+legitimate transactions [22]. Proof of Stake introduces an economic disincentive for such attacks. The assumption
+is that if a 51% attack succeeds, the value of the cryptocurrency will fall. Since the attacker holds a large amount
+of this currency, they would suffer signiﬁcant losses. However, attackers could engage in short selling the attacked
+cryptocurrency in another market and proﬁt from the subsequent decrease in value, which follows the chaos and loss
+of conﬁdence triggered by the attack [23]. Another attack primarily be found in Proof of Work blockchains is selﬁsh
+mining, where miners withhold their blocks from the network until certain conditions are met, thereby gaining an
+unfair advantage [24].
+Smart Contract Attacks
+The re-entrancy attack targets vulnerabilities in smart contracts, enabling attackers to re-
+peatedly withdraw funds from a single transaction [25]. The Transaction-Ordering Dependence (TOD) attack exploits
+the manipulation of transaction sequences to gain an unfair advantage, particularly in scenarios where the order of
+transactions is crucial [26]. Another signiﬁcant threat is the front-running attack, where attackers observe pending
+transactions and execute trades before them, taking advantage of anticipated price movements [27].
+Application Layer Attacks
+Phishing attacks are a prominent threat where cybercriminals use fake emails and web-
+sites to masquerade as legitimate entities. The goal is to deceive users into disclosing sensitive information such as
+login credentials [28]. Social engineering attacks, another serious concern, exploit human vulnerabilities, manipulat-
+ing individuals into divulging conﬁdential information or transferring funds to malicious actors [29]. Furthermore,
+exchange hacks pose a signiﬁcant risk to cryptocurrency exchanges by targeting and compromising user accounts,
+leading to the theft of funds [30].
+2.1.3
+Privacy
+Blockchain’s transparency and immutability facilitate trust and auditability; however, they also present a paradoxical
+challenge for data privacy. Despite the common perception that blockchain transactions are anonymous, they are,
+in fact, pseudonymous [31]. Blockchain ledgers record transactions publicly, linking them to unique addresses [32].
+Although these addresses do not directly identify individuals, they can be linked to real-world identities through various
+means, such as deanonymization attacks [33] and on-chain analysis [34]. Once recorded, transactions and associated
+data become permanently etched on the chain, accessible to anyone. This permanence impedes individuals’ right to
+rectiﬁcation or erasure [35].
+2.1.4
+Interoperability
+Unlike the seamless ﬂow of information across the internet, different blockchains often operate in isolation, unable
+to communicate or exchange data effectively [36]. Simple operations, such as transferring assets across different
+platforms, can be very difﬁcult to achieve without trusted custodians like cryptocurrency exchanges, which, on the
+other hand, can undermine decentralization [37]. This fragmentation leads to interoperability issues, hindering the
+true potential of blockchain technology.
+One of the primary reasons for these interoperability issues is the heterogeneity of blockchain platforms [38]. Early
+blockchain projects, such as Bitcoin, did not prioritize interoperability in their design [39]. Now, with thousands of
+blockchains and cryptocurrencies created, the importance of interoperability is becoming more apparent [40]. Each
+platform boasts unique features, consensus mechanisms, and programming languages, yet there is a lack of standard-
+ized protocols for cross-chain communication [41]. While solutions like cross-chain bridges exist, they suffer from a
+lack of universal adoption [42]. These issues are hindering the growth of a truly interconnected blockchain ecosystem.
+3
+
+--- Page 4 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+Security and privacy considerations also play a signiﬁcant role in these interoperability challenges [43]. Maintaining
+trust and the immutability of data when transferring between platforms is crucial. Securely verifying the authenticity of
+data originating from another blockchain requires robust mechanisms that ensure data integrity and prevent malicious
+manipulation [44]. Striking the right balance between security and efﬁcient cross-chain communication remains a
+complex challenge.
+Beyond technical hurdles, the governance models of different block-chains can also create friction [45]. Decentralized
+governance and independence are core values of blockchain; however, reaching a consensus on how to integrate and
+manage data exchange across platforms with diverse governance structures can be an arduous and time-consuming
+process. A case study [46] compares the governance mechanisms of Bitcoin and Dash. Dash utilizes the Decentralized
+Governance By Blockchain (DGB) process [47], while Bitcoin relies on the Bitcoin Improvement Proposal (BIP)
+process [48]. This difference in models signiﬁcantly impacted their decision-making speed. Dash could decide on
+altering the block size in just a few hours, whereas Bitcoin’s governance took several years to reach the same decision.
+2.1.5
+Energy Consumption
+The energy consumption associated with blockchain and cryptocurrency operations is signiﬁcant. Globally, the energy
+usage of blockchain technology is estimated to exceed 100 terawatt-hours (TWh) annually [49]. To contextualize
+this, the U.S. Energy Information Administration (EIA) reported that, in 2021, the average American household con-
+sumed approximately 10,632 kilowatt-hours (kWh) of electricity per year [50]. Thus, the energy used by blockchain
+technologies is sufﬁcient to power an estimated 9.4 million U.S. households.
+The energy consumption problem is particularly pronounced in blockchain systems that utilize the Proof of Work
+(PoW) consensus mechanism [51] such as Bitcoin. There are three main sources of energy consumption in blockchain
+operations: data storage, the computation required for PoW, and communication between nodes. An economic thresh-
+old analysis [49] reveals that for a typical PoW blockchain consuming 100 TWh annually, data storage accounts for
+50 MWh to 4.25 GWh, which is only 0.00005% to 0.00425% of the total consumption. Communication between
+nodes uses about 88 MWh (0.000088%), while a staggering 99.99% of energy is consumed by the mining process.
+his process is particularly energy-intensive because it requires network participants (miners) to competitively solve
+complex cryptographic mathematical puzzles, demanding substantial computational power [52].
+The energy consumption is crucial to the security and reliability of the Bitcoin network [53]. However, the sustainabil-
+ity of such high energy usage, particularly from non-renewable sources, becomes increasingly questionable as these
+blockchains expand. This concern has spurred the exploration of alternative consensus mechanisms, such as Proof of
+Stake (PoS). A signiﬁcant transition occurred when Ethereum completed its "Merge" on September 15, 2022, moving
+from Proof of Work (PoW) to PoS. According to the Ethereum [54], this shift could reduce its energy consumption by
+approximately 99.95%.
+2.2
+Business and Adoption Challenges
+In addition to the technical challenges discussed, widespread business adoption also faces hurdles. These include
+signiﬁcant setup and maintenance costs, along with the necessity for regular updates [55]. Additionally, the regulatory
+landscape for digital assets remains unclear, with differing views including money, property, commodity, and security
+[56] to issue initial coin offerings (ICOs) [57], complicating their integration with existing ﬁnancial systems [58].
+To address these challenges requires a joint effort [59]. The Blockchain Innovation Adoption Framework reveals that
+both organizational and individual factors are crucial [60]. For small and medium businesses, management support,
+affordability, and regulatory guidance are key to leveraging blockchain [61]. The adoption of blockchain is inﬂuenced
+by various factors. In supply chains, its beneﬁts and external pressures play a signiﬁcant role [62]. Readiness and
+top management support are essential for successful implementation, as evidenced by research in Ireland [63]. While
+blockchain can offer transparency for consumers, the associated costs may deter manufacturers [64]. Blockchain’s
+adoption can also impact the gray market, inﬂuencing manufacturers’ pricing strategies and gray marketers’ entry
+based on additional costs and product quality in foreign markets [65]. The strategic risks of adopting blockchain
+encompass business, legal, and technological considerations [66]. Initial blockchain implementation in companies is
+shaped by the novelty of the technology, associated costs, and external scrutiny [67].
+3
+Controversies Surrounding Blockchain Technology
+Despite the potential of blockchain to transform society by introducing transparency, trust, and immutability, it is
+not without its detractors and dilemmas. This section analyzes the controversies surrounding blockchain technology,
+including the social, ethical, environmental, and regulatory controversies it faces. From the digital divide to privacy
+4
+
+--- Page 5 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+concerns, and illicit activities, this section highlights the need for responsible approaches in blockchain development
+and governance.
+3.1
+Social and Ethical Controversies
+Blockchain, despite its potential for revolutionizing various industries, also faces a critical hurdle: the digital divide.
+The problem of the digital divide arises primarily from the uneven distribution and application of this technology
+across different nations and societies [68]. Disruptive technologies like blockchain can impact growth, employment,
+and inequality by creating new markets and business practices and necessitating new product infrastructures and work
+skills. However, not all societies and economies are equally positioned to adopt these technologies. This reality
+contributes to the broadening of the digital divide, not just between developed and underdeveloped nations [69] but
+also between rural and urban populations [70], and between genders [71].
+Public blockchains, such as Bitcoin, are known for their immutability and transparency. Each transaction is perma-
+nently recorded on an immutable ledger, which is openly accessible. However, this openness can infringe upon user
+privacy and may conﬂict with laws like the General Data Protection Regulation [72]. This regulation, effective since
+May 2018 [73], includes provisions such as the "right to erasure" or "right to be forgotten" (RtbF), creating signif-
+icant concerns for users of public blockchain systems.
+To align blockchain’s immutability with legal requirements such as the Right to be Forgotten (RtbF), the concept
+of a redactable blockchain has been introduced. For instance, a speciﬁc model known as the k-time modiﬁable and
+epoch-based redactable blockchain (KERB) allows participants to modify content [74]. This model imposes monetary
+penalties to deter and penalize malicious actions. However, the implementation of such mutable blockchain systems
+contradicts the original principles of blockchain technology, presenting challenges in maintaining integrity and trust
+within the blockchain ecosystem. [75] suggest using the InterPlanetary File System (IPFS) protocol to enable the
+original content provider, or their delegates, to issue an erasure request across all IPFS nodes. Nevertheless, they also
+recognize that fully enforcing content erasure in a decentralized network like IPFS is a challenging task.
+3.2
+Environmental Impact
+The environmental impact of blockchain technology is a pivotal topic of debate. On one hand, critics point to envi-
+ronmental degradation associated with the energy-intensive proof-of-work mining process, which not only increases
+CO2 emissions but also leads to the rapid obsolescence of mining equipment, and signiﬁcant e-waste [76]. Research
+[77, 78, 79] has identiﬁed empirical evidence of a causal link between cryptocurrency activity and environmental
+degradation, suggesting both bidirectional [77] and unidirectional [80, 81] relationships between them. These ﬁnd-
+ings highlight the urgent need for the industry to adopt green technologies and implement ﬁscal reforms to reduce its
+ecological footprint, as advocated by [77].
+On the other hand, blockchain offers promising solutions for environmental sustainability. It improves sustainability
+across various sectors by enhancing traceability and transparency, notably through smart contracts [82]. Blockchain
+disrupts traditional industries, aiding them in achieving the UN’s sustainable development goals [83]. Additionally, it
+supports circular economy strategies—such as facilitating markets for second-hand goods— which may signiﬁcantly
+reduce environmental impacts by changing the way materials and natural resources are valued and traded [84]. It
+potentially cuts environmental footprints by up to 53.8% in these applications [85].
+3.3
+Potential for Illicit Activities
+The anonymity provided by blockchain technology, particularly in the case of Bitcoin, presents a double-edged sword.
+While it offers privacy for users, it simultaneously opens avenues for illicit activities [86]. The Bitcoin Blockchain,
+with its distributed and openly accessible ledger, conceals the real-world identities of entities behind pseudonyms,
+known as addresses. This inherent anonymity in Bitcoin is widely believed to contribute to its utilization in illegal
+transactions [87], offering a high level of privacy to its users. Still, Supervised Machine Learning may predict, with
+an average cross-validation accuracy of 80.42%, the characteristics of entities that have not yet been identiﬁed [88].
+Techniques such as heuristics and graph analysis have proven effective in unraveling the behaviors of Bitcoin addresses
+and transactions. These methods enable the identiﬁcation of potential red ﬂag indicators and the analysis of patterns
+and typologies associated with illicit behavior [89]. The role of crypto asset mixers, like Tornado Cash, highlights
+the need for a balanced approach, allowing ﬁnancial market regulators to address illegal activities while enabling
+honest users to engage with privacy-enhancing protocols [90, 91]. The lack of a universally accepted digital forensic
+framework for investigating related crimes underscores the challenges faced by law enforcement and regulatory bodies
+in adapting to the nuances of cryptocurrency-related investigations, complicating the task of maintaining legal and
+5
+
+--- Page 6 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+ﬁnancial order in the digital currency space [92]. The misconception of absolute anonymity was further clariﬁed by
+the case of Coinbase v. U.S. [93]. The court’s decision, in this case, authorized the IRS to acquire user data from
+Coinbase with deﬁned limitations. As highlighted by [94], the Coinbase case shows that even with strict theoretical
+regulations, practical solutions prevail when monitoring millions of transactions to apply the law and preserve users’
+privacy. The needed balance of anonymity, trust, and the ability to audit to ensure the prevention of illicit activities
+conducted via cryptocurrencies is still an area of research and policy exploration [95].
+3.4
+Centralization and Governance Issues
+Proof of stake (PoS), and other algorithms offer faster validation times and reduced energy consumption [10]. However,
+they also present a concern: those with more stake hold more power in the validation process. This raises issues
+about censorship and manipulation of the network by large token holders [10]. It creates barriers to entry for smaller
+participants, deviating from the initial idealism of blockchain being a grassroots movement [96].
+Blockchain governance models encompass critical elements like access rights, decision-making power, incentive struc-
+tures, accountability mechanisms, and conﬂict resolution schemes [97]. Underpinning this dynamic governance is a
+large number of consensus mechanisms, each crafted for speciﬁc contexts [98]. There are 130 consensus mechanisms
+[98], and the number is growing, across various blockchain platforms, with applications in multiple domains, includ-
+ing improved supply chain management [99], building trust, and improving efﬁciency with platforms like Blocktivity
+[100]. They facilitate improved healthcare management with solutions like BurstIQ [101] and empower decentral-
+ized applications through Hyperledger [102]. Different implementation techniques, such as Directed Acyclic Graph
+(DAG)-based approaches, allow for greater agility in Internet of Things applications [103]. Furthermore, they enable
+streamlined real estate transactions [104] and reduce the cost of international payments [105], while being cautious
+of causing harm [106]. Establishing robust regulations for digital assets is vital to ensure market stability and protect
+consumers and investors [107].
+4
+Responsible Blockchain Development Methodology and Principles
+The ﬁeld of blockchain development is enriched by a variety of methodologies and design principles, as suggested by
+both the research community [108, 109] and industry experts [110]. However, the predominant focus of these frame-
+works is on the technical aspects of blockchain technology. This perspective, while crucial, overlooks a fundamental
+aspect of blockchain: it is not merely an IT artifact characterized solely by its technical features. Rather, blockchain
+represents a complex social network and ecosystem, intricately woven into society [111]. It operates within an en-
+vironment that encompasses both human and non-human actors, each contributing to and being inﬂuenced by the
+blockchain.
+Recognizing this broader context, this paper endeavors to develop an Actor-Network Theory-based Responsible De-
+velopment Methodology (ANT-RDM) and establish a set of design principles for blockchain development that extend
+beyond technical considerations. These principles aim to address the ethical and social responsibilities inherent in
+the creation of blockchain technology, particularly concerning the diverse actors involved in and affected by this envi-
+ronment. By integrating these considerations, the proposed design principles seek to foster a more holistic approach
+to blockchain development, one that acknowledges and respects the multifaceted nature of the technology and its
+far-reaching implications in society.
+Actor-Network Theory (ANT) serves as the primary theoretical lens guiding our methodology and principles. ANT is
+a theoretical and methodological approach used in social science, particularly in the ﬁelds of science and technology
+studies, organizational studies, and sociology [112]. The origins of ANT can be traced back to science and technology
+studies in the 1970s [113]. It was inﬂuenced by grounded theory and semiotics, as demonstrated in the ethnographic
+work of Bruno Latour and Steve Woolgar at the Salk Institute [113].
+Actor-network theory views the world as a web of interconnected relationships, where everything from people and
+ideas to technologies and objects plays an active role in creating the outcomes we observe. ANT enables the study of
+assembling and stabilizing diverse human and non-human entities within diffuse socio-material systems [114], such
+as blockchains.
+Actor-network theory (ANT) offers valuable insights for analyzing blockchain systems. This paper leverages the
+following key propositions of ANT.
+Heterogeneous Networks: ANT posits that the social, technical, natural, and conceptual elements of the world are
+interconnected in heterogeneous networks [112]. These entities are called actants, which can be both human
+6
+
+--- Page 7 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+and non-human, such as organizations, animals, technological artifacts, and concepts. Networks can be messy
+and inconsistent, containing contradictions and conﬂicts. There is no single, true representation of reality.
+Generalized Symmetry: There is no distinction between "human" and "non-human" actors. Non-human actors also
+have their own interests. Both inﬂuence the network equally. This includes entities like animals, technologies,
+texts, and even natural phenomena [115]. This approach avoids privileging certain types of entities over others
+in explaining social phenomena.
+Evolution: Reality is never ﬁxed but is always under construction [114]. ANT focuses on how networks are con-
+structed and how actors (entities within the network) assume roles and gain inﬂuence. It helps us understand
+how networks emerge, stabilize, or change over time [116]. According to ANT, maintaining a network re-
+quires ongoing, repeated interactions and alignment of interests between actors; otherwise, it leads to the
+network’s dissolution.
+ANT provides an excellent theoretical lens for responsible blockchain development.
+Network-Centric View: At its core, blockchain is a network of interconnected nodes storing and validating data
+[117]. This aligns perfectly with the network-centric perspective of ANT, where actors (both human and non-
+human) negotiate and translate meanings to establish temporary social orders. ANT suggests that one design
+goal of the blockchain is to keep the network stable, ensuring that actors remain enrolled in the network
+without it collapsing.
+Stakeholder Inclusivity: The "Generalized Symmetry" principle of ANT dismantles the human-centricview [118] by
+recognizing all elements within the blockchain network as "actors," whether they are developers, users, min-
+ers, code, smart contracts, or even the underlying computational infrastructure. This holistic view is crucial
+for responsible development, as neglecting non-human actors can lead to unforeseen environmental, social,
+and economic consequences. Responsible development translates this principle into inclusive governance
+models, ensuring diverse voices are heard and addressed.
+Heterogeneity and Interdependence: ANT emphasizes the heterogeneity of actors, acknowledging their diverse in-
+terests, values, and capabilities. Responsible development requires understanding these varied perspectives
+and fostering interdependence, ensuring no single actor dominates the network and decisions prioritize col-
+lective well-being.
+Dynamics of Alignment: ANT highlights the dynamic nature of blockchain networks, where actors constantly nego-
+tiate and align their interests to maintain network stability [112]. ANT encourages ﬂexible and adaptive gov-
+ernance mechanisms. Responsible development translates this principle into open and transparent processes
+for deliberation, ensuring ongoing alignment with evolving ethical, social, and environmental considerations.
+Methodology: Beyond an abstract understanding, ANT is also a methodology [114]. Its methodological tools equip
+developers with practical frameworks for mapping the intricate relationships within the network, identifying
+potential power imbalances, and assessing the ethical implications of design choices.
+4.1
+Responsible Blockchain Design Principles
+Actor Network Theory (ANT) provides a comprehensive approach to responsible blockchain design by emphasizing
+a network-centric perspective, stakeholder inclusivity, and the importance of maintaining a dynamic balance among
+diverse actors. ANT encourages the recognition of both human and non-human elements within the blockchain as
+critical stakeholders, promoting designs that prioritize network stability, inclusive governance, and the integration of
+varied interests and values. We identify the following ANT principles to be particularly helpful for the responsible
+development of blockchain.
+• Sustainable
+• Transparent
+• Ethical
+• Adaptive
+• Decentralized
+• Inclusive
+We call these principles the STEADI principles. We elaborate on each of the principles below.
+7
+
+--- Page 8 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+Sustainable:
+Sustainability in the context of responsible blockchain encompasses various dimensions, including
+environmental [119], economic, and social sustainability [120]. Environmental sustainability involves reducing the
+energy consumption and generation of electronic waste associated with blockchain operations [121]. Efforts may
+include adopting energy-efﬁcient consensus mechanisms, harnessing renewables, and using efﬁcient hardware. Eco-
+nomic sustainability is about creating a sustainable economic framework for the blockchain that supports its ongoing
+functionality and motivates involvement. Social sustainability aims to foster equal opportunities for access and en-
+gagement within the blockchain community [120].
+Transparent:
+Transparency refers to the characteristic of blockchain systems that ensures the visibility and acces-
+sibility of information to all participants involved, without compromising privacy or security. This transparency can
+be achieved through various means such as openness, auditability, traceability, and explainability. Openness [122]
+makes the blockchain’s rules, governance, and data readily accessible to all participants. This fosters trust and allows
+for community scrutiny and participation. Auditability refers to the ability to trace and verify transactions on the
+blockchain easily. Every transaction is recorded in a way that is immutable and time-stamped, enabling a clear and ac-
+cessible audit trail for all participants. Traceability offers a means to securely record, store, and verify the authenticity
+of information across a blockchain [123]. This enables accountability and helps prevent fraud and misuse.
+Ethical:
+"Ethical" refers to the principles and practices that ensure the blockchain is developed and used in a manner
+that is fair, responsible, and aligned with the interests of all stakeholders involved. There are several key aspects of
+ethical blockchain development: fairness, accountability, privacy, and alignment of interests. Fairness in blockchain
+design offers equal opportunities for participation without favoritism or bias. It includes measures to resist manipula-
+tion, ensuring that the blockchain operates in a manner that is just and equitable for all users [124]. Accountability
+involves establishing clear mechanisms for holding actors accountable for their actions on the blockchain, which may
+include dispute resolution protocols and enforcement mechanisms [125]. Privacy concerns require balancing trans-
+parency with individual privacy needs, potentially through anonymization techniques, selective data disclosure, and
+robust data security measures [126]. Moreover, ethical blockchain initiatives aim to align the interests of all stakehold-
+ers, including users, developers, and the broader society, to foster a harmonious and equitable environment.
+Adaptive:
+"Adaptive" refers to the ability of blockchain systems or architectures to evolve and adjust in response
+to changing requirements, technologies, or environments. ANT emphasizes the dynamic and ever-evolving nature of
+networks. Networks constantly break down and regenerate. Actors constantly negotiate their roles and align their
+interests. Adaptability can be achieved through adaptive IT artifacts [127] and adaptive governance [126].
+Decentralized:
+Decentralization is a core principle that underpins the operation and management of blockchain
+technology. Decentralization not only refers to the decentralized IT architecture but also to the distributed governance
+in which power and decision-making are distributed among participants rather than concentrated in the hands of a
+few. This can be achieved through voting mechanisms [128], consensus algorithms, and open collaboration structures
+[127].
+Inclusive:
+"Inclusive" means that the blockchain ecosystem is open, accessible, and diverse for both human and non-
+human actors. "Open" signiﬁes open participation [129]. Anyone and any IT artifact should be able to participate in
+the blockchain ecosystem without needing permission or gatekeepers. This promotes diversity, innovation, and avoids
+single points of failure. "Accessible" implies that the blockchain and its applications are user-friendly and accessible to
+people from diverse backgrounds and technical abilities. This entails simple interfaces, clear instructions, multilingual
+support, and the ability for people with disabilities to use them effectively and independently [130]. It also means
+the blockchain is accessible to hardware and software from different ecosystems. Diversity promotes inclusivity and
+participation from underrepresented human actors or non-human actors within the blockchain ecosystem, addressing
+gender inequalities, economic inequalities, and geographical disparities [131], and imbalances between alternative IT
+architectures.
+4.2
+Responsible Blockchain Development Methodology
+In this section, we introduce the Actor-Network Theory-based Responsible Development Methodology (ANT-RDM).
+The development of blockchain refers not only to the development of hardware and software but also to the design
+of the network topology, consensus mechanisms, governance structures, policies, etc. Based on ANT, a blockchain
+is a network of interconnected actors. The development of blockchains is a process of ’creating a temporary social
+order, or moving from one order to another, through changes in the alignment of interests within a network’ [132].
+In ANT, this process is referred to as translation [112]. Translation comprises four main stages: problematisation,
+interessement, enrolment, and mobilisation [132].
+8
+
+--- Page 9 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+Problematization
+Interessement
+Enrolment
+Mobilisation
+Figure 1: Actor-Network-Theory-based Responsible Blockchain Development Methodology
+4.2.1
+Problematisation
+The problematisation stage sets the foundation for the entire translation process. It is where you deﬁne the issue, frame
+it in a compelling way, and gather the key actors needed to address it. Here are four key actions to focus on during this
+stage:
+Deﬁne the problem
+Clearly identify the speciﬁc issue or challenge that blockchain technology could potentially
+address. Pinpoint the core pain point and its underlying causes. The problems may be external, such as a lack of trust
+and societal inefﬁciencies, or internal to the blockchain itself, including issues like scalability, security, and energy
+consumption.
+Identify "focal actors"
+A focal actor is an entity within a network that holds signiﬁcant inﬂuence over other actors
+and the overall network dynamics [112]. They actively shape the network through their actions. They drive the process
+of translation and gather other actors’ support.
+The focal actors can be identiﬁed by the following factors:
+1. Resources: Focal actors control valuable resources like funding, information, or expertise, which give them leverage
+over others in the network. Think of them as the ones powering the engine of the project. For example, a company
+providing crucial tech infrastructure or a venture capitalist with substantial funding would be resource-rich focal actors.
+2. Knowledge: A deep understanding of blockchain technology, speciﬁc market niches, or the project’s technical com-
+plexities makes certain actors critical problem-solvers and decision-makers. Their expertise becomes indispensable
+for the project’s progress. Imagine a team of seasoned blockchain developers or a regulatory expert guiding the way
+through legal hurdles – these are knowledge-rich focal actors.
+3. Relationships: Strong connections and alliances with other key players further solidify a focal actor’s position and
+amplify their inﬂuence. Think of them as network builders and facilitators. For example, a well-connected industry
+consortium or a partnership with a reputable platform can open doors and bring diverse stakeholders together – these
+are relationship-rich focal actors. By identifying and engaging with the focal actors, a blockchain project can leverage
+their combined resources, knowledge, and network to gain crucial support and funding, navigate complex technical
+challenges, build trust and legitimacy within the broader ecosystem, and reach a wider audience and secure user
+adoption.
+9
+
+--- Page 10 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+Identify all relevant actors
+The goal of responsible blockchain development is to develop blockchain systems that
+prioritize ethics, sustainability, and inclusivity. By including a wide range of actors, the development of responsible
+blockchains takes into account the needs and concerns of all stakeholders. This can help to avoid unintended conse-
+quences and ensure that blockchain technology is used in a way that beneﬁts everyone. Who are the stakeholders most
+affected by the problem? Who else would need to be involved in the network to develop and implement the blockchain
+solution? Potential allies and opponents, existing power dynamics, and any potential conﬂicts of interest within the
+network should be considered at this step.
+From an ANT perspective, blockchain ecosystems are dynamic networks composed of a diverse range of actors, both
+human and non-human:
+Human Actors may include consumers, who use blockchain-based applications for activities like ﬁnancial transac-
+tions, supply chain management, or voting. Miners and validators play a crucial role in creating and verifying new
+blocks on the blockchain, often receiving cryptocurrency or fees as rewards. Full nodes, maintained by individuals or
+organizations, hold a complete copy of the blockchain ledger, aiding in network security and decentralization. The cat-
+egory of software developers encompasses those who develop the software itself, create smart contracts, and develop
+blockchain protocols.
+Infrastructure providers in the blockchain space include node hosting services, which provide the necessary infras-
+tructure to run full nodes and support network operations. Mining pools are collaborations among miners, pooling
+computing resources to enhance their chances of ﬁnding blocks and earning rewards. Wallet providers develop both
+software and hardware solutions that enable users to store their digital assets and interact with the blockchain. Cryp-
+tocurrency exchanges provide the platforms where users can trade cryptocurrencies and blockchain derivatives.
+Regulators and policymakers in the blockchain sector involve government agencies that develop and enforce
+blockchain-related regulations, inﬂuencing adoption and use cases. Standard-setting organizations deﬁne industry
+standards and best practices for blockchain development and implementation. Self-regulatory organizations set volun-
+tary guidelines and compliance programs for actors in speciﬁc blockchain ecosystems.
+Researchers and academics conduct research on various aspects of blockchain technology, contributing to its future
+development and applications. They may include educators, trainers, futurists, and visionaries.
+Non-Human Actors may include the Blockchain Protocol, which acts as the foundational technological infrastructure,
+enabling interactions and value exchanges. Smart Contracts, as self-executing code on the blockchain, shape interac-
+tions and facilitate transactions. Cryptocurrencies and Tokens, as digital assets inherent to the blockchain ecosystem,
+function as mediums of exchange and stores of value. Mining Hardware and Infrastructure represent the physical tech-
+nology necessary for mining and maintaining the network. Lastly, Software Tools and Applications provide support
+for development, wallet management, and interaction with the blockchain system.
+Deﬁne the OPP
+The focal actor needs to establish an obligatory passage point (OPP), which refers to a situation or
+process speciﬁed by the focal actor through which relevant actors can achieve a shared interest [133]. The focal actor
+should analyze the current state of the network, existing challenges, and limitations in the context where blockchain is
+proposed to be implemented. This relies on the previous step "Deﬁne the problem." Then, the focal actors deﬁne the
+OPP and explain why the network needs to pass through the proposed OPP to achieve their interests.
+4.2.2
+Interessement
+Interessement is about ’interesting’ or engaging the actors in the network. At this stage, focal actors convince other
+actors to accept the OPP deﬁned in the previous stage. By this stage, the focal actors have identiﬁed all the relevant
+actors and have a good understanding of each of their interests. Focal actors should actively involve them in the
+project, aligning their interests with the goals of the blockchain. This process often involves negotiation among actors,
+and incentives may be provided so that other actors are willing to pass through the OPP [112]. The focal actors can
+use demonstrations, prototypes, pilot projects, simulations, or theoretical arguments to convince other actors that the
+proposed network will create a "better" social order compared to existing alternatives. During this stage, it’s also
+crucial to address any conﬂicts or competing interests among actors. This could involve negotiating terms, modifying
+aspects of the blockchain to suit different needs, or even going back to the previous stage and redeﬁning the problems
+and OPP.
+4.2.3
+Enrolment
+Enrolment is where the actual development and implementation of the blockchain take place. This step is critical
+because it transforms the concept into materialization and acceptance. It is important to note that the development of
+10
+
+--- Page 11 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+responsible blockchains is not the mere creation of IT artifacts; it is the creation of a new social order, a new network
+that may stabilize and sustain. They may include:
+IT Artifacts:
+To develop the hardware, software, IT infrastructure, network architecture, security protocols, and any
+other necessary technical elements based on the speciﬁc application and actors’ needs.
+Blockchain Governance:
+Governance in blockchain refers to the mechanisms, policies, and procedures that de-
+termine how decisions are made within a blockchain network. Effective governance is crucial for the sustainability,
+adaptability, and trustworthiness of blockchain systems. Issues such as decision-making processes, consensus mech-
+anisms, transparency, accountability, inclusiveness, representation, fork management, regulatory compliance, smart
+contract governance, upgradability, adaptability, economic incentives, and penalties should be considered.
+Regulatory Frameworks:
+Clear and supportive regulatory guidelines are crucial for the adoption and integration
+of blockchain technology. This involves developing laws and regulations that address issues such as private property,
+intellectual property, data privacy, security, ﬁnancial transactions, and cross-border legal implications.
+Standardization and Interoperability:
+Establishing industry standards to ensure interoperability between different
+blockchain systems. This includes technical standards for data formats, protocols, and interfaces, as well as operational
+standards for governance, auditing, and compliance. Standardization can enhance the scalability and integration of
+blockchain systems across various industries.
+Protocols:
+Developing protocols for blockchains involves creating a set of rules and standards to govern the op-
+eration, security, interoperability, scalability, and sustainability of blockchain networks. The protocols may include
+consensus protocols, security protocols, scalability protocols, smart contract protocols, governance protocols, and
+data storage and management protocols. These protocols are crucial for ensuring the efﬁciency, trustworthiness, and
+broader adoption of blockchain technology.
+Education and Training:
+Developing educational resources and training programs to increase blockchain literacy
+among developers, users, and stakeholders is vital. This includes not only technical training but also education about
+the legal, ethical, and business aspects of blockchain.
+Ethical and Social Frameworks:
+Addressing the ethical and social implications of blockchain technology is im-
+portant. This includes considering issues of fairness, privacy, digital divide, and the potential societal impacts of
+widespread blockchain adoption.
+Economic Models:
+Creating incentives and reward systems. Developing incentive mechanisms to encourage on-
+going participation and contribution is another critical aspect of enrolment. This could involve ﬁnancial incentives,
+recognition, or other beneﬁts that motivate actors to remain actively involved in the blockchain network.
+Ecosystem Development:
+Building a supportive ecosystem around blockchain technology is crucial. This involves
+fostering collaborations between startups, established companies, governments, educational institutions, and other
+stakeholders. A healthy ecosystem can spur innovation, provide funding opportunities, and facilitate knowledge ex-
+change.
+In the end of enrolment stage, non-human actors such as the IT artifacts and governance policies are developed, and
+their interests are inscribed by their developers [112]. All the human and non-human actors are enrolled and the new
+social order and network are adopted.
+4.2.4
+Mobilisation
+Mobilization in blockchain development represents the ﬁnal stage of translation, where a temporary social order solidi-
+ﬁes around the block-chain, achieving stability through continuous adoption, usage, and maintenance. This process in-
+volves uniting various actors and resources into a stable network dedicated to maintaining and utilizing the blockchain.
+Activities may include:
+Ensuring Representation of Interests:
+In the mobilisation stage, it is crucial that the interests and entities that
+have been enrolled in the earlier stages are adequately represented. This means that the blockchain technology and
+governance must effectively embody the needs, expectations, and desires of the various actors involved, such as
+developers, users, investors, and regulatory bodies.
+11
+
+--- Page 12 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+Facilitate Ongoing Translation and Negotiation:
+Continuously adapt the network in response to changing needs
+and feedback from actors. Foster ongoing collaboration and participation.
+Monitor and Address Power Dynamics:
+Be aware of the potential for new inequalities to emerge within the net-
+work. Work to maintain a balance of power and prevent any single actor from gaining undue control.
+5
+Future Research Agenda
+Actor-Network Theory-based Responsible Development Methodology (ANT-RDM) is a novel approach to system
+development. However, its effectiveness has yet to be fully tested across diverse contexts. There is also a need to
+develop supporting tools, metrics, and educational programs to facilitate broader adoption of this methodology.
+Empirical Validation
+Comparative studies are necessary to empirically evaluate the effectiveness of ANT-RDM
+across different settings. This could involve case studies, pilot implementations, controlled experiments, and longitu-
+dinal studies comparing ANT-RDM with existing methodologies such as the Waterfall Model [134], Rapid Application
+Development (RAD) [135], Agile Development [136], and DevOps [137]. Such research would provide a robust em-
+pirical basis for evaluating the methodology’s effectiveness.
+Generalization
+ANT-RDM and STEADI principles are methodology and principles applicable to any system devel-
+opment. This paper discusses these principles within the context of blockchain development; future research could
+extend their application to other types of systems, including IT systems (e.g., artiﬁcial intelligence systems), and non-
+IT systems (e.g., organizational or social structures). Empirical studies should also test ANT-RDM and its principles
+across various cultural contexts.
+Performance Metrics
+From the ANT-RDM perspective, system performance encompasses more than just the effec-
+tiveness and efﬁciency of the IT artifact—it also measures how well the system aligns with and serves the interests
+of all stakeholders. Future research should develop metrics to assess this alignment and the perceived mutual ben-
+eﬁts among stakeholders. Metrics should be developed to evaluate how well the system adheres to principles like
+sustainability, transparency, ethics, adaptability, decentralization, and inclusivity. Both primary methods (e.g., survey
+questionnaires) and secondary measures need to be developed to monitor the health of the system effectively.
+Tool Development
+Computer-aided tools are needed to support each stage of the ANT-RDM process, from prob-
+lematization and interessement to enrollment and mobilization. Future developments could include dashboards for
+metrics tracking and collaboration tools optimized for the workﬂow of the methodology.
+Educational and Training Programs
+Future research also needs to develop training programs or educational
+courses to help practitioners comprehend and effectively implement ANT-RDM and STEADI principles. Training
+could also cover the use of software tools, templates, and best practices speciﬁc to this methodology.
+6
+Conclusion
+This paper provides a comprehensive analysis of the challenges and controversies of blockchain technology. It identi-
+ﬁes the technical challenges such as scalability, security, privacy, and interoperability, as well as the business, adoption
+challenges, and social, economic, ethical, and environmental controversies within current blockchain systems. We
+argue that responsible blockchain development is key to overcoming these challenges and achieving mass adoption.
+This paper introduces the STEADI principles (sustainable, transparent, ethical, adaptive, decentralized, and inclusive)
+for responsible blockchain development. Based on Actor-Network Theory, this paper also introduces the Respon-
+sible Blockchain Development Methodology (RBDM), which includes the steps of problematisation, interessement,
+enrolment, and mobilisation. This methodology emphasizes the interplay between human actors (developers, users,
+regulators) and non-human actors (technology, protocols, code, and environment) and encourages the constant align-
+ment of diverse interests within the network to keep the blockchain vibrant and stable.
+References
+[1] Satoshi Nakamoto. Bitcoin: A peer-to-peer electronic cash system. Decentralized business review, 2008.
+[2] Crypto.com. Global cryptocurrency owners grow to 425 million through 2022, 2022.
+12
+
+--- Page 13 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[3] Arvind Narayanan and Jeremy Clark. Bitcoin’s academic pedigree. Communications of the ACM, 60(12):36–45,
+2017.
+[4] Haﬁz Burhan Ul Haq, Minahil Irfan, and Muhammad Saqlain. The concept of blockchain and its application: a
+review. Theoretical and Applied Computational Intelligence, 1(1):49–57, 2023.
+[5] Mohammed AlShamsi, Mostafa Al-Emran, and Khaled Shaalan. A systematic review on blockchain adoption.
+Applied Sciences, 12(9):4245, 2022.
+[6] Abdurrashid Ibrahim Sanka and Ray C.C. Cheung. A systematic review of blockchain scalability: Issues,
+solutions, analysis and future research. J. Netw. Comput. Appl., 195(C), dec 2021.
+[7] Gianmaria Del Monte, Diego Pennino, and Maurizio Pizzonia. Scaling blockchains without giving up decen-
+tralization and security: A solution to the blockchain scalability trilemma. In Proceedings of the 3rd Workshop
+on Cryptocurrencies and Blockchains for Distributed Systems, CryBlock ’20, page 71–76, New York, NY, USA,
+2020. Association for Computing Machinery.
+[8] Elham Akbari, Wenbing Zhao, Shunkun Yang, and Xiong Luo. The impact of block parameters on the through-
+put and security of blockchains. In Proceedings of the 2020 The 2nd International Conference on Blockchain
+Technology, ICBCT’20, page 13–18, New York, NY, USA, 2020. Association for Computing Machinery.
+[9] Jianting Zhang, Zicong Hong, Xiaoyu Qiu, Yufeng Zhan, Song Guo, and Wuhui Chen. Skychain: A deep
+reinforcement learning-empowered dynamic blockchain sharding system. In Proceedings of the 49th Interna-
+tional Conference on Parallel Processing, ICPP ’20, New York, NY, USA, 2020. Association for Computing
+Machinery.
+[10] Vipin Deval and Alex Norta. Mobile smart-contract lifecycle governance with incentivized proof-of-stake for
+oligopoly-formation prevention. In 2019 19th IEEE/ACM International Symposium on Cluster, Cloud and Grid
+Computing (CCGRID), pages 165–168, 2019.
+[11] M. N. Birje, R. H. Goudar, C. M. Rakshitha, and M. T. Tapale. A review on layered architecture and application
+domains of blockchain technology. In 2022 International Conference on Electrical, Computer and Energy
+Technologies (ICECET), pages 1–5, Prague, Czech Republic, 2022. IEEE.
+[12] A. Gomaa and Yibai Li. An entrepreneurial deﬁnition of the blockchain technology and a stacked layer model
+of the ico marketplace using the text mining approach. Journal of Risk and Financial Management, 15(12),
+2022.
+[13] Dongyao Zhai. Blockchain and Time-delay based Hardware Trojan Detection. PhD thesis, School of Electronics
+and Computer Science, University of Southampton, jul 2022.
+[14] S. Saravanan, M. Hailu, G. M. Gouse, M. Lavanya, and R. Vijaysai. Optimized secure scan ﬂip ﬂop to thwart
+side channel attack in crypto-chip. In Advances of Science and Technology: 6th EAI International Conference,
+ICAST 2018, Bahir Dar, Ethiopia, October 5-7, 2018, Proceedings 6, pages 410–417. Springer International
+Publishing, 2019.
+[15] A. Begum, A. Tareq, M. Sultana, M. Sohel, T. Rahman, and A. Sarwar. Blockchain attacks analysis and a model
+to solve double spending attack. International Journal of Machine Learning and Computing, 10(2):352–357,
+2020.
+[16] K. M. Khan, J. Arshad, and M. M. Khan. Simulation of transaction malleability attack for blockchain-based
+e-voting. Computers & Electrical Engineering, 83:106583, 2020.
+[17] A. I. El Sayed, M. H. Megahed, and M. H. A. Azeem.
+Design new collision resistant hash function for
+blockchain in v2v communication. In 2019 International Conference on Smart Applications, Communications
+and Networking (SmartNets), pages 1–8. IEEE, December 2019.
+[18] Michael Mirkin, Yan Ji, Junjie Pang, Ariah Klages-Mundt, Ittay Eyal, and Ari Juels. Bdos: Blockchain denial-
+of-service. In Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security,
+pages 601–619. ACM, October 2020.
+[19] T. Rajab, M. H. Manshaei, M. Dakhilalian, M. Jadliwala, and M. A. Rahman. On the feasibility of sybil attacks
+in shard-based permissionless blockchains. arXiv preprint arXiv:2002.06531, 2020.
+[20] Q. Dai, B. Zhang, and S. Dong. Eclipse attack detection for blockchain network layer based on deep feature
+extraction. Wireless Communications and Mobile Computing, 2022, 2022.
+[21] R. Sahay, G. Geethakumari, and B. Mitra. A novel blockchain based framework to secure iot-llns against
+routing attacks. Computing, 102:2445–2470, 2020.
+[22] F. A. Aponte-Novoa, A. L. S. Orozco, R. Villanueva-Polanco, and P. Wightman. The 51% attack on blockchains:
+A mining behavior study. IEEE Access, 9:140549–140564, 2021.
+13
+
+--- Page 14 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[23] Suhyeon Lee and Seungjoo Kim. Proof-of-stake at stake: predatory, destructive attack on pos cryptocurrencies.
+In Proceedings of the 3rd Workshop on Cryptocurrencies and Blockchains for Distributed Systems, pages 7–11,
+2020.
+[24] Q. Bai, X. Zhou, X. Wang, Y. Xu, X. Wang, and Q. Kong. A deep dive into blockchain selﬁsh mining. In 2019
+IEEE International Conference on Communications (ICC), pages 1–6. IEEE, May 2019.
+[25] A. Alkhalifah, A. Ng, P. A. Watters, and A. S. M. Kayes.
+A mechanism to detect and prevent ethereum
+blockchain smart contract reentrancy attacks. Frontiers in Computer Science, 3:598780, 2021.
+[26] S. Sayeed, H. Marco-Gisbert, and T. Caira. Smart contract: Attacks and protections. IEEE Access, 8:24416–
+24427, 2020.
+[27] P. Momeni, S. Gorbunov, and B. Zhang. Fairblock: Preventing blockchain front-running with minimal over-
+heads. In International Conference on Security and Privacy in Communication Systems, pages 250–271, Cham,
+October 2022. Springer Nature Switzerland.
+[28] A. A. Andryukhin. Phishing attacks and preventions in blockchain based projects. In 2019 International
+Conference on Engineering Technologies and Computer Science (EnT), pages 15–19. IEEE, March 2019.
+[29] K. Weber, A. E. Schütz, T. Fertig, and N. H. Müller. Exploiting the human factor: Social engineering attacks
+on cryptocurrency users. In Learning and Collaboration Technologies. Human and Technology Ecosystems:
+7th International Conference, LCT 2020, Held as Part of the 22nd HCI International Conference, HCII 2020,
+Copenhagen, Denmark, July 19–24, 2020, Proceedings, Part II, volume 22, pages 650–668. Springer Interna-
+tional Publishing, 2020.
+[30] S. Hong. Survey on analysis and countermeasure for hacking attacks to cryptocurrency exchange. Journal of
+the Korea Convergence Society, 10(10):1–6, 2019.
+[31] Robert Werner, Sebastian Lawrenz, and Andreas Rausch. Blockchain analysis tool of a cryptocurrency. In
+ICBCT’20: Proceedings of the 2020 The 2nd International Conference on Blockchain Technology, pages 80–
+84. ACM, 2020. Published: 29 May 2020.
+[32] Zibin Zheng, Shaoan Xie, Hong-Ning Dai, Xiangping Chen, and Huaimin Wang. Blockchain technology: A
+survey on techniques and applications. IEEE Communications Surveys & Tutorials, 20(3):3347–3375, 2018.
+[33] Z. Zhang, J. Yin, Y. Liu, and J. Liu. Deanonymization of litecoin through transaction-linkage attacks. In 2020
+11th International Conference on Information and Communication Systems (ICICS), pages 059–065, Irbid,
+Jordan, 2020.
+[34] Xingyu Lv, Ye Zhong, and Qingfeng Tan. A study of bitcoin de-anonymization: Graph and multidimensional
+data analysis. In 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC), pages
+339–345. IEEE, 2020.
+[35] José Miguel Moreira Moreno. Blockchain and the right to be forgotten: A happy “marriage”? Ll.m international
+business law thesis, Tilburg University Law School, Tilburg, August 2019. Supervised by Omololu Bajulaiye,
+LL.M.
+[36] Hoang Tam Vo, Ziyuan Wang, Dileban Karunamoorthy, John Wagner, Ermyas Abebe, and Mukesh Mohania.
+Internet of blockchains: Techniques and challenges ahead. In 2018 IEEE International Conference on Internet
+of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical
+and Social Computing (CPSCom) and IEEE Smart Data (SmartData), pages 1574–1581, 2018.
+[37] Inwon Kang, Aparna Gupta, and Oshani Seneviratne. Blockchain interoperability landscape, 2022.
+[38] Seth Djanie Kotey, Eric Tutu Tchao, Abdul-Rahman Ahmed, Andrew Selasi Agbemenu, Henry Nunoo-Mensah,
+Axel Sikora, Dominik Welte, and Eliel Keelson.
+Blockchain interoperability: the state of heterogenous
+blockchain-to-blockchain communication. IET Communications, 17(8):891–914, 2023.
+[39] Dušan Morháˇc, Viktor Valaštín, and Kristián Koštál. Sharing fungible assets across polkadot paraverse. In 2022
+International Conference on Electrical, Computer and Energy Technologies (ICECET), pages 1–7, 2022.
+[40] Dušan Morháˇc, Viktor Valaštín, Kristián Košt’ál, and Ivan Kotuliak. Enhancing xcmp interoperability across
+polkadot paraverse. In 2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC), pages
+1–3, 2023.
+[41] Wei Ou, Shiying Huang, Jingjing Zheng, Qionglu Zhang, Guang Zeng, and Wenbao Han. An overview on
+cross-chain: Mechanism, platforms, challenges and advances. Computer Networks, 218:109378, 2022.
+[42] Panpan Han, Zheng Yan, Wenxiu Ding, Shufan Fei, and Zhiguo Wan. A survey on cross-chain technologies.
+Distrib. Ledger Technol., 2(2), jun 2023.
+14
+
+--- Page 15 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[43] Terje Haugum, Bjørnar Hoff, Mohammed Alsadi, and Jingyue Li. Security and privacy challenges in blockchain
+interoperability - a multivocal literature review. In Proceedings of the 26th International Conference on Evalu-
+ation and Assessment in Software Engineering, EASE ’22, page 347–356, New York, NY, USA, 2022. Associ-
+ation for Computing Machinery.
+[44] Ruping Wang, Siqi Zhong, Qin Zhou, and Jun Tu. A trustworthy data veriﬁcation technique for cross-chain
+data sharing based on merkle trees. In 2023 International Conference on Distributed Computing and Electrical
+Circuits and Electronics (ICDCECE), pages 1–6, 2023.
+[45] Olivier Rikken, Marijn Janssen, Zenlin Kwee, Rodríguez Bolívar, and H.J. Scholl. Governance challenges of
+blockchain and decentralized autonomous organizations. Info. Pol., 24(4):397–417, jan 2019.
+[46] Stephen DiRose and Mo Mansouri.
+Comparison and analysis of governance mechanisms employed by
+blockchain-based distributed autonomous organizations. In 2018 13th Annual Conference on System of Sys-
+tems Engineering (SoSE), pages 195–202, 2018.
+[47] Dash. Dash: The original dao, 2016.
+[48] Arthur Gervais, Ghassan Karame, Srdjan Capkun, and Vedran Capkun. Is bitcoin a decentralized currency?
+Cryptology ePrint Archive, Paper 2013/829, 2013. https://eprint.iacr.org/2013/829.
+[49] V. C. Coroam˘a. Exploring the energy consumption of blockchains through an economic threshold approach.
+In 2021 Joint Conference - 11th International Conference on Energy Efﬁciency in Domestic Appliances and
+Lighting & 17th International Symposium on the Science and Technology of Lighting (EEDAL/LS:17), pages
+1–10, Toulouse, France, 2022.
+[50] Environmental Protection Agency.
+Green power equivalency calculator calculations and references.
+https://www.epa.gov/green-power-markets/green-power-equivalency-calculator-calculations-and-refere
+2022. Accessed: December, 2023.
+[51] A. Aloﬁ, M. A. Bokhari, R. Bahsoon, and R. Hendley. Optimizing the energy consumption of blockchain-
+based systems using evolutionary algorithms: A new problem formulation. IEEE Transactions on Sustainable
+Computing, 7(4):910–922, Oct.-Dec. 2022.
+[52] S. B. Pandya, H. A. Sanghvi, R. H. Patel, and A. S. Pandya. Gpu and fpga based deployment of blockchain
+for cryptocurrency – a systematic review. In 2022 International Conference on Computational Intelligence and
+Sustainable Engineering Solutions (CISES), pages 18–25, Greater Noida, India, 2022.
+[53] Horst Treiblmaier. A comprehensive research framework for bitcoin’s energy use: Fundamentals, economic
+rationale, and a pinch of thermodynamics. Blockchain: Research and Applications, 4(3):100149, 2023.
+[54] Ethereum Foundation. Ethereum’s energy usage will soon decrease by 99.95%. Ethereum Blog, 2021.
+[55] Anupama Panghal, Suyash Manoram, Rahul S Mor, and Priyanka Vern. Adoption challenges of blockchain
+technology for reverse logistics in the food processing industry. Supply Chain Forum: An International Journal,
+24(1):7–16, 2023.
+[56] Carol R Goforth. Us law: Crypto is money, property, a commodity, and a security, all at the same time. Journal
+of Financial Transformation, forthcoming, 2018.
+[57] Jinghan Cai and Ahmed Gomaa. Initial coin offering to ﬁnance venture capital: A behavioral perspective. The
+Journal of Private Equity, 22(3):93–101, 2019.
+[58] Sonal Trivedi, Kiran Mehta, and Renuka Sharma. Systematic literature review on application of blockchain
+technology in e-ﬁnance and ﬁnancial services. Journal of technology management & innovation, 16(3):89–102,
+2021.
+[59] Elissar Toufaily, Tatiana Zalan, and Soumaya Ben Dhaou. A framework of blockchain technology adoption:
+An investigation of challenges and expected value. Information & Management, 58(3):103444, 2021.
+[60] Nitin Upadhyay. Demystifying blockchain: A critical analysis of challenges, applications and opportunities.
+International Journal of Information Management, 54:102120, 2020.
+[61] Lai-Wan Wong, Lai-Ying Leong, Jun-Jie Hew, Garry Wei-Han Tan, and Keng-Boon Ooi. Time to seize the
+digital evolution: Adoption of blockchain in operations and supply chain management among malaysian smes.
+International Journal of Information Management, 52:101997, 2020.
+[62] Maher AN Agi and Ashish Kumar Jha. Blockchain technology in the supply chain: An integrated theoretical
+perspective of organizational adoption. International Journal of Production Economics, 247:108458, 2022.
+[63] Xiuping Hua, Yiping Huang, and Yanfeng Zheng. Current practices, new insights, and emerging trends of
+ﬁnancial technologies. Industrial Management & Data Systems, 119(7):1401–1410, 2019.
+15
+
+--- Page 16 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[64] Garud Iyengar, Fahad Saleh, Jay Sethuraman, and Wenjun Wang.
+Economics of permissioned blockchain
+adoption. Management Science, 69(6):3415–3436, 2023.
+[65] Qing Zhang, Xiuqi Jiang, and Yini Zheng. Blockchain adoption and gray markets in a global supply chain.
+Omega, 115:102785, 2023.
+[66] Theophanis C Stratopoulos, Victor Xiaoqi Wang, and Hua Ye. Use of corporate disclosures to identify the stage
+of blockchain adoption. Accounting Horizons, 36(1):197–220, 2022.
+[67] Feng Guo, Stephanie Walton, Patrick R Wheeler, and Yiyang Zhang. Early disruptors: Examining the determi-
+nants and consequences of blockchain early adoption. Journal of Information Systems, 35(2):219–242, 2021.
+[68] Tom Gillpatrick, Semra Bo˘ga, and Oncel Aldanmaz. How can blockchain contribute to developing country
+economies? a literature review on application areas. Economics - Innovative and Economics Research Journal,
+10(1), Aug. 2022.
+[69] Nir Kshetri and Jeffrey Voas. Blockchain in developing countries. It Professional, 20(2):11–14, 2018.
+[70] Ikechi Saviour Igboanusi, Jae-Min Lee, and Dong-Seong Kim. Blockchain adoption in rural area: The role of
+internet penetration. In Proceedings of Symposium of the 2 Korean Institute of communications and Information
+Sciences, volume 3, pages 1207–1210, 2020.
+[71] Assunta Di Vaio, Rohail Hassan, and Rosa Palladino. Blockchain technology and gender equality: A systematic
+literature review. International Journal of Information Management, 68:102517, 2023.
+[72] Michèle Finck. Blockchain and the general data protection regulation: Can distributed ledgers be squared with
+european data protection law? STOA Study PE 634.445, European Parliament, 2019.
+[73] European Parliament and Council of the European Union. General Data Protection Regulation. European
+Parliament and Council of the European Union, 2016.
+[74] Shengmin Xu, Jianting Ning, Jinhua Ma, Xinyi Huang, and Robert H. Deng. K-time modiﬁable and epoch-
+based redactable blockchain. IEEE Transactions on Information Forensics and Security, 16:4507–4520, 2021.
+[75] Eugenia Politou, Efthimios Alepis, Constantinos Patsakis, Fran Casino, and Mamoun Alazab. Delegated content
+erasure in ipfs. Future Generation Computer Systems, 112:956–964, 2020.
+[76] Violeta Todorovi´c and Nenad Tomi´c. Unsustainability of cryptocurrency concept based on the proof-of-work
+algorithm. Bankarstvo, 48(1):46–63, 2019.
+[77] Muhammad Mohsin, Sobia Naseem, Muhammad Zia-ur Rehman, Sajjad Ahmad Baig, and Shazia Salamat. The
+crypto-trade volume, gdp, energy use, and environmental degradation sustainability: An analysis of the top 20
+crypto-trader countries. International Journal of Finance & Economics, 28(1):651–667, 2023.
+[78] Ahmet Murat Karatas, Ecem Karatas, Ayberk Kapusuzoglu, and Nur Baran Ceylan. The nonlinear relationship
+between bitcoin mining and carbon emissions in the context of renewable energy. Renewable Energy Invest-
+ments for Sustainable Business Projects, 2023.
+[79] Richa Gupta, Pankaj Gupta, and Manish Joshi. Nexus among crypto trading, environmental degradation, eco-
+nomic growth and energy usage. International Journal of Economics and Finance, 14(8):129–142, 2022.
+[80] Yi Zhang, Qiang Ji, and Chunfeng Liu. The role of crypto trading in the economy, renewable energy consump-
+tion and ecological degradation. Energies, 16(8):2227, 2023.
+[81] David Alberto Ramírez-Rodríguez, María Teresa Ibarra-Bernal, and Mayra Alejandra Sierra-Ríos. Evaluation
+of the symmetrical and asymmetrical causality relationship between bitcoin energy consumption and stock
+values of technology companies. Estudios Gerenciales, 101(2):22–37, 2022.
+[82] Samuel Youseﬁand Babak Mohamadpour Tosarkani. An analytical approach for evaluating the impact of
+blockchain technology on sustainable supply chain performance. International Journal of Production Eco-
+nomics, 246:108429, 2022.
+[83] Laurie Hughes, Yogesh K. Dwivedi, Santosh K. Misra, Nripendra P. Rana, Vishnupriya Raghavan, and
+Viswanadh Akella. Blockchain research, practice and policy: Applications, beneﬁts, limitations, emerging
+research themes and research agenda. International Journal of Information Management, 49:114–129, 2019.
+[84] Celine Herweijer, Dominic Waughray, and Sheila Warren. Building block (chain) s for a better planet. In World
+Economic Forum. http://www3. weforum. org/docs/WEF_Building-Blockchains. pdf, 2018.
+[85] Melinda Shou and Teresa Domenech. Integrating lca and blockchain technology to promote circular fashion–a
+case study of leather handbags. Journal of Cleaner Production, 373:133557, 2022.
+[86] Anil Gaihre, Santosh Pandey, and Hang Liu. Deanonymizing cryptocurrency with graph learning: The promises
+and challenges. In 2019 IEEE Conference on Communications and Network Security (CNS), pages 1–3, 2019.
+16
+
+--- Page 17 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[87] Sean Foley, Jonathan R Karlsen, and T¯alis J Putnin, š. Sex, drugs, and bitcoin: How much illegal activity is
+ﬁnanced through cryptocurrencies? The Review of Financial Studies, 32(5):1798–1853, 2019.
+[88] Hao Hua Sun Yin, Klaus Langenheldt, Mikkel Harlev, Raghava Rao Mukkamala, and Ravi Vatrapu. Regulating
+cryptocurrencies: a supervised machine learning approach to de-anonymizing the bitcoin blockchain. Journal
+of Management Information Systems, 36(1):37–73, 2019.
+[89] Adam Turner and Angela Samantha Maitland Irwin. Bitcoin transactions: a digital discovery of illicit activity
+on the blockchain. Journal of Financial Crime, 25(1):109–130, 2018.
+[90] Matthias Nadler and Fabian Schär. Tornado cash and blockchain privacy: A primer for economists and policy-
+makers. Available at SSRN 4352337, 2023.
+[91] Thomas J Holt, Jin R Lee, and Elizabeth Grifﬁth. An assessment of cryptomixing services in online illicit
+markets. Journal of Contemporary Criminal Justice, 39(2):222–238, 2023.
+[92] Ah-hyun Park, Hyejin Ryu, Woobeen Park, and Doowon Jeong. Forensic investigation framework for cryp-
+tocurrency wallet in the end device. Computers & Security, 133:103392, 2023.
+[93] CPA Mark Aquilio. Court grants irs summons of coinbase records. Journal of Accountancy, 225(3):66–67,
+2018.
+[94] Frank Emmert. Cryptocurrencies: The Impossible Domestic Law Regime? The American Journal of Compar-
+ative Law, 70:i185–i219, 09 2022.
+[95] Oluwafemi Akanfe, Diane Lawong, and H Raghav Rao. Blockchain technology and privacy regulation: Re-
+viewing frictions and synthesizing opportunities. International Journal of Information Management, 76:102753,
+2024.
+[96] Franck Nouyrigat. The future of democracy will be decentralized: A call for a grass-root movement!, 2019.
+Available online: Accessed on 13th December 2023.
+[97] Yue Liu, Qinghua Lu, Guangsheng Yu, Hye-Young Paik, and Liming Zhu. Deﬁning blockchain governance
+principles: A comprehensive framework. Information systems, 109:102090, 2022.
+[98] Bahareh Lashkari and Petr Musilek. A comprehensive review of blockchain consensus mechanisms. IEEE
+Access, 9:43620–43652, 2021.
+[99] Pankaj Dutta, Tsan-Ming Choi, Surabhi Somani, and Richa Butala. Blockchain technology in supply chain
+operations: Applications, challenges and research opportunities. Transportation research part e: Logistics and
+transportation review, 142:102067, 2020.
+[100] N. T. Nguyen, T. T. Le, and A. D. Le. Blockchain technology for supply chain management: A comprehensive
+review. Sustainability, 15(4):2209, 2023.
+[101] Abid Haleem, Mohd Javaid, Ravi Pratap Singh, Rajiv Suman, and Shanay Rab. Blockchain technology appli-
+cations in healthcare: An overview. International Journal of Intelligent Networks, 2:130–139, 2021.
+[102] Dodo Khan, Mehak Maqbool Memon, Manzoor Ahmed Hashmani, Filmann T Simpao, Anthony C Sales, and
+Neil Q Santillan. A critical review on blockchain frameworks for dapp. International Journal of Technology
+Management and Information System, 5(1):1–10, 2023.
+[103] Bin Cao, Yixin Li, Lei Zhang, Long Zhang, Shahid Mumtaz, Zhenyu Zhou, and Mugen Peng. When internet
+of things meets blockchain: Challenges in distributed consensus. IEEE Network, 33(6):133–139, 2019.
+[104] U.S. Government Accountability Ofﬁce. Blockchain: Emerging technology offers beneﬁts for some applica-
+tions but faces challenges, Mar 2022.
+[105] Eswar Prasad. How will digital technologies inﬂuence the international monetary system? Oxford Review of
+Economic Policy, 39(2):389–397, 2023.
+[106] Sébastien Galanti and Çi˘gdem Yilmaz Özsoy. Can blockchain help improve ﬁnancial inclusion? a comparative
+study. Journal of Economic Issues, 57(2):438–449, 2023.
+[107] Maha Mateen. Regulation in the Cryptocurrency Industry. PhD thesis, University of Missouri–Kansas City,
+2023.
+[108] Jannik Lockl, Vincent Schlatt, André Schweizer, Nils Urbach, and Natascha Harth. Toward trust in internet of
+things ecosystems: Design principles for blockchain-based iot applications. IEEE Transactions on Engineering
+Management, 67(4):1256–1270, 2020.
+[109] Mohammad Saidur Rahman, Ibrahim Khalil, and Abdelaziz Bouras. Design principles for migrating from
+traditional systems to blockchain systems. IEEE Blockchain Technical Briefs, 2020.
+17
+
+--- Page 18 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[110] Maksym Petruk. Blockchain design principles. WeSoftYou, 2023.
+[111] Arijit Khan. Graph analysis of the ethereum blockchain data: A survey of datasets, methods, and future work.
+In 2022 IEEE International Conference on Blockchain (Blockchain), pages 250–257. IEEE, 2022.
+[112] Xuequn Wang and Yibai Li.
+Understanding collaborative resilience from continuous disruption: an actor-
+network perspective. Behaviour & Information Technology, 35(2):151–162, 2016.
+[113] K. Garrety. Actor Network Theory, pages 15–19. THEORI, Wollongong, Australia, 2014.
+[114] Rafael Alcadipani and John Hassard. Actor-network theory, organizations and critique: towards a politics of
+organizing. Organization, 17(4):419–435, 2010.
+[115] Andrea Whittle and André Spicer. Is actor network theory critique?
+Organization studies, 29(4):611–629,
+2008.
+[116] Nick Couldry. Actor network theory and media: Do they connect and on what terms? conceptualizing contem-
+porary communications, 2008.
+[117] M Mohideen AbdulKader and S Ganesh Kumar. An efﬁcient geometric octal zones distance estimation and
+attribute-based encryption for secure transfer of sensitive data. Telecommunication Systems, 84(2):251–270,
+2023.
+[118] Jim S Dolwick. ‘the social’and beyond: Introducing actor-network theory. Journal of maritime archaeology,
+4:21–49, 2009.
+[119] Ameena Arshad, Faisal Shahzad, Ijaz Ur Rehman, and Bruno S Sergi.
+A systematic literature review of
+blockchain technology and environmental sustainability: Status quo and future research. International Review
+of Economics & Finance, 2023.
+[120] Shanshan Jiang, Kine Jakobsen, Jonas Bueie, Jingyue Li, and Peter Halland Haro.
+A tertiary review on
+blockchain and sustainability with focus on sustainable development goals. IEEE access, 10:114975–115006,
+2022.
+[121] Phillip Taylor, Katrien Steenmans, and Ine Steenmans. Blockchain technology for sustainable waste manage-
+ment. Frontiers in Political Science, page 15, 2020.
+[122] Jessica Schmeiss, Katharina Hoelzle, and Robin PG Tech. Designing governance mechanisms in platform
+ecosystems: Addressing the paradox of openness through blockchain technology. California Management
+Review, 62(1):121–143, 2019.
+[123] Tarun Kumar Agrawal, Vijay Kumar, Rudrajeet Pal, Lichuan Wang, and Yan Chen. Blockchain-based frame-
+work for supply chain traceability: A case example of textile and clothing industry. Computers & industrial
+engineering, 154:107130, 2021.
+[124] Teck Ming Tan and Jari Salo. Ethical marketing in the blockchain-based sharing economy: Theoretical integra-
+tion and guiding insights. Journal of Business Ethics, 183(4):1113–1140, 2023.
+[125] Varesh Mishra and Debanjan Sadhya. Height and punishment: Towards accountable iot blockchain with net-
+work sanitization. IEEE Transactions on Information Forensics and Security, 2023.
+[126] V Joseph Hotz, Christopher R Bollinger, Tatiana Komarova, Charles F Manski, Robert A Mofﬁtt, Denis
+Nekipelov, Aaron Sojourner, and Bruce D Spencer. Balancing data privacy and usability in the federal sta-
+tistical system. Proceedings of the National Academy of Sciences, 119(31):e2104906119, 2022.
+[127] Xiao Li, Liupengfei Wu, Rui Zhao, Weisheng Lu, and Fan Xue. Two-layer adaptive blockchain-based supervi-
+sion model for off-site modular housing production. Computers in Industry, 128:103437, 2021.
+[128] Yixuan Fan, Lei Zhang, Ruiyu Wang, and Muhammad Ali Imran. Insight into voting in daos: Conceptual
+analysis and a proposal for evaluation framework. IEEE Network, 2023.
+[129] Alex Pazaitis. Breaking the chains of open innovation: Post-blockchain and the case of sensorica. Information,
+11(2):104, 2020.
+[130] Nash Lyke, Benjamin M Gorman, and Garreth W Tigwell. Exploring the accessibility of crypto technologies. In
+Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems, pages 1–10, 2023.
+[131] David Mhlanga. Block chain for digital ﬁnancial inclusion towards reduced inequalities.
+In FinTech and
+Artiﬁcial Intelligence for Sustainable Development: The Role of Smart Technologies in Achieving Development
+Goals, pages 263–290. Springer, 2023.
+[132] Michel Callon. Some elements of a sociology of translation: domestication of the scallops and the ﬁshermen of
+st brieuc bay. The sociological review, 32(1_suppl):196–233, 1984.
+18
+
+--- Page 19 ---
+RESPONSIBLE BLOCKCHAIN - JULY 10, 2024
+[133] Suprateek Sarker, Saonee Sarker, and Anna Sidorova. Understanding business process change failure: An
+actor-network perspective. Journal of management information systems, 23(1):51–86, 2006.
+[134] Nayan B Ruparelia. Software development lifecycle models. ACM SIGSOFT Software Engineering Notes,
+35(3):8–13, 2010.
+[135] James Martin. Rapid application development. Macmillan Publishing Co., Inc., 1991.
+[136] Robert Cecil Martin. Agile software development: principles, patterns, and practices. Prentice Hall PTR, 2003.
+[137] Floris Erich, Chintan Amrit, and Maya Daneva. Report: Devops literature review. University of Twente, Tech.
+Rep, 2014.
+19
+
+--- Page 20 ---
+This figure "test.png" is available in "png"
+ format from:
+http://arxiv.org/ps/2409.06179v1
