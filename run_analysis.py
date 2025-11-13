@@ -4,6 +4,7 @@ import pandas as pd
 import pymupdf
 import openai
 from tqdm import tqdm
+import unicodedata
 
 # -------------------------------
 # Configuration
@@ -20,6 +21,20 @@ PAPERS_FOLDER = "papers"
 PARSED_TEXT_FOLDER = "parsed_text"
 
 os.makedirs(PARSED_TEXT_FOLDER, exist_ok=True)
+
+# -------------------------------
+# Helper functions
+# -------------------------------
+
+def clean_text(text):
+    if not text:
+        return text
+    # Normalize unicode to standard form
+    text = unicodedata.normalize("NFKC", text)
+    # Optionally replace any remaining weird quotes with straight quotes
+    text = text.replace("’", "'").replace("‘", "'")
+    text = text.replace("“", '"').replace("”", '"')
+    return text
 
 # -------------------------------
 # PDF Parsing
@@ -54,29 +69,33 @@ def parse_pdf(pdf_file_path):
 
 def analyze_paper(pdf_text, paper_name):
     """
-    Extracts a rich analytical summary tailored to blockchain-related research.
+    Extracts a concise analytical summary tailored to blockchain research.
+    Main fields use brief sentences; 'other_details' captures nuance as newline-separated bullets.
     """
     prompt = f"""
-You are an expert academic analyst specializing in blockchain research. 
-Read the following paper carefully and summarize it in structured JSON form. 
-Use complete sentences in each field, and infer values where possible based on the text. 
-If information is not available, write "Not specified."
+You are an expert academic analyst specializing in blockchain research.
+Summarize the following paper in **structured JSON** form.
 
-⚠️ Important formatting rule:
-- Output must be **only raw JSON**.
-- Do NOT include any explanations, markdown formatting, or code fences (no ```json or ```).
-- Begin your response immediately with the JSON object: {{
+Rules:
+- Output must be **only raw JSON** (no markdown, no code fences).
+- Main fields (pilot, period_of_study, methods, themes, blockchain_failures, blockchain_successes, sentiment) should be **brief sentences**, enough to convey the main idea quickly, e.g., "Survey of 150 participants. Case study in Ghana.", "Used Ethereum; offline NFC cards." or "N/A".
+- Use full sentences **only** in 'methods', 'blockchain_failures', 'blockchain_successes', and 'other_details'.
+- In **'other_details'**, each point must begin with the Unicode bullet character **'• '** (U+2022), followed by one sentence per line (newline-separated, not as a list).
+- Do **not** use dashes, asterisks, or numbers for bullets — only '• '.
+- If information is missing, write "N/A".
+- Include a 'title' field (use the PDF filename or inferred title).
 
-Return JSON in exactly the following format:
-
+Return JSON in exactly this format:
 {{
+    "title": "...",
     "pilot": "...",
     "period_of_study": "...",
     "methods": "...",
     "themes": "...",
     "blockchain_failures": "...",
     "blockchain_successes": "...",
-    "sentiment": "..."
+    "sentiment": "...",
+    "other_details": "... (newline-separated bullets) ..."
 }}
 
 Paper text:
@@ -90,8 +109,13 @@ Paper text:
             messages=[{"role": "user", "content": prompt}],
             temperature=TEMPERATURE
         )
-        result_text = response.choices[0].message.content.strip()
+        result_text = clean_text(response.choices[0].message.content.strip())
         extracted = json.loads(result_text)
+
+        # Ensure CSV-friendly newline-separated other_details
+        if "other_details" in extracted and isinstance(extracted["other_details"], list):
+            extracted["other_details"] = "\n".join([d.strip("- ").strip() for d in extracted["other_details"]])
+
         return extracted
 
     except json.JSONDecodeError:
@@ -110,12 +134,13 @@ def save_analytical_csv(analyses):
     df.index.name = "Paper"
     df.reset_index(inplace=True)
     df.rename(columns={"index": "paper_name"}, inplace=True)
-    df.to_csv(ANALYTICAL_CSV, index=False)
+    df.to_csv(ANALYTICAL_CSV, index=False, encoding="utf-8-sig")
     print(f"Saved analytical summary to {ANALYTICAL_CSV}")
 
 def generate_cross_comparison_matrix(analyses):
     """
-    Generate a pairwise cross-comparison matrix with GPT, returning full-sentence explanations.
+    Generate a pairwise cross-comparison matrix with GPT, returning concise full-sentence explanations:
+    1-2 sentences on the most salient similarities, and 1-2 on differences.
     """
     paper_names = [p["paper_name"] for p in analyses]
     matrix = pd.DataFrame(index=paper_names, columns=paper_names)
@@ -127,17 +152,16 @@ def generate_cross_comparison_matrix(analyses):
             else:
                 # Generate comparison explanation using GPT
                 prompt = f"""
-You are an expert academic research analyst. Compare the following two papers and write one
-full sentence explaining how they are similar or different in topics, methods, novelty,
-main findings, and sector. Focus on analytical nuance.
+You are an expert academic research analyst. Compare the following two papers. 
+Write a concise explanation **with 1-2 sentences on the most important similarities** 
+and **1-2 sentences on the most important differences** in topics, methods, novelty, 
+main findings, and sector. Do not write paragraphs; keep it to 2–4 sentences total.
 
 Paper A:
 {json.dumps(paper_a, indent=2)}
 
 Paper B:
 {json.dumps(paper_b, indent=2)}
-
-Write exactly one concise, full sentence explaining the relationship between Paper A and Paper B.
 """
                 try:
                     response = openai.chat.completions.create(
@@ -145,7 +169,7 @@ Write exactly one concise, full sentence explaining the relationship between Pap
                         messages=[{"role": "user", "content": prompt}],
                         temperature=0.3
                     )
-                    explanation = response.choices[0].message.content.strip()
+                    explanation = clean_text(response.choices[0].message.content.strip())
                     matrix.iloc[i, j] = explanation
                 except Exception as e:
                     print(f"Error generating comparison for {paper_a['paper_name']} vs {paper_b['paper_name']}: {e}")
